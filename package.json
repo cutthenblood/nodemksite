@@ -17,6 +17,13 @@
     "passport": "~0.1.17",
     "passport-local": "~0.1.6",
      "bcrypt-nodejs": "latest",
-      "express-session": "latest"
-  }
+      "express-session": "latest",
+      "winston": "latest",
+      "ipaddr.js": "0.1.2",
+      "moment": "2.7.0",
+      "lodash": "2.4.1",
+      "mongodb": "1.4.7",
+      "xlsx-template": "0.0.2"
+
+}
 }

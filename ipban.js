@@ -6,9 +6,6 @@ var whitelist = [
     ipaddr.parse('10.46.1.0') 
 ];
 
-
-
-
 // middleware enabled or not
 var enabled = true;
 
@@ -18,7 +15,6 @@ module.exports = function(onoff) {
     enabled = (onoff == 'on') ? true : false;
     
     return function(req, res, next) {
-        console.log(req.url);
         var addr = ipaddr.parse(req.connection.remoteAddress);
         var ok = false;
         if (enabled && req.url.indexOf('phonelist') > -1 ) {
@@ -32,8 +28,6 @@ module.exports = function(onoff) {
             {
                   res.end('Banned');
             }
-        
-          
         }
         else { next(); }
     }

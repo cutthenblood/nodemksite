@@ -2,6 +2,7 @@ var express = require('express');
 var pathbuiledr = require('path');
 var favicon = require('static-favicon');
 var logger = require('morgan');
+var log = require('./log.js')(module);
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var fs = require('fs');
@@ -53,6 +54,7 @@ if (app.get('env') === 'development') {
 
 app.use(function (err, req, res, next) {
     res.status(err.status || 500);
+    log.error(err.message);
     res.render('error', {
         message: err.message,
         error: {}
@@ -64,10 +66,9 @@ function mongoConnectPromise(connectionString) {
         var MongoClient = mongodb.MongoClient;
         MongoClient.connect(connectionString, function (err, db) {
             if (err) {
-                console.log(err);
+                log.error(err);
                 reject(err);
             } else {
-                console.log("db");
                 resolve(db);
             }
         });
@@ -76,12 +77,10 @@ function mongoConnectPromise(connectionString) {
 
 function routePromise(router, path) {
     return new vow.Promise(function (resolve, reject) {
-
         function dirtree(path, chunk) {
             var files = fs.readdir(path, function (err, files) {
-                console.log("path - " + path);
                 if (!files) {
-                    //console.log(err);
+                    log.error(err);
                     reject(err);
                 } else {
                     files.forEach(function (file) {
@@ -90,20 +89,15 @@ function routePromise(router, path) {
                         }
                         var name = file.split('.')[0];
                         var uri = chunk + '/' + name;
-
                         if (file.indexOf('.js') > -1) {
-
                             require('./routes' + uri)(router);
-                            //console.log('./routes' + uri);
                         }
                         else {
                             dirtree(pathbuiledr.join(path, file), uri);
                         }
                     });
                 }
-                resolve({
-                    foo:'bar'
-                });//только тебе надо резолвить
+                resolve({});
             });
 
         }
@@ -114,21 +108,13 @@ var promises = {
     routes: routePromise(app, pathbuiledr.join(__dirname, 'routes')),
     db: mongoConnectPromise('mongodb://127.0.0.1:27017/deathmonitor')
 };
-// route middleware to make sure
-
-
-
-
 vow.all(promises).then(function (result) {
     app.set('port', process.env.PORT || 3000);
     var dbfy = new dbfactory(result.db)
     app.set('dbmethods',dbfy);
-
-
     auth(passport,app);
-    // successRedirect: '/success ',
     var server = app.listen(app.get('port'), function () {
-        console.log('Express server listening on port ' + server.address().port);
+        log.info('Express server listening on port ' + server.address().port);
     });
 
 

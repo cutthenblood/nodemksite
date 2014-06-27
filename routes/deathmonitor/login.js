@@ -5,7 +5,7 @@ module.exports = function (app) {
         var query = url_parts.query;
         var err =[];
         if(query.autherr) {
-            err.push('Неправильный пароль');
+            err.push(query.autherr);
         }
         res.render('deathmonitor/login', { message: err });
     });

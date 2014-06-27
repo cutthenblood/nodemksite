@@ -1,5 +1,5 @@
 var LocalStrategy = require('passport-local').Strategy;
-
+var log = require('./log')(module);
 // load up the user model
 var User = require('./user');
 module.exports = function (passport, app) {
@@ -14,13 +14,11 @@ module.exports = function (passport, app) {
         var dbfactory = app.get('dbmethods');
         dbfactory.getUserById('users', id, function (err, user) {
             if (err) {
-                console.log("cannot auth");
+                log.error("cannot auth");
                 done(err, null);
             }
             else {
-
                 var dbuser = new User(user);
-
                 done(null, dbuser);
             }
         });
@@ -28,11 +26,9 @@ module.exports = function (passport, app) {
     passport.use('local',new LocalStrategy(
         function (username, password, done) {
             var dbfactory = app.get('dbmethods');
-            console.log('trying', username, password);
-
             dbfactory.getUser('users', {username: username}, function (err, user) {
                 if (err) {
-                    console.log("cannot auth");
+                    log.error("cannot auth");
                     done(err, null);
                 }
                 else {
@@ -47,7 +43,5 @@ module.exports = function (passport, app) {
             });
         }
     ));
-
-
 };
 
