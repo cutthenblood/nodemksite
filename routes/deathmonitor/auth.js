@@ -1,11 +1,7 @@
 var passport = require('passport');
-var auth = require('./../../passport.js');
-module.exports = function (app) {
-    app.use(passport.initialize());
-    app.use(passport.session());
-    auth(passport,app);
 
-    app.post('/deathmonitor/auth', passport.authenticate('local', {failureRedirect: '/deathmonitor?autherr=1' }), function (req, res) {
+module.exports = function (app) {
+     app.post('/deathmonitor/auth', passport.authenticate('local', {failureRedirect: '/deathmonitor?autherr=1' }), function (req, res) {
         console.log(req.body["username"]);
         var user = req.body["username"];
         if(user=="Администратор")

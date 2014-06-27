@@ -11,7 +11,8 @@ var router = express.Router();
 var mongodb = require('mongodb');
 var dbfactory = require('./db');
 var cons = require('consolidate');
-
+var auth = require('./passport.js');
+var passport = require('passport');
 var session = require('express-session');
 //var routes = require('./routes/phonelist/phonelist');
 //var phonelist = require('./routes/phonelist/getUserPhoneList');
@@ -41,7 +42,8 @@ app.use(bodyParser.urlencoded());
 app.use(cookieParser());
 app.use(express.static(pathbuiledr.join(__dirname, 'public')));
 app.use(express.static(pathbuiledr.join(__dirname, 'bower_components')));
-
+app.use(passport.initialize());
+app.use(passport.session());
 if (app.get('env') === 'development') {
     app.use(function (err, req, res, next) {
         res.status(err.status || 500);
@@ -123,6 +125,7 @@ vow.all(promises).then(function (result) {
     app.set('dbmethods',dbfy);
 
 
+    auth(passport,app);
     // successRedirect: '/success ',
     var server = app.listen(app.get('port'), function () {
         console.log('Express server listening on port ' + server.address().port);
