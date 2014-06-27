@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ежедневный мониторинг смертности от болезней системы кровообращения</title>
+
+    <!-- Core CSS - Include with every page -->
+    <link rel='stylesheet' href='/bootstrap/dist/css/bootstrap.css' />
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+
+</head>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+            <div class="login-panel panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title"></h3>
+                </div>
+                <div class="panel-body">
+                    <% if (message.length > 0) { %>
+                    <div class="alert alert-danger"><%= message %></div>
+                    <% } %>
+                    <form role="form" action="/deathmonitor/auth" method="post">
+                        <fieldset>
+                            <div class="form-group">
+                                <label>Выберите район или город</label>
+                                <select class="form-control" name="username" autofocus>
+                                    <option>Абинский</option>
+                                    <option>Анапа</option>
+                                    <option>Апшеронский</option>
+                                    <option>Армавир</option>
+                                    <option>Белоглинский</option>
+                                    <option>Белореченский</option>
+                                    <option>Брюховецкий</option>
+                                    <option>Выселковский</option>
+                                    <option>Геленджик</option>
+                                    <option>Горячий Ключ</option>
+                                    <option>Гулькевичский</option>
+                                    <option>Динской</option>
+                                    <option>Ейский</option>
+                                    <option>Кавказский</option>
+                                    <option>Калининский</option>
+                                    <option>Каневской</option>
+                                    <option>Кореновский</option>
+                                    <option>Красноармейский</option>
+                                    <option>Краснодар</option>
+                                    <option>Крыловский</option>
+                                    <option>Крымский</option>
+                                    <option>Курганинский</option>
+                                    <option>Кущевский</option>
+                                    <option>Лабинский</option>
+                                    <option>Ленинградский</option>
+                                    <option>Мостовской</option>
+                                    <option>Новокубанский</option>
+                                    <option>Новопокровский</option>
+                                    <option>Новороссийск</option>
+                                    <option>Отрадненский</option>
+                                    <option>Павловский</option>
+                                    <option>Приморско-Ахтарский</option>
+                                    <option>Северский</option>
+                                    <option>Славянский</option>
+                                    <option>Сочи</option>
+                                    <option>Староминский</option>
+                                    <option>Тбилисский</option>
+                                    <option>Темрюкский</option>
+                                    <option>Тимашевский</option>
+                                    <option>Тихорецкий</option>
+                                    <option>Туапсинский</option>
+                                    <option>Успенский</option>
+                                    <option>Усть-Лабинский</option>
+                                    <option>Щербиновский</option>
+                                    <option>Администратор</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" placeholder="Пароль" name="password" type="password" value="">
+                            </div>
+
+                            <!-- Change this to a button or input when using this as a form -->
+                            <button type="submit" class="btn btn-lg btn-success btn-block">Вход</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Core Scripts - Include with every page -->
+<script src="/jquery/dist/jquery.js"></script>
+<script src="/bootstrap/dist/js/bootstrap.js"></script>
+
+</body>
+
+</html>

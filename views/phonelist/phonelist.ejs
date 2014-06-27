@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+      <link rel='stylesheet' href='/bootstrap/dist/css/bootstrap.css' />
+      <script src="/jquery/dist/jquery.min.js"></script>
+      <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
+      <script src="/angular/angular.min.js"></script>
+      <script src="/angular-cookies/angular-cookies.min.js"></script>
+      <script src="/angular-resource/angular-resource.min.js"></script>
+      <script src="/angular-route/angular-route.min.js"></script>
+      
+      <script src="/js/phonelist/controller.js"></script>
+      <script src="/js/phonelist/ui-bootstrap.js"></script>
+  </head>
+
+    <body ng-app="PhoneList">
+<h5><a href="http://websrv/phonelist/">http://websrv/phonelist/</a></h5>
+    <div class="jumbotron">
+<h2>Список телефонных номеров ГКУ "Медицина Кубани"</h2>
+<div class="table-responsive" ng-controller="phoneListCtrl">
+    <table cellpadding="0" cellspacing="0">
+        <tr><div class="col-lg-10"><td></td></div>
+        <div class="col-lg-2"><input type="text" ng-model="search" class="form-control" placeholder="Поиск" ></div>
+            </tr>
+    </table>
+    <br/>
+    <hr>
+  
+    <table class="table table-bordered table-hover table-striped tablesorter">
+        <thead>
+        <tr>
+            <th><a href="" ng-click="predicate = 'displayName'; reverse=!reverse">ФИО</a> </th>
+            <th><a href="" ng-click="predicate = 'department'; reverse=!reverse">Отдел</a></th>
+            
+	    <th><a href="" ng-click="predicate = 'title'; reverse=!reverse">Должность</a> </th>
+            <th><a href="" ng-click="predicate = 'physicalDeliveryOfficeName'; reverse=!reverse">Кабинет</a> </th>
+            <th><a href="" ng-click="predicate = 'ipPhone'; reverse=!reverse">Внутренний телефон</a></th>
+            <th><a href="" ng-click="predicate = 'extphone'; reverse=!reverse">Городской телефон</a> </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="phone in phonelist | orderBy:predicate:reverse  | filter:search ">
+            <td>{{phone.displayName}}</td>
+            <td>{{phone.department}}</td>
+            <td>{{phone.title}}</td>
+            <td>{{phone.physicalDeliveryOfficeName}}</td>
+            <td>{{phone.ipPhone}}</td>
+            <td>{{phone.extphone}}</td>
+        </tr>
+       
+        </tbody>
+    </table>
+</div>
+</div>
+</body>
+</html>

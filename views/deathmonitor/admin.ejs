@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ежедневный мониторинг смертности от болезней системы кровообращения</title>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+
+    <link rel='stylesheet' href='/bootstrap/dist/css/bootstrap.css'/>
+
+    <script src="/jquery/dist/jquery.js"></script>
+    <script src="/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="/underscore/underscore.js"></script>
+    <script src="/backbone/backbone.js"></script>
+
+
+
+    <script src="/moment/moment.js"></script>
+    <script type="text/javascript" src="/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
+    <link rel="stylesheet" href="/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" />
+
+
+</head>
+<body  id="mainbody">
+
+
+
+<div class="panel panel-default">
+<div class="panel-body">
+<!--    <div class="col-lg-10">-->
+        <form id="mainaddform" class="form-horizontal">
+            <div class="form-group">
+                <div id="err"></div>
+                <label class="col-lg-3 control-label">Дата мониторинга</label>
+                <div class='input-group date col-lg-3' id='date' data-date-format="DD.MM.YYYY">
+                    <input type='text' class="form-control" name="inputdate"
+                           data-bv-notempty="true"
+                           data-bv-notempty-message="Поле не заполнено"
+                            />
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-lg-9 col-lg-offset-3">
+                    <button type="button" class="btn btn-primary" id="submit">Загрузить</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+<!--</div>-->
+        <div class="row">
+
+
+                <% if (message.length > 0) { %>
+                <% _.each(message,function(item){%>
+                <p class="col-lg-2  col-md-offset-3 bg-danger"><%= item %></p>
+
+                <%})%>
+
+                <% } %>
+
+
+
+</div>
+</div>
+<script src="/js/deathmonitor/admmodel.js"></script>
+</body>
+</html>
