@@ -29,6 +29,13 @@ module.exports = function(app) {
             return;
         }
         fs.readFile(path.join(__dirname, '../../templates/tmpl.xlsx'), function (err, data) {
+            if(err)
+            {
+                log.error(err);
+                res.status(500).send("readfile error");
+                return;
+            }
+
             var dbmethods = app.get('dbmethods');
             dbmethods.getByInputDate('everyday', seldate, function (err,result) {
                 if(err){

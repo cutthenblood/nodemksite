@@ -1,0 +1,6 @@
+{"level":"error","message":"[C:\\devel\\nodemksite\\bin\\www] TypeError: Cannot call method 'get' of undefined","timestamp":"2014-06-27T09:58:39.767Z"}
+{"level":"error","message":"[C:\\devel\\nodemksite\\bin\\www] TypeError: Cannot read property 'length' of undefined","timestamp":"2014-06-27T10:01:09.561Z"}
+{"level":"error","message":"[C:\\devel\\nodemksite\\bin\\www] domain: TypeError: Cannot read property 'length' of undefined","timestamp":"2014-06-27T10:15:02.183Z"}
+{"level":"error","message":"[C:\\devel\\nodemksite\\routes\\deathmonitor\\getReport.js] Error: ENOENT, open 'C:\\devel\\nodemksite\\templates\\tmpl.xlsx'","timestamp":"2014-06-27T10:22:19.461Z"}
+{"level":"error","message":"[C:\\devel\\nodemksite\\routes\\deathmonitor\\getReport.js] Error: ENOENT, open 'C:\\devel\\nodemksite\\templates\\tmpl.xlsx'","timestamp":"2014-06-27T10:27:51.637Z"}
+{"level":"error","message":"[C:\\devel\\nodemksite\\bin\\www] domain: Error: Cannot find module 'toobusy'","timestamp":"2014-06-30T06:49:01.114Z"}

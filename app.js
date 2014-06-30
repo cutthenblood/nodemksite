@@ -15,6 +15,7 @@ var cons = require('consolidate');
 var auth = require('./passport.js');
 var passport = require('passport');
 var session = require('express-session');
+//var toobusy = require('toobusy');
 //var routes = require('./routes/phonelist/phonelist');
 //var phonelist = require('./routes/phonelist/getUserPhoneList');
 //var bcrypt   = require('bcrypt-nodejs');
@@ -45,22 +46,24 @@ app.use(express.static(pathbuiledr.join(__dirname, 'public')));
 app.use(express.static(pathbuiledr.join(__dirname, 'bower_components')));
 app.use(passport.initialize());
 app.use(passport.session());
-if (app.get('env') === 'development') {
+/*if (app.get('env') === 'development') {
     app.use(function (err, req, res, next) {
         res.status(err.status || 500);
         res.render();
     });
-}
+}*/
 
-app.use(function (err, req, res, next) {
+/*app.use(function (err, req, res, next) {
     res.status(err.status || 500);
     log.error(err.message);
-    res.render('error', {
-        message: err.message,
-        error: {}
-    });
-});
+    res.status(500).send(err.message);
 
+});*/
+
+app.use(function (err, req, res, next) {
+    console.log("this one ");
+    res.status(500).send("Ooops!!");
+});
 function mongoConnectPromise(connectionString) {
     return new vow.Promise(function (resolve, reject, notify) {
         var MongoClient = mongodb.MongoClient;
@@ -108,15 +111,39 @@ var promises = {
     routes: routePromise(app, pathbuiledr.join(__dirname, 'routes')),
     db: mongoConnectPromise('mongodb://127.0.0.1:27017/deathmonitor')
 };
-vow.all(promises).then(function (result) {
-    app.set('port', process.env.PORT || 3000);
-    var dbfy = new dbfactory(result.db)
-    app.set('dbmethods',dbfy);
-    auth(passport,app);
-    var server = app.listen(app.get('port'), function () {
-        log.info('Express server listening on port ' + server.address().port);
-    });
 
+module.exports =  function(callback) {
+    vow.all(promises).then(function (result) {
+        app.set('port', process.env.PORT || 3000);
+        var dbfy = new dbfactory(result.db);
+        app.set('dbmethods', dbfy);
+        auth(passport, app);
+       /* app.use(function(req, res, next) {
+            if (toobusy()) {
+                res.send(503, "Перегрузка!!");
+            } else {
+                next();
+            }
+        });*/
+        app.use(function (req, res) {
+            res.status(404).end('error');
+        });
+        app.use(function(err, req, res, next) {
+            if(err.message){
+                log.error(err.message);
 
-});
+            }
+            else
+            {
+                log.error(err);
+            }
+            res.status(500).send("Ooops!!");
+        });
+
+        callback(app);
+        /*var server = app.listen(app.get('port'), function () {
+            log.info('Express server listening on port ' + server.address().port);
+        });*/
+    })
+}
 
