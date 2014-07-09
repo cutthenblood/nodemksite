@@ -19,6 +19,10 @@ function errproc(err, result, func, elsefunc) {
 }
 module.exports = function (db) {
     this._db = db;
+    var convertDatesISO = function(date)
+    {
+        return new Date(moment(date,"DD.MM.YYYY").format("MM.DD.YYYY"));
+    };
     /*  this.getCollection = function (collection, callback) {
      this._db.collection(collection).find().toArray(function (err, result) {
      if (err) {
@@ -50,6 +54,7 @@ module.exports = function (db) {
                 });
         }
     },
+
     this.insup = function (collection, data, callback) {
             var _this = this;
             var inputdate = data.inputdate;
@@ -107,13 +112,46 @@ module.exports = function (db) {
                  }*/
             });
         },
-    this.getByInputDate = function (collection, inputdate, callback) {
-            this._db.collection(collection).find({inputdate: inputdate}).toArray(function (err, result) {
+    this.getByInputDate = function (collection, startdate,stopdate, callback) {
+            var beg = convertDatesISO(startdate);
+            var end = convertDatesISO(stopdate);
+            this._db.collection(collection).find({inputdate: {$gte:beg,$lt:end}}).toArray(function (err, result) {
                 errproc(err,result,callback);
             });
         };
-    this.getRaisingSum = function(collection,stopdate,callback) {
-
+    this.getRaisingSum = function(collection,startdate,stopdate,callback) {
+        /*db.everyday.aggregate({$unwind:"$rows"},{$match:{"rows.date":{$gte:ISODate("2014-01-01T00:00:00.000Z"),$lte:ISODate("2014-07-08T23:59:59.000Z")}}}
+        ,{$group:{"_id":"$rows.username",smgr2:{$sum:"$rows.gr2"},
+            smgr3:{$sum:"$rows.gr3"},smgr4:{$sum:"$rows.gr4"},smgr5:{$sum:"$rows.gr5"},smgr6:{$sum:"$rows.gr6"},smgr7:{$sum:"$rows.gr7"},
+            smgr8:{$sum:"$rows.gr8"},smgr9:{$sum:"$rows.gr9"},smgr10:{$sum:"$rows.gr10"},smgr11:{$sum:"$rows.gr11"},smgr12:{$sum:"$rows.gr12"},
+            smgr13:{$sum:"$rows.gr13"},smgr14:{$sum:"$rows.gr14"},smgr15:{$sum:"$rows.gr15"},smgr16:{$sum:"$rows.gr16"},smgr17:{$sum:"$rows.gr17"},
+            smgr18:{$sum:"$rows.gr18"},smgr19:{$sum:"$rows.gr19"},smgr20:{$sum:"$rows.gr20"},smgr21:{$sum:"$rows.gr21"},smgr22:{$sum:"$rows.gr22"},
+            smgr23:{$sum:"$rows.gr23"},smgr24:{$sum:"$rows.gr24"},smgr25:{$sum:"$rows.gr25"},smgr26:{$sum:"$rows.gr26"},smgr27:{$sum:"$rows.gr27"},
+            smgr28:{$sum:"$rows.gr28"},smgr29:{$sum:"$rows.gr29"},smgr30:{$sum:"$rows.gr30"},smgr31:{$sum:"$rows.gr31"},smgr32:{$sum:"$rows.gr32"},
+            smgr33:{$sum:"$rows.gr33"}
+        }})
+        */
+        var beg = convertDatesISO(startdate);
+        var end =convertDatesISO(stopdate);
+        try {
+            this._db.collection(collection).aggregate(
+                {$unwind: "$rows"},
+                {$match: {"inputdate": {$gte: beg, $lte: end}}},
+                {$group: {"_id": "$rows.username", gr2: {$sum: "$rows.gr2"},
+                    gr3: {$sum: "$rows.gr3"}, gr4: {$sum: "$rows.gr4"}, gr5: {$sum: "$rows.gr5"}, gr6: {$sum: "$rows.gr6"}, gr7: {$sum: "$rows.gr7"},
+                    gr8: {$sum: "$rows.gr8"}, gr9: {$sum: "$rows.gr9"}, gr10: {$sum: "$rows.gr10"}, gr11: {$sum: "$rows.gr11"}, gr12: {$sum: "$rows.gr12"},
+                    gr13: {$sum: "$rows.gr13"}, gr14: {$sum: "$rows.gr14"}, gr15: {$sum: "$rows.gr15"}, gr16: {$sum: "$rows.gr16"}, gr17: {$sum: "$rows.gr17"},
+                    gr18: {$sum: "$rows.gr18"}, gr19: {$sum: "$rows.gr19"}, gr20: {$sum: "$rows.gr20"}, gr21: {$sum: "$rows.gr21"}, gr22: {$sum: "$rows.gr22"},
+                    gr23: {$sum: "$rows.gr23"}, gr24: {$sum: "$rows.gr24"}, gr25: {$sum: "$rows.gr25"}, gr26: {$sum: "$rows.gr26"}, gr27: {$sum: "$rows.gr27"},
+                    gr28: {$sum: "$rows.gr28"}, gr29: {$sum: "$rows.gr29"}, gr30: {$sum: "$rows.gr30"}, gr31: {$sum: "$rows.gr31"}, gr32: {$sum: "$rows.gr32"},
+                    gr33: {$sum: "$rows.gr33"}
+                }},function (err, result) {
+                    errproc(err, result, callback);
+                });
+        }
+        catch(e){
+            log.error(e);
+        }
 
 
 

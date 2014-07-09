@@ -17,6 +17,7 @@ var passport = require('passport');
 var session = require('express-session');
 var RedisStore = require('connect-redis')(session);
 var conf = require('./config.js');
+
 //var toobusy = require('toobusy');
 
 //var routes = require('./routes/phonelist/phonelist');
@@ -30,6 +31,7 @@ var conf = require('./config.js');
 
 var ipban = require('./ipban.js');
 var app = express();
+
 app.set('conf', conf);
 app.use(session({
     store: new RedisStore({ host: conf.session.redis.host, port: conf.session.redis.port, ttl: 604800 }),
@@ -58,8 +60,7 @@ app.use(bodyParser.urlencoded());
 app.use(cookieParser());
 app.use(express.static(pathbuiledr.join(__dirname, 'public')));
 app.use(express.static(pathbuiledr.join(__dirname, 'bower_components')));
-app.use(passport.initialize());
-app.use(passport.session());
+
 
 app.use(function (err, req, res, next) {
     console.log("this one ");
@@ -80,6 +81,8 @@ function mongoConnectPromise(connectionString) {
 }
 
 function routePromise(router, path) {
+    app.use(passport.initialize());
+    app.use(passport.session());
     return new vow.Promise(function (resolve, reject) {
         function dirtree(path, chunk) {
             var files = fs.readdir(path, function (err, files) {
@@ -114,8 +117,9 @@ var promises = {
 };
 
 module.exports =  function(callback) {
+
     vow.all(promises).then(function (result) {
-        app.set('port', process.env.PORT || 3000);
+        app.set('port', process.env.PORT || 80);
         var dbfy = new dbfactory(result.db);
         app.set('dbmethods', dbfy);
         auth(passport, app);
