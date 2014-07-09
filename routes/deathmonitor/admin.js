@@ -20,6 +20,10 @@ module.exports = function (app) {
                 log.error(err);
                 res.redirect('/deathmonitor?autherr=' + err);
             }
+            else if (result.length<1)
+            {
+                res.render('deathmonitor/admin', {message: []});
+            }
             else {
                 if (result[0].rows.length > 0) {
                     var data = result[0].rows;

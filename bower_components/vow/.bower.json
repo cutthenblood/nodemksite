@@ -19,7 +19,6 @@
     "commit": "2867b0356763e952c5c2df9bf95d3a244e4d0afc"
   },
   "_source": "git://github.com/dfilatov/jspromise.git",
-  "_target": "~0.4.4",
-  "_originalSource": "vow",
-  "_direct": true
+  "_target": "*",
+  "_originalSource": "vow"
 }

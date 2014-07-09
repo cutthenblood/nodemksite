@@ -82,3 +82,34 @@
 {"level":"error","message":"[C:\\devel\\nodemksite\\bin\\www] domain: Error: Cannot find module 'toobusy'","timestamp":"2014-06-30T06:49:01.114Z"}
 {"level":"info","message":"[C:\\devel\\nodemksite\\bin\\www] domain wrapper","timestamp":"2014-06-30T07:06:32.263Z"}
 {"level":"info","message":"[C:\\devel\\nodemksite\\bin\\www] Express server listening on port 3000","timestamp":"2014-06-30T07:06:32.264Z"}
+{"level":"error","message":"[/var/www/nodemksite/bin/www.js] domain: Error: Cannot find module 'ldapjs'","timestamp":"2014-06-30T08:49:12.120Z"}
+{"level":"info","message":"[/var/www/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-06-30T08:50:10.998Z"}
+{"level":"info","message":"[/var/www/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-06-30T08:50:10.999Z"}
+{"level":"error","message":"[/var/www/nodemksite/bin/www.js] domain: Error: listen EACCES","timestamp":"2014-06-30T08:51:52.146Z"}
+{"level":"error","message":"[/var/www/nodemksite/bin/www.js] domain: Error: listen EACCES","timestamp":"2014-06-30T08:53:13.607Z"}
+{"level":"info","message":"[/var/www/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-06-30T08:53:58.189Z"}
+{"level":"info","message":"[/var/www/nodemksite/bin/www.js] Express server listening on port 80","timestamp":"2014-06-30T08:53:58.190Z"}
+{"level":"error","message":"[/var/www/nodemksite/passport.js] cannot auth","timestamp":"2014-06-30T08:55:54.007Z"}
+{"level":"error","message":"[/var/www/nodemksite/app.js] user not exists","timestamp":"2014-06-30T08:55:54.009Z"}
+{"level":"error","message":"[/var/www/nodemksite/app.js] Error: failed to connect to [127.0.0.1:27017]","timestamp":"2014-06-30T09:56:43.736Z"}
+{"level":"info","message":"[/var/www/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-06-30T09:57:07.186Z"}
+{"level":"info","message":"[/var/www/nodemksite/bin/www.js] Express server listening on port 80","timestamp":"2014-06-30T09:57:07.187Z"}
+{"level":"info","message":"[/var/www/nodemksite/user.js] null","timestamp":"2014-06-30T09:57:18.917Z"}
+{"level":"error","message":"[/var/www/nodemksite/app.js] asdfasdf","timestamp":"2014-06-30T09:57:18.921Z"}
+{"level":"info","message":"[/var/www/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-06-30T09:58:12.140Z"}
+{"level":"info","message":"[/var/www/nodemksite/bin/www.js] Express server listening on port 80","timestamp":"2014-06-30T09:58:12.141Z"}
+{"level":"info","message":"[/var/www/nodemksite/user.js] null","timestamp":"2014-06-30T09:58:22.300Z"}
+{"level":"info","message":"[/var/www/nodemksite/user.js] null","timestamp":"2014-06-30T09:59:04.969Z"}
+{"level":"error","message":"[Z:\\nodemksite\\bin\\www.js] domain: Error: %1 is not a valid Win32 application.\r\nZ:\\nodemksite\\node_modules\\toobusy\\build\\Release\\toobusy.node","timestamp":"2014-07-01T05:51:58.837Z"}
+{"level":"error","message":"[Z:\\nodemksite\\bin\\www.js] domain: Error: listen EADDRINUSE","timestamp":"2014-07-01T05:52:47.736Z"}
+{"level":"error","message":"[Z:\\nodemksite\\bin\\www.js] domain: Error: listen EADDRINUSE","timestamp":"2014-07-01T05:53:34.261Z"}
+{"level":"error","message":"[Z:\\nodemksite\\bin\\www.js] domain: Error: listen EADDRINUSE","timestamp":"2014-07-09T05:33:06.916Z"}
+{"level":"error","message":"[Z:\\nodemksite\\bin\\www.js] domain: Error: listen EADDRINUSE","timestamp":"2014-07-09T05:33:47.164Z"}
+{"level":"error","message":"[Z:\\nodemksite\\bin\\www.js] domain: Error: listen EADDRINUSE","timestamp":"2014-07-09T05:34:18.376Z"}
+{"level":"error","message":"[Z:\\nodemksite\\bin\\www.js] domain: Error: listen EADDRINUSE","timestamp":"2014-07-09T05:35:15.698Z"}
+{"level":"info","message":"[Z:\\nodemksite\\bin\\www.js] domain wrapper","timestamp":"2014-07-09T05:38:11.661Z"}
+{"level":"info","message":"[Z:\\nodemksite\\bin\\www.js] Express server listening on port 3000","timestamp":"2014-07-09T05:38:11.662Z"}
+{"level":"info","message":"[Z:\\nodemksite\\bin\\www.js] domain wrapper","timestamp":"2014-07-09T05:39:12.407Z"}
+{"level":"info","message":"[Z:\\nodemksite\\bin\\www.js] Express server listening on port 3000","timestamp":"2014-07-09T05:39:12.408Z"}
+{"level":"info","message":"[Z:\\nodemksite\\bin\\www.js] domain wrapper","timestamp":"2014-07-09T05:39:45.272Z"}
+{"level":"info","message":"[Z:\\nodemksite\\bin\\www.js] Express server listening on port 3000","timestamp":"2014-07-09T05:39:45.272Z"}

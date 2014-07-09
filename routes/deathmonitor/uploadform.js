@@ -6,6 +6,7 @@ module.exports = function (app) {
         if (req.body.hasOwnProperty('_id')) {
             delete req.body._id;
         }
+
         dbmethods.insup('everyday',req.body,function (err, results) {
             if (err) {
                 log.error(err);

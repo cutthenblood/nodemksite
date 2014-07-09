@@ -111,7 +111,17 @@ module.exports = function (db) {
             this._db.collection(collection).find({inputdate: inputdate}).toArray(function (err, result) {
                 errproc(err,result,callback);
             });
-        }
+        };
+    this.getRaisingSum = function(collection,stopdate,callback) {
+
+
+
+
+    }
+
+
+
+
     /*this.delete = function (collection, id, callback) {
         this._db.collection(collection).remove({_id: new mongodb.ObjectID(id)}, callback);
     },*/

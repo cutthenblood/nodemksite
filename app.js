@@ -7,7 +7,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var fs = require('fs');
 var vow = require('vow');
-var requireDir = require('require-dir');
+//var requireDir = require('require-dir');
 var router = express.Router();
 var mongodb = require('mongodb');
 var dbfactory = require('./db');
@@ -15,7 +15,10 @@ var cons = require('consolidate');
 var auth = require('./passport.js');
 var passport = require('passport');
 var session = require('express-session');
+var RedisStore = require('connect-redis')(session);
+var conf = require('./config.js');
 //var toobusy = require('toobusy');
+
 //var routes = require('./routes/phonelist/phonelist');
 //var phonelist = require('./routes/phonelist/getUserPhoneList');
 //var bcrypt   = require('bcrypt-nodejs');
@@ -27,7 +30,18 @@ var session = require('express-session');
 
 var ipban = require('./ipban.js');
 var app = express();
-app.use(session({ secret: 'jl;laskjf09239!@)&$(@#kj)@#H234m2jhljf)',cookie: { maxAge: 60000 }}));
+app.set('conf', conf);
+app.use(session({
+    store: new RedisStore({ host: conf.session.redis.host, port: conf.session.redis.port, ttl: 604800 }),
+    secret: conf.session.secret,
+    key: 'session',
+    cookie: { maxAge: 604800000 },
+    fail: function (data, accept) {
+        accept(null, true);
+    },
+    success: function (data, accept) {
+        accept(null, true);
+    }}));
 
 app.set('router',express.Router());
 app.use(ipban('on'));
@@ -46,19 +60,6 @@ app.use(express.static(pathbuiledr.join(__dirname, 'public')));
 app.use(express.static(pathbuiledr.join(__dirname, 'bower_components')));
 app.use(passport.initialize());
 app.use(passport.session());
-/*if (app.get('env') === 'development') {
-    app.use(function (err, req, res, next) {
-        res.status(err.status || 500);
-        res.render();
-    });
-}*/
-
-/*app.use(function (err, req, res, next) {
-    res.status(err.status || 500);
-    log.error(err.message);
-    res.status(500).send(err.message);
-
-});*/
 
 app.use(function (err, req, res, next) {
     console.log("this one ");
@@ -109,7 +110,7 @@ function routePromise(router, path) {
 }
 var promises = {
     routes: routePromise(app, pathbuiledr.join(__dirname, 'routes')),
-    db: mongoConnectPromise('mongodb://127.0.0.1:27017/deathmonitor')
+    db: mongoConnectPromise(conf.mongoConnect)
 };
 
 module.exports =  function(callback) {
@@ -118,7 +119,7 @@ module.exports =  function(callback) {
         var dbfy = new dbfactory(result.db);
         app.set('dbmethods', dbfy);
         auth(passport, app);
-       /* app.use(function(req, res, next) {
+        /*app.use(function(req, res, next) {
             if (toobusy()) {
                 res.send(503, "Перегрузка!!");
             } else {
@@ -131,7 +132,6 @@ module.exports =  function(callback) {
         app.use(function(err, req, res, next) {
             if(err.message){
                 log.error(err.message);
-
             }
             else
             {
@@ -141,9 +141,6 @@ module.exports =  function(callback) {
         });
 
         callback(app);
-        /*var server = app.listen(app.get('port'), function () {
-            log.info('Express server listening on port ' + server.address().port);
-        });*/
     })
 }
 

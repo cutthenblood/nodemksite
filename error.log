@@ -4,3 +4,17 @@
 {"level":"error","message":"[C:\\devel\\nodemksite\\routes\\deathmonitor\\getReport.js] Error: ENOENT, open 'C:\\devel\\nodemksite\\templates\\tmpl.xlsx'","timestamp":"2014-06-27T10:22:19.461Z"}
 {"level":"error","message":"[C:\\devel\\nodemksite\\routes\\deathmonitor\\getReport.js] Error: ENOENT, open 'C:\\devel\\nodemksite\\templates\\tmpl.xlsx'","timestamp":"2014-06-27T10:27:51.637Z"}
 {"level":"error","message":"[C:\\devel\\nodemksite\\bin\\www] domain: Error: Cannot find module 'toobusy'","timestamp":"2014-06-30T06:49:01.114Z"}
+{"level":"error","message":"[/var/www/nodemksite/bin/www.js] domain: Error: Cannot find module 'ldapjs'","timestamp":"2014-06-30T08:49:12.122Z"}
+{"level":"error","message":"[/var/www/nodemksite/bin/www.js] domain: Error: listen EACCES","timestamp":"2014-06-30T08:51:52.147Z"}
+{"level":"error","message":"[/var/www/nodemksite/bin/www.js] domain: Error: listen EACCES","timestamp":"2014-06-30T08:53:13.608Z"}
+{"level":"error","message":"[/var/www/nodemksite/passport.js] cannot auth","timestamp":"2014-06-30T08:55:54.007Z"}
+{"level":"error","message":"[/var/www/nodemksite/app.js] user not exists","timestamp":"2014-06-30T08:55:54.009Z"}
+{"level":"error","message":"[/var/www/nodemksite/app.js] Error: failed to connect to [127.0.0.1:27017]","timestamp":"2014-06-30T09:56:43.738Z"}
+{"level":"error","message":"[/var/www/nodemksite/app.js] asdfasdf","timestamp":"2014-06-30T09:57:18.921Z"}
+{"level":"error","message":"[Z:\\nodemksite\\bin\\www.js] domain: Error: %1 is not a valid Win32 application.\r\nZ:\\nodemksite\\node_modules\\toobusy\\build\\Release\\toobusy.node","timestamp":"2014-07-01T05:51:58.838Z"}
+{"level":"error","message":"[Z:\\nodemksite\\bin\\www.js] domain: Error: listen EADDRINUSE","timestamp":"2014-07-01T05:52:47.737Z"}
+{"level":"error","message":"[Z:\\nodemksite\\bin\\www.js] domain: Error: listen EADDRINUSE","timestamp":"2014-07-01T05:53:34.262Z"}
+{"level":"error","message":"[Z:\\nodemksite\\bin\\www.js] domain: Error: listen EADDRINUSE","timestamp":"2014-07-09T05:33:06.917Z"}
+{"level":"error","message":"[Z:\\nodemksite\\bin\\www.js] domain: Error: listen EADDRINUSE","timestamp":"2014-07-09T05:33:47.165Z"}
+{"level":"error","message":"[Z:\\nodemksite\\bin\\www.js] domain: Error: listen EADDRINUSE","timestamp":"2014-07-09T05:34:18.377Z"}
+{"level":"error","message":"[Z:\\nodemksite\\bin\\www.js] domain: Error: listen EADDRINUSE","timestamp":"2014-07-09T05:35:15.699Z"}

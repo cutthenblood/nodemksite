@@ -67,14 +67,8 @@
       data-bv-feedbackicons-validating="glyphicon glyphicon-refresh"
       >
 
-
-
-
-
-
-
 <div class="form-group">
-    <label class="col-lg-3 control-label">Дата мониторинга</label>
+    <label class="col-lg-3 control-label">Мониторинг за</label>
     <div class='input-group date col-lg-3' id='date' data-date-format="DD.MM.YYYY">
         <input type='text' class="form-control" name="inputdate"
                data-bv-notempty="true"
@@ -89,7 +83,7 @@
 
 
 <div class="form-group">
-    <label class="col-lg-3 control-label">Кол-во умерших от БСК всего на текущую дату</label>
+    <label class="col-lg-3 control-label " id="bskdate"></label>
     <div class="col-lg-3">
         <input  type="text"  class="form-control" name="gr2"
                 data-bv-notempty="true"
@@ -166,10 +160,10 @@
     <h4 class="col-lg-5" >Первоначальная причина смерти, указанная в заключении патологоанатома </h4>
 </div>
 <div class="row">
-    <div class="well col-lg-3 col-md-offset-3 ">
+    <div class="well col-lg-5 col-md-offset-3 ">
         <div class="form-group">
-            <label class="col-lg-8 control-label">Хр.ревматические болезни сердца</label>
-            <div class="col-lg-4">
+            <label class="col-lg-5 control-label">Хр.ревматические болезни сердца</label>
+            <div class="col-lg-7">
                 <input type="text" class="form-control" name="gr8"
                        data-bv-notempty="true"
                        data-bv-notempty-message="Поле не заполнено"
@@ -179,8 +173,8 @@
             </div>
         </div>
         <div class="form-group">
-            <label class="col-lg-8 control-label"> Артериальные гипертензии</label>
-            <div class="col-lg-4">
+            <label class="col-lg-5 control-label"> Артериальные гипертензии</label>
+            <div class="col-lg-7">
                 <input type="text" class="form-control" name="gr9"
                        data-bv-notempty="true"
                        data-bv-notempty-message="Поле не заполнено"
@@ -190,8 +184,8 @@
             </div>
         </div>
         <div class="form-group">
-            <label class="col-lg-8 control-label">ИБС</label>
-            <div class="col-lg-4">
+            <label class="col-lg-5 control-label">ИБС</label>
+            <div class="col-lg-7">
                 <input type="text" class="form-control" name="gr10"
                        data-bv-notempty="true"
                        data-bv-notempty-message="Поле не заполнено"
@@ -201,8 +195,8 @@
             </div>
         </div>
         <div class="form-group">
-            <label class="col-lg-8 control-label">Стенокардии</label>
-            <div class="col-lg-4">
+            <label class="col-lg-5 control-label">Стенокардии</label>
+            <div class="col-lg-7">
                 <input type="text" class="form-control" name="gr11"
                        data-bv-notempty="true"
                        data-bv-notempty-message="Поле не заполнено"
@@ -212,8 +206,8 @@
             </div>
         </div>
         <div class="form-group">
-            <label class="col-lg-8 control-label">Инфаркт миокарда</label>
-            <div class="col-lg-4">
+            <label class="col-lg-5 control-label">Инфаркт миокарда</label>
+            <div class="col-lg-7">
                 <input type="text" class="form-control" name="gr12"
                        data-bv-notempty="true"
                        data-bv-notempty-message="Поле не заполнено"
@@ -223,8 +217,8 @@
             </div>
         </div>
         <div class="form-group">
-            <label class="col-lg-8 control-label">Атеросклеротическая болезнь сердца</label>
-            <div class="col-lg-4">
+            <label class="col-lg-5 control-label">Атеросклеротическая болезнь сердца</label>
+            <div class="col-lg-7">
                 <input type="text" class="form-control" name="gr13"
                        data-bv-notempty="true"
                        data-bv-notempty-message="Поле не заполнено"
@@ -234,8 +228,8 @@
             </div>
         </div>
         <div class="form-group">
-            <label class="col-lg-8 control-label">Тромбоэмболия</label>
-            <div class="col-lg-4">
+            <label class="col-lg-5 control-label">Тромбоэмболия</label>
+            <div class="col-lg-7">
                 <input type="text" class="form-control" name="gr14"
                        data-bv-notempty="true"
                        data-bv-notempty-message="Поле не заполнено"
@@ -245,8 +239,8 @@
             </div>
         </div>
         <div class="form-group">
-            <label class="col-lg-8 control-label">Другие болезни сердца</label>
-            <div class="col-lg-4">
+            <label class="col-lg-5 control-label">Другие болезни сердца</label>
+            <div class="col-lg-7">
                 <input type="text" class="form-control" name="gr15"
                        data-bv-notempty="true"
                        data-bv-notempty-message="Поле не заполнено"
@@ -256,8 +250,8 @@
             </div>
         </div>
         <div class="form-group">
-            <label class="col-lg-8 control-label">Сердечная недостаточность</label>
-            <div class="col-lg-4">
+            <label class="col-lg-5 control-label">Сердечная недостаточность</label>
+            <div class="col-lg-7">
                 <input type="text" class="form-control" name="gr16"
                        data-bv-notempty="true"
                        data-bv-notempty-message="Поле не заполнено"
@@ -267,8 +261,8 @@
             </div>
         </div>
         <div class="form-group">
-            <label class="col-lg-8 control-label">ЦВБ</label>
-            <div class="col-lg-4">
+            <label class="col-lg-5 control-label">ЦВБ</label>
+            <div class="col-lg-7">
                 <input type="text" class="form-control" name="gr17"
                        data-bv-notempty="true"
                        data-bv-notempty-message="Поле не заполнено"
@@ -278,8 +272,8 @@
             </div>
         </div>
         <div class="form-group">
-            <label class="col-lg-8 control-label">Инсульты</label>
-            <div class="col-lg-4">
+            <label class="col-lg-5 control-label">Инсульты</label>
+            <div class="col-lg-7">
                 <input type="text" class="form-control" name="gr18"
                        data-bv-notempty="true"
                        data-bv-notempty-message="Поле не заполнено"
@@ -289,8 +283,8 @@
             </div>
         </div>
         <div class="form-group">
-            <label class="col-lg-8 control-label">Прочие</label>
-            <div class="col-lg-4">
+            <label class="col-lg-5 control-label">Прочие</label>
+            <div class="col-lg-7">
                 <input type="text" class="form-control" name="gr19"
                        data-bv-notempty="true"
                        data-bv-notempty-message="Поле не заполнено"
@@ -305,10 +299,10 @@
     <h4 class="col-lg-5" >Первоначальная причина смерти, указанная в свидетельстве, выданном без вскрытия </h4>
 </div>
 <div class="row">
-    <div class="well col-lg-3 col-md-offset-3 ">
+    <div class="well col-lg-5 col-md-offset-3 ">
         <div class="form-group">
-            <label class="col-lg-8 control-label">Хр.ревматические болезни сердца</label>
-            <div class="col-lg-4">
+            <label class="col-lg-5 control-label">Хр.ревматические болезни сердца</label>
+            <div class="col-lg-7">
                 <input type="text" class="form-control" name="gr20"
                        data-bv-notempty="true"
                        data-bv-notempty-message="Поле не заполнено"
@@ -318,8 +312,8 @@
             </div>
         </div>
         <div class="form-group">
-            <label class="col-lg-8 control-label"> Артериальные гипертензии</label>
-            <div class="col-lg-4">
+            <label class="col-lg-5 control-label"> Артериальные гипертензии</label>
+            <div class="col-lg-7">
                 <input type="text" class="form-control" name="gr21"
                        data-bv-notempty="true"
                        data-bv-notempty-message="Поле не заполнено"
@@ -329,8 +323,8 @@
             </div>
         </div>
         <div class="form-group">
-            <label class="col-lg-8 control-label">ИБС</label>
-            <div class="col-lg-4">
+            <label class="col-lg-5 control-label">ИБС</label>
+            <div class="col-lg-7">
                 <input type="text" class="form-control" name="gr22"
                        data-bv-notempty="true"
                        data-bv-notempty-message="Поле не заполнено"
@@ -340,8 +334,8 @@
             </div>
         </div>
         <div class="form-group">
-            <label class="col-lg-8 control-label">Стенокардии</label>
-            <div class="col-lg-4">
+            <label class="col-lg-5 control-label">Стенокардии</label>
+            <div class="col-lg-7">
                 <input type="text" class="form-control" name="gr23"
                        data-bv-notempty="true"
                        data-bv-notempty-message="Поле не заполнено"
@@ -351,8 +345,8 @@
             </div>
         </div>
         <div class="form-group">
-            <label class="col-lg-8 control-label">Инфаркт миокарда</label>
-            <div class="col-lg-4">
+            <label class="col-lg-5 control-label">Инфаркт миокарда</label>
+            <div class="col-lg-7">
                 <input type="text" class="form-control" name="gr24"
                        data-bv-notempty="true"
                        data-bv-notempty-message="Поле не заполнено"
@@ -362,8 +356,8 @@
             </div>
         </div>
         <div class="form-group">
-            <label class="col-lg-8 control-label">Атеросклеротическая болезнь сердца</label>
-            <div class="col-lg-4">
+            <label class="col-lg-5 control-label">Атеросклеротическая болезнь сердца</label>
+            <div class="col-lg-7">
                 <input type="text" class="form-control" name="gr25"
                        data-bv-notempty="true"
                        data-bv-notempty-message="Поле не заполнено"
@@ -373,8 +367,8 @@
             </div>
         </div>
         <div class="form-group">
-            <label class="col-lg-8 control-label">Тромбоэмболия</label>
-            <div class="col-lg-4">
+            <label class="col-lg-5 control-label">Тромбоэмболия</label>
+            <div class="col-lg-7">
                 <input type="text" class="form-control" name="gr26"
                        data-bv-notempty="true"
                        data-bv-notempty-message="Поле не заполнено"
@@ -384,8 +378,8 @@
             </div>
         </div>
         <div class="form-group">
-            <label class="col-lg-8 control-label">Другие болезни сердца</label>
-            <div class="col-lg-4">
+            <label class="col-lg-5 control-label">Другие болезни сердца</label>
+            <div class="col-lg-7">
                 <input type="text" class="form-control" name="gr27"
                        data-bv-notempty="true"
                        data-bv-notempty-message="Поле не заполнено"
@@ -395,8 +389,8 @@
             </div>
         </div>
         <div class="form-group">
-            <label class="col-lg-8 control-label">Сердечная недостаточность</label>
-            <div class="col-lg-4">
+            <label class="col-lg-5 control-label">Сердечная недостаточность</label>
+            <div class="col-lg-7">
                 <input type="text" class="form-control" name="gr28"
                        data-bv-notempty="true"
                        data-bv-notempty-message="Поле не заполнено"
@@ -406,8 +400,8 @@
             </div>
         </div>
         <div class="form-group">
-            <label class="col-lg-8 control-label">ЦВБ</label>
-            <div class="col-lg-4">
+            <label class="col-lg-5 control-label">ЦВБ</label>
+            <div class="col-lg-7">
                 <input type="text" class="form-control" name="gr29"
                        data-bv-notempty="true"
                        data-bv-notempty-message="Поле не заполнено"
@@ -417,8 +411,8 @@
             </div>
         </div>
         <div class="form-group">
-            <label class="col-lg-8 control-label">Инсульты</label>
-            <div class="col-lg-4">
+            <label class="col-lg-5 control-label">Инсульты</label>
+            <div class="col-lg-7">
                 <input type="text" class="form-control" name="gr30"
                        data-bv-notempty="true"
                        data-bv-notempty-message="Поле не заполнено"
@@ -428,8 +422,8 @@
             </div>
         </div>
         <div class="form-group">
-            <label class="col-lg-8 control-label">Прочие</label>
-            <div class="col-lg-4">
+            <label class="col-lg-5 control-label">Прочие</label>
+            <div class="col-lg-7">
                 <input type="text" class="form-control" name="gr31"
                        data-bv-notempty="true"
                        data-bv-notempty-message="Поле не заполнено"

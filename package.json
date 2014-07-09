@@ -23,7 +23,11 @@
       "moment": "2.7.0",
       "lodash": "2.4.1",
       "mongodb": "1.4.7",
-      "xlsx-template": "0.0.2"
+      "xlsx-template": "0.0.2",
+      "toobusy": "latest",
+      "connect-redis": ">=2.0.0",
+      "consolidate": "latest",
+      "ldapjs": "latest"
 
 }
 }

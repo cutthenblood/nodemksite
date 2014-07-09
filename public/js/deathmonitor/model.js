@@ -44,6 +44,13 @@
                 defaultDate: moment().format(),
                 language: 'ru'
             });
+            $("#bskdate").html("Кол-во умерших от БСК всего за  <b>"+$('#date').data("DateTimePicker").getDate().format("DD.MM.YYYY")+"</b>");
+
+            $("#date").on("dp.change",function (e) {
+                var dt = $('#date').data("DateTimePicker").getDate().format("DD.MM.YYYY");
+                $("#bskdate").html("Кол-во умерших от БСК всего за  <b>"+$('#date').data("DateTimePicker").getDate().format("DD.MM.YYYY")+"</b>");
+            });
+
             $('form').bootstrapValidator({
 
                 submitHandler: function(validator, form, submitButton) {
