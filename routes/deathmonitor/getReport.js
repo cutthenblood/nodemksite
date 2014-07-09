@@ -65,16 +65,18 @@ module.exports = function(app) {
                         res.status(500).send("Нет данных за этот день");
                         return;
                     }
-                    var data = [];
+                    var resset = [];
                     if(!result[0].rows){
-                        data=result;
+                        resset=result;
                     }
                     else
                     {
-                        data = result[0].rows;
+                        resset = result[0].rows;
                     }
-                    data.forEach(function (item) {
+                    resset.forEach(function (item) {
                         var date = seldate;
+                        if(item._id)
+                            item.username = item._id;
                         rows.push(item);
                         for (var key in sumrow) {
                             sumrow[key] += item[key];
