@@ -21,6 +21,28 @@
 
 </head>
 <body onload="startTime()" id="mainbody">
+
+<div class="modal fade" id="ErrorModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="myModalLabel">Ошибка</h4>
+            </div>
+            <div class="modal-body">
+
+                <div class="alert alert-danger" role="alert" id="ErrorModalText"> </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal" id="ErrorModelClose">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -55,167 +77,165 @@
 
 
 <div class="panel panel-default">
-<div class="panel-heading">
-    Добавить запись
-</div>
-<div class="panel-body">
-
-
-<form id="mainaddform" class="form-horizontal" action="/deathmonitor" method="get"
-      data-bv-message="Ошибка в заполнении формы"
-      data-bv-feedbackicons-valid="glyphicon glyphicon-ok"
-      data-bv-feedbackicons-invalid="glyphicon glyphicon-remove"
-      data-bv-feedbackicons-validating="glyphicon glyphicon-refresh"
-      >
-
-<div class="form-group">
-    <label class="col-lg-3 control-label">Мониторинг за</label>
-    <div class='input-group date col-lg-3' id='date' data-date-format="DD.MM.YYYY">
-        <input type='text' class="form-control" name="inputdate"
-               data-bv-notempty="true"
-               data-bv-notempty-message="Поле не заполнено"
-                />
-            <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
-            </span>
+    <div class="panel-heading">
+        Добавить запись
     </div>
-</div>
+    <div class="panel-body">
+        <form id="mainaddform" class="form-horizontal" action="/deathmonitor" method="get"
+              data-bv-message="Ошибка в заполнении формы"
+              data-bv-feedbackicons-valid="glyphicon glyphicon-ok"
+              data-bv-feedbackicons-invalid="glyphicon glyphicon-remove"
+              data-bv-feedbackicons-validating="glyphicon glyphicon-refresh"
+                >
 
-
-
-
-<div class="form-group">
-    <label class="col-lg-3 control-label " id="bskdate"></label>(Гр.2)
-    <div class="col-lg-3">
-        <input  type="text"  class="form-control" name="gr2"
-                data-bv-notempty="true"
-                data-bv-notempty-message="Поле не заполнено"
-                data-bv-integer="true"
-                data-bv-integer-message="Вводяться только числа"/>
-
-    </div>
-</div>
-<div class="row">
-    <div class="well col-lg-3 col-md-offset-3 ">
-        <h4>Из них </h4>
-        <% data.iznih1.forEach(function(item){%>
-        <div class="form-group">
-            <label class="col-lg-4 control-label"><%=item.label%></label>
-            <div class="col-lg-8">
-                <table cellspacing="2"><tr><td>
-                            <input type="text" class="form-control" name='gr<%=item.gr%>'
-                                   data-bv-notempty="true"
-                                   data-bv-notempty-message="Поле не заполнено"
-                                   data-bv-integer="true"
-                                   data-bv-integer-message="Вводяться только числа"/>
-                        </td>
-                        <td>&nbsp</td>
-                        <td>&nbsp&nbsp(Гр.<%=item.gr%>)</td>
-                    </tr></table>
-            </div>
-        </div>
-       <% });%>
-    </div>
-</div>
-<div class="row">
-    <div class="well col-lg-3 col-md-offset-3 ">
-        <h4>Из них </h4>
-        <% data.iznih2.forEach(function(item){%>
-        <div class="form-group">
-            <label class="col-lg-4 control-label"><%=item.label%></label>
-            <div class="col-lg-8">
-                <table cellspacing="2"><tr><td>
-                            <input type="text" class="form-control" name='gr<%=item.gr%>'
-                                   data-bv-notempty="true"
-                                   data-bv-notempty-message="Поле не заполнено"
-                                   data-bv-integer="true"
-                                   data-bv-integer-message="Вводяться только числа"/>
-                        </td>
-                        <td>&nbsp&nbsp(Гр.<%=item.gr%>)</td>
-                    </tr></table>
-            </div>
-        </div>
-        <% });%>
-    </div>
-</div>
-<div class="row">
-    <h4 class="col-lg-5" >Первоначальная причина смерти, указанная в заключении патологоанатома </h4>
-</div>
-<div class="row">
-    <div class="well col-lg-5 col-md-offset-3 ">
-        <% data.zp.forEach(function(item){%>
             <div class="form-group">
-                <label class="col-lg-5 control-label"><%=item.label%></label>
-                <div class="col-lg-7">
-                    <table cellspacing="2"><tr><td>
-                    <input type="text" class="form-control" name='gr<%=item.gr%>'
+                <label class="col-lg-3 control-label">Мониторинг за</label>
+                <div class='input-group date col-lg-3' id='date' data-date-format="DD.MM.YYYY">
+                    <input type='text' class="form-control" name="inputdate"
                            data-bv-notempty="true"
                            data-bv-notempty-message="Поле не заполнено"
-                           data-bv-integer="true"
-                           data-bv-integer-message="Вводяться только числа"/>
-                    <p class="help-block"> <%=item.code%></p>
-                            </td>
-                            <td>&nbsp&nbsp(Гр.<%=item.gr%>)</td>
-                        </tr></table>
+                            />
+            <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+            </span>
                 </div>
             </div>
-        <% });%>
-    </div>
-</div>
-<div class="row">
-    <h4 class="col-lg-5" >Первоначальная причина смерти, указанная в свидетельстве, выданном без вскрытия </h4>
-</div>
-<div class="row">
-    <div class="well col-lg-5 col-md-offset-3 ">
-        <% data.zp.forEach(function(item){%>
-        <div class="form-group">
-            <label class="col-lg-5 control-label"><%=item.label%></label>
-            <div class="col-lg-7">
-                <table cellspacing="2"><tr><td>
-                            <input type="text" class="form-control" name='gr<%=parseInt(item.gr)+12%>'
-                                   data-bv-notempty="true"
-                                   data-bv-notempty-message="Поле не заполнено"
-                                   data-bv-integer="true"
-                                   data-bv-integer-message="Вводяться только числа"/>
-                            <p class="help-block"> <%=item.code%></p>
-                        </td>
-                        <td>&nbsp&nbsp(Гр.<%=parseInt(item.gr)+12%>)</td>
-                    </tr></table>
+
+
+
+
+            <div class="form-group">
+                <label class="col-lg-3 control-label " id="bskdate"></label>(Гр.2)
+                <div class="col-lg-3">
+                    <input  type="text"  class="form-control" name="gr2"
+                            data-bv-notempty="true"
+                            data-bv-notempty-message="Поле не заполнено"
+                            data-bv-integer="true"
+                            data-bv-integer-message="Вводяться только числа"/>
+
+                </div>
             </div>
-        </div>
-        <% });%>
+            <div class="row">
+                <div class="well col-lg-3 col-md-offset-3 ">
+                    <h4>Из них </h4>
+                    <% data.iznih1.forEach(function(item){%>
+                    <div class="form-group">
+                        <label class="col-lg-4 control-label"><%=item.label%></label>
+                        <div class="col-lg-8">
+                            <table cellspacing="2"><tr><td>
+                                        <input type="text" class="form-control" name='gr<%=item.gr%>'
+                                               data-bv-notempty="true"
+                                               data-bv-notempty-message="Поле не заполнено"
+                                               data-bv-integer="true"
+                                               data-bv-integer-message="Вводяться только числа"/>
+                                    </td>
+                                    <td>&nbsp</td>
+                                    <td>&nbsp&nbsp(Гр.<%=item.gr%>)</td>
+                                </tr></table>
+                        </div>
+                    </div>
+                    <% });%>
+                </div>
+            </div>
+            <div class="row">
+                <div class="well col-lg-3 col-md-offset-3 ">
+                    <h4>Из них </h4>
+                    <% data.iznih2.forEach(function(item){%>
+                    <div class="form-group">
+                        <label class="col-lg-4 control-label"><%=item.label%></label>
+                        <div class="col-lg-8">
+                            <table cellspacing="2"><tr><td>
+                                        <input type="text" class="form-control" name='gr<%=item.gr%>'
+                                               data-bv-notempty="true"
+                                               data-bv-notempty-message="Поле не заполнено"
+                                               data-bv-integer="true"
+                                               data-bv-integer-message="Вводяться только числа"/>
+                                    </td>
+                                    <td>&nbsp&nbsp(Гр.<%=item.gr%>)</td>
+                                </tr></table>
+                        </div>
+                    </div>
+                    <% });%>
+                </div>
+            </div>
+            <div class="row">
+                <h4 class="col-lg-5" >Первоначальная причина смерти, указанная в заключении патологоанатома </h4>
+            </div>
+            <div class="row">
+                <div class="well col-lg-5 col-md-offset-3 ">
+                    <% data.zp.forEach(function(item){%>
+                    <div class="form-group">
+                        <label class="col-lg-5 control-label"><%=item.label%></label>
+                        <div class="col-lg-7">
+                            <table cellspacing="2"><tr><td>
+                                        <input type="text" class="form-control" name='gr<%=item.gr%>'
+                                               data-bv-notempty="true"
+                                               data-bv-notempty-message="Поле не заполнено"
+                                               data-bv-integer="true"
+                                               data-bv-integer-message="Вводяться только числа"/>
+                                        <p class="help-block"> <%=item.code%></p>
+                                    </td>
+                                    <td>&nbsp&nbsp(Гр.<%=item.gr%>)</td>
+                                </tr></table>
+                        </div>
+                    </div>
+                    <% });%>
+                </div>
+            </div>
+            <div class="row">
+                <h4 class="col-lg-5" >Первоначальная причина смерти, указанная в свидетельстве, выданном без вскрытия </h4>
+            </div>
+            <div class="row">
+                <div class="well col-lg-5 col-md-offset-3 ">
+                    <% data.zp.forEach(function(item){%>
+                    <div class="form-group">
+                        <label class="col-lg-5 control-label"><%=item.label%></label>
+                        <div class="col-lg-7">
+                            <table cellspacing="2"><tr><td>
+                                        <input type="text" class="form-control" name='gr<%=parseInt(item.gr)+12%>'
+                                               data-bv-notempty="true"
+                                               data-bv-notempty-message="Поле не заполнено"
+                                               data-bv-integer="true"
+                                               data-bv-integer-message="Вводяться только числа"/>
+                                        <p class="help-block"> <%=item.code%></p>
+                                    </td>
+                                    <td>&nbsp&nbsp(Гр.<%=parseInt(item.gr)+12%>)</td>
+                                </tr></table>
+                        </div>
+                    </div>
+                    <% });%>
 
+                </div>
+            </div>
+            <div class="row">
+                <% data.ost.forEach(function(item){%>
+                <div class="form-group">
+                    <label class="col-lg-4 control-label"><%=item.label%></label>
+                    <div class="col-lg-8">
+                        <table cellspacing="2"><tr><td>
+                                    <input type="text" class="form-control" name='gr<%=item.gr%>'
+                                           data-bv-notempty="true"
+                                           data-bv-notempty-message="Поле не заполнено"
+                                           data-bv-integer="true"
+                                           data-bv-integer-message="Вводяться только числа"/>
+                                </td>
+                                <td>&nbsp&nbsp(Гр.<%=item.gr%>)</td>
+                            </tr></table>
+                    </div>
+                </div>
+                <% });%>
+            </div>
+            <div class="form-group">
+                <div class="col-lg-9 col-lg-offset-3">
+                    <button type="submit" class="btn btn-primary" name="submitexit" >Сохранить и выйти</button>
+                    <button type="submit" class="btn btn-primary" name="submitcontinue">Сохранить и продолжить</button>
+                </div>
+            </div>
+
+
+
+
+        </form>
     </div>
-</div>
-<div class="row">
-    <% data.ost.forEach(function(item){%>
-    <div class="form-group">
-        <label class="col-lg-4 control-label"><%=item.label%></label>
-        <div class="col-lg-8">
-            <table cellspacing="2"><tr><td>
-                        <input type="text" class="form-control" name='gr<%=item.gr%>'
-                               data-bv-notempty="true"
-                               data-bv-notempty-message="Поле не заполнено"
-                               data-bv-integer="true"
-                               data-bv-integer-message="Вводяться только числа"/>
-                    </td>
-                    <td>&nbsp&nbsp(Гр.<%=item.gr%>)</td>
-                </tr></table>
-        </div>
-    </div>
-    <% });%>
-</div>
-<div class="form-group">
-    <div class="col-lg-9 col-lg-offset-3">
-        <button type="submit" class="btn btn-primary" name="submitexit" >Сохранить и выйти</button>
-        <button type="submit" class="btn btn-primary" name="submitcontinue">Сохранить и продолжить</button>
-    </div>
-</div>
-
-
-
-
-</form>
-</div>
 </div>
 
 <script>

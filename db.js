@@ -54,79 +54,83 @@ module.exports = function (db) {
                 });
         }
     },
-    this.validateDate = function(collection,data,callback){
-/*        db.everyday.aggregate(
-            {$match: {$and:[{"inputdate":{$gte:ISODate("2014-07-14T20:00:00.000Z")}},{"inputdate":{$lte:ISODate("2014-07-15T20:00:00.000Z")}}]}  },
-            {$unwind:"$rows"},
-            {$match:{"rows.username":"Мостовской"}},
-            {$project:{"inputdate":1}}
-        )*/
-        this._db.collection(collection).aggregate(
-            {$match: {$and:[{"inputdate":{$gte:data.startdate}},{"inputdate":{$lte:data.enddate}}]}  },
-            {$unwind:"$rows"},
-            {$match:{"rows.username":data.username}},
-            {$project:{"inputdate":1}},function(err,result){
-                errproc(err,result,callback);
-            });
-    };
+        this.validateDate = function(collection,data,callback){
+            /*        db.everyday.aggregate(
+             {$match: {$and:[{"inputdate":{$gte:ISODate("2014-07-14T20:00:00.000Z")}},{"inputdate":{$lte:ISODate("2014-07-15T20:00:00.000Z")}}]}  },
+             {$unwind:"$rows"},
+             {$match:{"rows.username":"Мостовской"}},
+             {$project:{"inputdate":1}}
+             )*/
+
+            var beg = convertDatesISO(data.startdate);
+            var end =convertDatesISO(data.enddate);
+            console.log("st: "+convertDatesISO(data.startdate)+" ent: "+convertDatesISO(data.enddate)+" username "+data.username);
+            this._db.collection(collection).aggregate(
+                {$match: {"inputdate": {$gte: beg, $lt: end}}},
+                {$unwind:"$rows"},
+                {$match:{"rows.username":data.username}},
+                {$project:{"inputdate":1}},function(err,result){
+                    errproc(err,result,callback);
+                });
+        };
     this.insup = function (collection, data, callback) {
-            var _this = this;
-            var inputdate = data.inputdate;
-            var row = data.rows;
-            var username = row[0].username;
-            this._db.collection(collection).find({inputdate: inputdate}, {_id: 1}).toArray(function (err, result) {
-                errproc(err, result, callback, function () {
-                        var docid = result;
-                        if (docid.length == 1) {
-                            _this._db.collection(collection).update({ _id: docid[0]._id}, { $pull: {"rows": {"username": username}}}, function (err, result) {
-                                errproc(err, result, callback, function () {
-                                        _this._db.collection(collection).update({ inputdate: inputdate}, { $push: {"rows": row[0]}}, function (err, result) {
-                                            errproc(err, result, callback);
-                                        });
-                                    }
-                                );
-                            });
-                        }
-                        else {
-                            _this.insert(collection, data, callback);
-                        }
+        var _this = this;
+        var inputdate = data.inputdate;
+        var row = data.rows;
+        var username = row[0].username;
+        this._db.collection(collection).find({inputdate: inputdate}, {_id: 1}).toArray(function (err, result) {
+            errproc(err, result, callback, function () {
+                    var docid = result;
+                    if (docid.length == 1) {
+                        _this._db.collection(collection).update({ _id: docid[0]._id}, { $pull: {"rows": {"username": username}}}, function (err, result) {
+                            errproc(err, result, callback, function () {
+                                    _this._db.collection(collection).update({ inputdate: inputdate}, { $push: {"rows": row[0]}}, function (err, result) {
+                                        errproc(err, result, callback);
+                                    });
+                                }
+                            );
+                        });
                     }
-                );
+                    else {
+                        _this.insert(collection, data, callback);
+                    }
+                }
+            );
 
 
-                /* if (err) {
-                 log.error(err);
-                 callback(err, null)
-                 }
-                 else {
-                 var docid = result;
-                 if (docid.length == 1) {
-                 _this._db.collection(collection).update({ _id: docid[0]._id}, { $pull: {"rows": {"username": username}}}, function (err, result) {
-                 if (err) {
-                 log.error(err);
-                 callback(err, null)
-                 }
-                 else {
-                 _this._db.collection(collection).update({ inputdate: inputdate}, { $push: {"rows": row[0]}}, function (err, result) {
-                 if (err) {
-                 log.error(err);
-                 callback(err, null)
-                 }
-                 else {
-                 callback(null, result);
-                 }
-                 });
-                 }
+            /* if (err) {
+             log.error(err);
+             callback(err, null)
+             }
+             else {
+             var docid = result;
+             if (docid.length == 1) {
+             _this._db.collection(collection).update({ _id: docid[0]._id}, { $pull: {"rows": {"username": username}}}, function (err, result) {
+             if (err) {
+             log.error(err);
+             callback(err, null)
+             }
+             else {
+             _this._db.collection(collection).update({ inputdate: inputdate}, { $push: {"rows": row[0]}}, function (err, result) {
+             if (err) {
+             log.error(err);
+             callback(err, null)
+             }
+             else {
+             callback(null, result);
+             }
+             });
+             }
 
-                 });
-                 }
-                 else {
-                 _this.insert(collection, data, callback);
-                 }
-                 }*/
-            });
-        },
-    this.getByInputDate = function (collection, startdate,stopdate, callback) {
+             });
+             }
+             else {
+             _this.insert(collection, data, callback);
+             }
+             }*/
+        });
+    },
+        this.getByInputDate = function (collection, startdate,stopdate, callback) {
             var beg = convertDatesISO(startdate);
             var end = convertDatesISO(stopdate);
             this._db.collection(collection).find({inputdate: {$gte:beg,$lt:end}}).toArray(function (err, result) {
@@ -135,16 +139,16 @@ module.exports = function (db) {
         };
     this.getRaisingSum = function(collection,startdate,stopdate,callback) {
         /*db.everyday.aggregate({$unwind:"$rows"},{$match:{"rows.date":{$gte:ISODate("2014-01-01T00:00:00.000Z"),$lte:ISODate("2014-07-08T23:59:59.000Z")}}}
-        ,{$group:{"_id":"$rows.username",smgr2:{$sum:"$rows.gr2"},
-            smgr3:{$sum:"$rows.gr3"},smgr4:{$sum:"$rows.gr4"},smgr5:{$sum:"$rows.gr5"},smgr6:{$sum:"$rows.gr6"},smgr7:{$sum:"$rows.gr7"},
-            smgr8:{$sum:"$rows.gr8"},smgr9:{$sum:"$rows.gr9"},smgr10:{$sum:"$rows.gr10"},smgr11:{$sum:"$rows.gr11"},smgr12:{$sum:"$rows.gr12"},
-            smgr13:{$sum:"$rows.gr13"},smgr14:{$sum:"$rows.gr14"},smgr15:{$sum:"$rows.gr15"},smgr16:{$sum:"$rows.gr16"},smgr17:{$sum:"$rows.gr17"},
-            smgr18:{$sum:"$rows.gr18"},smgr19:{$sum:"$rows.gr19"},smgr20:{$sum:"$rows.gr20"},smgr21:{$sum:"$rows.gr21"},smgr22:{$sum:"$rows.gr22"},
-            smgr23:{$sum:"$rows.gr23"},smgr24:{$sum:"$rows.gr24"},smgr25:{$sum:"$rows.gr25"},smgr26:{$sum:"$rows.gr26"},smgr27:{$sum:"$rows.gr27"},
-            smgr28:{$sum:"$rows.gr28"},smgr29:{$sum:"$rows.gr29"},smgr30:{$sum:"$rows.gr30"},smgr31:{$sum:"$rows.gr31"},smgr32:{$sum:"$rows.gr32"},
-            smgr33:{$sum:"$rows.gr33"}
-        }})
-        */
+         ,{$group:{"_id":"$rows.username",smgr2:{$sum:"$rows.gr2"},
+         smgr3:{$sum:"$rows.gr3"},smgr4:{$sum:"$rows.gr4"},smgr5:{$sum:"$rows.gr5"},smgr6:{$sum:"$rows.gr6"},smgr7:{$sum:"$rows.gr7"},
+         smgr8:{$sum:"$rows.gr8"},smgr9:{$sum:"$rows.gr9"},smgr10:{$sum:"$rows.gr10"},smgr11:{$sum:"$rows.gr11"},smgr12:{$sum:"$rows.gr12"},
+         smgr13:{$sum:"$rows.gr13"},smgr14:{$sum:"$rows.gr14"},smgr15:{$sum:"$rows.gr15"},smgr16:{$sum:"$rows.gr16"},smgr17:{$sum:"$rows.gr17"},
+         smgr18:{$sum:"$rows.gr18"},smgr19:{$sum:"$rows.gr19"},smgr20:{$sum:"$rows.gr20"},smgr21:{$sum:"$rows.gr21"},smgr22:{$sum:"$rows.gr22"},
+         smgr23:{$sum:"$rows.gr23"},smgr24:{$sum:"$rows.gr24"},smgr25:{$sum:"$rows.gr25"},smgr26:{$sum:"$rows.gr26"},smgr27:{$sum:"$rows.gr27"},
+         smgr28:{$sum:"$rows.gr28"},smgr29:{$sum:"$rows.gr29"},smgr30:{$sum:"$rows.gr30"},smgr31:{$sum:"$rows.gr31"},smgr32:{$sum:"$rows.gr32"},
+         smgr33:{$sum:"$rows.gr33"}
+         }})
+         */
         var beg = convertDatesISO(startdate);
         var end =convertDatesISO(stopdate);
         try {
@@ -175,15 +179,15 @@ module.exports = function (db) {
 
 
     /*this.delete = function (collection, id, callback) {
-        this._db.collection(collection).remove({_id: new mongodb.ObjectID(id)}, callback);
-    },*/
-       /* this.update = function (collection, id, data, callback) {
-            this._db.collection(collection).update({_id: new mongodb.ObjectID(id)}, {"$set": data}, callback);
-        },*/
+     this._db.collection(collection).remove({_id: new mongodb.ObjectID(id)}, callback);
+     },*/
+    /* this.update = function (collection, id, data, callback) {
+     this._db.collection(collection).update({_id: new mongodb.ObjectID(id)}, {"$set": data}, callback);
+     },*/
     this.insert = function (collection, data, callback) {
 
-            this._db.collection(collection).insert(data, callback);
-        }
+        this._db.collection(collection).insert(data, callback);
+    }
     this.getUserById = function (collection, id, callback) {
         this._db.collection(collection).find({_id: new mongodb.ObjectID(id)}).toArray(function (err, result) {
             errproc(err,result,function(){
@@ -196,16 +200,16 @@ module.exports = function (db) {
 
 
             /*if (err) {
-                callback(err, null);
-            } else {
-                if (result.length) {
-                    console.log('user exists');
-                    callback(null, result[0]);
-                } else {
-                    console.log('user not exists');
-                    callback(null);
-                }
-            }*/
+             callback(err, null);
+             } else {
+             if (result.length) {
+             console.log('user exists');
+             callback(null, result[0]);
+             } else {
+             console.log('user not exists');
+             callback(null);
+             }
+             }*/
         });
 
     },
@@ -219,17 +223,17 @@ module.exports = function (db) {
                         callback('user not exists',null);
                     }
                 });
-               /* if (err) {
-                    callback(err, null);
-                } else {
-                    if (result.length) {
-                        console.log('user exists');
-                        callback(null, result[0]);
-                    } else {
-                        console.log('user not exists');
-                        callback(null);
-                    }
-                }*/
+                /* if (err) {
+                 callback(err, null);
+                 } else {
+                 if (result.length) {
+                 console.log('user exists');
+                 callback(null, result[0]);
+                 } else {
+                 console.log('user not exists');
+                 callback(null);
+                 }
+                 }*/
             });
 
 
@@ -237,11 +241,11 @@ module.exports = function (db) {
         this.getUsers = function (collection, callback) {
             this._db.collection(collection).find({}, {"username": 1, _id: 0}).toArray(function (err, result) {
                 errproc(err,result,callback);
-              /*  if (err) {
-                    if (err) throw err;
-                } else {
-                    callback(result);
-                }*/
+                /*  if (err) {
+                 if (err) throw err;
+                 } else {
+                 callback(result);
+                 }*/
             });
 
 

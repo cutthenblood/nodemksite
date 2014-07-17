@@ -38,17 +38,27 @@
     var momodel = new MOmodel();
     var MOView = Backbone.View.extend({
         el: $('#mainbody'),
+        events:{
+            'click button#ErrorModelClose': 'reload'
+        },
+        reload: function() {
+            window.location.reload();
+        },
         initialize: function () {
             var _this=this;
+            _this.dateok=false;
             $('#date').datetimepicker({
                 defaultDate: moment().format(),
+                pickTime: false,
                 language: 'ru'
             });
             $("#bskdate").html("Кол-во умерших от БСК всего за  <b>"+$('#date').data("DateTimePicker").getDate().format("DD.MM.YYYY")+"</b>");
 
             $("#date").on("dp.change",function (e) {
+
                 var dt = $('#date').data("DateTimePicker").getDate().format("DD.MM.YYYY");
-                $("#bskdate").html("Кол-во умерших от БСК всего за  <b>"+$('#date').data("DateTimePicker").getDate().format("DD.MM.YYYY")+"</b>");
+                $("#bskdate").html("Кол-во умерших от БСК всего за  <b>"+dt+"</b>");
+                _this.validateDate(_this.validateDate(moment(dt,"DD.MM.YYYY")));
             });
 
             $('form').bootstrapValidator({
@@ -58,6 +68,83 @@
 
                 }
             });
+        },
+        renderDateError: function(error){
+            this.dateok=false;
+            $('#ErrorModalText').html(error);
+            $('#ErrorModal').modal();
+        },
+        postdate: function(startdate,enddate,callback){
+            var username = $('#moname').text();
+            var jqxhr = $.post( "/deathmonitor/validateDate",{"startdate":startdate,"enddate":enddate,"username":username}, function(res) {
+                console.log(res);
+                callback(res);
+            }).done(function(){})
+                .fail(function(res) {
+                    console.log(res);
+                    callback(res);
+                });
+        },
+        validateDate: function(date){
+            if (date == undefined) return;
+            var _this= this;
+
+            var now = moment();
+            var weekday = now.day();
+            var diff = now.diff(date, 'days');
+            if (diff<1) return _this.renderDateError("<h3>Вводить данные за дату в будущем запрещено</h3>");
+            if (weekday == 1) {
+                if(diff<4){
+                    _this.dateok=true;
+                    return;
+                }
+                else{
+                    this.postdate(date.format("DD.MM.YYYY"),date.add(1,"days").format("DD.MM.YYYY"),function(res)
+                    {
+                        if (res!="ok"){
+
+                            return _this.renderDateError("<h3>Данные за эту дату уже внесены</h3>");
+                        }
+                        else
+                        {
+                            _this.dateok=true;
+                            return;
+                        }
+
+                    });
+                }
+
+
+
+            }
+            else
+            {
+                if(diff==1) {
+                    _this.dateok=true;
+                    return;
+                }
+                else{
+                    this.postdate(date.format("DD.MM.YYYY"),date.add(1,"days").format("DD.MM.YYYY"),function(res)
+                    {
+                        if (res!="ok"){
+
+                            return _this.renderDateError("<h3>Данные за эту дату уже внесены</h3>");
+                        }
+                        else
+                        {
+                            _this.dateok=true;
+                            return;
+                        }
+
+                    });
+                }
+            }
+
+
+
+
+
+
         },
         scrolltotop: function(){
             $("html, body").animate({ scrollTop: 0 }, "slow");
@@ -92,8 +179,8 @@
                         .data('bootstrapValidator')
                         // Mark the field as not validated, so it'll be re-validated when the user change date
                         .updateStatus(item, 'NOT_VALIDATED ', null)
-                    // Validate the field
-                    .validateField(item);
+                        // Validate the field
+                        .validateField(item);
                 });
                 this.scrolltotop();
 
@@ -120,15 +207,15 @@
     });
     var moview = new MOView();
 
-    })(jQuery)
+})(jQuery)
 
-    /*
+/*
 
-    load({'fillform':'../templates/deathmonitor/fillform.ejs'},function(result){
-           var moview = new MOView(result);
+ load({'fillform':'../templates/deathmonitor/fillform.ejs'},function(result){
+ var moview = new MOView(result);
 
-        $(document.body).append(moview.render().el);
+ $(document.body).append(moview.render().el);
 
-                 });
+ });
 
-    */
+ */

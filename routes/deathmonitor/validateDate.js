@@ -1,15 +1,11 @@
-/*
 var express = require('express');
 var router = express.Router();
 var path = require('path');
-var XlsxTemplate = require('xlsx-template');
+var util = require('util');
 var fs = require('fs');
 var moment = require('moment');
 var url = require('url');
 var log = require('./../../log.js')(module);
-*/
-/* GET home page. *//*
-
 function isLoggedIn(req, res, next) {
 
     // if user is authenticated in the session, carry on
@@ -22,67 +18,41 @@ function isLoggedIn(req, res, next) {
 
 var prcalend = [
     {"month":"11",
-    "holydays":[{"month":"10","dates":["31"]},{"month":"11","dates":["1","2","3","4"]}]
+        "holydays":[{"month":"10","dates":["31"]},{"month":"11","dates":["1","2","3","4"]}]
     }
 ];
 
 
-
-
-
-
-
-
 module.exports = function(app) {
     app.post('/deathmonitor/validateDate',isLoggedIn, function (req, res) {
-        var date = moment(req.body.inputdate,"DD.MM.YYYY");//var seldate = moment(query.date,"DD.MM.YYYY").format("DD.MM.YYYY");
-        var user = req.body.user;
+        var startdate =req.body.startdate;//var seldate = moment(query.date,"DD.MM.YYYY").format("DD.MM.YYYY");
+        var enddate = req.body.enddate;
+        var username = req.body.username;
+        console.log(util.inspect(req.body));
 
-        if (date=="Invalid date")
-        {
-            log.info("Ошибка в дате"+seldate);
-            res.status(500).send("Ошибка в дате");
-            return;
-        }
-        else
-        {
-            var dbmethods = app.get('dbmethods');
-            var data = {"username":user};
-            var weekday = date.day();
-            if (weekday == 1) {
-                data.startdate = date.subtract('days', 3).format("DD.MM.YYYY");
-            }
-            else if (weekday > 5) {
-                log.info("выходной");
-                res.status(500).send("выходной");
+        var dbmethods = app.get('dbmethods');
+        var data = {"username":username,"startdate":startdate,"enddate":enddate};
+        dbmethods.validateDate('everyday',data,function(err,result){
+            if (err)
+            {
+                log.info(err);
+                res.status(500).send("Ошибка");
                 return;
+            }
+            console.log(util.inspect(result));
+            if(result.length<1)
+            {
+                console.log("ok");
+                res.status(200).send("ok");
             }
             else
             {
-                data.enddate = date.format("DD.MM.YYYY")
+                console.log("no");
+                res.status(200).send("no");
             }
+        });
 
 
-
-            dbmethods.validateDate('everyday',data,function(err,result){
-                if(result.length<=0)
-                {
-                    res.status(200).send("ok");
-                }
-                else
-                {
-                    res.status(200).send("not ok");
-                }
-
-
-
-
-
-
-            });
-
-        }
     })
 }
 
-*/
