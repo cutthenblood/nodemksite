@@ -119,7 +119,7 @@ var promises = {
 module.exports =  function(callback) {
 
     vow.all(promises).then(function (result) {
-        app.set('port', process.env.PORT || 80);
+        app.set('port',conf.port);
         var dbfy = new dbfactory(result.db);
         app.set('dbmethods', dbfy);
         auth(passport, app);

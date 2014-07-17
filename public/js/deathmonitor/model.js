@@ -39,13 +39,15 @@
     var MOView = Backbone.View.extend({
         el: $('#mainbody'),
         events:{
-            'click button#ErrorModelClose': 'reload'
+            'click button#ErrorModelClose': 'ErrorModelClose'
         },
-        reload: function() {
-            window.location.reload();
+        ErrorModelClose: function() {
+            if (this.noreload==false)
+                window.location.reload();
         },
         initialize: function () {
             var _this=this;
+            this.noreload=false;
             _this.dateok=false;
             $('#date').datetimepicker({
                 defaultDate: moment().format(),
@@ -150,6 +152,13 @@
             $("html, body").animate({ scrollTop: 0 }, "slow");
         },
         saveform: function (submittype) {
+            if (this.dateok == false){
+                this.noreload=true;
+                this.renderDateError("<h3>Неправильная дата</h3>");
+                this.scrolltotop();
+                
+                return;
+            }
             var arr = [];
             momodel.set('inputdate',$('#date').data("DateTimePicker").getDate().format("DD.MM.YYYY"));
             var row={};
