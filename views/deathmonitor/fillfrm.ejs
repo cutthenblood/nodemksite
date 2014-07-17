@@ -15,6 +15,7 @@
     <script src="/bootstrapValidator/dist/js/bootstrapValidator.js"></script>
     <script src="/moment/moment.js"></script>
     <script type="text/javascript" src="/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
+    <script type="text/javascript" src="/eonasdan-bootstrap-datetimepicker/src/js/locales/bootstrap-datetimepicker.ru.js"></script>
     <link rel="stylesheet" href="/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" />
     <!--<script src="/jquery-validation/dist/jquery.validate.js"-->
 
@@ -83,77 +84,57 @@
 
 
 <div class="form-group">
-    <label class="col-lg-3 control-label " id="bskdate"></label>
+    <label class="col-lg-3 control-label " id="bskdate"></label>(Гр.2)
     <div class="col-lg-3">
         <input  type="text"  class="form-control" name="gr2"
                 data-bv-notempty="true"
                 data-bv-notempty-message="Поле не заполнено"
                 data-bv-integer="true"
                 data-bv-integer-message="Вводяться только числа"/>
-    </div>
-</div>
-<div class="row">
-    <div class="well col-lg-3 col-md-offset-3 ">
-        <h4>Из них </h4>
-
-        <div class="form-group">
-            <label class="col-lg-4 control-label">в стационаре</label>
-            <div class="col-lg-8">
-                <input type="text" class="form-control" name="gr3"
-                       data-bv-notempty="true"
-                       data-bv-notempty-message="Поле не заполнено"
-                       data-bv-integer="true"
-                       data-bv-integer-message="Вводяться только числа"/>
-            </div>
-        </div>
-        <div class="form-group">
-            <label class="col-lg-4 control-label">на дому</label>
-            <div class="col-lg-8">
-                <input type="text" class="form-control" name="gr4"
-                       data-bv-notempty="true"
-                       data-bv-notempty-message="Поле не заполнено"
-                       data-bv-integer="true"
-                       data-bv-integer-message="Вводяться только числа"/>
-            </div>
-        </div>
-        <div class="form-group">
-            <label class="col-lg-4 control-label">в др. местах</label>
-            <div class="col-lg-8">
-                <input type="text" class="form-control" name="gr5"
-                       data-bv-notempty="true"
-                       data-bv-notempty-message="Поле не заполнено"
-                       data-bv-integer="true"
-                       data-bv-integer-message="Вводяться только числа"/>
-            </div>
-        </div>
-
-
 
     </div>
 </div>
 <div class="row">
     <div class="well col-lg-3 col-md-offset-3 ">
         <h4>Из них </h4>
+        <% data.iznih1.forEach(function(item){%>
         <div class="form-group">
-            <label class="col-lg-4 control-label">вскрыто ПАО</label>
+            <label class="col-lg-4 control-label"><%=item.label%></label>
             <div class="col-lg-8">
-                <input type="text" class="form-control" name="gr6"
-                       data-bv-notempty="true"
-                       data-bv-notempty-message="Поле не заполнено"
-                       data-bv-integer="true"
-                       data-bv-integer-message="Вводяться только числа"/>
+                <table cellspacing="2"><tr><td>
+                            <input type="text" class="form-control" name='gr<%=item.gr%>'
+                                   data-bv-notempty="true"
+                                   data-bv-notempty-message="Поле не заполнено"
+                                   data-bv-integer="true"
+                                   data-bv-integer-message="Вводяться только числа"/>
+                        </td>
+                        <td>&nbsp</td>
+                        <td>&nbsp&nbsp(Гр.<%=item.gr%>)</td>
+                    </tr></table>
             </div>
         </div>
+       <% });%>
+    </div>
+</div>
+<div class="row">
+    <div class="well col-lg-3 col-md-offset-3 ">
+        <h4>Из них </h4>
+        <% data.iznih2.forEach(function(item){%>
         <div class="form-group">
-            <label class="col-lg-4 control-label">без вскрытия</label>
+            <label class="col-lg-4 control-label"><%=item.label%></label>
             <div class="col-lg-8">
-                <input type="text" class="form-control" name="gr7"
-                       data-bv-notempty="true"
-                       data-bv-notempty-message="Поле не заполнено"
-                       data-bv-integer="true"
-                       data-bv-integer-message="Вводяться только числа"/>
+                <table cellspacing="2"><tr><td>
+                            <input type="text" class="form-control" name='gr<%=item.gr%>'
+                                   data-bv-notempty="true"
+                                   data-bv-notempty-message="Поле не заполнено"
+                                   data-bv-integer="true"
+                                   data-bv-integer-message="Вводяться только числа"/>
+                        </td>
+                        <td>&nbsp&nbsp(Гр.<%=item.gr%>)</td>
+                    </tr></table>
             </div>
         </div>
+        <% });%>
     </div>
 </div>
 <div class="row">
@@ -161,138 +142,23 @@
 </div>
 <div class="row">
     <div class="well col-lg-5 col-md-offset-3 ">
-        <div class="form-group">
-            <label class="col-lg-5 control-label">Хр.ревматические болезни сердца</label>
-            <div class="col-lg-7">
-                <input type="text" class="form-control" name="gr8"
-                       data-bv-notempty="true"
-                       data-bv-notempty-message="Поле не заполнено"
-                       data-bv-integer="true"
-                       data-bv-integer-message="Вводяться только числа"/>
-                <p class="help-block"> I 05_I 09</p>
+        <% data.zp.forEach(function(item){%>
+            <div class="form-group">
+                <label class="col-lg-5 control-label"><%=item.label%></label>
+                <div class="col-lg-7">
+                    <table cellspacing="2"><tr><td>
+                    <input type="text" class="form-control" name='gr<%=item.gr%>'
+                           data-bv-notempty="true"
+                           data-bv-notempty-message="Поле не заполнено"
+                           data-bv-integer="true"
+                           data-bv-integer-message="Вводяться только числа"/>
+                    <p class="help-block"> <%=item.code%></p>
+                            </td>
+                            <td>&nbsp&nbsp(Гр.<%=item.gr%>)</td>
+                        </tr></table>
+                </div>
             </div>
-        </div>
-        <div class="form-group">
-            <label class="col-lg-5 control-label"> Артериальные гипертензии</label>
-            <div class="col-lg-7">
-                <input type="text" class="form-control" name="gr9"
-                       data-bv-notempty="true"
-                       data-bv-notempty-message="Поле не заполнено"
-                       data-bv-integer="true"
-                       data-bv-integer-message="Вводяться только числа"/>
-                <p class="help-block"> I 10_I 15</p>
-            </div>
-        </div>
-        <div class="form-group">
-            <label class="col-lg-5 control-label">ИБС</label>
-            <div class="col-lg-7">
-                <input type="text" class="form-control" name="gr10"
-                       data-bv-notempty="true"
-                       data-bv-notempty-message="Поле не заполнено"
-                       data-bv-integer="true"
-                       data-bv-integer-message="Вводяться только числа"/>
-                <p class="help-block"> I 20_I 25</p>
-            </div>
-        </div>
-        <div class="form-group">
-            <label class="col-lg-5 control-label">Стенокардии</label>
-            <div class="col-lg-7">
-                <input type="text" class="form-control" name="gr11"
-                       data-bv-notempty="true"
-                       data-bv-notempty-message="Поле не заполнено"
-                       data-bv-integer="true"
-                       data-bv-integer-message="Вводяться только числа"/>
-                <p class="help-block"> I 20.0- 20.9</p>
-            </div>
-        </div>
-        <div class="form-group">
-            <label class="col-lg-5 control-label">Инфаркт миокарда</label>
-            <div class="col-lg-7">
-                <input type="text" class="form-control" name="gr12"
-                       data-bv-notempty="true"
-                       data-bv-notempty-message="Поле не заполнено"
-                       data-bv-integer="true"
-                       data-bv-integer-message="Вводяться только числа"/>
-                <p class="help-block"> I 21_I 22</p>
-            </div>
-        </div>
-        <div class="form-group">
-            <label class="col-lg-5 control-label">Атеросклеротическая болезнь сердца</label>
-            <div class="col-lg-7">
-                <input type="text" class="form-control" name="gr13"
-                       data-bv-notempty="true"
-                       data-bv-notempty-message="Поле не заполнено"
-                       data-bv-integer="true"
-                       data-bv-integer-message="Вводяться только числа"/>
-                <p class="help-block"> I 25.1, I 25.3</p>
-            </div>
-        </div>
-        <div class="form-group">
-            <label class="col-lg-5 control-label">Тромбоэмболия</label>
-            <div class="col-lg-7">
-                <input type="text" class="form-control" name="gr14"
-                       data-bv-notempty="true"
-                       data-bv-notempty-message="Поле не заполнено"
-                       data-bv-integer="true"
-                       data-bv-integer-message="Вводяться только числа"/>
-                <p class="help-block">I 26 </p>
-            </div>
-        </div>
-        <div class="form-group">
-            <label class="col-lg-5 control-label">Другие болезни сердца</label>
-            <div class="col-lg-7">
-                <input type="text" class="form-control" name="gr15"
-                       data-bv-notempty="true"
-                       data-bv-notempty-message="Поле не заполнено"
-                       data-bv-integer="true"
-                       data-bv-integer-message="Вводяться только числа"/>
-                <p class="help-block">I 30_I 49 </p>
-            </div>
-        </div>
-        <div class="form-group">
-            <label class="col-lg-5 control-label">Сердечная недостаточность</label>
-            <div class="col-lg-7">
-                <input type="text" class="form-control" name="gr16"
-                       data-bv-notempty="true"
-                       data-bv-notempty-message="Поле не заполнено"
-                       data-bv-integer="true"
-                       data-bv-integer-message="Вводяться только числа"/>
-                <p class="help-block">I 50-I 59</p>
-            </div>
-        </div>
-        <div class="form-group">
-            <label class="col-lg-5 control-label">ЦВБ</label>
-            <div class="col-lg-7">
-                <input type="text" class="form-control" name="gr17"
-                       data-bv-notempty="true"
-                       data-bv-notempty-message="Поле не заполнено"
-                       data-bv-integer="true"
-                       data-bv-integer-message="Вводяться только числа"/>
-                <p class="help-block">I 60_I 69 </p>
-            </div>
-        </div>
-        <div class="form-group">
-            <label class="col-lg-5 control-label">Инсульты</label>
-            <div class="col-lg-7">
-                <input type="text" class="form-control" name="gr18"
-                       data-bv-notempty="true"
-                       data-bv-notempty-message="Поле не заполнено"
-                       data-bv-integer="true"
-                       data-bv-integer-message="Вводяться только числа"/>
-                <p class="help-block">I 60-I 64 </p>
-            </div>
-        </div>
-        <div class="form-group">
-            <label class="col-lg-5 control-label">Прочие</label>
-            <div class="col-lg-7">
-                <input type="text" class="form-control" name="gr19"
-                       data-bv-notempty="true"
-                       data-bv-notempty-message="Поле не заполнено"
-                       data-bv-integer="true"
-                       data-bv-integer-message="Вводяться только числа"/>
-                <p class="help-block">I 70- I99 </p>
-            </div>
-        </div>
+        <% });%>
     </div>
 </div>
 <div class="row">
@@ -300,166 +166,43 @@
 </div>
 <div class="row">
     <div class="well col-lg-5 col-md-offset-3 ">
+        <% data.zp.forEach(function(item){%>
         <div class="form-group">
-            <label class="col-lg-5 control-label">Хр.ревматические болезни сердца</label>
+            <label class="col-lg-5 control-label"><%=item.label%></label>
             <div class="col-lg-7">
-                <input type="text" class="form-control" name="gr20"
-                       data-bv-notempty="true"
-                       data-bv-notempty-message="Поле не заполнено"
-                       data-bv-integer="true"
-                       data-bv-integer-message="Вводяться только числа"/>
-                <p class="help-block"> I 05_I 09</p>
+                <table cellspacing="2"><tr><td>
+                            <input type="text" class="form-control" name='gr<%=parseInt(item.gr)+12%>'
+                                   data-bv-notempty="true"
+                                   data-bv-notempty-message="Поле не заполнено"
+                                   data-bv-integer="true"
+                                   data-bv-integer-message="Вводяться только числа"/>
+                            <p class="help-block"> <%=item.code%></p>
+                        </td>
+                        <td>&nbsp&nbsp(Гр.<%=parseInt(item.gr)+12%>)</td>
+                    </tr></table>
             </div>
         </div>
-        <div class="form-group">
-            <label class="col-lg-5 control-label"> Артериальные гипертензии</label>
-            <div class="col-lg-7">
-                <input type="text" class="form-control" name="gr21"
-                       data-bv-notempty="true"
-                       data-bv-notempty-message="Поле не заполнено"
-                       data-bv-integer="true"
-                       data-bv-integer-message="Вводяться только числа"/>
-                <p class="help-block"> I 10_I 15</p>
-            </div>
-        </div>
-        <div class="form-group">
-            <label class="col-lg-5 control-label">ИБС</label>
-            <div class="col-lg-7">
-                <input type="text" class="form-control" name="gr22"
-                       data-bv-notempty="true"
-                       data-bv-notempty-message="Поле не заполнено"
-                       data-bv-integer="true"
-                       data-bv-integer-message="Вводяться только числа"/>
-                <p class="help-block"> I 20_I 25</p>
-            </div>
-        </div>
-        <div class="form-group">
-            <label class="col-lg-5 control-label">Стенокардии</label>
-            <div class="col-lg-7">
-                <input type="text" class="form-control" name="gr23"
-                       data-bv-notempty="true"
-                       data-bv-notempty-message="Поле не заполнено"
-                       data-bv-integer="true"
-                       data-bv-integer-message="Вводяться только числа"/>
-                <p class="help-block"> I 20.0- 20.9</p>
-            </div>
-        </div>
-        <div class="form-group">
-            <label class="col-lg-5 control-label">Инфаркт миокарда</label>
-            <div class="col-lg-7">
-                <input type="text" class="form-control" name="gr24"
-                       data-bv-notempty="true"
-                       data-bv-notempty-message="Поле не заполнено"
-                       data-bv-integer="true"
-                       data-bv-integer-message="Вводяться только числа"/>
-                <p class="help-block"> I 21_I 22</p>
-            </div>
-        </div>
-        <div class="form-group">
-            <label class="col-lg-5 control-label">Атеросклеротическая болезнь сердца</label>
-            <div class="col-lg-7">
-                <input type="text" class="form-control" name="gr25"
-                       data-bv-notempty="true"
-                       data-bv-notempty-message="Поле не заполнено"
-                       data-bv-integer="true"
-                       data-bv-integer-message="Вводяться только числа"/>
-                <p class="help-block"> I 25.1, I 25.3</p>
-            </div>
-        </div>
-        <div class="form-group">
-            <label class="col-lg-5 control-label">Тромбоэмболия</label>
-            <div class="col-lg-7">
-                <input type="text" class="form-control" name="gr26"
-                       data-bv-notempty="true"
-                       data-bv-notempty-message="Поле не заполнено"
-                       data-bv-integer="true"
-                       data-bv-integer-message="Вводяться только числа"/>
-                <p class="help-block">I 26 </p>
-            </div>
-        </div>
-        <div class="form-group">
-            <label class="col-lg-5 control-label">Другие болезни сердца</label>
-            <div class="col-lg-7">
-                <input type="text" class="form-control" name="gr27"
-                       data-bv-notempty="true"
-                       data-bv-notempty-message="Поле не заполнено"
-                       data-bv-integer="true"
-                       data-bv-integer-message="Вводяться только числа"/>
-                <p class="help-block">I 30_I 49 </p>
-            </div>
-        </div>
-        <div class="form-group">
-            <label class="col-lg-5 control-label">Сердечная недостаточность</label>
-            <div class="col-lg-7">
-                <input type="text" class="form-control" name="gr28"
-                       data-bv-notempty="true"
-                       data-bv-notempty-message="Поле не заполнено"
-                       data-bv-integer="true"
-                       data-bv-integer-message="Вводяться только числа"/>
-                <p class="help-block">I 50-I 59</p>
-            </div>
-        </div>
-        <div class="form-group">
-            <label class="col-lg-5 control-label">ЦВБ</label>
-            <div class="col-lg-7">
-                <input type="text" class="form-control" name="gr29"
-                       data-bv-notempty="true"
-                       data-bv-notempty-message="Поле не заполнено"
-                       data-bv-integer="true"
-                       data-bv-integer-message="Вводяться только числа"/>
-                <p class="help-block">I 60_I 69 </p>
-            </div>
-        </div>
-        <div class="form-group">
-            <label class="col-lg-5 control-label">Инсульты</label>
-            <div class="col-lg-7">
-                <input type="text" class="form-control" name="gr30"
-                       data-bv-notempty="true"
-                       data-bv-notempty-message="Поле не заполнено"
-                       data-bv-integer="true"
-                       data-bv-integer-message="Вводяться только числа"/>
-                <p class="help-block">I 60-I 64 </p>
-            </div>
-        </div>
-        <div class="form-group">
-            <label class="col-lg-5 control-label">Прочие</label>
-            <div class="col-lg-7">
-                <input type="text" class="form-control" name="gr31"
-                       data-bv-notempty="true"
-                       data-bv-notempty-message="Поле не заполнено"
-                       data-bv-integer="true"
-                       data-bv-integer-message="Вводяться только числа"/>
-                <p class="help-block">I 70- I99 </p>
-            </div>
-        </div>
+        <% });%>
+
     </div>
 </div>
 <div class="row">
+    <% data.ost.forEach(function(item){%>
     <div class="form-group">
-        <label class="col-lg-3 control-label">старость</label>
-        <div class="col-lg-3">
-            <input  type="text"  class="form-control" name="gr32"
-                    data-bv-notempty="true"
-                    data-bv-notempty-message="Поле не заполнено"
-                    data-bv-integer="true"
-                    data-bv-integer-message="Вводяться только числа"/>
-            <p class="help-block">R 54 </p>
-
+        <label class="col-lg-4 control-label"><%=item.label%></label>
+        <div class="col-lg-8">
+            <table cellspacing="2"><tr><td>
+                        <input type="text" class="form-control" name='gr<%=item.gr%>'
+                               data-bv-notempty="true"
+                               data-bv-notempty-message="Поле не заполнено"
+                               data-bv-integer="true"
+                               data-bv-integer-message="Вводяться только числа"/>
+                    </td>
+                    <td>&nbsp&nbsp(Гр.<%=item.gr%>)</td>
+                </tr></table>
         </div>
     </div>
-
-    <div class="form-group">
-        <label class="col-lg-3 control-label">Введено в Парус свидетельств, умерших от БСК</label>
-        <div class="col-lg-3">
-            <input  type="text"  class="form-control" name="gr33"
-                    data-bv-notempty="true"
-                    data-bv-notempty-message="Поле не заполнено"
-                    data-bv-integer="true"
-                    data-bv-integer-message="Вводяться только числа"/>
-
-
-        </div>
-    </div>
+    <% });%>
 </div>
 <div class="form-group">
     <div class="col-lg-9 col-lg-offset-3">

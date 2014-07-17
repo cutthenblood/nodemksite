@@ -67,3 +67,7 @@
 {"level":"error","message":"[C:\\devel\\nodemksite_master\\nodemksite\\routes\\deathmonitor\\getReport.js] TypeError: Cannot call method 'substitute' of undefined","timestamp":"2014-07-09T08:06:02.510Z"}
 {"level":"error","message":"[C:\\devel\\nodemksite_master\\nodemksite\\bin\\www.js] domain: TypeError: Cannot call method 'generate' of undefined","timestamp":"2014-07-09T08:06:02.510Z"}
 {"level":"error","message":"[C:\\devel\\nodemksite_master\\nodemksite\\routes\\deathmonitor\\getReport.js] TypeError: Cannot call method 'asText' of null","timestamp":"2014-07-09T08:06:22.846Z"}
+{"level":"error","message":"[/var/www/nodemksite/app.js] iznih1 is not defined","timestamp":"2014-07-10T08:17:33.265Z"}
+{"level":"error","message":"[/var/www/nodemksite/app.js] Unexpected token )","timestamp":"2014-07-10T08:18:20.651Z"}
+{"level":"error","message":"[/var/www/nodemksite/app.js] Unexpected token )","timestamp":"2014-07-10T08:18:25.702Z"}
+{"level":"error","message":"[/var/www/nodemksite/app.js] data is not defined","timestamp":"2014-07-10T08:33:53.111Z"}

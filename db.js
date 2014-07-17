@@ -54,7 +54,21 @@ module.exports = function (db) {
                 });
         }
     },
-
+    this.validateDate = function(collection,data,callback){
+/*        db.everyday.aggregate(
+            {$match: {$and:[{"inputdate":{$gte:ISODate("2014-07-14T20:00:00.000Z")}},{"inputdate":{$lte:ISODate("2014-07-15T20:00:00.000Z")}}]}  },
+            {$unwind:"$rows"},
+            {$match:{"rows.username":"Мостовской"}},
+            {$project:{"inputdate":1}}
+        )*/
+        this._db.collection(collection).aggregate(
+            {$match: {$and:[{"inputdate":{$gte:data.startdate}},{"inputdate":{$lte:data.enddate}}]}  },
+            {$unwind:"$rows"},
+            {$match:{"rows.username":data.username}},
+            {$project:{"inputdate":1}},function(err,result){
+                errproc(err,result,callback);
+            });
+    };
     this.insup = function (collection, data, callback) {
             var _this = this;
             var inputdate = data.inputdate;

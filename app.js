@@ -18,7 +18,7 @@ var session = require('express-session');
 var RedisStore = require('connect-redis')(session);
 var conf = require('./config.js');
 
-//var toobusy = require('toobusy');
+var toobusy = require('toobusy');
 
 //var routes = require('./routes/phonelist/phonelist');
 //var phonelist = require('./routes/phonelist/getUserPhoneList');
@@ -123,13 +123,13 @@ module.exports =  function(callback) {
         var dbfy = new dbfactory(result.db);
         app.set('dbmethods', dbfy);
         auth(passport, app);
-        /*app.use(function(req, res, next) {
+        app.use(function(req, res, next) {
             if (toobusy()) {
                 res.send(503, "Перегрузка!!");
             } else {
                 next();
             }
-        });*/
+        });
         app.use(function (req, res) {
             res.status(404).end('error');
         });

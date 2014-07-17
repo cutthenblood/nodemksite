@@ -66,12 +66,16 @@ module.exports = function(app) {
                         return;
                     }
                     var resset = [];
+                    var header_date="";
                     if(!result[0].rows){
                         resset=result;
+
+                        header_date="c 01.01.2014 по "+seldate;
                     }
                     else
                     {
                         resset = result[0].rows;
+                        header_date="за "+seldate;
                     }
                     resset.forEach(function (item) {
                         var date = seldate;
@@ -84,9 +88,17 @@ module.exports = function(app) {
                     });
 
                     var sumres = [sumrow];
+                    function sortrows(a,b){
+                        if(a.username<b.username)
+                              return -1
+                        if(a.username>b.username)
+                            return 1
+                        return 0
+                    }
+
                     var values = {
-                        date: "за "+seldate,
-                        grs: rows,
+                        date:header_date,
+                        grs: rows.sort(sortrows),
                         sgrs: sumres
                     };
                     try {
