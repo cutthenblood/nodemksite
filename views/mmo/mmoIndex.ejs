@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Отдел мониторинга технического состояния материально-технической базы учреждений здравоохранения Краснодарского края</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+      <link rel='stylesheet' href='/bootstrap/dist/css/bootstrap.css' />
+      <script src="/jquery/dist/jquery.js"></script>
+      <script src="/bootstrap/dist/js/bootstrap.js"></script>
+      <script src="/underscore/underscore.js"></script>
+      <script src="/backbone/backbone.js"></script>
+      <script src="/vow/vow.min.js"></script>
+      <script src="/moment/moment.js"></script>
+      <script type="text/javascript" src="/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
+      <script type="text/javascript" src="/eonasdan-bootstrap-datetimepicker/src/js/locales/bootstrap-datetimepicker.ru.js"></script>
+      <link rel="stylesheet" href="/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" />
+      <script src="/bootstrapValidator/dist/js/bootstrapValidator.js"></script>
+      <link rel='stylesheet' href='/bootstrapValidator/dist/css/bootstrapValidator.css'/>
+  </head>
+  <body onload="startTime()">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              
+              <a class="navbar-brand " href="#">Отдел мониторинга технического состояния материально-технической базы учреждений здравоохранения Краснодарского края</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                    <li class="active"><a href="#"><h5><div id="motitle"></div></h5></a></li>
+                   
+                   
+                  </ul>
+            
+              <ul class="nav navbar-nav navbar-right">
+                <li><a class="navbar-brand" href="#"><div id="clock"></div></a></li>
+               
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+      
+
+      
+   
+      <div class="container" id="mainbody">
+          <div class="modal fade" id="ErrorModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                          <h4 class="modal-title" id="myModalLabel">Ошибка</h4>
+                      </div>
+                      <div class="modal-body">
+
+                          <div class="alert alert-danger" role="alert" id="ErrorModalText"> </div>
+
+                      </div>
+                      <div class="modal-footer">
+                          <button type="button" class="btn btn-primary" data-dismiss="modal" id="ErrorModelClose">Close</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <button type="button" class="btn btn-default" id="ofosvkr">Отчет о финансировании и освоении средств выделенных ГБУЗ на капитальный ремонт</button>
+          <div class="container" id="report"></div>
+
+
+      </div>
+     <script src="/js/loader.js"></script>
+      <script src="/js/mmo/mmoModel.js"></script>
+        <script src="/schemas/mmo/ofosvkrScm.js"></script>
+      <script>
+          function startTime() {
+               $("#clock").html(moment().format('DD.MM.YYYY, HH:mm:ss'));
+                var t = setTimeout(function(){startTime()},500);
+            }
+           
+          </script>
+  </body>
+</html>

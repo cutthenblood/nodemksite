@@ -5,8 +5,8 @@ var conf = {
     viewsPath: staticPath + '/views',//путь до вьюх
     routesPath: __dirname + '/routes',//путь дл роутов
     viewCache: false,
-    port: 80,
-    mongoConnect: 'mongodb://10.46.1.210:27017/deathmonitor',
+    port: 3000,
+    mongoConnect: 'mongodb://10.46.1.210:27017/mksite',
     session: {
         secret: "Fj549t=_s-4g-dfh34uyHdfy54&3450hfgjslfsgfgnpsggpoag0JFj54834thK)=",
         redis: {

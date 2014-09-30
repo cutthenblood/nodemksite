@@ -39,7 +39,7 @@ module.exports = function (db) {
         var weekday = date.day();
         if (weekday == 1) {
             this._db.collection(collection)
-                .find({inputdate: {$lte: date.format("DD.MM.YYYY"), $gte: date.subtract('days', 3).format("DD.MM.YYYY")}}, {"rows.username": 1})
+                .find({inputdate: {$lte: convertDatesISO(date), $gte: convertDatesISO(date.subtract('days', 3))}}, {"rows.username": 1})
                 .toArray(function (err, result) {
                     errproc(err,result,callback);
                 });
@@ -48,13 +48,13 @@ module.exports = function (db) {
             callback(null, []);
         }
         else {
-            this._db.collection(collection).find({inputdate: date.format("DD.MM.YYYY")}, {"rows.username": 1})
+            this._db.collection(collection).find({inputdate: convertDatesISO(date)}, {"rows.username": 1})
                 .toArray(function (err, result) {
                     errproc(err,result,callback);
                 });
         }
     },
-        this.validateDate = function(collection,data,callback){
+    this.validateDate = function(collection,data,callback){
             /*        db.everyday.aggregate(
              {$match: {$and:[{"inputdate":{$gte:ISODate("2014-07-14T20:00:00.000Z")}},{"inputdate":{$lte:ISODate("2014-07-15T20:00:00.000Z")}}]}  },
              {$unwind:"$rows"},
@@ -73,6 +73,25 @@ module.exports = function (db) {
                     errproc(err,result,callback);
                 });
         };
+    this.validateDate1 = function(collection,data,callback){
+        /*        db.everyday.aggregate(
+         {$match: {$and:[{"inputdate":{$gte:ISODate("2014-07-14T20:00:00.000Z")}},{"inputdate":{$lte:ISODate("2014-07-15T20:00:00.000Z")}}]}  },
+         {$unwind:"$rows"},
+         {$match:{"rows.username":"Мостовской"}},
+         {$project:{"inputdate":1}}
+         )*/
+
+        var beg = data.startdate;
+        var end = data.enddate;
+        console.log("st: "+beg+" end: "+end+" username "+data.username);
+        this._db.collection(collection).aggregate(
+            {$match: {"inputdate": {$gte: beg, $lt: end}}},
+            {$unwind:"$rows"},
+            {$match:{"rows.username":data.username}},
+            {$project:{"inputdate":1}},function(err,result){
+                errproc(err,result,callback);
+            });
+    };
     this.insup = function (collection, data, callback) {
         var _this = this;
         var inputdate = data.inputdate;
@@ -130,7 +149,7 @@ module.exports = function (db) {
              }*/
         });
     },
-        this.getByInputDate = function (collection, startdate,stopdate, callback) {
+    this.getByInputDate = function (collection, startdate,stopdate, callback) {
             var beg = convertDatesISO(startdate);
             var end = convertDatesISO(stopdate);
             this._db.collection(collection).find({inputdate: {$gte:beg,$lt:end}}).toArray(function (err, result) {
@@ -173,7 +192,24 @@ module.exports = function (db) {
 
 
 
-    }
+    };
+    this.getOrgmMpr = function(collection,startdate,stopdate,callback) {
+        this._db.collection(collection).aggregate(
+            {$unwind:"$rows"},
+            {$match:{"inputdate":{$gte:parseInt(startdate),$lte:parseInt(stopdate)}}},
+            {$group:{
+                "_id":{"user":"$rows.username","mo":"$rows.mo","group":"$rows.group"},
+                "gr5":{$sum:"$rows.gr5"},"gr6":{$sum:"$rows.gr6"},"gr7":{$sum:"$rows.gr7"},"gr8":{$sum:"$rows.gr8"},"gr9":{$sum:"$rows.gr9"},
+                "gr10":{$sum:"$rows.gr10"},"gr14":{$sum:"$rows.gr14"},"gr18":{$sum:"$rows.gr18"},"gr22":{$sum:"$rows.gr22"},"gr26":{$sum:"$rows.gr26"},
+                "gr11":{$sum:"$rows.gr11"},"gr15":{$sum:"$rows.gr15"},"gr19":{$sum:"$rows.gr19"},"gr23":{$sum:"$rows.gr23"},"gr27":{$sum:"$rows.gr27"},
+                "gr12":{$sum:"$rows.gr12"},"gr16":{$sum:"$rows.gr16"},"gr20":{$sum:"$rows.gr20"},"gr24":{$sum:"$rows.gr24"},"gr28":{$sum:"$rows.gr28"},
+                "gr13":{$sum:"$rows.gr13"},"gr17":{$sum:"$rows.gr17"},"gr21":{$sum:"$rows.gr21"},"gr25":{$sum:"$rows.gr25"},"gr29":{$sum:"$rows.gr29"},
+                "gr30":{$sum:"$rows.gr30"},"gr31":{$sum:"$rows.gr31"},"gr32":{$sum:"$rows.gr32"},"gr33":{$sum:"$rows.gr33"},"gr34":{$sum:"$rows.gr34"}
+            }}
+            ,function (err, result) {
+            errproc(err,result,callback);
+        });
+    };
 
 
 
@@ -213,7 +249,7 @@ module.exports = function (db) {
         });
 
     },
-        this.getUser = function (collection, credentials, callback) {
+    this.getUser = function (collection, credentials, callback) {
             console.log(credentials);
             this._db.collection(collection).find(credentials).toArray(function (err, result) {
                 errproc(err,result,function(){
@@ -238,8 +274,8 @@ module.exports = function (db) {
 
 
         },
-        this.getUsers = function (collection, callback) {
-            this._db.collection(collection).find({}, {"username": 1, _id: 0}).toArray(function (err, result) {
+    this.getUsers = function (collection, callback) {
+            this._db.collection(collection).find({},{'username':1,'mo':1}).toArray(function (err, result) {
                 errproc(err,result,callback);
                 /*  if (err) {
                  if (err) throw err;

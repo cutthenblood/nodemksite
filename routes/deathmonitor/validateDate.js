@@ -32,7 +32,7 @@ module.exports = function(app) {
 
         var dbmethods = app.get('dbmethods');
         var data = {"username":username,"startdate":startdate,"enddate":enddate};
-        dbmethods.validateDate('everyday',data,function(err,result){
+        dbmethods.validateDate('mpr',data,function(err,result){
             if (err)
             {
                 log.info(err);

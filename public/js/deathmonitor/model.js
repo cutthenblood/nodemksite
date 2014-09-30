@@ -50,7 +50,7 @@
             this.noreload=false;
             _this.dateok=false;
             $('#date').datetimepicker({
-                defaultDate: moment().format(),
+                defaultDate: moment().format("DD.MM.YYYY"),
                 pickTime: false,
                 language: 'ru'
             });
@@ -203,6 +203,8 @@
                 }
                 else
                 {
+                    momodel.save();
+                    alert('Ваши данные успешно сохранены!');
                     var form =  $('form');
                     form[0].reset();
                     form.data('bootstrapValidator').resetForm();

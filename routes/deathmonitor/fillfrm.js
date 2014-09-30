@@ -135,6 +135,6 @@ module.exports = function (app) {
             
         }
 
-        res.render('deathmonitor/fillfrm', {"name": query.username,"data":data });
+        res.render('deathmonitor/fillfrm', {"name": req.user.username,"data":data });
     });
 }

@@ -285,3 +285,713 @@
 {"level":"info","message":"[/var/www/nodemksite/bin/www.js] Express server listening on port 80","timestamp":"2014-07-10T08:34:59.912Z"}
 {"level":"info","message":"[/var/www/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-07-10T08:37:38.420Z"}
 {"level":"info","message":"[/var/www/nodemksite/bin/www.js] Express server listening on port 80","timestamp":"2014-07-10T08:37:38.422Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www] domain: Error: listen EACCES","timestamp":"2014-09-18T05:46:06.066Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: Error: listen EACCES","timestamp":"2014-09-18T05:46:37.047Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-18T05:47:15.829Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-09-18T05:47:15.830Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-18T05:48:11.845Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-09-18T05:48:11.846Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-18T10:31:05.302Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-09-18T10:31:05.303Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-18T10:33:58.074Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-09-18T10:33:58.075Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-18T10:34:29.099Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-09-18T10:34:29.101Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-18T10:34:46.909Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-09-18T10:34:46.910Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-18T10:36:14.044Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-09-18T10:36:14.045Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-18T10:37:44.123Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-09-18T10:37:44.125Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-18T10:38:49.634Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-09-18T10:38:49.635Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-18T10:40:06.035Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-09-18T10:40:06.037Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-18T10:40:42.279Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-09-18T10:40:42.280Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: Error: listen EADDRINUSE","timestamp":"2014-09-18T11:30:11.391Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: Error: listen EADDRINUSE","timestamp":"2014-09-18T11:30:16.169Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: Error: listen EADDRINUSE","timestamp":"2014-09-18T11:30:38.694Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-18T11:30:47.107Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-18T11:30:47.108Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-18T11:31:42.088Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-18T11:31:42.088Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-18T11:31:58.625Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-18T11:31:58.626Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-18T11:34:24.926Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-18T11:34:24.927Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-18T11:41:30.118Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-18T11:41:30.118Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: Error: write EPIPE","timestamp":"2014-09-18T11:41:37.998Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-18T11:42:38.953Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-18T11:42:38.954Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-18T11:44:25.276Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-18T11:44:25.277Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-18T11:44:51.292Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-18T11:44:51.293Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-18T11:44:59.560Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-18T11:44:59.561Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-18T11:45:57.098Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-18T11:45:57.099Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-18T11:46:23.084Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-18T11:46:23.085Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-18T11:47:22.359Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-18T11:47:22.360Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-18T11:50:04.722Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-18T11:50:04.723Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-18T11:50:54.810Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-18T11:50:54.811Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-18T11:53:20.224Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-18T11:53:20.225Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-18T11:53:44.286Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-18T11:53:44.287Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-18T11:57:53.752Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-18T11:57:53.753Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-18T11:59:11.573Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-18T11:59:11.574Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-18T11:59:38.274Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-18T11:59:38.275Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-18T12:06:19.828Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-18T12:06:19.829Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-18T12:06:47.954Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-18T12:06:47.955Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-18T12:07:03.484Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-18T12:07:03.484Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-18T12:07:19.588Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-18T12:07:19.589Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-18T12:07:34.493Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-18T12:07:34.494Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-18T12:08:54.738Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-18T12:08:54.739Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-18T12:09:20.259Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-18T12:09:20.260Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-18T12:09:44.368Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-18T12:09:44.368Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T04:48:08.980Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T04:48:08.981Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T04:48:46.608Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T04:48:46.609Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T04:49:06.438Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T04:49:06.439Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T04:51:14.561Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T04:51:14.561Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T04:51:56.333Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T04:51:56.334Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T04:52:19.103Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T04:52:19.104Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T04:57:14.381Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T04:57:14.382Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T04:57:52.021Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T04:57:52.022Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T04:58:56.439Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T04:58:56.440Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T04:59:18.638Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T04:59:18.639Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T05:00:19.160Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T05:00:19.162Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T05:22:31.503Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T05:22:31.504Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T05:25:10.898Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T05:25:10.899Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T05:26:12.474Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T05:26:12.475Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T05:27:34.288Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T05:27:34.289Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T05:27:55.761Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T05:27:55.763Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T05:28:21.076Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T05:28:21.077Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T05:29:01.458Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T05:29:01.459Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T05:29:35.333Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T05:29:35.334Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T05:30:16.743Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T05:30:16.744Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T05:30:35.618Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T05:30:35.619Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T05:31:07.247Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T05:31:07.248Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T06:57:05.422Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T06:57:05.424Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T06:57:41.512Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T06:57:41.513Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T06:58:30.610Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T06:58:30.612Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T06:59:27.592Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T06:59:27.592Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T06:59:43.310Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T06:59:43.311Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T07:11:56.154Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T07:11:56.155Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T07:23:09.303Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T07:23:09.304Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T07:23:38.728Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T07:23:38.728Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T07:24:37.604Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T07:24:37.605Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T07:25:04.540Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T07:25:04.541Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T07:25:43.251Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T07:25:43.252Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T07:27:11.751Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T07:27:11.751Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T07:27:41.718Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T07:27:41.718Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T07:28:29.135Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T07:28:29.137Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T07:28:51.651Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T07:28:51.652Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T07:29:53.200Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T07:29:53.200Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T07:31:30.486Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T07:31:30.487Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T07:32:52.209Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T07:32:52.211Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T07:33:26.608Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T07:33:26.609Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T07:34:17.765Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T07:34:17.765Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T07:34:28.672Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T07:34:28.673Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T07:35:44.610Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T07:35:44.611Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T07:37:12.638Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T07:37:12.639Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T07:39:56.355Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T07:39:56.356Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T07:42:44.850Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T07:42:44.851Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T09:49:39.364Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T09:49:39.364Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T10:00:50.211Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T10:00:50.211Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T10:01:46.996Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T10:01:46.997Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T10:48:39.404Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T10:48:39.406Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T10:51:07.311Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T10:51:07.312Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T10:52:28.983Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T10:52:28.985Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-19T10:54:03.038Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-19T10:54:03.039Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-09-23T07:20:40.138Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T07:20:40.444Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T07:20:40.444Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Failed to lookup view \"orgm/login\" in views directory \"/devel/nodemksite/views\"","timestamp":"2014-09-23T07:20:45.839Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-09-23T07:21:51.888Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T07:21:51.943Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T07:21:51.944Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Failed to lookup view \"orgm/login\" in views directory \"/devel/nodemksite/views\"","timestamp":"2014-09-23T07:22:10.418Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-09-23T07:23:24.599Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T07:23:24.723Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T07:23:24.723Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-09-23T07:24:07.866Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T07:24:07.920Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T07:24:07.921Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-09-23T07:24:15.411Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-09-23T07:24:56.587Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T07:24:56.637Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T07:24:56.637Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-09-23T07:25:03.318Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-09-23T07:25:19.291Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T07:25:19.467Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T07:25:19.467Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-09-23T07:26:04.425Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T07:26:04.551Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T07:26:04.551Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-09-23T07:27:13.128Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T07:27:13.187Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T07:27:13.188Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T07:28:09.772Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T07:28:09.773Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-09-23T07:28:16.693Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-09-23T07:28:21.048Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T07:29:06.277Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T07:29:06.278Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-09-23T07:29:13.429Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T07:30:26.156Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T07:30:26.157Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T07:30:55.360Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T07:30:55.361Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T11:37:42.560Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T11:37:42.561Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Cannot read property 'length' of null","timestamp":"2014-09-23T11:37:50.030Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T11:39:49.773Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T11:39:49.774Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Cannot read property 'length' of null","timestamp":"2014-09-23T11:39:51.645Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T11:40:31.540Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T11:40:31.540Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Cannot read property 'length' of null","timestamp":"2014-09-23T11:42:28.925Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T11:42:49.035Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T11:42:49.036Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Cannot read property 'length' of null","timestamp":"2014-09-23T11:42:51.040Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T11:43:15.515Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T11:43:15.516Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Cannot read property 'length' of null","timestamp":"2014-09-23T11:43:17.287Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T11:44:33.643Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T11:44:33.645Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Cannot read property 'length' of null","timestamp":"2014-09-23T11:44:34.861Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Cannot read property 'length' of null","timestamp":"2014-09-23T11:44:37.466Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T11:44:57.190Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T11:44:57.190Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Cannot read property 'length' of null","timestamp":"2014-09-23T11:44:59.155Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Cannot read property 'length' of null","timestamp":"2014-09-23T11:45:00.690Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Cannot read property 'length' of null","timestamp":"2014-09-23T11:45:01.006Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Cannot read property 'length' of null","timestamp":"2014-09-23T11:45:01.164Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Cannot read property 'length' of null","timestamp":"2014-09-23T11:45:01.348Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Cannot read property 'length' of null","timestamp":"2014-09-23T11:45:01.486Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Cannot read property 'length' of null","timestamp":"2014-09-23T11:45:01.659Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T11:45:14.840Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T11:45:14.841Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Cannot read property 'length' of null","timestamp":"2014-09-23T11:45:16.470Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T11:46:04.416Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T11:46:04.418Z"}
+{"level":"info","message":"[/devel/nodemksite/routes/orgm/orgmRoute.js] ","timestamp":"2014-09-23T11:46:11.594Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T11:46:23.011Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T11:46:23.012Z"}
+{"level":"info","message":"[/devel/nodemksite/routes/orgm/orgmRoute.js] ","timestamp":"2014-09-23T11:46:24.419Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T11:46:40.350Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T11:46:40.351Z"}
+{"level":"info","message":"[/devel/nodemksite/routes/orgm/orgmRoute.js] null","timestamp":"2014-09-23T11:46:41.755Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Cannot read property 'length' of null","timestamp":"2014-09-23T11:46:41.764Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T11:47:50.974Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T11:47:50.975Z"}
+{"level":"info","message":"[/devel/nodemksite/routes/orgm/orgmRoute.js] null","timestamp":"2014-09-23T11:47:53.088Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Cannot read property 'length' of null","timestamp":"2014-09-23T11:47:53.095Z"}
+{"level":"info","message":"[/devel/nodemksite/routes/orgm/orgmRoute.js] null","timestamp":"2014-09-23T11:47:54.568Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Cannot read property 'length' of null","timestamp":"2014-09-23T11:47:54.569Z"}
+{"level":"info","message":"[/devel/nodemksite/routes/orgm/orgmRoute.js] null","timestamp":"2014-09-23T11:47:54.852Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Cannot read property 'length' of null","timestamp":"2014-09-23T11:47:54.855Z"}
+{"level":"info","message":"[/devel/nodemksite/routes/orgm/orgmRoute.js] null","timestamp":"2014-09-23T11:47:54.987Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Cannot read property 'length' of null","timestamp":"2014-09-23T11:47:54.989Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T11:48:17.793Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T11:48:17.794Z"}
+{"level":"info","message":"[/devel/nodemksite/routes/orgm/orgmRoute.js] null","timestamp":"2014-09-23T11:48:36.910Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Cannot read property 'length' of null","timestamp":"2014-09-23T11:48:36.915Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T11:48:39.386Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T11:48:39.387Z"}
+{"level":"info","message":"[/devel/nodemksite/routes/orgm/orgmRoute.js] null","timestamp":"2014-09-23T11:48:40.853Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T11:49:35.468Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T11:49:35.469Z"}
+{"level":"info","message":"[/devel/nodemksite/routes/orgm/orgmRoute.js] null","timestamp":"2014-09-23T11:49:37.364Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T11:49:55.544Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T11:49:55.545Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T11:51:06.006Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T11:51:06.007Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-09-23T11:51:17.817Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T11:52:36.730Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T11:52:36.731Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T11:53:25.977Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T11:53:25.979Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T11:54:34.475Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T11:54:34.476Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T11:54:50.427Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T11:54:50.429Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T11:55:10.009Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T11:55:10.010Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T11:55:32.600Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T11:55:32.601Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T11:55:53.613Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T11:55:53.614Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T11:57:01.361Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T11:57:01.362Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T11:57:42.946Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T11:57:42.947Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T11:58:09.088Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T11:58:09.089Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T12:04:01.780Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T12:04:01.781Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: users is not defined","timestamp":"2014-09-23T12:04:04.448Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T12:04:49.477Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T12:04:49.478Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: users is not defined","timestamp":"2014-09-23T12:05:23.407Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T12:05:25.893Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T12:05:25.894Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: users is not defined","timestamp":"2014-09-23T12:05:25.960Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: users is not defined","timestamp":"2014-09-23T12:05:36.238Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T12:06:04.457Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T12:06:04.458Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: users is not defined","timestamp":"2014-09-23T12:06:15.194Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: users is not defined","timestamp":"2014-09-23T12:06:18.953Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: users is not defined","timestamp":"2014-09-23T12:08:18.948Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: users is not defined","timestamp":"2014-09-23T12:13:07.845Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T12:14:03.294Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T12:14:03.294Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T12:14:34.203Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T12:14:34.204Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T13:20:29.835Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T13:20:29.835Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T13:20:36.867Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T13:20:36.868Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T13:21:10.011Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T13:21:10.011Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T13:51:32.263Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T13:51:32.264Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T13:53:14.837Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T13:53:14.838Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-23T13:53:50.952Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-23T13:53:50.953Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T04:55:35.596Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T04:55:35.596Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Unexpected token ;","timestamp":"2014-09-24T04:55:38.878Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-09-24T04:55:47.096Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Unexpected token ;","timestamp":"2014-09-24T04:55:47.165Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T04:56:00.762Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T04:56:00.763Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T04:57:26.380Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T04:57:26.381Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T04:57:58.930Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T04:57:58.931Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T04:58:29.689Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T04:58:29.690Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T05:00:02.678Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T05:00:02.678Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T05:27:20.117Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T05:27:20.118Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T05:29:09.168Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T05:29:09.168Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T05:38:37.672Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T05:38:37.673Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T05:40:28.238Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T05:40:28.239Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T05:41:18.569Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T05:41:18.570Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T05:52:56.335Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T05:52:56.335Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T05:55:21.947Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T05:55:21.947Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T06:51:35.955Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T06:51:35.956Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T06:53:52.398Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T06:53:52.398Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T06:58:12.870Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T06:58:12.871Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T06:58:46.146Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T06:58:46.146Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T07:01:17.235Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T07:01:17.235Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T07:08:01.618Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T07:08:01.618Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T07:10:27.164Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T07:10:27.164Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T07:11:45.615Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T07:11:45.616Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T07:14:44.953Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T07:14:44.953Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T07:17:57.536Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T07:17:57.536Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-09-24T07:18:03.112Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T07:19:24.101Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T07:19:24.102Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-09-24T07:19:33.124Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T07:19:54.935Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T07:19:54.935Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T07:36:33.041Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T07:36:33.042Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T07:42:16.423Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T07:42:16.424Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-09-24T07:42:36.071Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T07:44:29.244Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T07:44:29.245Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T07:45:51.952Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T07:45:51.953Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T07:46:48.257Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T07:46:48.257Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T09:48:40.793Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T09:48:40.793Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T09:52:01.764Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T09:52:01.764Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T09:56:45.324Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T09:56:45.326Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T10:07:46.775Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T10:07:46.814Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T10:19:28.277Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T10:19:28.278Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T10:20:12.780Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T10:20:12.781Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-09-24T10:20:18.430Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T10:21:14.947Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T10:21:14.948Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T10:21:45.100Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T10:21:45.101Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T10:25:33.333Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T10:25:33.335Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-09-24T10:25:39.839Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T10:26:25.289Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T10:26:25.289Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T10:26:50.800Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T10:26:50.801Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T11:13:21.420Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T11:13:21.420Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-09-24T11:13:43.125Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Failed to lookup view \"orgm/orgmAdmin\" in views directory \"/devel/nodemksite/views\"","timestamp":"2014-09-24T11:13:43.185Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Failed to lookup view \"orgm/orgmAdmin\" in views directory \"/devel/nodemksite/views\"","timestamp":"2014-09-24T11:14:41.502Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T11:16:27.058Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T11:16:27.059Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T11:16:53.494Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T11:16:53.495Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T11:27:17.988Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T11:27:17.988Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T11:27:50.804Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T11:27:50.808Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T11:28:15.594Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T11:28:15.594Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T11:28:52.945Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T11:28:52.946Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T11:29:10.119Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T11:29:10.119Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T11:30:49.108Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T11:30:49.109Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T11:31:09.450Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T11:31:09.451Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T11:31:34.301Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T11:31:34.302Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T11:32:37.442Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T11:32:37.443Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T11:33:34.157Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T11:33:34.158Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T11:34:04.041Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T11:34:04.042Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T11:36:28.289Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T11:36:28.290Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T11:38:07.058Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T11:38:07.059Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T11:40:12.160Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T11:40:12.160Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T11:41:59.061Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T11:41:59.062Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T11:43:27.080Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T11:43:27.080Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T11:44:18.597Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T11:44:18.598Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T11:44:49.588Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T11:44:49.589Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T11:45:08.818Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T11:45:08.819Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T11:45:33.730Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T11:45:33.730Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T11:46:10.076Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T11:46:10.077Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T11:46:21.823Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T11:46:21.824Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T11:47:20.944Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T11:47:20.944Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T11:53:10.385Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T11:53:10.386Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T12:04:30.557Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T12:04:30.557Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T12:05:43.794Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T12:05:43.795Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T12:06:25.971Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T12:06:25.972Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T12:07:09.586Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T12:07:09.587Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T12:08:17.826Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T12:08:17.827Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T12:09:21.921Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T12:09:21.922Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T12:39:13.016Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T12:39:13.017Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-24T12:45:24.336Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-24T12:45:24.337Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T04:44:35.633Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T04:44:35.635Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T04:46:06.497Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T04:46:06.498Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T04:49:12.159Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T04:49:12.159Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T04:51:45.506Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T04:51:45.507Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T04:54:47.618Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T04:54:47.619Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T04:57:28.697Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T04:57:28.698Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T06:32:55.913Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T06:32:55.914Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-09-25T06:33:07.279Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T06:34:07.051Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T06:34:07.052Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-09-25T06:37:08.074Z"}
+{"level":"error","message":"[/devel/nodemksite/routes/orgm/orgmRoute.js] ReferenceError: XlsxTemplate is not defined","timestamp":"2014-09-25T06:37:13.754Z"}
+{"level":"error","message":"[/devel/nodemksite/routes/orgm/orgmRoute.js] ReferenceError: XlsxTemplate is not defined","timestamp":"2014-09-25T06:39:13.752Z"}
+{"level":"error","message":"[/devel/nodemksite/routes/orgm/orgmRoute.js] ReferenceError: XlsxTemplate is not defined","timestamp":"2014-09-25T06:41:13.783Z"}
+{"level":"error","message":"[/devel/nodemksite/routes/orgm/orgmRoute.js] ReferenceError: XlsxTemplate is not defined","timestamp":"2014-09-25T06:43:18.786Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T07:17:20.092Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T07:17:20.093Z"}
+{"level":"error","message":"[/devel/nodemksite/routes/orgm/orgmRoute.js] ReferenceError: XlsxTemplate is not defined","timestamp":"2014-09-25T07:17:21.972Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T07:17:43.621Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T07:17:43.622Z"}
+{"level":"error","message":"[/devel/nodemksite/routes/orgm/orgmRoute.js] ReferenceError: XlsxTemplate is not defined","timestamp":"2014-09-25T07:18:44.640Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T07:19:05.441Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T07:19:05.442Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T07:19:34.879Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T07:19:34.879Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T07:20:01.839Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T07:20:01.840Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T07:21:34.456Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T07:21:34.457Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T07:23:59.356Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T07:23:59.356Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T07:25:12.305Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T07:25:12.305Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: SyntaxError: Unexpected token function","timestamp":"2014-09-25T07:26:36.585Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T07:26:58.929Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T07:26:58.930Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: momnet is not defined","timestamp":"2014-09-25T07:27:27.248Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T07:27:30.044Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T07:27:30.045Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T07:27:50.922Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T07:27:50.923Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T07:32:02.937Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T07:32:02.937Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T07:32:08.765Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T07:32:08.766Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T07:32:44.108Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T07:32:44.109Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: momnet is not defined","timestamp":"2014-09-25T07:33:35.472Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T07:33:37.955Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T07:33:37.956Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: momnet is not defined","timestamp":"2014-09-25T07:33:53.187Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T07:34:16.725Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T07:34:16.725Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T07:34:23.216Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T07:34:23.217Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: seldate is not defined","timestamp":"2014-09-25T07:37:51.984Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T07:37:54.554Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T07:37:54.555Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T07:50:40.404Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T07:50:40.405Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-09-25T07:50:48.439Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T07:51:18.386Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T07:51:18.387Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-09-25T07:51:24.295Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T07:52:15.925Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T07:52:15.926Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T07:53:04.206Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T07:53:04.208Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T07:53:20.934Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T07:53:20.935Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T07:53:46.494Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T07:53:46.494Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T10:11:47.570Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T10:11:47.571Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T10:13:07.881Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T10:13:07.882Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T10:13:28.834Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T10:13:28.835Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T10:14:09.053Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T10:14:09.054Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-09-25T10:14:36.135Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T10:16:55.061Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T10:16:55.063Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-09-25T10:17:07.972Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T10:18:58.749Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T10:18:58.750Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T10:21:52.428Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T10:21:52.429Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T10:23:00.620Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T10:23:00.622Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T10:24:07.052Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T10:24:07.053Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T10:24:48.648Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T10:24:48.649Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T10:25:13.846Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T10:25:13.847Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T10:26:00.472Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T10:26:00.472Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T10:30:53.675Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T10:30:53.676Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-09-25T10:31:10.388Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T10:32:45.546Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T10:32:45.547Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T12:15:52.721Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T12:15:52.721Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T12:15:54.947Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T12:15:54.948Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T12:18:19.253Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T12:18:19.254Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T12:20:55.727Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T12:20:55.728Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T12:21:26.253Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T12:21:26.254Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T12:21:31.021Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T12:21:31.022Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T12:22:41.905Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T12:22:41.905Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T12:23:48.102Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T12:23:48.103Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T12:25:08.917Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T12:25:08.918Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-25T12:27:10.934Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-25T12:27:10.935Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-26T10:16:57.098Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-26T10:16:57.099Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-26T10:17:17.720Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-26T10:17:17.721Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-09-26T10:17:37.389Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-26T10:25:00.956Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-26T10:25:00.957Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-26T10:28:31.117Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-26T10:28:31.118Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-26T10:30:11.187Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-26T10:30:11.188Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-26T10:32:08.908Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-26T10:32:08.909Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-26T10:33:22.082Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-26T10:33:22.083Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-26T10:34:08.200Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-26T10:34:08.201Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-26T10:34:42.649Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-26T10:34:42.650Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-26T10:38:13.895Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-26T10:38:13.897Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-26T10:40:45.152Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-26T10:40:45.154Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-09-26T10:41:05.872Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-26T10:41:59.467Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-26T10:41:59.472Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-09-26T10:51:58.436Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-09-26T11:02:49.696Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-09-26T11:03:24.292Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-30T10:23:06.532Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-30T10:23:06.533Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-30T10:23:48.148Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-30T10:23:48.149Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-30T10:29:48.601Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3001","timestamp":"2014-09-30T10:29:48.602Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-30T10:30:22.179Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-09-30T10:30:22.179Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-30T10:44:52.064Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-09-30T10:44:52.065Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-09-30T10:45:15.200Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-30T10:48:41.053Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-09-30T10:48:41.054Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-30T10:49:41.068Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-09-30T10:49:41.068Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-09-30T10:49:59.183Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-30T10:58:43.526Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-09-30T10:58:43.527Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-09-30T10:58:58.649Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-30T11:04:49.413Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-09-30T11:04:49.415Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-09-30T11:05:04.066Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-09-30T11:08:36.862Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-30T11:10:18.603Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-09-30T11:10:18.604Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] username is not defined","timestamp":"2014-09-30T11:10:22.817Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-09-30T11:10:27.874Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-30T11:11:17.831Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-09-30T11:11:17.832Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-09-30T11:11:23.323Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-30T11:11:40.634Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-09-30T11:11:40.634Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-09-30T11:11:45.550Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-30T11:11:53.465Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-09-30T11:11:53.466Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-09-30T11:11:59.000Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-30T11:12:58.254Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-09-30T11:12:58.254Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-09-30T11:13:10.695Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-30T11:15:22.337Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-09-30T11:15:22.338Z"}
