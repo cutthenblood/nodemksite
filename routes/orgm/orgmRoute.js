@@ -180,14 +180,15 @@ module.exports = function (app) {
                                     if(err) item.group='error';
                                     else
                                     item.group = (us.mo.length>1)?us.mo.filter(function(itm){if(itm.fullname==item._id.mo) return itm})[0].group:us.mo[0].group;
-                                    item.mo = item._id.mo
+                                    item.mo = item._id.mo;
                                     item.nn=ind;
+                                    item.gr7 = (parseFloat(item.gr6)*100))/parseFloat(item.gr5);
                                     ind+=1;
                                     resolve(item);
                                 })
                             } else {
                                 item.username = item._id.user;
-                                item.mo = item._id.mo
+                                item.mo = item._id.mo;
                                 item.group = item._id.group;
                                 item.nn=ind;
                                 ind+=1;

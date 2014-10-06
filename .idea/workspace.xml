@@ -58,8 +58,8 @@
       <file leaf-file-name="orgmRoute.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/orgm/orgmRoute.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.61147904" vertical-offset="1433" max-vertical-offset="2322">
-              <caret line="207" column="21" selection-start-line="207" selection-start-column="21" selection-end-line="207" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.8384798" vertical-offset="961" max-vertical-offset="2340">
+              <caret line="185" column="43" selection-start-line="185" selection-start-column="43" selection-end-line="185" selection-end-column="43" />
               <folding>
                 <element signature="e#376#488#0" expanded="false" />
                 <element signature="e#819#1401#0" expanded="false" />
@@ -224,9 +224,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="-4" />
+    <option name="y" value="24" />
     <option name="width" value="1855" />
-    <option name="height" value="1204" />
+    <option name="height" value="588" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -719,7 +719,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1204" extended-state="6" />
+    <frame x="65" y="24" width="1855" height="588" extended-state="2" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -728,7 +728,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30555555" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19432314" sideWeight="0.50060755" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19432314" sideWeight="0.49939248" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5407407" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5407407" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23796296" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -808,16 +808,6 @@
           <url>file://$PROJECT_DIR$/routes/orgm/orgmRoute.js</url>
           <line>30</line>
           <option name="timeStamp" value="238" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/routes/orgm/orgmRoute.js</url>
-          <line>209</line>
-          <option name="timeStamp" value="245" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/routes/orgm/orgmRoute.js</url>
-          <line>201</line>
-          <option name="timeStamp" value="253" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="266" />
@@ -1229,8 +1219,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/orgm/orgmRoute.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61147904" vertical-offset="1433" max-vertical-offset="2322">
-          <caret line="207" column="21" selection-start-line="207" selection-start-column="21" selection-end-line="207" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.8384798" vertical-offset="961" max-vertical-offset="2340">
+          <caret line="185" column="43" selection-start-line="185" selection-start-column="43" selection-end-line="185" selection-end-column="43" />
           <folding>
             <element signature="e#376#488#0" expanded="false" />
             <element signature="e#819#1401#0" expanded="false" />
