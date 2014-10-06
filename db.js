@@ -198,7 +198,7 @@ module.exports = function (db) {
             {$unwind:"$rows"},
             {$match:{"inputdate":{$gte:parseInt(startdate),$lte:parseInt(stopdate)}}},
             {$group:{
-                "_id":{"user":"$rows.username","mo":"$rows.mo"},
+                "_id":{"user":"$rows.username","mo":"$rows.mo","group":"$rows.group"},
                 "gr5":{$sum:"$rows.gr5"},"gr6":{$sum:"$rows.gr6"},"gr7":{$sum:"$rows.gr7"},"gr8":{$sum:"$rows.gr8"},"gr9":{$sum:"$rows.gr9"},
                 "gr10":{$sum:"$rows.gr10"},"gr14":{$sum:"$rows.gr14"},"gr18":{$sum:"$rows.gr18"},"gr22":{$sum:"$rows.gr22"},"gr26":{$sum:"$rows.gr26"},
                 "gr11":{$sum:"$rows.gr11"},"gr15":{$sum:"$rows.gr15"},"gr19":{$sum:"$rows.gr19"},"gr23":{$sum:"$rows.gr23"},"gr27":{$sum:"$rows.gr27"},
@@ -259,17 +259,6 @@ module.exports = function (db) {
                         callback('user not exists',null);
                     }
                 });
-                /* if (err) {
-                 callback(err, null);
-                 } else {
-                 if (result.length) {
-                 console.log('user exists');
-                 callback(null, result[0]);
-                 } else {
-                 console.log('user not exists');
-                 callback(null);
-                 }
-                 }*/
             });
 
 

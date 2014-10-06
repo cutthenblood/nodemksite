@@ -171,11 +171,11 @@ load({
                 var arr = [];
                 mprmodel.set('inputdate',$('#date').data("DateTimePicker").getDate().valueOf());
                 var row={};
-                row["username"]=$('#motitle').text();
-                row["mo"]=$('#mo').text().trim();
+                row["username"]=$('#motitle').text().trim().replace('\n','');
+                row["mo"]=$('#mo option:selected').text().trim();
                 row['date']=new Date();
                 row['date'] =row['date'].valueOf();
-                row['group'] = $('#mo').val();
+                row['group'] = $('#mo option:selected').val();
                 $('form input[type="text"]').each(
                     function (index) {
                         var input = $(this);

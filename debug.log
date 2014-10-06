@@ -1226,3 +1226,127 @@
 {"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-10-06T07:23:55.363Z"}
 {"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T07:25:02.385Z"}
 {"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T07:25:02.386Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: reauire is not defined","timestamp":"2014-10-06T07:35:25.429Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T07:35:25.564Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T07:35:25.564Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: reauire is not defined","timestamp":"2014-10-06T07:36:43.237Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T07:36:43.807Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T07:36:43.807Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T07:37:32.633Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T07:37:32.634Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-10-06T07:37:42.073Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Object [object Object] has no method 'getuser'","timestamp":"2014-10-06T07:37:56.993Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T07:38:09.704Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T07:38:09.705Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Object [object Object] has no method 'getuser'","timestamp":"2014-10-06T07:39:34.005Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T07:39:36.624Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T07:39:36.624Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Object [object Object] has no method 'getuser'","timestamp":"2014-10-06T07:40:42.470Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T07:40:46.596Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T07:40:46.596Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Object [object Object] has no method 'getuser'","timestamp":"2014-10-06T07:40:54.085Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T07:41:02.813Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T07:41:02.814Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Object [object Object] has no method 'getuser'","timestamp":"2014-10-06T07:41:56.876Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T07:42:04.990Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T07:42:04.990Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property '0' of null","timestamp":"2014-10-06T07:42:05.426Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property '0' of null","timestamp":"2014-10-06T07:42:05.428Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property '0' of null","timestamp":"2014-10-06T07:42:05.431Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property '0' of null","timestamp":"2014-10-06T07:42:05.432Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property '0' of null","timestamp":"2014-10-06T07:42:05.434Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property '0' of null","timestamp":"2014-10-06T07:42:05.435Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property '0' of null","timestamp":"2014-10-06T07:42:05.436Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property '0' of null","timestamp":"2014-10-06T07:42:05.437Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T07:42:20.083Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T07:42:20.083Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property '0' of null","timestamp":"2014-10-06T07:42:25.118Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T07:43:09.655Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T07:43:09.656Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T07:43:31.089Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T07:43:31.089Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property '0' of null","timestamp":"2014-10-06T07:43:53.895Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T07:43:56.553Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T07:43:56.553Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot call method 'filter' of undefined","timestamp":"2014-10-06T07:44:02.655Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T07:44:24.275Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T07:44:24.276Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot call method 'filter' of undefined","timestamp":"2014-10-06T07:45:39.647Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T07:45:42.284Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T07:45:42.285Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T07:46:18.731Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T07:46:18.732Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T07:46:30.184Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T07:46:30.184Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'mo' of undefined","timestamp":"2014-10-06T07:47:59.677Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'mo' of undefined","timestamp":"2014-10-06T07:47:59.680Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T07:48:02.287Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T07:48:02.288Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T07:48:29.815Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T07:48:29.816Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'group' of undefined","timestamp":"2014-10-06T07:48:56.324Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T07:50:24.063Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T07:50:24.064Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T07:51:00.053Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T07:51:00.053Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T07:56:04.594Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T07:56:04.595Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T07:56:29.990Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T07:56:29.990Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'group' of undefined","timestamp":"2014-10-06T07:57:54.377Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T07:57:59.175Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T07:57:59.176Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'group' of undefined","timestamp":"2014-10-06T07:58:01.419Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'group' of undefined","timestamp":"2014-10-06T07:58:05.465Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T07:58:30.203Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T07:58:30.203Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'group' of undefined","timestamp":"2014-10-06T08:04:40.147Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T08:04:42.738Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T08:04:42.739Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'group' of undefined","timestamp":"2014-10-06T08:04:43.094Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'group' of undefined","timestamp":"2014-10-06T08:06:32.440Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T08:06:35.041Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T08:06:35.042Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'group' of undefined","timestamp":"2014-10-06T08:06:35.675Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'group' of undefined","timestamp":"2014-10-06T08:06:35.678Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'group' of undefined","timestamp":"2014-10-06T08:06:39.972Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'group' of undefined","timestamp":"2014-10-06T08:06:39.974Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T08:06:49.611Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T08:06:49.611Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'group' of undefined","timestamp":"2014-10-06T08:07:05.550Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'group' of undefined","timestamp":"2014-10-06T08:07:16.374Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T08:07:18.976Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T08:07:18.976Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'group' of undefined","timestamp":"2014-10-06T08:07:22.924Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'group' of undefined","timestamp":"2014-10-06T08:07:27.974Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T08:07:30.568Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T08:07:30.569Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'group' of undefined","timestamp":"2014-10-06T08:09:56.472Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'group' of undefined","timestamp":"2014-10-06T08:09:56.474Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T08:11:00.929Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T08:11:00.929Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'group' of undefined","timestamp":"2014-10-06T08:11:04.978Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T08:11:14.656Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T08:11:14.657Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'group' of undefined","timestamp":"2014-10-06T08:13:12.776Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T08:13:15.374Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T08:13:15.374Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'group' of undefined","timestamp":"2014-10-06T08:15:03.287Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T08:15:05.911Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T08:15:05.912Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T08:15:38.682Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T08:15:38.683Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'group' of undefined","timestamp":"2014-10-06T08:16:23.115Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T08:16:25.722Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T08:16:25.722Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'group' of undefined","timestamp":"2014-10-06T08:23:01.074Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T08:23:02.473Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T08:23:02.474Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-10-06T08:23:31.260Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T08:28:34.675Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T08:28:34.677Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-10-06T08:28:44.459Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T08:29:09.365Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T08:29:09.366Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T08:29:47.514Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T08:29:47.514Z"}

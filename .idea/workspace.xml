@@ -23,43 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="orgmRoute.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/orgm/orgmRoute.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="649" max-vertical-offset="1908">
-              <caret line="151" column="24" selection-start-line="151" selection-start-column="24" selection-end-line="151" selection-end-column="24" />
-              <folding>
-                <element signature="e#350#462#0" expanded="false" />
-                <element signature="e#793#1375#0" expanded="false" />
-                <element signature="e#1416#2629#0" expanded="false" />
-                <element signature="e#2765#2992#0" expanded="false" />
-                <element signature="e#3033#3093#0" expanded="false" />
-                <element signature="e#3165#3696#0" expanded="false" />
-                <element signature="e#3257#3301#0" expanded="false" />
-                <element signature="e#3312#3371#0" expanded="false" />
-                <element signature="e#3506#3687#0" expanded="false" />
-                <element signature="e#3529#3616#0" expanded="false" />
-                <element signature="e#3622#3677#0" expanded="false" />
-                <element signature="e#3762#4681#0" expanded="false" />
-                <element signature="e#4200#4673#0" expanded="false" />
-                <element signature="e#4235#4353#0" expanded="false" />
-                <element signature="e#4445#4539#0" expanded="false" />
-                <element signature="e#4569#4663#0" expanded="false" />
-                <element signature="e#4740#4783#0" expanded="false" />
-                <element signature="e#5066#5181#0" expanded="false" />
-                <element signature="e#5196#5294#0" expanded="false" />
-                <element signature="e#5322#5361#0" expanded="false" />
-                <element signature="e#5554#5672#0" expanded="false" />
-                <element signature="e#7450#7505#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="config.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.31778058" vertical-offset="0" max-vertical-offset="793">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
               <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
               <folding />
             </state>
@@ -69,7 +36,7 @@
       <file leaf-file-name="mmoRoute.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/mmo/mmoRoute.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="750" max-vertical-offset="1530">
+            <state vertical-scroll-proportion="0.0" vertical-offset="426" max-vertical-offset="1530">
               <caret line="76" column="70" selection-start-line="76" selection-start-column="70" selection-end-line="76" selection-end-column="70" />
               <folding />
             </state>
@@ -88,12 +55,46 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="orgmRoute.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/orgm/orgmRoute.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.61147904" vertical-offset="1433" max-vertical-offset="2322">
+              <caret line="207" column="21" selection-start-line="207" selection-start-column="21" selection-end-line="207" selection-end-column="21" />
+              <folding>
+                <element signature="e#376#488#0" expanded="false" />
+                <element signature="e#819#1401#0" expanded="false" />
+                <element signature="e#1442#2655#0" expanded="false" />
+                <element signature="e#2791#3018#0" expanded="false" />
+                <element signature="e#3059#3119#0" expanded="false" />
+                <element signature="e#3191#3722#0" expanded="false" />
+                <element signature="e#3283#3327#0" expanded="false" />
+                <element signature="e#3338#3397#0" expanded="false" />
+                <element signature="e#3532#3713#0" expanded="false" />
+                <element signature="e#3555#3642#0" expanded="false" />
+                <element signature="e#3648#3703#0" expanded="false" />
+                <element signature="e#3788#4707#0" expanded="false" />
+                <element signature="e#4226#4699#0" expanded="false" />
+                <element signature="e#4261#4379#0" expanded="false" />
+                <element signature="e#4471#4565#0" expanded="false" />
+                <element signature="e#4595#4689#0" expanded="false" />
+                <element signature="e#4766#4809#0" expanded="false" />
+                <element signature="e#5092#5207#0" expanded="false" />
+                <element signature="e#5222#5320#0" expanded="false" />
+                <element signature="e#5348#5387#0" expanded="false" />
+                <element signature="e#5580#5698#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="db.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3244" max-vertical-offset="5760">
-              <caret line="200" column="62" selection-start-line="200" selection-start-column="62" selection-end-line="200" selection-end-column="62" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="3401" max-vertical-offset="5130">
+              <caret line="195" column="9" selection-start-line="195" selection-start-column="9" selection-end-line="195" selection-end-column="9" />
+              <folding>
+                <element signature="e#10709#11406#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,9 +112,11 @@
       <file leaf-file-name="sandbox.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sandbox.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="246" max-vertical-offset="1296">
-              <caret line="129" column="61" selection-start-line="129" selection-start-column="8" selection-end-line="129" selection-end-column="61" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
+              <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+              <folding>
+                <element signature="e#2651#3875#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -131,8 +134,8 @@
       <file leaf-file-name="orgmModel.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/orgm/orgmModel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.3" vertical-offset="3" max-vertical-offset="2430">
-              <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+            <state vertical-scroll-proportion="4.3" vertical-offset="1461" max-vertical-offset="2430">
+              <caret line="177" column="62" selection-start-line="177" selection-start-column="62" selection-end-line="177" selection-end-column="62" />
               <folding>
                 <element signature="e#212#3616#0" expanded="false" />
                 <element signature="e#4055#4185#0" expanded="false" />
@@ -212,10 +215,10 @@
         <option value="$PROJECT_DIR$/routes/mmo/mmoRoute.js" />
         <option value="$PROJECT_DIR$/views/mmo/mmoIndex.ejs" />
         <option value="$PROJECT_DIR$/sandbox.js" />
-        <option value="$PROJECT_DIR$/routes/orgm/orgmRoute.js" />
+        <option value="$PROJECT_DIR$/config.js" />
         <option value="$PROJECT_DIR$/db.js" />
         <option value="$PROJECT_DIR$/public/js/orgm/orgmModel.js" />
-        <option value="$PROJECT_DIR$/config.js" />
+        <option value="$PROJECT_DIR$/routes/orgm/orgmRoute.js" />
       </list>
     </option>
   </component>
@@ -725,10 +728,10 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30555555" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19432314" sideWeight="0.50060755" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19432314" sideWeight="0.49939248" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53333336" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5407407" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23796296" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23796296" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -792,42 +795,32 @@
           <option name="timeStamp" value="129" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/routes/orgm/orgmRoute.js</url>
-          <line>169</line>
-          <option name="timeStamp" value="210" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/routes/orgm/orgmRoute.js</url>
-          <line>180</line>
-          <option name="timeStamp" value="212" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/routes/deathmonitor/auth.js</url>
           <line>6</line>
           <option name="timeStamp" value="218" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/sandbox.js</url>
-          <line>131</line>
-          <option name="timeStamp" value="230" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/routes/orgm/orgmRoute.js</url>
-          <line>38</line>
+          <line>39</line>
           <option name="timeStamp" value="237" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/routes/orgm/orgmRoute.js</url>
-          <line>29</line>
+          <line>30</line>
           <option name="timeStamp" value="238" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/routes/orgm/orgmRoute.js</url>
-          <line>173</line>
-          <option name="timeStamp" value="239" />
+          <line>209</line>
+          <option name="timeStamp" value="245" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/orgm/orgmRoute.js</url>
+          <line>201</line>
+          <option name="timeStamp" value="253" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="240" />
+      <option name="time" value="266" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -1149,44 +1142,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/mmo/mmoRoute.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="750" max-vertical-offset="1530">
-          <caret line="76" column="70" selection-start-line="76" selection-start-column="70" selection-end-line="76" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/mmo/mmoIndex.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.37037" vertical-offset="152" max-vertical-offset="1674">
-          <caret line="30" column="97" selection-start-line="30" selection-start-column="97" selection-end-line="30" selection-end-column="97" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#h5#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sandbox.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="246" max-vertical-offset="1296">
-          <caret line="129" column="61" selection-start-line="129" selection-start-column="8" selection-end-line="129" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/passport.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="350" max-vertical-offset="918">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3244" max-vertical-offset="5760">
-          <caret line="200" column="62" selection-start-line="200" selection-start-column="62" selection-end-line="200" selection-end-column="62" />
           <folding />
         </state>
       </provider>
@@ -1207,41 +1166,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/orgm/orgmRoute.js">
+    <entry file="file://$PROJECT_DIR$/sandbox.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="2304">
-          <caret line="151" column="24" selection-start-line="151" selection-start-column="24" selection-end-line="151" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
+          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding>
-            <element signature="e#350#462#0" expanded="false" />
-            <element signature="e#793#1375#0" expanded="false" />
-            <element signature="e#1416#2629#0" expanded="false" />
-            <element signature="e#2765#2992#0" expanded="false" />
-            <element signature="e#3033#3093#0" expanded="false" />
-            <element signature="e#3165#3696#0" expanded="false" />
-            <element signature="e#3257#3301#0" expanded="false" />
-            <element signature="e#3312#3371#0" expanded="false" />
-            <element signature="e#3506#3687#0" expanded="false" />
-            <element signature="e#3529#3616#0" expanded="false" />
-            <element signature="e#3622#3677#0" expanded="false" />
-            <element signature="e#3762#4681#0" expanded="false" />
-            <element signature="e#4200#4673#0" expanded="false" />
-            <element signature="e#4235#4353#0" expanded="false" />
-            <element signature="e#4445#4539#0" expanded="false" />
-            <element signature="e#4569#4663#0" expanded="false" />
-            <element signature="e#4740#4783#0" expanded="false" />
-            <element signature="e#5066#5181#0" expanded="false" />
-            <element signature="e#5196#5294#0" expanded="false" />
-            <element signature="e#5322#5361#0" expanded="false" />
-            <element signature="e#5554#5672#0" expanded="false" />
-            <element signature="e#7450#7505#0" expanded="false" />
+            <element signature="e#2651#3875#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/mmo/mmoIndex.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.37037" vertical-offset="152" max-vertical-offset="1674">
+          <caret line="30" column="97" selection-start-line="30" selection-start-column="97" selection-end-line="30" selection-end-column="97" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#h5#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/mmo/mmoRoute.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="750" max-vertical-offset="1530">
+          <caret line="76" column="70" selection-start-line="76" selection-start-column="70" selection-end-line="76" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3401" max-vertical-offset="5130">
+          <caret line="195" column="9" selection-start-line="195" selection-start-column="9" selection-end-line="195" selection-end-column="9" />
+          <folding>
+            <element signature="e#10709#11406#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/orgm/orgmModel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3" vertical-offset="3" max-vertical-offset="2430">
-          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+        <state vertical-scroll-proportion="4.3" vertical-offset="1461" max-vertical-offset="2430">
+          <caret line="177" column="62" selection-start-line="177" selection-start-column="62" selection-end-line="177" selection-end-column="62" />
           <folding>
             <element signature="e#212#3616#0" expanded="false" />
             <element signature="e#4055#4185#0" expanded="false" />
@@ -1253,11 +1227,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.js">
+    <entry file="file://$PROJECT_DIR$/routes/orgm/orgmRoute.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31778058" vertical-offset="0" max-vertical-offset="793">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding />
+        <state vertical-scroll-proportion="0.61147904" vertical-offset="1433" max-vertical-offset="2322">
+          <caret line="207" column="21" selection-start-line="207" selection-start-column="21" selection-end-line="207" selection-end-column="21" />
+          <folding>
+            <element signature="e#376#488#0" expanded="false" />
+            <element signature="e#819#1401#0" expanded="false" />
+            <element signature="e#1442#2655#0" expanded="false" />
+            <element signature="e#2791#3018#0" expanded="false" />
+            <element signature="e#3059#3119#0" expanded="false" />
+            <element signature="e#3191#3722#0" expanded="false" />
+            <element signature="e#3283#3327#0" expanded="false" />
+            <element signature="e#3338#3397#0" expanded="false" />
+            <element signature="e#3532#3713#0" expanded="false" />
+            <element signature="e#3555#3642#0" expanded="false" />
+            <element signature="e#3648#3703#0" expanded="false" />
+            <element signature="e#3788#4707#0" expanded="false" />
+            <element signature="e#4226#4699#0" expanded="false" />
+            <element signature="e#4261#4379#0" expanded="false" />
+            <element signature="e#4471#4565#0" expanded="false" />
+            <element signature="e#4595#4689#0" expanded="false" />
+            <element signature="e#4766#4809#0" expanded="false" />
+            <element signature="e#5092#5207#0" expanded="false" />
+            <element signature="e#5222#5320#0" expanded="false" />
+            <element signature="e#5348#5387#0" expanded="false" />
+            <element signature="e#5580#5698#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

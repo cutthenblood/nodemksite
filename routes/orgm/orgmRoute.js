@@ -8,6 +8,7 @@ var XlsxTemplate = require('xlsx-template');
 var url = require('url');
 var log = require('./../../log.js')(module);
 var passport = require('passport');
+var vow = require('vow');
 var prcalend = [
     {"month":"11",
         "holydays":[{"month":"10","dates":["31"]},{"month":"11","dates":["1","2","3","4"]}]
@@ -169,41 +170,61 @@ module.exports = function (app) {
 
                 var header_date="c "+beg.format("DD.MM.YYYY")+" по "+end.format("DD.MM.YYYY");
                 var ind=1;
-                result.forEach(function (item) {
+                var promise = result.map(function (item) {
+                    return new vow.Promise(function(resolve){
+                        if(item._id){
 
-                     if(item._id){
-                         item.username = item._id.user;
-                         item.mo = item._id.mo;
-                         item.group = item._id.group;
-                     };
-                    item.nn=ind;
-                    ind+=1;
-                     rows.push(item);
+                               if(item._id.group == null) {
+                                dbmethods.getUser('users',{username:item._id.user},function(err,us){
+                                    item.username = item._id.user;
+                                    if(err) item.group='error';
+                                    else
+                                    item.group = (us.mo.length>1)?us.mo.filter(function(itm){if(itm.fullname==item._id.mo) return itm})[0].group:us.mo[0].group;
+                                    item.mo = item._id.mo
+                                    item.nn=ind;
+                                    ind+=1;
+                                    resolve(item);
+                                })
+                            } else {
+                                item.username = item._id.user;
+                                item.mo = item._id.mo
+                                item.group = item._id.group;
+                                item.nn=ind;
+                                ind+=1;
+                                resolve(item);
+                            }
+                        };
+
+                    });
                  });
+                vow.all(promise).then(function(ress){
 
-                  function sortrows(a,b){
-                     if(a.username<b.username)
-                         return -1;
-                     if(a.username>b.username)
-                         return 1;
-                     return 0;
-                 }
+                    function sortrows(a,b){
+                        if(a.username<b.username)
+                            return -1;
+                        if(a.username>b.username)
+                            return 1;
+                        return 0;
+                    }
 
-                 var values = {
-                     date:header_date,
-                     grs: rows//.sort(sortrows)
-                 };
-                 try {
-                     template.substitute(sheetNumber, values);
-                 }
-                 catch(e)
-                 {
-                     log.error(e);
-                 }
-                 var doc = template.generate();
-                 res.setHeader('Content-Type', 'application/vnd.openxmlformats');
-                 res.setHeader("Content-Disposition", "attachment; filename=" + "Report.xlsx");
-                 res.status(200).end(doc, 'binary');
+                    var values = {
+                        date:header_date,
+                        grs: ress//.sort(sortrows)
+                    };
+                    try {
+                        template.substitute(sheetNumber, values);
+                    }
+                    catch(e)
+                    {
+                        log.error(e);
+                    }
+                    var doc = template.generate();
+                    res.setHeader('Content-Type', 'application/vnd.openxmlformats');
+                    res.setHeader("Content-Disposition", "attachment; filename=" + "Report.xlsx");
+                    res.status(200).end(doc, 'binary');
+
+                });
+
              });
 
 

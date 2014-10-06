@@ -194,3 +194,38 @@
 {"level":"error","message":"[/devel/nodemksite/app.js] user not exists","timestamp":"2014-10-03T11:48:33.689Z"}
 {"level":"error","message":"[/devel/nodemksite/app.js] users is not defined","timestamp":"2014-10-03T11:52:04.032Z"}
 {"level":"error","message":"[/devel/nodemksite/app.js] users is not defined","timestamp":"2014-10-03T11:54:59.556Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: reauire is not defined","timestamp":"2014-10-06T07:35:25.429Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: reauire is not defined","timestamp":"2014-10-06T07:36:43.237Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Object [object Object] has no method 'getuser'","timestamp":"2014-10-06T07:37:56.993Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Object [object Object] has no method 'getuser'","timestamp":"2014-10-06T07:39:34.005Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Object [object Object] has no method 'getuser'","timestamp":"2014-10-06T07:40:42.470Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Object [object Object] has no method 'getuser'","timestamp":"2014-10-06T07:40:54.086Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Object [object Object] has no method 'getuser'","timestamp":"2014-10-06T07:41:56.876Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property '0' of null","timestamp":"2014-10-06T07:42:05.426Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property '0' of null","timestamp":"2014-10-06T07:42:05.429Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property '0' of null","timestamp":"2014-10-06T07:42:05.431Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property '0' of null","timestamp":"2014-10-06T07:42:05.432Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property '0' of null","timestamp":"2014-10-06T07:42:05.434Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property '0' of null","timestamp":"2014-10-06T07:42:05.435Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property '0' of null","timestamp":"2014-10-06T07:42:05.436Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property '0' of null","timestamp":"2014-10-06T07:42:05.437Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'group' of undefined","timestamp":"2014-10-06T07:58:01.419Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'group' of undefined","timestamp":"2014-10-06T07:58:05.465Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'group' of undefined","timestamp":"2014-10-06T08:04:40.147Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'group' of undefined","timestamp":"2014-10-06T08:04:43.094Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'group' of undefined","timestamp":"2014-10-06T08:06:32.441Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'group' of undefined","timestamp":"2014-10-06T08:06:35.676Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'group' of undefined","timestamp":"2014-10-06T08:06:35.678Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'group' of undefined","timestamp":"2014-10-06T08:06:39.972Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'group' of undefined","timestamp":"2014-10-06T08:06:39.975Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'group' of undefined","timestamp":"2014-10-06T08:07:05.550Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'group' of undefined","timestamp":"2014-10-06T08:07:16.374Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'group' of undefined","timestamp":"2014-10-06T08:07:22.924Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'group' of undefined","timestamp":"2014-10-06T08:07:27.974Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'group' of undefined","timestamp":"2014-10-06T08:09:56.472Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'group' of undefined","timestamp":"2014-10-06T08:09:56.474Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'group' of undefined","timestamp":"2014-10-06T08:11:04.978Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'group' of undefined","timestamp":"2014-10-06T08:13:12.776Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'group' of undefined","timestamp":"2014-10-06T08:15:03.287Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'group' of undefined","timestamp":"2014-10-06T08:16:23.115Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'group' of undefined","timestamp":"2014-10-06T08:23:01.074Z"}
