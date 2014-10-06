@@ -2,19 +2,19 @@
 <html>
   <head>
     <title>Отдел мониторинга технического состояния материально-технической базы учреждений здравоохранения Краснодарского края</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+      <link rel='stylesheet' href='/stylesheets/style.css' />
       <link rel='stylesheet' href='/bootstrap/dist/css/bootstrap.css' />
       <script src="/jquery/dist/jquery.js"></script>
       <script src="/bootstrap/dist/js/bootstrap.js"></script>
       <script src="/underscore/underscore.js"></script>
       <script src="/backbone/backbone.js"></script>
       <script src="/vow/vow.min.js"></script>
+      <script src="/bootstrapValidator/dist/js/bootstrapValidator.js"></script>
+      <link rel='stylesheet' href='/bootstrapValidator/dist/css/bootstrapValidator.css'/>
       <script src="/moment/moment.js"></script>
       <script type="text/javascript" src="/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
       <script type="text/javascript" src="/eonasdan-bootstrap-datetimepicker/src/js/locales/bootstrap-datetimepicker.ru.js"></script>
       <link rel="stylesheet" href="/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" />
-      <script src="/bootstrapValidator/dist/js/bootstrapValidator.js"></script>
-      <link rel='stylesheet' href='/bootstrapValidator/dist/css/bootstrapValidator.css'/>
   </head>
   <body onload="startTime()">
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -28,7 +28,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
-                    <li class="active"><a href="#"><h5><div id="motitle"></div></h5></a></li>
+                    <li class="active"><a href="#"><h5><div style="max-width:500px" id="motitle"><%- name%></div></h5></a></li>
                    
                    
                   </ul>
@@ -63,8 +63,13 @@
                   </div>
               </div>
           </div>
-          <button type="button" class="btn btn-default" id="ofosvkr">Отчет о финансировании и освоении средств выделенных ГБУЗ на капитальный ремонт</button>
-          <div class="container" id="report"></div>
+
+          <div class="row">
+              <div class="container col-lg-12" id="mainbody">
+                  <button type="button" class="btn btn-default" id="ofosvkr">Отчет о финансировании и освоении средств выделенных ГБУЗ на капитальный ремонт</button>
+                  <div class="row"><div class="container" id="report"></div></div>
+              </div>
+          </div>
 
 
       </div>

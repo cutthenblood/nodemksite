@@ -131,3 +131,66 @@
 {"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: momnet is not defined","timestamp":"2014-09-25T07:33:53.187Z"}
 {"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: seldate is not defined","timestamp":"2014-09-25T07:37:51.984Z"}
 {"level":"error","message":"[/devel/nodemksite/app.js] username is not defined","timestamp":"2014-09-30T11:10:22.817Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-02T12:50:54.291Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-02T12:52:37.032Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-02T12:53:43.049Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-02T12:54:18.125Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-02T12:55:43.850Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T05:36:52.587Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T05:37:15.364Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T06:07:27.097Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T06:10:21.246Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T06:11:23.818Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T06:13:28.024Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T06:14:56.261Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T06:15:12.779Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T06:18:26.502Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T06:19:21.348Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T06:21:42.098Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T06:23:22.067Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T06:24:25.377Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T06:24:53.025Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T06:26:17.442Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T06:26:48.047Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T06:28:41.978Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T06:29:37.749Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T06:30:38.119Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T10:58:19.107Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] collection name must be a String","timestamp":"2014-10-03T10:58:23.336Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T10:58:49.794Z"}
+{"level":"error","message":"[/devel/nodemksite/passport.js] cannot auth","timestamp":"2014-10-03T10:59:59.077Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] user not exists","timestamp":"2014-10-03T10:59:59.078Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T11:00:27.787Z"}
+{"level":"error","message":"[/devel/nodemksite/passport.js] cannot auth","timestamp":"2014-10-03T11:00:34.400Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] user not exists","timestamp":"2014-10-03T11:00:34.401Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T11:01:12.006Z"}
+{"level":"error","message":"[/devel/nodemksite/passport.js] cannot auth","timestamp":"2014-10-03T11:01:16.694Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] user not exists","timestamp":"2014-10-03T11:01:16.695Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T11:05:20.816Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T11:06:14.355Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T11:06:32.670Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T11:07:08.482Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T11:07:18.426Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T11:08:13.617Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T11:08:55.970Z"}
+{"level":"error","message":"[/devel/nodemksite/passport.js] cannot auth","timestamp":"2014-10-03T11:13:40.924Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] user not exists","timestamp":"2014-10-03T11:13:40.925Z"}
+{"level":"error","message":"[/devel/nodemksite/passport.js] cannot auth","timestamp":"2014-10-03T11:15:59.928Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] user not exists","timestamp":"2014-10-03T11:15:59.929Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: Error: Cannot find module 'passportMmo'","timestamp":"2014-10-03T11:20:59.637Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: Error: Cannot find module 'passportMmo'","timestamp":"2014-10-03T11:22:29.190Z"}
+{"level":"error","message":"[/devel/nodemksite/passport.js] cannot auth","timestamp":"2014-10-03T11:22:36.754Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] user not exists","timestamp":"2014-10-03T11:22:36.755Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: Error: Cannot find module 'passportMmo'","timestamp":"2014-10-03T11:22:54.918Z"}
+{"level":"error","message":"[/devel/nodemksite/passport.js] cannot auth","timestamp":"2014-10-03T11:23:04.168Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] user not exists","timestamp":"2014-10-03T11:23:04.169Z"}
+{"level":"error","message":"[/devel/nodemksite/passport.js] cannot auth","timestamp":"2014-10-03T11:39:35.591Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] user not exists","timestamp":"2014-10-03T11:39:35.593Z"}
+{"level":"error","message":"[/devel/nodemksite/passport.js] cannot auth","timestamp":"2014-10-03T11:40:21.587Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] user not exists","timestamp":"2014-10-03T11:40:21.589Z"}
+{"level":"error","message":"[/devel/nodemksite/passport.js] cannot auth","timestamp":"2014-10-03T11:41:58.309Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] user not exists","timestamp":"2014-10-03T11:41:58.309Z"}
+{"level":"error","message":"[/devel/nodemksite/passport.js] cannot auth","timestamp":"2014-10-03T11:48:33.688Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] user not exists","timestamp":"2014-10-03T11:48:33.689Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] users is not defined","timestamp":"2014-10-03T11:52:04.032Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] users is not defined","timestamp":"2014-10-03T11:54:59.556Z"}

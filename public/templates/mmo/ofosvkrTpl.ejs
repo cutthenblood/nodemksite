@@ -18,7 +18,7 @@
             <div class="form-group">
                 <label class="col-lg-2 control-label">по состоянию на </label>
 
-                <div class='input-group date col-lg-9'  data-date-format="DD.MM.YYYY">
+                <div class='input-group date col-lg-9' id="date" data-date-format="DD.MM.YYYY">
                     <input type='text' class="form-control" name="inputdate"
                            data-bv-notempty="true"
                            data-bv-notempty-message="Поле не заполнено"
@@ -29,11 +29,6 @@
 
             </div>
 </div>
-
-
-
-
-
                     <% table.forEach(function(val){%>
             <div class="row">
                     <div class="form-group">
@@ -43,13 +38,16 @@
                             <table cellspacing="2" width="100%"><tr>
                                     <td>
                                         <%if(val.type=='date'){%>
-                                        <div class='input-group date '  data-date-format="DD.MM.YYYY" >
-                                            <input type='text' class="form-control" name="<%=val.name%>"
+                                      <!--  <div class='input-group date ' id="date_<%=val.name%>" data-date-format="DD.MM.YYYY" >-->
+                                            <input type = "date" class="form-control" name="<%=val.name%>"
                                                    data-bv-notempty="true"
+                                                   data-bv-date="true"
+                                                   data-bv-date-format="DD.MM.YYYY"
+                                                   data-bv-date-separator="-"
                                                    data-bv-notempty-message="Поле не заполнено"
                                                     />
-                                            <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
-                                            </span>
+                                         <!--   <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>-->
+                                            <!--</span>-->
 
 
                                         <%} else {
@@ -63,6 +61,7 @@
 
                                                class="form-control" name='<%=val.name%>'
                                                <%if (val.type == 'number'){%>
+                                               data-bv-integer="true"
                                                data-bv-integer="true"
                                                data-bv-integer-message="Вводяться только числа"
                                                 <%}%>

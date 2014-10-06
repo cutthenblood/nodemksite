@@ -7,7 +7,7 @@
         Добавить запись
     </div>
     <div class="panel-body">
-        <form id="mainaddform" class="form-horizontal" action="/mmo" method="get"
+        <form id="mainaddform" class="form-horizontal" action="/orgm" method="get"
               data-bv-message="Ошибка в заполнении формы"
               data-bv-feedbackicons-valid="glyphicon glyphicon-ok"
               data-bv-feedbackicons-invalid="glyphicon glyphicon-remove"
@@ -64,6 +64,7 @@
                                 <div class='input-group date '  data-date-format="DD.MM.YYYY" >
                                     <input type='text' class="form-control" name="<%=val.name%>"
                                            data-bv-notempty="true"
+
                                            data-bv-notempty-message="Поле не заполнено"
                                             />
                                             <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>

@@ -198,7 +198,7 @@ module.exports = function (db) {
             {$unwind:"$rows"},
             {$match:{"inputdate":{$gte:parseInt(startdate),$lte:parseInt(stopdate)}}},
             {$group:{
-                "_id":{"user":"$rows.username","mo":"$rows.mo","group":"$rows.group"},
+                "_id":{"user":"$rows.username","mo":"$rows.mo"},
                 "gr5":{$sum:"$rows.gr5"},"gr6":{$sum:"$rows.gr6"},"gr7":{$sum:"$rows.gr7"},"gr8":{$sum:"$rows.gr8"},"gr9":{$sum:"$rows.gr9"},
                 "gr10":{$sum:"$rows.gr10"},"gr14":{$sum:"$rows.gr14"},"gr18":{$sum:"$rows.gr18"},"gr22":{$sum:"$rows.gr22"},"gr26":{$sum:"$rows.gr26"},
                 "gr11":{$sum:"$rows.gr11"},"gr15":{$sum:"$rows.gr15"},"gr19":{$sum:"$rows.gr19"},"gr23":{$sum:"$rows.gr23"},"gr27":{$sum:"$rows.gr27"},
@@ -275,7 +275,19 @@ module.exports = function (db) {
 
         },
     this.getUsers = function (collection, callback) {
-            this._db.collection(collection).find({},{'username':1,'mo':1}).toArray(function (err, result) {
+            this._db.collection(collection).find({},{'division':1,'username':1,'mo':1}).toArray(function (err, result) {
+                errproc(err,result,callback);
+                /*  if (err) {
+                 if (err) throw err;
+                 } else {
+                 callback(result);
+                 }*/
+            });
+
+
+        },
+     this.getUsersArg = function (arg,collection, callback) {
+            this._db.collection(collection).find(arg.query,arg.fields).toArray(function (err, result) {
                 errproc(err,result,callback);
                 /*  if (err) {
                  if (err) throw err;
@@ -286,7 +298,7 @@ module.exports = function (db) {
 
 
         }
-}
+};
 
 /*mongodb.MongoClient.connect('mongodb://10.46.1.210:27017/deathmonitor',function(err,db){
  if (err) throw err;

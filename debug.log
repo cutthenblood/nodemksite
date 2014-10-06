@@ -995,3 +995,234 @@
 {"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-09-30T11:13:10.695Z"}
 {"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-09-30T11:15:22.337Z"}
 {"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-09-30T11:15:22.338Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-02T12:50:54.291Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-02T12:50:54.482Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-02T12:50:54.482Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-02T12:52:37.032Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-02T12:52:37.645Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-02T12:52:37.645Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-02T12:53:43.049Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-02T12:53:43.144Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-02T12:53:43.144Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-02T12:54:18.125Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-02T12:54:18.648Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-02T12:54:18.648Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-02T12:55:43.849Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-02T12:55:43.907Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-02T12:55:43.908Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T05:36:52.586Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T05:36:52.718Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T05:36:52.718Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T05:37:15.363Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T05:37:15.466Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T05:37:15.466Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T06:07:27.096Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T06:07:27.211Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T06:07:27.212Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T06:10:21.245Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T06:10:21.302Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T06:10:21.303Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T06:11:23.817Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T06:11:23.987Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T06:11:23.988Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T06:13:28.024Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T06:13:28.100Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T06:13:28.101Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T06:14:56.261Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T06:14:56.474Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T06:14:56.475Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T06:15:12.778Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T06:15:12.888Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T06:15:12.889Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T06:18:26.502Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T06:18:26.571Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T06:18:26.572Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T06:19:21.347Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T06:19:21.386Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T06:19:21.386Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T06:21:42.097Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T06:21:42.175Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T06:21:42.175Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T06:23:22.067Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T06:23:22.118Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T06:23:22.118Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T06:24:25.376Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T06:24:25.426Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T06:24:25.426Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T06:24:53.024Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T06:24:53.139Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T06:24:53.139Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T06:26:17.442Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T06:26:17.550Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T06:26:17.550Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T06:26:48.047Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T06:26:48.178Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T06:26:48.179Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T06:28:41.977Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T06:28:42.038Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T06:28:42.038Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T06:29:37.749Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T06:29:37.898Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T06:29:37.899Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T06:30:38.118Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T06:30:38.195Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T06:30:38.196Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T10:58:19.106Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T10:58:19.610Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T10:58:19.610Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] collection name must be a String","timestamp":"2014-10-03T10:58:23.336Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T10:58:49.793Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T10:58:49.937Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T10:58:49.938Z"}
+{"level":"error","message":"[/devel/nodemksite/passport.js] cannot auth","timestamp":"2014-10-03T10:59:59.076Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] user not exists","timestamp":"2014-10-03T10:59:59.078Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T11:00:27.787Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T11:00:27.909Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T11:00:27.909Z"}
+{"level":"error","message":"[/devel/nodemksite/passport.js] cannot auth","timestamp":"2014-10-03T11:00:34.400Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] user not exists","timestamp":"2014-10-03T11:00:34.401Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T11:01:12.006Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T11:01:12.052Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T11:01:12.052Z"}
+{"level":"error","message":"[/devel/nodemksite/passport.js] cannot auth","timestamp":"2014-10-03T11:01:16.694Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] user not exists","timestamp":"2014-10-03T11:01:16.695Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T11:05:20.815Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T11:05:20.868Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T11:05:20.869Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T11:06:14.355Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T11:06:14.497Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T11:06:14.498Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T11:06:32.670Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T11:06:33.627Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T11:06:33.627Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T11:07:08.481Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T11:07:08.985Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T11:07:08.986Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T11:07:18.425Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T11:07:18.495Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T11:07:18.496Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-10-03T11:07:35.572Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T11:08:13.617Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T11:08:13.657Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T11:08:13.658Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2014-10-03T11:08:55.970Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T11:08:56.494Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T11:08:56.495Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T11:10:27.137Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T11:10:27.138Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-10-03T11:10:31.592Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T11:11:00.529Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T11:11:00.530Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-10-03T11:11:03.724Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T11:12:11.930Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T11:12:11.931Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T11:13:03.888Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T11:13:03.889Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T11:13:26.522Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T11:13:26.523Z"}
+{"level":"error","message":"[/devel/nodemksite/passport.js] cannot auth","timestamp":"2014-10-03T11:13:40.924Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] user not exists","timestamp":"2014-10-03T11:13:40.925Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T11:15:15.002Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T11:15:15.002Z"}
+{"level":"error","message":"[/devel/nodemksite/passport.js] cannot auth","timestamp":"2014-10-03T11:15:59.927Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] user not exists","timestamp":"2014-10-03T11:15:59.929Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: Error: Cannot find module 'passportMmo'","timestamp":"2014-10-03T11:20:59.636Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T11:20:59.914Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T11:20:59.915Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: Error: Cannot find module 'passportMmo'","timestamp":"2014-10-03T11:22:29.190Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T11:22:29.958Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T11:22:29.959Z"}
+{"level":"error","message":"[/devel/nodemksite/passport.js] cannot auth","timestamp":"2014-10-03T11:22:36.753Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] user not exists","timestamp":"2014-10-03T11:22:36.755Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: Error: Cannot find module 'passportMmo'","timestamp":"2014-10-03T11:22:54.918Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T11:22:55.578Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T11:22:55.578Z"}
+{"level":"error","message":"[/devel/nodemksite/passport.js] cannot auth","timestamp":"2014-10-03T11:23:04.168Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] user not exists","timestamp":"2014-10-03T11:23:04.169Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T11:39:22.261Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T11:39:22.262Z"}
+{"level":"error","message":"[/devel/nodemksite/passport.js] cannot auth","timestamp":"2014-10-03T11:39:35.591Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] user not exists","timestamp":"2014-10-03T11:39:35.592Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T11:40:17.462Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T11:40:17.462Z"}
+{"level":"error","message":"[/devel/nodemksite/passport.js] cannot auth","timestamp":"2014-10-03T11:40:21.587Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] user not exists","timestamp":"2014-10-03T11:40:21.589Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T11:41:47.859Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T11:41:47.860Z"}
+{"level":"error","message":"[/devel/nodemksite/passport.js] cannot auth","timestamp":"2014-10-03T11:41:58.308Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] user not exists","timestamp":"2014-10-03T11:41:58.309Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T11:48:29.532Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T11:48:29.534Z"}
+{"level":"error","message":"[/devel/nodemksite/passport.js] cannot auth","timestamp":"2014-10-03T11:48:33.688Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] user not exists","timestamp":"2014-10-03T11:48:33.689Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T11:51:21.371Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T11:51:21.373Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-10-03T11:51:26.532Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-10-03T11:52:03.989Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] users is not defined","timestamp":"2014-10-03T11:52:04.032Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T11:53:27.775Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T11:53:27.775Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-10-03T11:54:15.711Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] users is not defined","timestamp":"2014-10-03T11:54:59.556Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T11:55:14.086Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T11:55:14.087Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-10-03T11:55:18.529Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-10-03T11:55:29.557Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T12:17:03.410Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T12:17:03.411Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T12:17:18.350Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T12:17:18.351Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T12:17:28.143Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T12:17:28.144Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T12:18:23.098Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T12:18:23.100Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T12:18:35.681Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T12:18:35.682Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T12:18:49.091Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T12:18:49.093Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T12:19:20.583Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T12:19:20.583Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T12:19:30.878Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T12:19:30.879Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T12:19:53.679Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T12:19:53.680Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T12:20:24.845Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T12:20:24.846Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T12:20:37.711Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T12:20:37.713Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T12:21:55.323Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T12:21:55.324Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T12:22:28.158Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T12:22:28.159Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T12:22:38.494Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T12:22:38.496Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T12:22:48.386Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T12:22:48.387Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T12:22:57.815Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T12:22:57.817Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T12:23:10.132Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T12:23:10.132Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-03T12:23:26.524Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-03T12:23:26.525Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T07:08:16.336Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T07:08:16.337Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-10-06T07:08:46.150Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T07:09:33.272Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T07:09:33.272Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T07:09:47.562Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T07:09:47.562Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T07:10:04.855Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T07:10:04.856Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T07:11:11.315Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T07:11:11.315Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-10-06T07:11:26.059Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T07:13:25.660Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T07:13:25.660Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T07:17:36.110Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T07:17:36.111Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-10-06T07:17:41.132Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T07:23:45.942Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T07:23:45.942Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-10-06T07:23:55.363Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-06T07:25:02.385Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-06T07:25:02.386Z"}

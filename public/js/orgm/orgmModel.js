@@ -5,7 +5,7 @@ load({
         var mprModel = Backbone.Model.extend({
             url: '/orgm/mpr/uploadform',
             validate: function (attrs) {
-                var errors = [];
+/*                var errors = [];
                 for (var property in attrs.rows[0]) {
                     if (attrs.rows[0].hasOwnProperty(property)) {
                         if(property.indexOf('gr')>-1){
@@ -50,13 +50,6 @@ load({
                     errors.push(['gr19','гр. 6 = гр. 14 + 15 + 16 + 17 + 18 + 19 + 20']);
                     errors.push(['gr20','гр. 6 = гр. 14 + 15 + 16 + 17 + 18 + 19 + 20']);
                 };
-/*                if(attrs.rows[0].gr6 != (attrs.rows[0].gr21+attrs.rows[0].gr22+attrs.rows[0].gr23+attrs.rows[0].gr24)){
-                    errors.push(['gr21','гр. 6 = гр. 21 + 22 + 23 + 24']);
-                    errors.push(['gr22','гр. 6 = гр. 21 + 22 + 23 + 24']);
-                    errors.push(['gr23','гр. 6 = гр. 21 + 22 + 23 + 24']);
-                    errors.push(['gr24','гр. 6 = гр. 21 + 22 + 23 + 24']);
-
-                };*/
                 if(attrs.rows[0].gr6 != (attrs.rows[0].gr25+attrs.rows[0].gr26)){
                     errors.push(['gr25',' гр. 6 = гр. 25 + 26']);
                     errors.push(['gr26',' гр. 6 = гр. 25 + 26']);
@@ -72,7 +65,7 @@ load({
                 };
                 if(errors.length>0){
                     return errors;//errors;
-                }
+                }*/
             }
 
         });

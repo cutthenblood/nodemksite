@@ -56,7 +56,7 @@ module.exports = function (app) {
                     log.info(er);
                     res.status(500).send("Ошибка");
                     return;
-                } else res.render('orgm/orgmLogin', {users:result, message: err });
+                } else res.render('orgm/orgmLogin', {users:result.filter(function(us) {if(us.division == undefined) return us;}), message: err });
             });
         }
         else res.status(503).send('эта версия браузера не поддерживается,обратитесь к системноу администатору для установки google chrome  <a href="https://www.google.ru/intl/ru/chrome/browser/index.html">https://www.google.ru/intl/ru/chrome/browser/index.html</a>, так же поддерживаются последние версии Opera, Yandex Browser, Safari, FireFox');
