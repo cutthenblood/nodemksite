@@ -171,6 +171,14 @@ module.exports = function (app) {
 
                 var header_date="c "+beg.format("DD.MM.YYYY")+" по "+end.format("DD.MM.YYYY");
                 var ind=1;
+                result.sort(function(a,b){
+                    if(a._id.user<b._id.user)
+                        return -1;
+                    if(a._id.user>b._id.user)
+                        return 1;
+                    return 0;
+
+                });
                 var promise = result.map(function (item) {
                     return new vow.Promise(function(resolve){
                         if(item._id){
@@ -182,8 +190,9 @@ module.exports = function (app) {
                                     else
                                     item.group = (us.mo.length>1)?us.mo.filter(function(itm){if(itm.fullname==item._id.mo) return itm})[0].group:us.mo[0].group;
                                     item.mo = item._id.mo;
-                                    item.nn=ind;
-                                    item.gr7 = (parseFloat(item.gr6)*100)/parseFloat(item.gr5);
+                                    //item.nn=ind;
+                                    item.gr7 = Math.round((parseFloat(item.gr6)*100)/parseFloat(item.gr5));
+                                    if(item.gr7.toString()=='NaN') item.gr7=0;
                                     ind+=1;
                                     resolve(item);
                                 })
@@ -191,8 +200,8 @@ module.exports = function (app) {
                                 item.username = item._id.user;
                                 item.mo = item._id.mo;
                                 item.group = item._id.group;
-                                item.nn=ind;
-                                ind+=1;
+                               // item.nn=ind;
+                                //ind+=1;
                                 resolve(item);
                             }
                         };
@@ -200,14 +209,11 @@ module.exports = function (app) {
                     });
                  });
                 vow.all(promise).then(function(ress){
-
-                    function sortrows(a,b){
-                        if(a.username<b.username)
-                            return -1;
-                        if(a.username>b.username)
-                            return 1;
-                        return 0;
-                    }
+                    var ind =1 ;
+                    ress.map(function(item){
+                        item.nn=ind;
+                        ind+=1;
+                    })
 
                     var values = {
                         date:header_date,
