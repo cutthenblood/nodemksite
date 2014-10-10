@@ -164,8 +164,8 @@ load({
             },
             saveform: function (validator,submittype) {
                 validator.resetForm();
-                var vl = validator.validate();
-                if(!validator.isValid()){
+                //var vl = validator.validate();
+                /*if(!validator.isValid()){
                     console.log('form invalid');
                     this.noreload=true;
                     this.renderDateError("<h3>Ошибка в звполнении полей</h3>");
@@ -173,7 +173,7 @@ load({
                     return;
 
 
-                };
+                };*/
                 if (this.dateok == false){
                     this.noreload=true;
                     this.renderDateError("<h3>Неправильная дата</h3>");
