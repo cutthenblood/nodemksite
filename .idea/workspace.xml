@@ -1,7 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73f64d1a-c00d-4f31-a426-127e21100db1" name="Default" comment="" />
+    <list default="true" id="73f64d1a-c00d-4f31-a426-127e21100db1" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/bootstrapValidator.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/demo/attribute.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/demo/choice.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/demo/container.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/demo/date.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/demo/enable.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/demo/formWithoutLabels.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/demo/html5.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/demo/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/demo/invisible.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/demo/labelWithoutClass.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/demo/live.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/demo/multiple.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/demo/remote.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/demo/remote.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/demo/selector.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/demo/selector2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/demo/submitHandler.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/demo/tab.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/demo/target.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/demo/validators.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/screenshots/screenshot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/vendor/bootstrap/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/vendor/bootstrap/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/vendor/bootstrap/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/vendor/bootstrap/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/vendor/bootstrap/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/vendor/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/vendor/bootstrap/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/vendor/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/vendor/jquery/jquery-1.10.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/vendor/jquery/jquery-1.10.2.min.map" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/.bower.json" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/base64.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/base64.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/between.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/between.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/dist/css/bootstrapValidator.css" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/dist/css/bootstrapValidator.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/css/bootstrapValidator.css" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/css/bootstrapValidator.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/dist/js/bootstrapValidator.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/dist/js/bootstrapValidator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/bootstrapValidator.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/bootstrapValidator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/dist/css/bootstrapValidator.min.css" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/dist/css/bootstrapValidator.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/dist/js/bootstrapValidator.min.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/dist/js/bootstrapValidator.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/bower.json" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/callback.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/callback.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/choice.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/choice.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/creditCard.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/creditCard.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/cusip.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/cusip.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/cvv.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/cvv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/date.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/date.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.js" afterPath="$PROJECT_DIR$/db.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/debug.log" afterPath="$PROJECT_DIR$/debug.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/different.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/different.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/digits.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/digits.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/ean.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/ean.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/emailAddress.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/emailAddress.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/error.log" afterPath="$PROJECT_DIR$/error.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/file.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/file.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/greaterThan.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/greaterThan.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/grid.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/grid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/hex.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/hex.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/hexColor.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/hexColor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/iban.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/iban.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/id.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/id.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/identical.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/identical.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/imei.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/imei.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/integer.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/integer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/ip.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/ip.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/isbn.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/isbn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/isin.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/isin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/ismn.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/ismn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/issn.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/issn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/lessThan.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/lessThan.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/mac.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/mac.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/mmo/mmoIndex.ejs" afterPath="$PROJECT_DIR$/views/mmo/mmoIndex.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/mmo/mmoModel.js" afterPath="$PROJECT_DIR$/public/js/mmo/mmoModel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/mmo/mmoRoute.js" afterPath="$PROJECT_DIR$/routes/mmo/mmoRoute.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/deathmonitor/model.js" afterPath="$PROJECT_DIR$/public/js/deathmonitor/model.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/notEmpty.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/notEmpty.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/numeric.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/numeric.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/schemas/mmo/ofosvkrScm.js" afterPath="$PROJECT_DIR$/public/schemas/mmo/ofosvkrScm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/mmo/ofosvkrTpl.ejs" afterPath="$PROJECT_DIR$/public/templates/mmo/ofosvkrTpl.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/orgm/orgmModel.js" afterPath="$PROJECT_DIR$/public/js/orgm/orgmModel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/orgm/orgmRoute.js" afterPath="$PROJECT_DIR$/routes/orgm/orgmRoute.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/phone.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/phone.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/regexp.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/regexp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/remote.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/remote.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/rtn.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/rtn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sandbox.js" afterPath="$PROJECT_DIR$/sandbox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/sedol.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/sedol.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/siren.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/siren.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/siret.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/siret.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/step.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/step.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/stringCase.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/stringCase.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/stringLength.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/stringLength.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/uri.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/uri.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/uuid.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/uuid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/vat.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/vat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/vin.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/vin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/zipCode.js" afterPath="$PROJECT_DIR$/bower_components/bootstrapValidator/src/js/validator/zipCode.js" />
+    </list>
     <ignored path="nodemksite.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,11 +133,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="config.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.js">
+      <file leaf-file-name="orgmRoute.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/orgm/orgmRoute.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
-              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2880" max-vertical-offset="4374">
+              <caret line="76" column="11" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -36,53 +146,9 @@
       <file leaf-file-name="mmoRoute.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/mmo/mmoRoute.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="426" max-vertical-offset="1530">
-              <caret line="76" column="70" selection-start-line="76" selection-start-column="70" selection-end-line="76" selection-end-column="70" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1350" max-vertical-offset="4788">
+              <caret line="75" column="59" selection-start-line="75" selection-start-column="59" selection-end-line="75" selection-end-column="59" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mmoIndex.ejs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/mmo/mmoIndex.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.37037" vertical-offset="152" max-vertical-offset="1674">
-              <caret line="30" column="97" selection-start-line="30" selection-start-column="97" selection-end-line="30" selection-end-column="97" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#h5#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="orgmRoute.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/routes/orgm/orgmRoute.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33201188" vertical-offset="961" max-vertical-offset="2340">
-              <caret line="184" column="73" selection-start-line="184" selection-start-column="73" selection-end-line="184" selection-end-column="73" />
-              <folding>
-                <element signature="e#376#488#0" expanded="false" />
-                <element signature="e#819#1401#0" expanded="false" />
-                <element signature="e#1442#2655#0" expanded="false" />
-                <element signature="e#2791#3018#0" expanded="false" />
-                <element signature="e#3059#3119#0" expanded="false" />
-                <element signature="e#3191#3722#0" expanded="false" />
-                <element signature="e#3283#3327#0" expanded="false" />
-                <element signature="e#3338#3397#0" expanded="false" />
-                <element signature="e#3532#3713#0" expanded="false" />
-                <element signature="e#3555#3642#0" expanded="false" />
-                <element signature="e#3648#3703#0" expanded="false" />
-                <element signature="e#3788#4707#0" expanded="false" />
-                <element signature="e#4226#4699#0" expanded="false" />
-                <element signature="e#4261#4379#0" expanded="false" />
-                <element signature="e#4471#4565#0" expanded="false" />
-                <element signature="e#4595#4689#0" expanded="false" />
-                <element signature="e#4766#4809#0" expanded="false" />
-                <element signature="e#5092#5207#0" expanded="false" />
-                <element signature="e#5222#5320#0" expanded="false" />
-                <element signature="e#5348#5387#0" expanded="false" />
-                <element signature="e#5580#5698#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -90,20 +156,8 @@
       <file leaf-file-name="db.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3401" max-vertical-offset="5130">
-              <caret line="195" column="9" selection-start-line="195" selection-start-column="9" selection-end-line="195" selection-end-column="9" />
-              <folding>
-                <element signature="e#10709#11406#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="passport.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/passport.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="350" max-vertical-offset="918">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="4914" max-vertical-offset="5490">
+              <caret line="273" column="21" selection-start-line="273" selection-start-column="10" selection-end-line="273" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -112,47 +166,73 @@
       <file leaf-file-name="sandbox.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sandbox.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
-              <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-              <folding>
-                <element signature="e#2651#3875#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="orgmIndex.ejs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/orgm/orgmIndex.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8070173" vertical-offset="227" max-vertical-offset="1584">
-              <caret line="31" column="72" selection-start-line="31" selection-start-column="66" selection-end-line="31" selection-end-column="72" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1476" max-vertical-offset="1584">
+              <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="orgmModel.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/orgm/orgmModel.js">
+      <file leaf-file-name="ofosvkrScm.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/schemas/mmo/ofosvkrScm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="4.3" vertical-offset="1461" max-vertical-offset="2430">
-              <caret line="177" column="62" selection-start-line="177" selection-start-column="62" selection-end-line="177" selection-end-column="62" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="1548">
+              <caret line="79" column="34" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ofosvkrTpl.ejs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/templates/mmo/ofosvkrTpl.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="155" max-vertical-offset="1764">
+              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mmoModel.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/mmo/mmoModel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="925" max-vertical-offset="2754">
+              <caret line="92" column="19" selection-start-line="85" selection-start-column="18" selection-end-line="92" selection-end-column="19" />
               <folding>
-                <element signature="e#212#3616#0" expanded="false" />
-                <element signature="e#4055#4185#0" expanded="false" />
-                <element signature="e#4227#5335#0" expanded="false" />
-                <element signature="e#5395#5856#0" expanded="false" />
-                <element signature="e#6702#6899#0" expanded="false" />
-                <element signature="e#6986#7068#0" expanded="false" />
+                <element signature="e#808#823#0" expanded="false" />
+                <element signature="e#1635#1717#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mprTpl.ejs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/templates/orgm/mprTpl.ejs">
+      <file leaf-file-name="orgmModel.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/js/orgm/orgmModel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="2286">
-              <caret line="19" column="59" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="59" />
+            <state vertical-scroll-proportion="0.9262187" vertical-offset="1889" max-vertical-offset="4338">
+              <caret line="144" column="69" selection-start-line="144" selection-start-column="69" selection-end-line="144" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="model.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/deathmonitor/model.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2322" max-vertical-offset="3204">
+              <caret line="206" column="21" selection-start-line="206" selection-start-column="21" selection-end-line="206" selection-end-column="21" />
+              <folding>
+                <element signature="e#3948#5651#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mmoIndex.ejs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/mmo/mmoIndex.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1674">
+              <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -165,12 +245,12 @@
       <setting name="OPEN_NEW_TAB" value="true" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/views/deathmonitor/login.ejs" />
-        <option value="$PROJECT_DIR$/log.js" />
-        <option value="$PROJECT_DIR$/ipban.js" />
         <option value="$PROJECT_DIR$/bin/www" />
         <option value="$PROJECT_DIR$/tst" />
         <option value="$PROJECT_DIR$/public/js/deathmonitor/admmodel.js" />
@@ -185,11 +265,9 @@
         <option value="$PROJECT_DIR$/public/templates/mmo/ofosvkr.ejs.js" />
         <option value="$PROJECT_DIR$/public/templates/mmo/ofosvkr.ejs" />
         <option value="$PROJECT_DIR$/public/schemas/mmo/ofosvkr.js" />
-        <option value="$PROJECT_DIR$/public/schemas/mmo/ofosvkrScm.js" />
         <option value="$PROJECT_DIR$/routes/deathmonitor/validateDate.js" />
         <option value="$PROJECT_DIR$/routes/orgm/orgmLogin.js" />
         <option value="$PROJECT_DIR$/routes/orgm/orgmAuth.js" />
-        <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/routes/deathmonitor/uploadform.js" />
         <option value="$PROJECT_DIR$/views/orgm/ogrmAdmin.ejs" />
         <option value="$PROJECT_DIR$/public/templates/orgm/orgmAdminTpl.ejs.html" />
@@ -203,22 +281,27 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/routes/deathmonitor/auth.js" />
         <option value="$PROJECT_DIR$/routes/deathmonitor/fillfrm.js" />
-        <option value="$PROJECT_DIR$/public/js/deathmonitor/model.js" />
         <option value="$PROJECT_DIR$/views/orgm/orgmIndex.ejs" />
         <option value="$PROJECT_DIR$/public/templates/orgm/mprTpl.ejs" />
-        <option value="$PROJECT_DIR$/public/js/mmo/mmoModel.js" />
-        <option value="$PROJECT_DIR$/public/templates/mmo/ofosvkrTpl.ejs" />
         <option value="$PROJECT_DIR$/passportMmo.js" />
         <option value="$PROJECT_DIR$/views/mmo/mmoLogin.ejs" />
         <option value="$PROJECT_DIR$/passport.js" />
         <option value="$PROJECT_DIR$/user.js" />
+        <option value="$PROJECT_DIR$/config.js" />
+        <option value="$PROJECT_DIR$/routes/orgm/orgmRoute.js" />
+        <option value="$PROJECT_DIR$/views/mmo/mmoAdmin.ejs" />
+        <option value="$PROJECT_DIR$/public/templates/mmo/mmoOfosvkrAdminTpl.ejs" />
+        <option value="$PROJECT_DIR$/public/js/mmo/mmoAdminModel.js" />
+        <option value="$PROJECT_DIR$/public/schemas/mmo/ofosvkrScm.js" />
+        <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/public/templates/mmo/ofosvkrTpl.ejs" />
+        <option value="$PROJECT_DIR$/public/js/mmo/mmoModel.js" />
+        <option value="$PROJECT_DIR$/sandbox.js" />
+        <option value="$PROJECT_DIR$/db.js" />
         <option value="$PROJECT_DIR$/routes/mmo/mmoRoute.js" />
         <option value="$PROJECT_DIR$/views/mmo/mmoIndex.ejs" />
-        <option value="$PROJECT_DIR$/sandbox.js" />
-        <option value="$PROJECT_DIR$/config.js" />
-        <option value="$PROJECT_DIR$/db.js" />
         <option value="$PROJECT_DIR$/public/js/orgm/orgmModel.js" />
-        <option value="$PROJECT_DIR$/routes/orgm/orgmRoute.js" />
+        <option value="$PROJECT_DIR$/public/js/deathmonitor/model.js" />
       </list>
     </option>
   </component>
@@ -228,7 +311,7 @@
     <option name="width" value="1855" />
     <option name="height" value="1176" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -283,209 +366,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodemksite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodemksite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="orgm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodemksite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodemksite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mmo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodemksite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodemksite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodemksite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodemksite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="orgm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodemksite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodemksite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mmo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodemksite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodemksite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="orgm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodemksite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodemksite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mmo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodemksite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodemksite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodemksite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodemksite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodemksite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodemksite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="schemas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodemksite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodemksite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="schemas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mmo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -504,50 +385,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodemksite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodemksite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="orgm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodemksite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodemksite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mmo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -573,20 +410,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodemksite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodemksite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -600,14 +423,30 @@
     <property name="LayoutCode.rearrangeEntriesEJS" value="false" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="197" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="231" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="238" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1136" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="208" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="228" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="234" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1132" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/public/templates/mmo" />
+      <recent name="$PROJECT_DIR$/public/js/mmo" />
       <recent name="$PROJECT_DIR$/views/mmo" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/public/js/orgm" />
-      <recent name="$PROJECT_DIR$/views/orgm" />
-      <recent name="$PROJECT_DIR$/routes/orgm" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\devel\nodemksite\public\stylesheets\deathmonitor" />
@@ -725,20 +564,21 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30555555" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19432314" sideWeight="0.50060755" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19432314" sideWeight="0.49939248" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5407407" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19432314" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19432314" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21197718" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23796296" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23764259" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298479" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30555555" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -786,11 +626,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/node_modules/express/lib/router/index.js</url>
-          <line>211</line>
-          <option name="timeStamp" value="128" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/node_modules/express/lib/router/index.js</url>
           <line>300</line>
           <option name="timeStamp" value="129" />
         </line-breakpoint>
@@ -809,32 +644,16 @@
           <line>30</line>
           <option name="timeStamp" value="238" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/sandbox.js</url>
+          <line>82</line>
+          <option name="timeStamp" value="294" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="266" />
+      <option name="time" value="297" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/error.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="204">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ipban.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4857143" vertical-offset="0" max-vertical-offset="1050">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2146" max-vertical-offset="18360">
-          <caret line="149" column="0" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/xlsx-template/lib/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3324573" vertical-offset="325" max-vertical-offset="13056">
@@ -853,7 +672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.73069304" vertical-offset="0" max-vertical-offset="2214">
           <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -861,13 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.7169812" vertical-offset="0" max-vertical-offset="2430">
           <caret line="120" column="9" selection-start-line="120" selection-start-column="9" selection-end-line="120" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/schemas/mmo/ofosvkrScm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14481409" vertical-offset="302" max-vertical-offset="1512">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -882,21 +693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1152">
           <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.0" vertical-offset="0" max-vertical-offset="432">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/bootstrapValidator/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33540374" vertical-offset="0" max-vertical-offset="648">
-          <caret line="12" column="64" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -918,7 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09703504" vertical-offset="918" max-vertical-offset="1674">
           <caret line="55" column="96" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="96" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -933,9 +728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0804769" vertical-offset="0" max-vertical-offset="738">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="44" />
-          <folding>
-            <element signature="e#1106#4643#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -943,7 +735,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="1080">
           <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -958,7 +749,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="558" max-vertical-offset="738">
           <caret line="31" column="104" selection-start-line="31" selection-start-column="95" selection-end-line="31" selection-end-column="104" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -987,7 +777,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.30761904" vertical-offset="1" max-vertical-offset="1116">
           <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1024,21 +813,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1242" max-vertical-offset="4680">
           <caret line="227" column="52" selection-start-line="227" selection-start-column="37" selection-end-line="227" selection-end-column="52" />
-          <folding>
-            <marker date="1411016179632" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1411016179632" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1411016179632" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1411016179632" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1411016179632" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/deathmonitor/model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1350" max-vertical-offset="4284">
-          <caret line="89" column="36" selection-start-line="89" selection-start-column="36" selection-end-line="89" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1046,7 +820,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="864">
           <caret line="137" column="69" selection-start-line="137" selection-start-column="52" selection-end-line="137" selection-end-column="69" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1054,7 +827,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2639296" vertical-offset="54" max-vertical-offset="1098">
           <caret line="18" column="75" selection-start-line="18" selection-start-column="75" selection-end-line="18" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1062,7 +834,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.3149606" vertical-offset="1002" max-vertical-offset="1764">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1070,27 +841,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="1800">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/mmo/mmoModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.0" vertical-offset="306" max-vertical-offset="1206">
-          <caret line="81" column="71" selection-start-line="81" selection-start-column="71" selection-end-line="81" selection-end-column="71" />
-          <folding>
-            <element signature="e#651#758#0" expanded="false" />
-            <element signature="e#800#1825#0" expanded="false" />
-            <element signature="e#1885#2345#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/templates/mmo/ofosvkrTpl.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.0" vertical-offset="414" max-vertical-offset="1836">
-          <caret line="41" column="65" selection-start-line="41" selection-start-column="65" selection-end-line="41" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1098,15 +848,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7" vertical-offset="7986" max-vertical-offset="8766">
           <caret line="474" column="0" selection-start-line="474" selection-start-column="0" selection-end-line="474" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.6666665" vertical-offset="184" max-vertical-offset="2808">
-          <caret line="23" column="53" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1114,9 +855,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
           <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-          <folding>
-            <element signature="e#545#20393#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1124,27 +862,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.9473684" vertical-offset="285" max-vertical-offset="1278">
           <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
-          <folding>
-            <marker date="1412336409108" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1412336409108" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1412336409108" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/passport.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="350" max-vertical-offset="918">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/orgm/orgmIndex.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8070173" vertical-offset="227" max-vertical-offset="1584">
-          <caret line="31" column="72" selection-start-line="31" selection-start-column="66" selection-end-line="31" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1152,98 +869,163 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="2286">
           <caret line="19" column="59" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/passport.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5107632" vertical-offset="0" max-vertical-offset="1022">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/orgm/orgmIndex.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34300518" vertical-offset="227" max-vertical-offset="1584">
+          <caret line="31" column="72" selection-start-line="31" selection-start-column="66" selection-end-line="31" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24657534" vertical-offset="0" max-vertical-offset="1022">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="3544" max-vertical-offset="7326">
+          <caret line="211" column="0" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/templates/mmo/mmoOfosvkrAdminTpl.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5157593" vertical-offset="0" max-vertical-offset="698">
+          <caret line="20" column="102" selection-start-line="20" selection-start-column="102" selection-end-line="20" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/mmo/mmoAdminModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6786207" vertical-offset="264" max-vertical-offset="1026">
+          <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/mmo/mmoAdmin.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64469916" vertical-offset="0" max-vertical-offset="792">
+          <caret line="25" column="73" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1806" max-vertical-offset="2808">
+          <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/schemas/mmo/ofosvkrScm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1548">
+          <caret line="79" column="34" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/bootstrapValidator/.bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1062">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43489933" vertical-offset="0" max-vertical-offset="745">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/templates/mmo/ofosvkrTpl.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="155" max-vertical-offset="1764">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sandbox.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
-          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding>
-            <element signature="e#2651#3875#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/mmo/mmoIndex.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.37037" vertical-offset="152" max-vertical-offset="1674">
-          <caret line="30" column="97" selection-start-line="30" selection-start-column="97" selection-end-line="30" selection-end-column="97" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#h5#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/mmo/mmoRoute.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="750" max-vertical-offset="1530">
-          <caret line="76" column="70" selection-start-line="76" selection-start-column="70" selection-end-line="76" selection-end-column="70" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
+          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3401" max-vertical-offset="5130">
-          <caret line="195" column="9" selection-start-line="195" selection-start-column="9" selection-end-line="195" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="3310" max-vertical-offset="4122">
+          <caret line="273" column="21" selection-start-line="273" selection-start-column="10" selection-end-line="273" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/mmo/mmoIndex.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1674">
+          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/orgm/orgmRoute.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="107" max-vertical-offset="1314">
+          <caret line="76" column="11" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/mmo/mmoRoute.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="284" max-vertical-offset="3294">
+          <caret line="75" column="59" selection-start-line="75" selection-start-column="59" selection-end-line="75" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/mmo/mmoModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="925" max-vertical-offset="2754">
+          <caret line="92" column="19" selection-start-line="85" selection-start-column="18" selection-end-line="92" selection-end-column="19" />
           <folding>
-            <element signature="e#10709#11406#0" expanded="false" />
+            <element signature="e#808#823#0" expanded="false" />
+            <element signature="e#1635#1717#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/deathmonitor/model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2322" max-vertical-offset="3204">
+          <caret line="206" column="21" selection-start-line="206" selection-start-column="21" selection-end-line="206" selection-end-column="21" />
+          <folding>
+            <element signature="e#3948#5651#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/orgm/orgmModel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.3" vertical-offset="1461" max-vertical-offset="2430">
-          <caret line="177" column="62" selection-start-line="177" selection-start-column="62" selection-end-line="177" selection-end-column="62" />
-          <folding>
-            <element signature="e#212#3616#0" expanded="false" />
-            <element signature="e#4055#4185#0" expanded="false" />
-            <element signature="e#4227#5335#0" expanded="false" />
-            <element signature="e#5395#5856#0" expanded="false" />
-            <element signature="e#6702#6899#0" expanded="false" />
-            <element signature="e#6986#7068#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/orgm/orgmRoute.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33201188" vertical-offset="961" max-vertical-offset="2340">
-          <caret line="184" column="73" selection-start-line="184" selection-start-column="73" selection-end-line="184" selection-end-column="73" />
-          <folding>
-            <element signature="e#376#488#0" expanded="false" />
-            <element signature="e#819#1401#0" expanded="false" />
-            <element signature="e#1442#2655#0" expanded="false" />
-            <element signature="e#2791#3018#0" expanded="false" />
-            <element signature="e#3059#3119#0" expanded="false" />
-            <element signature="e#3191#3722#0" expanded="false" />
-            <element signature="e#3283#3327#0" expanded="false" />
-            <element signature="e#3338#3397#0" expanded="false" />
-            <element signature="e#3532#3713#0" expanded="false" />
-            <element signature="e#3555#3642#0" expanded="false" />
-            <element signature="e#3648#3703#0" expanded="false" />
-            <element signature="e#3788#4707#0" expanded="false" />
-            <element signature="e#4226#4699#0" expanded="false" />
-            <element signature="e#4261#4379#0" expanded="false" />
-            <element signature="e#4471#4565#0" expanded="false" />
-            <element signature="e#4595#4689#0" expanded="false" />
-            <element signature="e#4766#4809#0" expanded="false" />
-            <element signature="e#5092#5207#0" expanded="false" />
-            <element signature="e#5222#5320#0" expanded="false" />
-            <element signature="e#5348#5387#0" expanded="false" />
-            <element signature="e#5580#5698#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.9262187" vertical-offset="1889" max-vertical-offset="4338">
+          <caret line="144" column="69" selection-start-line="144" selection-start-column="69" selection-end-line="144" selection-end-column="69" />
+          <folding />
         </state>
       </provider>
     </entry>

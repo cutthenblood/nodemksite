@@ -91,7 +91,7 @@ module.exports = function (db) {
             {$project:{"inputdate":1}},function(err,result){
                 errproc(err,result,callback);
             });
-    };
+    },
     this.insup = function (collection, data, callback) {
         var _this = this;
         var inputdate = data.inputdate;
@@ -115,40 +115,31 @@ module.exports = function (db) {
                     }
                 }
             );
-
-
-            /* if (err) {
-             log.error(err);
-             callback(err, null)
-             }
-             else {
-             var docid = result;
-             if (docid.length == 1) {
-             _this._db.collection(collection).update({ _id: docid[0]._id}, { $pull: {"rows": {"username": username}}}, function (err, result) {
-             if (err) {
-             log.error(err);
-             callback(err, null)
-             }
-             else {
-             _this._db.collection(collection).update({ inputdate: inputdate}, { $push: {"rows": row[0]}}, function (err, result) {
-             if (err) {
-             log.error(err);
-             callback(err, null)
-             }
-             else {
-             callback(null, result);
-             }
-             });
-             }
-
-             });
-             }
-             else {
-             _this.insert(collection, data, callback);
-             }
-             }*/
         });
     },
+        this.ins = function (collection, data, callback) {
+            var _this = this;
+            var inputdate = data.inputdate;
+            var row = data.rows;
+            var username = row[0].username;
+            this._db.collection(collection).find({inputdate: inputdate}, {_id: 1}).toArray(function (err, result) {
+                errproc(err, result, callback, function () {
+                        var docid = result;
+                        if (docid.length >= 1) {
+                            //_this._db.collection(collection).update({ _id: docid[0]._id}, { $pull: {"rows": {"username": username}}}, function (err, result) {
+                               // errproc(err, result, callback, function () {
+                                        _this._db.collection(collection).update({ _id: docid[0]._id}, { $push: {"rows": row[0]}}, function (err, result) {
+                                            errproc(err, result, callback);
+                                        });
+                                  //  });
+                            //});
+                        }
+                        else {
+                            _this.insert(collection, data, callback);
+                        }
+                    });
+            });
+        },
     this.getByInputDate = function (collection, startdate,stopdate, callback) {
             var beg = convertDatesISO(startdate);
             var end = convertDatesISO(stopdate);
@@ -209,6 +200,11 @@ module.exports = function (db) {
             ,function (err, result) {
             errproc(err,result,callback);
         });
+    };
+    this.getMmoOfosvkr = function(collection,date,callback) {
+        this._db.collection(collection).find({inputdate:parseInt(date)}).toArray(function (err, result) {
+                errproc(err,result,callback);
+            });
     };
 
 
@@ -275,8 +271,8 @@ module.exports = function (db) {
 
 
         },
-     this.getUsersArg = function (arg,collection, callback) {
-            this._db.collection(collection).find(arg.query,arg.fields).toArray(function (err, result) {
+     this.getUsersArg = function (collection,arg, callback) {
+            this._db.collection(collection).find(arg).toArray(function (err, result) {
                 errproc(err,result,callback);
                 /*  if (err) {
                  if (err) throw err;

@@ -71,62 +71,13 @@ var dt = moment(dt1.valueOf());
 console.log(dt.format("DD.MM.YYYY HH:MM"));*/
 
 var _ = require('lodash');
-var result = [
 
-    {
-        "_id" : "54322060d4b1200376b52011",
-        "clientid" : "54322060d4b1200376b52011",
-        "claimnum" : 0,
-        "manager" : "540417349eed9f2b571227d6",
-        "mactive" : true
-    },
-    {
-        "_id" : "542e9f62cc5fd687063235f8",
-        "clientid" : "542e9f62cc5fd687063235f8",
-        "claimnum" : 0,
-        "manager" : "540d5a48713e4a1b5c284faa",
-        "mactive" : false
-    },
-    {
-        "_id" : "542e9f62cc5fd687063235f8",
-        "clientid" : "542e9f62cc5fd687063235f8",
-        "claimnum" : 0,
-        "manager" : "540ea2d4e8e84ddeb47add8d",
-        "mactive" : false
-    },
-    {
-        "_id" : "542e9f62cc5fd687063235f8",
-        "clientid" : "542e9f62cc5fd687063235f8",
-        "claimnum" : 0,
-        "manager" : "540417349eed9f2b571227d6",
-        "mactive" : true
-    },
-    {
-        "_id" : "54322055d4b1200376b5200d",
-        "clientid" : "54322055d4b1200376b5200d",
-        "claimnum" : 0,
-        "manager" : "540d5a48713e4a1b5c284faa",
-        "mactive" : false
-    },
-    {
-        "_id" : "54322055d4b1200376b5200d",
-        "clientid" : "54322055d4b1200376b5200d",
-        "claimnum" : 0,
-        "manager" : "540ea2d4e8e84ddeb47add8d",
-        "mactive" : true
-    }
-];
+var ob = {'aitem1':[{'data':1},{'data':2}],
+    'citem1':[{'data':1},{'data':2}],
 
-var resres=[];
-_.chain(result)
-           .groupBy(function(itm){ return itm._id})
-           .groupBy(function(itm){
-            var tmp ={};
-            tmp.mln = (itm.length>1)?1:0;
-            tmp.manager = itm.filter(function(mgr){if(mgr.mactive) return mgr;})
-            if(tmp.manager) tmp.manager = tmp.manager[0].manager;
-            resres.push(tmp);
-            });
-var re= _.groupBy(resres,function(itm){ return itm.manager;})
+            'bitem2':[{'data':1},{'data':2}]};
 
-var a= 12;
+var res = _.chain(ob).pairs().sortBy(function(kvArray) {return kvArray[0];} )
+    .zipObject().value();
+
+var a=12;

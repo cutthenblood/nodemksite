@@ -10,7 +10,7 @@
         "vow": "latest",
         "ui-bootstrap": "0.11.0",
         "eonasdan-bootstrap-datetimepicker": "latest",
-        "bootstrapValidator": "0.4.5",
+        "bootstrapValidator": "latest",
         "angular": "1.2.18",
         "angular-cookies": "1.2.18",
         "angular-resource": "1.2.18",

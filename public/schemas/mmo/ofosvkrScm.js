@@ -76,3 +76,6 @@ var ofosvkrSchema = [
         }
 
 ];
+try{
+    module.exports = ofosvkrSchema;
+}catch(e){}

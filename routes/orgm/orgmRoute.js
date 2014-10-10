@@ -97,6 +97,7 @@ module.exports = function (app) {
         });
 
     });
+    //todo заточить под разные отчеты
  app.post('/orgm/validateDate',isLoggedIn, function (req, res) {
         var startdate =req.body.startdate;//var seldate = moment(query.date,"DD.MM.YYYY").format("DD.MM.YYYY");
         var enddate = req.body.enddate;

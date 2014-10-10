@@ -19,7 +19,7 @@
                 <label class="col-lg-2 control-label">по состоянию на </label>
 
                 <div class='input-group date col-lg-9' id="date" data-date-format="DD.MM.YYYY">
-                    <input type='text' class="form-control" name="inputdate"
+                    <input type='text' class="form-control" name="date" fieldName = "inputdate"
                            data-bv-notempty="true"
                            data-bv-notempty-message="Поле не заполнено"
                             />
@@ -38,16 +38,12 @@
                             <table cellspacing="2" width="100%"><tr>
                                     <td>
                                         <%if(val.type=='date'){%>
-                                      <!--  <div class='input-group date ' id="date_<%=val.name%>" data-date-format="DD.MM.YYYY" >-->
-                                            <input type = "date" class="form-control" name="<%=val.name%>"
-                                                   data-bv-notempty="true"
-                                                   data-bv-date="true"
-                                                   data-bv-date-format="DD.MM.YYYY"
-                                                   data-bv-date-separator="-"
-                                                   data-bv-notempty-message="Поле не заполнено"
+                                        <div class='input-group date '  data-date-format="DD.MM.YYYY" >
+                                            <input type = "text" class="form-control" name="dates[]" fieldName = '<%=val.name%>'
+
                                                     />
-                                         <!--   <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>-->
-                                            <!--</span>-->
+                                            <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+                                            </span>
 
 
                                         <%} else {
@@ -82,7 +78,7 @@
             <div class="form-group">
                 <div class="col-lg-9 col-lg-offset-3">
                     <button type="submit" class="btn btn-primary" name="submitexit" >Сохранить и выйти</button>
-                    <button type="submit" class="btn btn-primary" name="submitcontinue">Сохранить и продолжить</button>
+                    <button type="submit" class="btn btn-primary" name="submitcontinue" >Сохранить и ввести следующий объект</button>
                 </div>
             </div>
 </div>

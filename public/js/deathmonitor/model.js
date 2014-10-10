@@ -62,13 +62,13 @@
                 $("#bskdate").html("Кол-во умерших от БСК всего за  <b>"+dt+"</b>");
                 _this.validateDate(_this.validateDate(moment(dt,"DD.MM.YYYY")));
             });
+            $('form').bootstrapValidator().on('success.form.bv', function(e) {
+                // Prevent submit form
+                e.preventDefault();
 
-            $('form').bootstrapValidator({
-
-                submitHandler: function(validator, form, submitButton) {
-                    _this.saveform(submitButton.attr('name'));
-
-                }
+                var $form     = $('#mainaddform'),
+                    validator = $form.data('bootstrapValidator');
+                _this.saveform(validator,validator.getSubmitButton().attr('name'));
             });
         },
         renderDateError: function(error){
@@ -203,8 +203,8 @@
                 }
                 else
                 {
-                    momodel.save();
-                    alert('Ваши данные успешно сохранены!');
+                   //momodel.save();
+                   // alert('Ваши данные успешно сохранены!');
                     var form =  $('form');
                     form[0].reset();
                     form.data('bootstrapValidator').resetForm();

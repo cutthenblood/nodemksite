@@ -92,8 +92,8 @@ load({
                 var now = moment();
                 var weekday = now.day();
                 var diff = moment().diff(date, 'days');
-                var time = moment.duration(moment().diff(now.startOf('day'))).asHours();
-                if (diff<0) return _this.renderDateError("<h3>Вводить данные за дату в будущем запрещено</h3>");
+                var time = moment.duration(moment().diff(date.startOf('day'))).asHours();
+                if (time<0) return _this.renderDateError("<h3>Вводить данные за дату в будущем запрещено</h3>");
                 //if (weekday == 1 && (time>=9 && time<=12)) {
                         this.postdate(date.valueOf(),date.add(1,"days").valueOf(),function(res)
                         {
@@ -136,13 +136,15 @@ load({
                     var dt = $('#date').data("DateTimePicker").getDate().format("DD.MM.YYYY");
                     _this.validateDate(_this.validateDate(moment(dt,"DD.MM.YYYY")));
                 });
-                this.validator = $('#mainaddform').bootstrapValidator({
+                this.validator = $('#mainaddform').
+                    bootstrapValidator().on('success.form.bv', function(e) {
+                    // Prevent submit form
+                    e.preventDefault();
 
-                    submitHandler: function(validator, form, submitButton) {
-                        _this.saveform(validator,submitButton.attr('name'));
-
-                    }
-                },true);
+                    var $form     = $('#mainaddform'),
+                        validator = $form.data('bootstrapValidator');
+                    _this.saveform(validator,validator.getSubmitButton().attr('name'));
+                });
                 return this;
             }
             ,scrolltotop: function(){
@@ -217,6 +219,7 @@ load({
                     else
                     {
                         mprmodel.save();
+                        mprmodel.clear();
                         alert('Ваши данные успешно сохранены!');
                         var form =  $('form');
                         form[0].reset();
