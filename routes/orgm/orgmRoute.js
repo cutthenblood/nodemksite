@@ -213,23 +213,30 @@ module.exports = function (app) {
                     ress.map(function(item){
                         item.nn=ind;
                         ind+=1;
-                    })
+                    });
+                    dbmethods.getUsersArg('users',{'division':'mmo'},function(err,users) {
+                        if (err) {
+                            log.error(err);
+                            res.status(500).send("readfile error");
+                            return;
+                        }
 
-                    var values = {
-                        date:header_date,
-                        grs: ress//.sort(sortrows)
-                    };
-                    try {
-                        template.substitute(sheetNumber, values);
-                    }
-                    catch(e)
-                    {
-                        log.error(e);
-                    }
-                    var doc = template.generate();
-                    res.setHeader('Content-Type', 'application/vnd.openxmlformats');
-                    res.setHeader("Content-Disposition", "attachment; filename=" + "Report.xlsx");
-                    res.status(200).end(doc, 'binary');
+
+                        var values = {
+                            date: header_date,
+                            grs: ress//.sort(sortrows)
+                        };
+                        try {
+                            template.substitute(sheetNumber, values);
+                        }
+                        catch (e) {
+                            log.error(e);
+                        }
+                        var doc = template.generate();
+                        res.setHeader('Content-Type', 'application/vnd.openxmlformats');
+                        res.setHeader("Content-Disposition", "attachment; filename=" + "Report.xlsx");
+                        res.status(200).end(doc, 'binary');
+                    });
 
                 });
 

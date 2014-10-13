@@ -41,6 +41,12 @@ load({
                     errors.push(['gr12','гр. 6 = гр. 10 + 11 + 12 + 13']);
                     errors.push(['gr13','гр. 6 = гр. 10 + 11 + 12 + 13']);
                 };
+                if(attrs.rows[0].gr6 != (attrs.rows[0].gr21+attrs.rows[0].gr22+attrs.rows[0].gr23+attrs.rows[0].gr24)){
+                    errors.push(['gr21','гр. 6 = гр. 21 + 22 + 23 + 24']);
+                    errors.push(['gr22','гр. 6 = гр. 21 + 22 + 23 + 24']);
+                    errors.push(['gr23','гр. 6 = гр. 21 + 22 + 23 + 24']);
+                    errors.push(['gr24','гр. 6 = гр. 21 + 22 + 23 + 24']);
+                };
                 if(attrs.rows[0].gr6 != (attrs.rows[0].gr14+attrs.rows[0].gr15+attrs.rows[0].gr16+attrs.rows[0].gr17+attrs.rows[0].gr18+attrs.rows[0].gr19+attrs.rows[0].gr20)){
                     errors.push(['gr14','гр. 6 = гр. 14 + 15 + 16 + 17 + 18 + 19 + 20']);
                     errors.push(['gr15','гр. 6 = гр. 14 + 15 + 16 + 17 + 18 + 19 + 20']);
@@ -221,7 +227,7 @@ load({
                 else
                 {
 
-                    mprmodel.save();
+                    //mprmodel.save();
                     alert('Ваши данные успешно сохранены!');
                     if(submittype=="submitexit"){
                         //window.location.href = "/orgm/orgmIndex";
@@ -230,7 +236,7 @@ load({
                     }
                     else
                     {
-                        mprmodel.save();
+                        //mprmodel.save();
                         mprmodel.clear();
                         alert('Ваши данные успешно сохранены!');
                         var form =  $('form');
