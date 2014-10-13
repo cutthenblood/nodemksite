@@ -227,10 +227,10 @@ load({
                 else
                 {
 
-                    //mprmodel.save();
+                    mprmodel.save();
                     alert('Ваши данные успешно сохранены!');
                     if(submittype=="submitexit"){
-                        //window.location.href = "/orgm/orgmIndex";
+                        window.location.href = "/orgm/orgmIndex";
                         $('#report').html('');
                         return this;
                     }
