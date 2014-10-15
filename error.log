@@ -242,3 +242,28 @@
 {"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Object , has no method 'keys'","timestamp":"2014-10-08T08:28:44.358Z"}
 {"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Object #<Object> has no method 'map'","timestamp":"2014-10-08T08:29:47.619Z"}
 {"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Object #<Object> has no method 'map'","timestamp":"2014-10-08T08:32:43.697Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Object [object Object] has no method 'getusersArg'","timestamp":"2014-10-15T06:30:28.741Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Object [object Object] has no method 'getusersArg'","timestamp":"2014-10-15T06:30:36.709Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Object [object Object] has no method 'getusersArg'","timestamp":"2014-10-15T06:31:25.136Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: _ is not defined","timestamp":"2014-10-15T06:31:55.384Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot call method 'map' of undefined","timestamp":"2014-10-15T06:33:01.801Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: mo is not defined","timestamp":"2014-10-15T06:33:14.684Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: mo is not defined","timestamp":"2014-10-15T06:33:55.870Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot call method 'filter' of undefined","timestamp":"2014-10-15T06:35:44.975Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot call method 'filter' of undefined","timestamp":"2014-10-15T06:36:49.315Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot call method 'filter' of undefined","timestamp":"2014-10-15T06:37:42.528Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot call method 'filter' of undefined","timestamp":"2014-10-15T06:38:18.756Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot call method 'filter' of undefined","timestamp":"2014-10-15T06:38:33.207Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot call method 'filter' of undefined","timestamp":"2014-10-15T06:38:36.962Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'length' of undefined","timestamp":"2014-10-15T06:40:11.195Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Object [object Object] has no method 'status'","timestamp":"2014-10-15T06:41:48.274Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Object [object Object] has no method 'status'","timestamp":"2014-10-15T06:43:56.625Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Object [object Object],[object Object],[object Object] has no method 'status'","timestamp":"2014-10-15T06:45:33.792Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Object [object Object],[object Object],[object Object] has no method 'status'","timestamp":"2014-10-15T11:49:50.493Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Object [object Object],[object Object],[object Object] has no method 'status'","timestamp":"2014-10-15T11:49:58.222Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Object [object Object],[object Object],[object Object] has no method 'status'","timestamp":"2014-10-15T11:51:08.752Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Object [object Object],[object Object],[object Object] has no method 'send'","timestamp":"2014-10-15T11:51:33.121Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Object #<Object> has no method 'format'","timestamp":"2014-10-15T12:08:33.816Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Object #<Object> has no method 'format'","timestamp":"2014-10-15T12:08:39.433Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Object #<Object> has no method 'format'","timestamp":"2014-10-15T12:08:39.878Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: SyntaxError: Unexpected identifier","timestamp":"2014-10-15T12:15:28.200Z"}

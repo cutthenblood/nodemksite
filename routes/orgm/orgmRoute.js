@@ -9,6 +9,7 @@ var url = require('url');
 var log = require('./../../log.js')(module);
 var passport = require('passport');
 var vow = require('vow');
+var _ = require('lodash');
 var prcalend = [
     {"month":"11",
         "holydays":[{"month":"10","dates":["31"]},{"month":"11","dates":["1","2","3","4"]}]
@@ -106,14 +107,14 @@ module.exports = function (app) {
 
         var dbmethods = app.get('dbmethods');
         var data = {"username":username,"startdate":startdate,"enddate":enddate};
-        dbmethods.validateDate1('everyday',data,function(err,result){
+        dbmethods.validateDate1('orgmMpr',data,function(err,result){
             if (err)
             {
                 log.info(err);
                 res.status(500).send("Ошибка");
                 return;
             }
-            console.log(util.inspect(result));
+
             if(result.length<1)
             {
                 console.log("ok");
@@ -123,6 +124,84 @@ module.exports = function (app) {
             {
                 console.log("no");
                 res.status(200).send("no");
+            }
+        });
+    });
+ app.post('/orgm/mprwhoinput',isLoggedIn, function (req, response) {
+        var startdate =req.body.startdate;//var seldate = moment(query.date,"DD.MM.YYYY").format("DD.MM.YYYY");
+        var enddate = req.body.enddate;
+
+        var dbmethods = app.get('dbmethods');
+
+        dbmethods.getOrgmMprWhoInput('orgmMpr',startdate,enddate,function(err,result){
+            if (err)
+            {
+                log.info(err);
+                res.status(500).send("Ошибка");
+                return;
+            }
+            if(result.length>0)
+            {
+                dbmethods.getUsersArg('users',{"division":{$exists:false}},function(err,users){
+                    if (err)
+                    {
+                        log.info(err);
+                        res.status(500).send("Ошибка");
+                        return;
+                    }
+                    var gbd = _.groupBy(result,function(item){
+                        return item.date;
+                    });
+
+                    var res = [];
+                    var start = moment(parseInt(startdate));
+                    var end = moment(parseInt(enddate)).add('days',1);
+
+                    users.map(function(user){
+                        if('mo' in user)
+                            user.mo.map(function(moo){
+                                var cur= moment(parseInt(startdate));;
+                                while (cur.valueOf()!=end.valueOf()) {
+                                    var curorgs = gbd[cur.valueOf()];
+                                    if (curorgs){
+                                        var rs = curorgs.filter(function(curorg){
+                                            if (curorg.mo == moo.fullname)
+                                                return curorg;
+                                                });
+                                        if(rs.length<1){
+                                            res.push({mo:moo.fullname,date:cur.format('DD.MM.YYYY')});
+                                        }
+                                    } else {
+                                        res.push({mo:'нет',date:cur.format('DD.MM.YYYY')});
+                                    }
+                                        cur = cur.add('days',1);
+                                    }
+                            })
+
+                    });
+
+
+
+
+
+                    console.log("ok");
+                    response.send(JSON.stringify(res.sort(function(a,b){
+                        return moment(a.date,'DD.MM.YYYY').diff(moment(b.date,'DD.MM.YYYY'));
+
+
+                    }))).end();
+
+
+
+                });
+
+
+
+            }
+            else
+            {
+                console.log("no");
+                res.status(200).send([]);
             }
         });
     });
@@ -214,12 +293,12 @@ module.exports = function (app) {
                         item.nn=ind;
                         ind+=1;
                     });
-                    dbmethods.getUsersArg('users',{'division':'mmo'},function(err,users) {
+                    /*dbmethods.getUsersArg('users',{'division':'mmo'},function(err,users) {
                         if (err) {
                             log.error(err);
                             res.status(500).send("readfile error");
                             return;
-                        }
+                        }*/
 
 
                         var values = {
@@ -236,7 +315,7 @@ module.exports = function (app) {
                         res.setHeader('Content-Type', 'application/vnd.openxmlformats');
                         res.setHeader("Content-Disposition", "attachment; filename=" + "Report.xlsx");
                         res.status(200).end(doc, 'binary');
-                    });
+                   // });
 
                 });
 

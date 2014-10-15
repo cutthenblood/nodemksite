@@ -137,6 +137,7 @@ load({
                         callback(res);
                     });
             },
+
             rendermpr: function () {
                 console.log('rendermpr');
                 //var tst = _.flatten(mprSchema,true);

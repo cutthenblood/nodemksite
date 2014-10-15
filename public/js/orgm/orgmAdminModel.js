@@ -10,7 +10,8 @@ load({
             events:{
                 'click button#mpr': 'rendermpr',
                 'click button#ErrorModelClose': 'ErrorModelClose',
-                'click [name=submitBtn]': 'report'
+                'click [name=submitBtn]': 'report',
+                'click button#whoinput': 'whoinput'
             },
             initialize: function () {
 
@@ -19,6 +20,27 @@ load({
             this.dateok=false;
             $('#ErrorModalText').html(error);
             $('#ErrorModal').modal();
+            },
+            whoinput: function(){
+                var beg = $('#mprDateStart').data("DateTimePicker").getDate().valueOf();
+                var end = $('#mprDateEnd').data("DateTimePicker").getDate().valueOf();
+                $('#whoinputdiv').html('');
+                var jqxhr = $.post( "/orgm/mprwhoinput",{"startdate":beg,"enddate":end}, function(res) {
+                    console.log(res);
+                    var data = JSON.parse(res);
+                    var gen='<table class="table table-responsive table-bordered">';
+                    data.forEach(function(item){
+                       gen+= '<tr><td>'+item.mo+'</td><td>'+item.date+'</td></tr>';
+                    });
+
+                    $('#whoinputdiv').html(gen+'</table>');
+
+                }).done(function(){})
+                    .fail(function(res) {
+                        console.log(res);
+                        callback(res);
+                    });
+
             },
             rendermpr: function () {
                 console.log('rendermpr');
