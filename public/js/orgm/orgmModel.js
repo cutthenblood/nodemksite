@@ -127,8 +127,8 @@ load({
                 //} else return _this.renderDateError("<h3>Вводить данные разрешено только в понедельник с 9.00 до 12.00</h3>");
             },
             postdate: function(startdate,enddate,callback){
-                var username = $('#moname').text();
-                var jqxhr = $.post( "/orgm/validateDate",{"startdate":startdate,"enddate":enddate,"username":username}, function(res) {
+                var mo = $('#mo option:selected').text().trim().replace(/ {2,}/g,' ');;
+                var jqxhr = $.post( "/orgm/validateDate",{"startdate":startdate,"enddate":enddate,"mo":mo}, function(res) {
                     console.log(res);
                     callback(res);
                 }).done(function(){})
@@ -193,7 +193,7 @@ load({
                 mprmodel.set('inputdate',$('#date').data("DateTimePicker").getDate().valueOf());
                 var row={};
                 row["username"]=$('#motitle').text().trim().replace('\n','');
-                row["mo"]=$('#mo option:selected').text().trim();
+                row["mo"]=$('#mo option:selected').text().trim().replace(/ {2,}/g,' ');;
                 row['date']=new Date();
                 row['date'] =row['date'].valueOf();
                 row['group'] = $('#mo option:selected').val();

@@ -102,11 +102,11 @@ module.exports = function (app) {
  app.post('/orgm/validateDate',isLoggedIn, function (req, res) {
         var startdate =req.body.startdate;//var seldate = moment(query.date,"DD.MM.YYYY").format("DD.MM.YYYY");
         var enddate = req.body.enddate;
-        var username = req.body.username;
+        var mo = req.body.mo;
         console.log(util.inspect(req.body));
 
         var dbmethods = app.get('dbmethods');
-        var data = {"username":username,"startdate":startdate,"enddate":enddate};
+        var data = {"mo":mo.replace(/ {2,}/g,' '),"startdate":startdate,"enddate":startdate};
         dbmethods.validateDate1('orgmMpr',data,function(err,result){
             if (err)
             {
@@ -122,8 +122,15 @@ module.exports = function (app) {
             }
             else
             {
-                console.log("no");
-                res.status(200).send("no");
+                if ('rows' in result[0])
+                {
+                    console.log("no");
+                    res.status(200).send("no");
+
+                } else {
+                    console.log("ok");
+                    res.status(200).send("ok");
+                }
             }
         });
     });
@@ -165,11 +172,11 @@ module.exports = function (app) {
                                     var curorgs = gbd[cur.valueOf()];
                                     if (curorgs){
                                         var rs = curorgs.filter(function(curorg){
-                                            if (curorg.mo == moo.fullname)
+                                            if (curorg.mo == moo.fullname.replace(/ {2,}/g,' '))
                                                 return curorg;
                                                 });
                                         if(rs.length<1){
-                                            res.push({mo:moo.fullname,date:cur.format('DD.MM.YYYY')});
+                                            res.push({mo:moo.fullname.replace(/ {2,}/g,' '),date:cur.format('DD.MM.YYYY')});
                                         }
                                     } else {
                                         res.push({mo:'нет',date:cur.format('DD.MM.YYYY')});
@@ -267,8 +274,8 @@ module.exports = function (app) {
                                     item.username = item._id.user;
                                     if(err) item.group='error';
                                     else
-                                    item.group = (us.mo.length>1)?us.mo.filter(function(itm){if(itm.fullname==item._id.mo) return itm})[0].group:us.mo[0].group;
-                                    item.mo = item._id.mo;
+                                    item.group = (us.mo.length>1)?us.mo.filter(function(itm){if(itm.fullname.replace(/ {2,}/g,' ')==item._id.mo.replace(/ {2,}/g,' ')) return itm})[0].group:us.mo[0].group;
+                                    item.mo = item._id.mo.replace(/ {2,}/g,' ');
                                     //item.nn=ind;
                                     item.gr7 = Math.round((parseFloat(item.gr6)*100)/parseFloat(item.gr5));
                                     if(item.gr7.toString()=='NaN') item.gr7=0;
@@ -277,7 +284,7 @@ module.exports = function (app) {
                                 })
                             } else {
                                 item.username = item._id.user;
-                                item.mo = item._id.mo;
+                                item.mo = item._id.mo.replace(/ {2,}/g,' ');
                                 item.group = item._id.group;
                                // item.nn=ind;
                                 //ind+=1;

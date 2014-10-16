@@ -20,7 +20,7 @@
                         <select class="form-control" id="mo"  autofocus>
                             <% users.forEach(function(user){
                                 user.mo.forEach(function(moo){
-                                   %> <option value="<%- moo.group%>"><%=moo.fullname%></option>
+                                   %> <option value="<%- moo.group%>"><%=moo.fullname.replace(/ {2,}/g,' ')%></option>
                                 <%});})%>
                         </select>
                     </div>

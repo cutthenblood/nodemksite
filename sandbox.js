@@ -1,12 +1,43 @@
-//var mongodb = require('mongodb');
-//var conf = require('./config.js');
-//var MongoClient = mongodb.MongoClient;
+/*var mongodb = require('mongodb');
+var conf = require('./config.js');
+var MongoClient = mongodb.MongoClient;
 //
-//MongoClient.connect(conf.mongoConnect, function (err, db) {
-//    if (err) {
-//        log.error(err);
-//        return;
-//    }
+MongoClient.connect(conf.mongoConnect, function (err, db) {
+    if (err) {
+        log.error(err);
+        return;
+    }
+
+    var mo = ["МБУЗ Родильный дом (г. Краснодар)",
+        "МБУЗ Краснодарская городская клиническая больница скорой медицинской помощи",
+        "ГБУЗ «Краевая клиническая больница № 2» министерства здравоохранения Краснодарского края",
+        "ГБУЗ «Детская краевая клиническая больница» министерства здравоохранения Краснодарского края"];
+   // mos.forEach(function(mo) {
+        db.collection('orgmMpr').find({}, {'rows': {$elemMatch: {'mo': mo[3]}}}).toArray(function (err, users) {
+            users.map(function(user){
+                if('rows' in user){
+
+                    db.collection('orgmMpr').update({"_id":new mongodb.ObjectID(user._id)}
+                        ,{$pull:{"rows":{'mo':mo[3]}}},function(err,res){
+                        console.log(err);
+                        console.log(res);
+
+
+
+                    })
+
+                }
+
+
+            })
+
+        });
+    //});
+
+
+
+
+});*/
 //    //db.collection('users').find({}).toArray(function(err,users){
 //      //  if(err) return;
 //        var data = [
@@ -70,6 +101,7 @@ var dt1 = new Date(1411726424982);
 var dt = moment(dt1.valueOf());
 console.log(dt.format("DD.MM.YYYY HH:MM"));*/
 
+/*
 var _ = require('lodash');
 
 var ob = {'aitem1':[{'data':1},{'data':2}],
@@ -80,4 +112,4 @@ var ob = {'aitem1':[{'data':1},{'data':2}],
 var res = _.chain(ob).pairs().sortBy(function(kvArray) {return kvArray[0];} )
     .zipObject().value();
 
-var a=12;
+var a=12;*/
