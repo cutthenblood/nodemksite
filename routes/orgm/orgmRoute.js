@@ -88,7 +88,7 @@ module.exports = function (app) {
 
         //req.body.inputdate = convertDatesISO(req.body.inputdate);
         //req.body.rows[0].date = new Date(req.body.rows[0].date);
-        dbmethods.insup('orgmMpr',req.body,function (err, results) {
+        dbmethods.insupOrgm('orgmMpr',req.body,function (err, results) {
             if (err) {
                 log.error(err);
                 res.status(500).send();

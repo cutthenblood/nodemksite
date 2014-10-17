@@ -116,6 +116,32 @@ module.exports = function (db) {
             );
         });
     },
+        this.insupOrgm = function (collection, data, callback) {
+            var _this = this;
+            var inputdate = data.inputdate;
+            var row = data.rows;
+            var username = row[0].username;
+            var mo = row[0].mo;
+            this._db.collection(collection).find({inputdate: parseInt(inputdate)}, {_id: 1}).toArray(function (err, result) {
+                errproc(err, result, callback, function () {
+                        var docid = result;
+                        if (docid.length == 1) {
+                            _this._db.collection(collection).update({ _id: docid[0]._id}, { $pull: {"rows": {"mo": mo}}}, function (err, result) {
+                                errproc(err, result, callback, function () {
+                                        _this._db.collection(collection).update({ inputdate: inputdate}, { $push: {"rows": row[0]}}, function (err, result) {
+                                            errproc(err, result, callback);
+                                        });
+                                    }
+                                );
+                            });
+                        }
+                        else {
+                            _this.insert(collection, data, callback);
+                        }
+                    }
+                );
+            });
+        },
         this.ins = function (collection, data, callback) {
             var _this = this;
             var inputdate = data.inputdate;
