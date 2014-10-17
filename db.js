@@ -142,7 +142,7 @@ module.exports = function (db) {
     this.getByInputDate = function (collection, startdate,stopdate, callback) {
             var beg = convertDatesISO(startdate);
             var end = convertDatesISO(stopdate);
-            this._db.collection(collection).find({inputdate: {$gte:parseInt(beg),$lt:parseInt(end)}}).toArray(function (err, result) {
+            this._db.collection(collection).find({inputdate: {$gte:beg,$lt:end}}).toArray(function (err, result) {
                 errproc(err,result,callback);
             });
         };
