@@ -96,7 +96,7 @@ module.exports = function (db) {
         var inputdate = data.inputdate;
         var row = data.rows;
         var username = row[0].username;
-        this._db.collection(collection).find({inputdate: parseInt(inputdate)}, {_id: 1}).toArray(function (err, result) {
+        this._db.collection(collection).find({inputdate: inputdate}, {_id: 1}).toArray(function (err, result) {
             errproc(err, result, callback, function () {
                     var docid = result;
                     if (docid.length == 1) {

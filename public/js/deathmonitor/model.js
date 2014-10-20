@@ -151,7 +151,7 @@
         scrolltotop: function(){
             $("html, body").animate({ scrollTop: 0 }, "slow");
         },
-        saveform: function (submittype) {
+        saveform: function (validator,submittype) {
             if (this.dateok == false){
                 this.noreload=true;
                 this.renderDateError("<h3>Неправильная дата</h3>");
