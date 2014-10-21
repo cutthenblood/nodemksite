@@ -94,13 +94,25 @@ load({
             template: {'mpr':loaded.mprTpl},
             events:{
                 'click button#mpr': 'rendermpr',
-                'click button#ErrorModelClose': 'ErrorModelClose'
+                'click button#ErrorModelClose': 'ErrorModelClose',
+                'click button#emptydates': 'EmptyDates'
             },
             initialize: function () {
 
             },
+            EmptyDates: function(error){
+                this.dateok=false;
+                $('#myModalLabel').html('<h4>Нет данных за</h4>');
+                $('#ErrorModalText').removeClass('alert-danger');
+                $('#ErrorModalText').removeClass('alert');
+                $('#ErrorModalText').html('<h4>Пока находиться в стадии разработки</h4>');
+                $('#ErrorModal').modal();
+            },
             renderDateError: function(error){
             this.dateok=false;
+                $('#myModalLabel').html('<h4>Ошибка</h4>');
+                $('#ErrorModalText').addClass('alert-danger');
+                $('#ErrorModalText').addClass('alert');
             $('#ErrorModalText').html(error);
             $('#ErrorModal').modal();
             },
