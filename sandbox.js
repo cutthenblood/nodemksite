@@ -1,38 +1,44 @@
-/*var mongodb = require('mongodb');
+var mongodb = require('mongodb');
 var conf = require('./config.js');
 var MongoClient = mongodb.MongoClient;
+var moment = require('moment');
+var _ = require('lodash');
 //
-MongoClient.connect(conf.mongoConnect, function (err, db) {
+/*MongoClient.connect(conf.mongoConnect, function (err, db) {
     if (err) {
         log.error(err);
         return;
     }
+        var inputdate = new Date(moment("19.10.2014","DD.MM.YYYY").format("MM.DD.YYYY"));
 
-    var mo = ["МБУЗ Родильный дом (г. Краснодар)",
-        "МБУЗ Краснодарская городская клиническая больница скорой медицинской помощи",
-        "ГБУЗ «Краевая клиническая больница № 2» министерства здравоохранения Краснодарского края",
-        "ГБУЗ «Детская краевая клиническая больница» министерства здравоохранения Краснодарского края"];
-   // mos.forEach(function(mo) {
-        db.collection('orgmMpr').find({}, {'rows': {$elemMatch: {'mo': mo[3]}}}).toArray(function (err, users) {
-            users.map(function(user){
-                if('rows' in user){
+        db.collection('everyday').find({inputdate: inputdate}).toArray(function (err, result) {
+            var allrows = [];
 
-                    db.collection('orgmMpr').update({"_id":new mongodb.ObjectID(user._id)}
-                        ,{$pull:{"rows":{'mo':mo[3]}}},function(err,res){
-                        console.log(err);
-                        console.log(res);
-
-
-
-                    })
-
-                }
+            result.map(function(item){
+                item.rows.map(function(row){
+                    var flt = allrows.filter(function(itm){
+                        if(itm.username==row.username)
+                            return itm;
+                    });
+                    if(flt.length<1){
+                        allrows.push(row);
+                    }
+                });
 
 
-            })
+
+
+            });
+            var fs = require('fs');
+             var fs = require('fs');
+             fs.writeFile('tst19.json', new Buffer(JSON.stringify(allrows)), function (err) {
+             console.log(err);
+
+             });
+            var a=1;
 
         });
-    //});
+
 
 
 
@@ -113,3 +119,5 @@ var res = _.chain(ob).pairs().sortBy(function(kvArray) {return kvArray[0];} )
     .zipObject().value();
 
 var a=12;*/
+var dt = moment(1413320400000).format("DD.MM.YYYY hh:mm");
+var a=12;

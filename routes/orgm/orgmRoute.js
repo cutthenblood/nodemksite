@@ -157,7 +157,7 @@ module.exports = function (app) {
                         return;
                     }
                     var gbd = _.groupBy(result,function(item){
-                        return item.date;
+                        return moment(item.date).format('DD.MM.YYYY');
                     });
 
                     var res = [];
@@ -167,9 +167,9 @@ module.exports = function (app) {
                     users.map(function(user){
                         if('mo' in user)
                             user.mo.map(function(moo){
-                                var cur= moment(parseInt(startdate));;
+                                var cur= moment(parseInt(startdate));
                                 while (cur.valueOf()!=end.valueOf()) {
-                                    var curorgs = gbd[cur.valueOf()];
+                                    var curorgs = gbd[cur.format('DD.MM.YYYY')];
                                     if (curorgs){
                                         var rs = curorgs.filter(function(curorg){
                                             if (curorg.mo == moo.fullname.replace(/ {2,}/g,' '))

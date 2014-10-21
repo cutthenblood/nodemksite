@@ -190,7 +190,8 @@ load({
                 //var validator = $('#mainaddform').data('bootstrapValidator');
                 //var vl = validator.validateField('gr5');
                 var arr = [];
-                mprmodel.set('inputdate',$('#date').data("DateTimePicker").getDate().valueOf());
+                var dfate = moment($('#date').data("DateTimePicker").getDate().valueOf()).startOf('day');
+                mprmodel.set('inputdate',dfate.valueOf());
                 var row={};
                 row["username"]=$('#motitle').text().trim().replace('\n','');
                 row["mo"]=$('#mo option:selected').text().trim().replace(/ {2,}/g,' ');;
