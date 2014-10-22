@@ -27,7 +27,7 @@ function isLoggedIn(req, res, next) {
 function isAdminIn(req, res, next) {
 
     // if user is authenticated in the session, carry on
-    if (req.isAuthenticated() && req.user.gorup=='admin')
+    if (req.isAuthenticated() && req.user.group=='admin')
         return next();
 
     // if they aren't redirect them to the home page
