@@ -15,6 +15,7 @@ var User = function(fields) {
             callback(res);
         });
     };
+
 }
 
 module.exports = User;

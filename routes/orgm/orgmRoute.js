@@ -27,7 +27,7 @@ function isLoggedIn(req, res, next) {
 function isAdminIn(req, res, next) {
 
     // if user is authenticated in the session, carry on
-    if (req.isAuthenticated() && req.user.group=='admin')
+    if (req.isAuthenticated() && req.user.role=='admin')
         return next();
 
     // if they aren't redirect them to the home page
@@ -78,8 +78,7 @@ module.exports = function (app) {
         var user = req.body["username"];
         if(user=="Администратор")
         {
-            req.user.group = 'admin';
-            return res.redirect('/orgm/admin');
+             return res.redirect('/orgm/admin');
         }
         else {
             return res.redirect('/orgm/orgmIndex');
