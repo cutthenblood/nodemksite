@@ -24,6 +24,15 @@ function isLoggedIn(req, res, next) {
     // if they aren't redirect them to the home page
     res.redirect('/orgm/');
 }
+function isAdminIn(req, res, next) {
+
+    // if user is authenticated in the session, carry on
+    if (req.isAuthenticated() && req.user.gorup=='admin')
+        return next();
+
+    // if they aren't redirect them to the home page
+    res.redirect('/orgm/orgmIndex');
+}
 module.exports = function (app) {
  app.get('/orgm/orgmIndex',isLoggedIn, function (req, res) {
         var url_parts = url.parse(req.url, true);
@@ -69,6 +78,7 @@ module.exports = function (app) {
         var user = req.body["username"];
         if(user=="Администратор")
         {
+            req.user.group = 'admin';
             return res.redirect('/orgm/admin');
         }
         else {
@@ -134,10 +144,60 @@ module.exports = function (app) {
             }
         });
     });
+
+ app.post('/orgm/mpremptydates',isLoggedIn, function (req, response) {
+     var startdate =req.body.startdate;//var seldate = moment(query.date,"DD.MM.YYYY").format("DD.MM.YYYY");
+     var enddate = req.body.enddate;
+     var end = moment(parseInt(enddate)).add('days',1);
+     var user = req.body.username;
+
+     var dbmethods = app.get('dbmethods');
+     var res = [];
+     dbmethods.getOrgmMprEmptyDates('orgmMpr',startdate,enddate,user,function(err,result) {
+         if (err) {
+             log.info(err);
+             res.status(500).send("Ошибка");
+             return;
+         }
+         if (result.length > 0) {
+             var cur= moment(parseInt(startdate));
+             while (cur.valueOf()<end.valueOf()) {
+                 var rs = result.filter(function(itm){
+                     if(moment(itm.date).format('DD.MM.YYYY')==cur.format('DD.MM.YYYY'))
+                        return itm;
+                 });
+                 if(rs.length<1)
+                     res.push({user:req.body.username,date:cur.format('DD.MM.YYYY')});
+                 cur = cur.add(1,'days');
+             }
+             console.log("ok");
+
+         } else
+         {
+             var cur= moment(parseInt(startdate));
+             while (cur.valueOf()<end.valueOf()) {
+                 res.push({user:req.body.username,date:cur.format('DD.MM.YYYY')});
+                 cur = cur.add(1,'days');
+             }
+
+             console.log("no");
+
+         }
+         response.send(JSON.stringify(res.sort(function(a,b){
+             return moment(a.date,'DD.MM.YYYY').diff(moment(b.date,'DD.MM.YYYY'));
+
+
+         }))).end();
+
+     });
+
+
+ });
+
  app.post('/orgm/mprwhoinput',isLoggedIn, function (req, response) {
         var startdate =req.body.startdate;//var seldate = moment(query.date,"DD.MM.YYYY").format("DD.MM.YYYY");
         var enddate = req.body.enddate;
-
+        var user = req.body.username;
         var dbmethods = app.get('dbmethods');
 
         dbmethods.getOrgmMprWhoInput('orgmMpr',startdate,enddate,function(err,result){
@@ -212,10 +272,10 @@ module.exports = function (app) {
             }
         });
     });
- app.get('/orgm/admin', isLoggedIn, function (req, res) {
+ app.get('/orgm/admin', isAdminIn, function (req, res) {
      res.render('orgm/orgmAdmin', {});
  });
- app.get('/orgm/orgmAdimnReport', isLoggedIn, function (req, res) {
+ app.get('/orgm/orgmAdimnReport', isAdminIn, function (req, res) {
         var url_parts = url.parse(req.url, true);
         var query = url_parts.query;
      fs.readFile(path.join(__dirname, '../../templates/orgm/mprtmpl.xlsx'), function (err, data) {

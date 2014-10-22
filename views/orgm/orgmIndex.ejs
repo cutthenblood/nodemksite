@@ -50,11 +50,59 @@
                         <h4 class="modal-title" id="myModalLabel">Ошибка</h4>
                     </div>
                     <div class="modal-body">
+                            <div class="container-fluid">
+                            <div class="row" id="emptydatesBody" style="display:none">
+                                <h4>Введите параметры</h4>
+                                <div class="row">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <div class="form-group">
+                                                    <div id="err"></div>
+                                                    <label class="control-label">С</label>
+                                                    <div class='input-group date col-lg-12'  data-date-format="DD.MM.YYYY" id="wiDateStart">
+                                                        <input type='text' class="form-control"
+                                                               data-bv-notempty="true"
+                                                               data-bv-notempty-message="Поле не заполнено"
+                                                                />
+                                    <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+                                    </span>
+                                                    </div>
+                                                </div>
+                                        </td>
+                                        <td>
+                                            <div class="form-group">
+                                                <div id="err"></div>
+                                                <label class="control-label"> по </label>
+                                                <div class='input-group date col-lg-12'  data-date-format="DD.MM.YYYY" id="wiDateEnd">
+                                                    <input type='text' class="form-control"
+                                                           data-bv-notempty="true"
+                                                           data-bv-notempty-message="Поле не заполнено"
+                                                            />
+                                    <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+                                    </span>
+                                                </div>
+                                            </div>
 
-                        <div class="alert alert-danger" role="alert" id="ErrorModalText"> </div>
+                                        </td>
+
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="row">
+                                    <div class="col-mk-5"> <div id="whoinputdiv"></div></div>
+
+                                </div>
+                            </div>
+
+                             <div class="row">
+                                 <div class="alert alert-danger" role="alert" id="ErrorModalText"> </div>
+                             </div>
+                            </div>
 
                     </div>
                     <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" id="emptyDatesShow">Вывести</button>
                         <button type="button" class="btn btn-primary" data-dismiss="modal" id="ErrorModelClose">Close</button>
                     </div>
                 </div>

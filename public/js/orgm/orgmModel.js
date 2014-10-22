@@ -95,21 +95,50 @@ load({
             events:{
                 'click button#mpr': 'rendermpr',
                 'click button#ErrorModelClose': 'ErrorModelClose',
-                'click button#emptydates': 'EmptyDates'
+                'click button#emptydates': 'EmptyDates',
+                'click button#emptyDatesShow': 'EmptyDatesShow'
             },
             initialize: function () {
 
             },
+            EmptyDatesShow: function(e){
+                var beg = $('#wiDateStart').data("DateTimePicker").getDate().valueOf();
+                var end = $('#wiDateEnd').data("DateTimePicker").getDate().valueOf();
+                if(!moment(beg).isValid()) return;
+                if(!moment(end).isValid()) return;
+                if ((end-beg)<0) return;
+                var user = $('#motitle').text().trim().replace('\n','');
+                $('#whoinputdiv').html('');
+                var jqxhr = $.post( "/orgm/mpremptydates",{"startdate":beg,"enddate":end,"username":user}, function(res) {
+                    console.log(res);
+                    var data = JSON.parse(res);
+                    var gen='<table class="table table-responsive table-bordered">';
+                    data.forEach(function(item){
+                        gen+= '<tr><td>'+item.user+'</td><td>'+item.date+'</td></tr>';
+                    });
+
+                    $('#whoinputdiv').html(gen+'</table>');
+
+                }).done(function(){})
+                    .fail(function(res) {
+                        console.log(res);
+                        callback(res);
+                    });
+
+            },
             EmptyDates: function(error){
                 this.dateok=false;
+                $('#emptydatesBody').show();
+
                 $('#myModalLabel').html('<h4>Нет данных за</h4>');
+                $('button#emptyDatesShow').on('click',this.EmptyDatesShow);
                 $('#ErrorModalText').removeClass('alert-danger');
                 $('#ErrorModalText').removeClass('alert');
-                $('#ErrorModalText').html('<h4>Пока находиться в стадии разработки</h4>');
                 $('#ErrorModal').modal();
             },
             renderDateError: function(error){
             this.dateok=false;
+                $('#emptydatesBody').hide();
                 $('#myModalLabel').html('<h4>Ошибка</h4>');
                 $('#ErrorModalText').addClass('alert-danger');
                 $('#ErrorModalText').addClass('alert');

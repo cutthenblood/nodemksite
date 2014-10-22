@@ -267,3 +267,16 @@
 {"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Object #<Object> has no method 'format'","timestamp":"2014-10-15T12:08:39.433Z"}
 {"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Object #<Object> has no method 'format'","timestamp":"2014-10-15T12:08:39.878Z"}
 {"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: SyntaxError: Unexpected identifier","timestamp":"2014-10-15T12:15:28.200Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: res is not defined","timestamp":"2014-10-22T05:02:55.351Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: res is not defined","timestamp":"2014-10-22T05:03:05.264Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: res is not defined","timestamp":"2014-10-22T05:03:06.224Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: res is not defined","timestamp":"2014-10-22T05:03:14.026Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: res is not defined","timestamp":"2014-10-22T05:04:34.288Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: end is not defined","timestamp":"2014-10-22T05:04:39.492Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: end is not defined","timestamp":"2014-10-22T05:05:23.125Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: end is not defined","timestamp":"2014-10-22T05:07:46.086Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: res is not defined","timestamp":"2014-10-22T05:07:51.721Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: res is not defined","timestamp":"2014-10-22T05:09:51.106Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: res is not defined","timestamp":"2014-10-22T05:09:54.378Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: res is not defined","timestamp":"2014-10-22T05:10:24.555Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: res is not defined","timestamp":"2014-10-22T05:10:36.264Z"}

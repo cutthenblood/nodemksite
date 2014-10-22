@@ -239,6 +239,19 @@ module.exports = function (db) {
                 errproc(err,result,callback);
             });
     };
+    this.getOrgmMprEmptyDates = function(collection,startdate,stopdate,username,callback) {
+        this._db.collection(collection).aggregate(
+            {$unwind:"$rows"},
+            {$match:{"rows.username":username,"inputdate":{$gte:parseInt(startdate),$lte:parseInt(stopdate)}}},
+            {$project:{
+                "username":"$rows.username",
+                "date":"$inputdate",
+                "mo":"$rows.mo"
+            }}
+            ,function (err, result) {
+                errproc(err,result,callback);
+            });
+    };
     this.getMmoOfosvkr = function(collection,date,callback) {
         this._db.collection(collection).find({inputdate:parseInt(date)}).toArray(function (err, result) {
                 errproc(err,result,callback);
