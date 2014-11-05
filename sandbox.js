@@ -3,47 +3,35 @@ var conf = require('./config.js');
 var MongoClient = mongodb.MongoClient;
 var moment = require('moment');
 var _ = require('lodash');
+var vow = require('vow');
+var vowNode = require('vow-node');
+
 //
-/*MongoClient.connect(conf.mongoConnect, function (err, db) {
+MongoClient.connect(conf.mongoConnect, function (err, db) {
     if (err) {
         log.error(err);
         return;
     }
-        var inputdate = new Date(moment("19.10.2014","DD.MM.YYYY").format("MM.DD.YYYY"));
 
-        db.collection('everyday').find({inputdate: inputdate}).toArray(function (err, result) {
-            var allrows = [];
+    mongodb.Collection.prototype.aggregate = vowNode.promisify( mongodb.Collection.prototype.aggregate);
+    mongodb.Cursor.prototype.toArray = vowNode.promisify( mongodb.Cursor.prototype.toArray);
 
-            result.map(function(item){
-                item.rows.map(function(row){
-                    var flt = allrows.filter(function(itm){
-                        if(itm.username==row.username)
-                            return itm;
-                    });
-                    if(flt.length<1){
-                        allrows.push(row);
-                    }
-                });
+        var psls = {"first":db.collection('orgmMpr').aggregate({$match:{inputdate:{$gte:1191371200000} }}),
+        "second":db.collection('orgmMpr').aggregate({$match:{inputdate:{$gte:1191371200000} }})}
+
+vow.all(psls).then(
 
 
+    function(err,resutl){
+        var a = 12;
 
 
-            });
-            var fs = require('fs');
-             var fs = require('fs');
-             fs.writeFile('tst19.json', new Buffer(JSON.stringify(allrows)), function (err) {
-             console.log(err);
-
-             });
-            var a=1;
-
-        });
+    })
 
 
 
 
-
-});*/
+});
 //    //db.collection('users').find({}).toArray(function(err,users){
 //      //  if(err) return;
 //        var data = [
@@ -119,12 +107,3 @@ var res = _.chain(ob).pairs().sortBy(function(kvArray) {return kvArray[0];} )
     .zipObject().value();
 
 var a=12;*/
-var bowerRequireJS = require('bower-requirejs');
-
-
-
-bowerRequireJS({}, function (rjsConfigFromBower) {
-    // all done!
-
-    var a=12;
-});
