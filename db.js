@@ -226,7 +226,8 @@ module.exports = function (db) {
                 "gr11":{$sum:"$rows.gr11"},"gr15":{$sum:"$rows.gr15"},"gr19":{$sum:"$rows.gr19"},"gr23":{$sum:"$rows.gr23"},"gr27":{$sum:"$rows.gr27"},
                 "gr12":{$sum:"$rows.gr12"},"gr16":{$sum:"$rows.gr16"},"gr20":{$sum:"$rows.gr20"},"gr24":{$sum:"$rows.gr24"},"gr28":{$sum:"$rows.gr28"},
                 "gr13":{$sum:"$rows.gr13"},"gr17":{$sum:"$rows.gr17"},"gr21":{$sum:"$rows.gr21"},"gr25":{$sum:"$rows.gr25"},"gr29":{$sum:"$rows.gr29"},
-                "gr30":{$sum:"$rows.gr30"},"gr31":{$sum:"$rows.gr31"},"gr32":{$sum:"$rows.gr32"},"gr33":{$sum:"$rows.gr33"},"gr34":{$sum:"$rows.gr34"}
+                "gr30":{$sum:"$rows.gr30"},"gr31":{$sum:"$rows.gr31"},"gr32":{$sum:"$rows.gr32"},"gr33":{$sum:"$rows.gr33"},"gr34":{$sum:"$rows.gr34"},
+                "gr35":{$sum:"$rows.gr35"}
             }}
             ,function (err, result) {
             errproc(err,result,callback);

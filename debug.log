@@ -2348,3 +2348,18 @@
 {"level":"error","message":"[/devel/nodemksite/app.js] Object Invalid date has no method 'addDays'","timestamp":"2014-10-30T12:18:19.779Z"}
 {"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-10-30T12:20:01.735Z"}
 {"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-10-30T12:20:01.736Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-11-05T14:16:36.376Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-11-05T14:16:36.377Z"}
+{"level":"info","message":"[/devel/nodemksite/user.js] null","timestamp":"2014-11-05T14:16:56.085Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-11-05T14:17:32.052Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-11-05T14:17:32.053Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-11-05T14:17:54.568Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-11-05T14:17:54.569Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-11-05T14:18:03.317Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-11-05T14:18:03.318Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-11-05T14:19:25.551Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-11-05T14:19:25.552Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-11-05T14:26:38.540Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-11-05T14:26:38.541Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-11-05T14:30:49.120Z"}
+{"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-11-05T14:30:49.120Z"}
