@@ -196,11 +196,10 @@ module.exports = function (app) {
  app.post('/orgm/mprwhoinput',isLoggedIn, function (req, response) {
         var startdate =req.body.startdate;//var seldate = moment(query.date,"DD.MM.YYYY").format("DD.MM.YYYY");
         var enddate = req.body.enddate;
-     var end = moment(parseInt(enddate)).add('days',1);
         var user = req.body.username;
         var dbmethods = app.get('dbmethods');
 
-        dbmethods.getOrgmMprWhoInput('orgmMpr',startdate,end.valueOf(),function(err,result){
+        dbmethods.getOrgmMprWhoInput('orgmMpr',startdate,enddate,function(err,result){
             if (err)
             {
                 log.info(err);
@@ -222,7 +221,7 @@ module.exports = function (app) {
 
                     var res = [];
                     var start = moment(parseInt(startdate));
-
+                    var end = moment(parseInt(enddate)).add('days',1);
 
                     users.map(function(user){
                         if('mo' in user)
@@ -330,11 +329,9 @@ module.exports = function (app) {
                         if(item._id){
 
                                if(item._id.group == null) {
-                                dbmethods.getUser('users',{username:item._id.user.replace(/ {2,}/g,' ')},function(err,us){
+                                dbmethods.getUser('users',{username:item._id.user},function(err,us){
                                     item.username = item._id.user;
-
-                                    if(err) {console.log(err);
-                                        item.group='error';}
+                                    if(err) item.group='error';
                                     else
                                     item.group = (us.mo.length>1)?us.mo.filter(function(itm){if(itm.fullname.replace(/ {2,}/g,' ')==item._id.mo.replace(/ {2,}/g,' ')) return itm})[0].group:us.mo[0].group;
                                     item.mo = item._id.mo.replace(/ {2,}/g,' ');
