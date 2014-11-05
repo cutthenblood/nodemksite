@@ -13,6 +13,16 @@ MongoClient.connect(conf.mongoConnect, function (err, db) {
         return;
     }
 
+    var psls = {
+        first: vowNode.invoke(db.collection('orgmMpr').aggregate({$match: {inputdate: {$gte: 1191371200000}}}).toArray),
+        second: vowNode.invoke(db.collection('orgmMpr').aggregate({$match: {inputdate: {$gte: 1191371200000}}}).toArray)
+    };
+    vow.all(psls).then(
+        function (err, resutl) {
+            var a = 12;
+        });
+
+
     mongodb.Collection.prototype.aggregate = vowNode.promisify( mongodb.Collection.prototype.aggregate);
     mongodb.Cursor.prototype.toArray = vowNode.promisify( mongodb.Cursor.prototype.toArray);
 
@@ -20,12 +30,8 @@ MongoClient.connect(conf.mongoConnect, function (err, db) {
         "second":db.collection('orgmMpr').aggregate({$match:{inputdate:{$gte:1191371200000} }})}
 
 vow.all(psls).then(
-
-
     function(err,resutl){
         var a = 12;
-
-
     })
 
 

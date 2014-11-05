@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73f64d1a-c00d-4f31-a426-127e21100db1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/orgm/orgmRoute.js" afterPath="$PROJECT_DIR$/routes/orgm/orgmRoute.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sandbox.js" afterPath="$PROJECT_DIR$/sandbox.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -101,11 +102,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="orgmRoute.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="orgmRoute.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/orgm/orgmRoute.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2269" max-vertical-offset="4590">
-              <caret line="261" column="0" selection-start-line="261" selection-start-column="0" selection-end-line="261" selection-end-column="0" />
+            <state vertical-scroll-proportion="-0.7513889" vertical-offset="3403" max-vertical-offset="4590">
+              <caret line="308" column="114" selection-start-line="308" selection-start-column="114" selection-end-line="308" selection-end-column="114" />
               <folding>
                 <element signature="e#1114#1696#0" expanded="false" />
                 <element signature="e#1737#2950#0" expanded="false" />
@@ -119,15 +120,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sandbox.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="sandbox.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sandbox.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.61391544" vertical-offset="0" max-vertical-offset="792">
-              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
               <folding>
-                <element signature="e#844#912#0" expanded="false" />
-                <element signature="e#3058#3205#0" expanded="false" />
-                <element signature="e#3207#3485#0" expanded="false" />
+                <element signature="e#1201#1269#0" expanded="false" />
+                <element signature="e#3415#3562#0" expanded="false" />
+                <element signature="e#3564#3842#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -193,10 +194,10 @@
         <option value="$PROJECT_DIR$/public/app/templates/login.ejs" />
         <option value="$PROJECT_DIR$/public/app/login.js" />
         <option value="$PROJECT_DIR$/user.js" />
-        <option value="$PROJECT_DIR$/routes/orgm/orgmRoute.js" />
         <option value="$PROJECT_DIR$/public/schemas/orgm/mprScm.js" />
         <option value="$PROJECT_DIR$/public/js/orgm/orgmModel.js" />
         <option value="$PROJECT_DIR$/sandbox.js" />
+        <option value="$PROJECT_DIR$/routes/orgm/orgmRoute.js" />
       </list>
     </option>
   </component>
@@ -261,7 +262,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -275,7 +276,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="orgm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -534,7 +539,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/sandbox.js</url>
-          <line>25</line>
+          <line>33</line>
           <option name="timeStamp" value="421" />
         </line-breakpoint>
       </breakpoints>
@@ -901,22 +906,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/orgm/orgmRoute.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1891" max-vertical-offset="4590">
-          <caret line="261" column="0" selection-start-line="261" selection-start-column="0" selection-end-line="261" selection-end-column="0" />
-          <folding>
-            <element signature="e#1114#1696#0" expanded="false" />
-            <element signature="e#1737#2950#0" expanded="false" />
-            <element signature="e#3086#3314#0" expanded="false" />
-            <element signature="e#3355#3415#0" expanded="false" />
-            <element signature="e#3487#4022#0" expanded="false" />
-            <element signature="e#4126#5196#0" expanded="false" />
-            <element signature="e#5269#6831#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="2034">
@@ -935,12 +924,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sandbox.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61391544" vertical-offset="0" max-vertical-offset="792">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
           <folding>
-            <element signature="e#844#912#0" expanded="false" />
-            <element signature="e#3058#3205#0" expanded="false" />
-            <element signature="e#3207#3485#0" expanded="false" />
+            <element signature="e#1201#1269#0" expanded="false" />
+            <element signature="e#3415#3562#0" expanded="false" />
+            <element signature="e#3564#3842#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/orgm/orgmRoute.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7513889" vertical-offset="3403" max-vertical-offset="4590">
+          <caret line="308" column="114" selection-start-line="308" selection-start-column="114" selection-end-line="308" selection-end-column="114" />
+          <folding>
+            <element signature="e#1114#1696#0" expanded="false" />
+            <element signature="e#1737#2950#0" expanded="false" />
+            <element signature="e#3086#3314#0" expanded="false" />
+            <element signature="e#3355#3415#0" expanded="false" />
+            <element signature="e#3487#4022#0" expanded="false" />
+            <element signature="e#4126#5196#0" expanded="false" />
+            <element signature="e#5269#6831#0" expanded="false" />
           </folding>
         </state>
       </provider>
