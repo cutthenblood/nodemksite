@@ -19,13 +19,10 @@ var User = function(fields) {
 }
 
 module.exports = User;
-var salt = function(password){
+/*var salt = function(password){
     return bcrypt.hashSync(password, bcrypt.genSaltSync(8), null);
 };
-
-var res = salt("6549");
-var a =12;
-/*var users = [
+var users = [
  {'moname':'Краснодар ГБУЗ','username':'ГБУЗ Краевая клин. б-ца № 1 им. проф. С.В.Очаповского','password':'zrnsas','division':'mmo'},
  {'moname':'Краснодар ГБУЗ','username':'ГБУЗ Краевая клиническая больница № 2','password':'lmqpkx','division':'mmo'},
  {'moname':'Краснодар ГБУЗ','username':'ГБУЗ Краевая больница №3','password':'c3ob8t','division':'mmo'},

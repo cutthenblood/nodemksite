@@ -32,12 +32,6 @@ module.exports = function (db) {
      callback(null,result);
      });
      },*/
-
-    this.queryDb = function (args){
-        this._db.collection(args.collection).find(args.query,args.project).toArray(function (err, result) {
-            errproc(err,result,args.callback);
-        });
-    };
     this.getLates = function (collection, callback) {
         var date = moment();
         //var curdayoffset = date.startOf('day').fromNow(true).split(" ")[0];

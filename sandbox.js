@@ -119,12 +119,5 @@ var res = _.chain(ob).pairs().sortBy(function(kvArray) {return kvArray[0];} )
     .zipObject().value();
 
 var a=12;*/
-var bowerRequireJS = require('bower-requirejs');
-
-
-
-bowerRequireJS({}, function (rjsConfigFromBower) {
-    // all done!
-
-    var a=12;
-});
+var dt = moment(1413320400000).format("DD.MM.YYYY hh:mm");
+var a=12;
