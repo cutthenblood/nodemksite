@@ -280,3 +280,75 @@
 {"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: res is not defined","timestamp":"2014-10-22T05:09:54.378Z"}
 {"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: res is not defined","timestamp":"2014-10-22T05:10:24.555Z"}
 {"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: res is not defined","timestamp":"2014-10-22T05:10:36.264Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: Error: Cannot find module './../util/routeUtils.js'","timestamp":"2014-10-22T11:53:19.359Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: Error: Cannot find module './../util/routeUtils.js'","timestamp":"2014-10-22T11:53:44.887Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: Error: Cannot find module './../util/routeUtils.js'","timestamp":"2014-10-22T11:54:46.986Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: Error: Cannot find module './../util/routeUtils.js'","timestamp":"2014-10-22T11:55:08.984Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: Error: Cannot find module './../util/routeUtils.js'","timestamp":"2014-10-22T12:04:18.758Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] collection name must be a String","timestamp":"2014-10-22T12:05:09.476Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] collection name must be a String","timestamp":"2014-10-22T12:06:01.776Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Failed to lookup view \"/Login\" in views directory \"/devel/nodemksite/views\"","timestamp":"2014-10-22T12:06:12.294Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Failed to lookup view \"/Login\" in views directory \"/devel/nodemksite/views\"","timestamp":"2014-10-22T12:06:16.430Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Failed to lookup view \"/Login\" in views directory \"/devel/nodemksite/views\"","timestamp":"2014-10-22T12:06:18.166Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Failed to lookup view \"/Login\" in views directory \"/devel/nodemksite/views\"","timestamp":"2014-10-22T12:06:48.071Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Failed to lookup view \"/login\" in views directory \"/devel/nodemksite/views\"","timestamp":"2014-10-22T12:08:05.120Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Failed to lookup view \"/login\" in views directory \"/devel/nodemksite/views\"","timestamp":"2014-10-22T12:08:06.956Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Failed to lookup view \"login\" in views directory \"/devel/nodemksite/views\"","timestamp":"2014-10-23T05:02:02.639Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Failed to lookup view \"login\" in views directory \"/devel/nodemksite/views\"","timestamp":"2014-10-23T05:02:05.872Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] message is not defined","timestamp":"2014-10-23T05:02:17.195Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] message is not defined","timestamp":"2014-10-23T05:02:20.694Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Failed to lookup view \"/main\" in views directory \"/devel/nodemksite/views\"","timestamp":"2014-10-23T05:02:43.931Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Failed to lookup view \"/main\" in views directory \"/devel/nodemksite/views\"","timestamp":"2014-10-23T05:02:48.421Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Failed to lookup view \"/main\" in views directory \"/devel/nodemksite/views\"","timestamp":"2014-10-23T05:02:48.595Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Failed to lookup view \"/main\" in views directory \"/devel/nodemksite/views\"","timestamp":"2014-10-23T05:02:48.795Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Failed to lookup view \"/main\" in views directory \"/devel/nodemksite/views\"","timestamp":"2014-10-23T05:02:49.029Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Failed to lookup view \"/main\" in views directory \"/devel/nodemksite/views\"","timestamp":"2014-10-23T05:02:49.228Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Failed to lookup view \"/main\" in views directory \"/devel/nodemksite/views\"","timestamp":"2014-10-23T05:02:49.443Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Failed to lookup view \"/main\" in views directory \"/devel/nodemksite/views\"","timestamp":"2014-10-23T05:02:49.685Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Failed to lookup view \"/main\" in views directory \"/devel/nodemksite/views\"","timestamp":"2014-10-23T05:02:49.920Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Failed to lookup view \"/main\" in views directory \"/devel/nodemksite/views\"","timestamp":"2014-10-23T05:02:54.245Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] message is not defined","timestamp":"2014-10-23T05:03:47.687Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] message is not defined","timestamp":"2014-10-23T05:03:49.960Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] message is not defined","timestamp":"2014-10-23T05:03:50.696Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] message is not defined","timestamp":"2014-10-23T05:03:51.230Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] message is not defined","timestamp":"2014-10-23T05:04:00.333Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] message is not defined","timestamp":"2014-10-23T05:04:55.069Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] message is not defined","timestamp":"2014-10-23T05:04:57.459Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] message is not defined","timestamp":"2014-10-23T05:05:09.939Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] message is not defined","timestamp":"2014-10-23T05:05:46.205Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] message is not defined","timestamp":"2014-10-23T05:06:15.794Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] users is not defined","timestamp":"2014-10-23T05:06:49.326Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] users is not defined","timestamp":"2014-10-23T05:06:50.335Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Failed to lookup view \"/Login\" in views directory \"/devel/nodemksite/views\"","timestamp":"2014-10-23T05:08:24.415Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Cannot read property 'length' of null","timestamp":"2014-10-23T05:09:27.385Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Cannot read property 'length' of null","timestamp":"2014-10-23T05:09:29.018Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Object function (){\n\n    this.loginErrors = function(requrl){\n        var url_parts = url.parse(requrl, true);\n        var query = url_parts.query;\n        var err =[];\n        if(query.autherr)\n            err.push(query.autherr);\n        return err;\n\n\n    };\n\n\n} has no method 'loginErrors'","timestamp":"2014-10-23T05:13:18.024Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Object function (){\n\n    this.loginErrors = function(requrl){\n        var url_parts = url.parse(requrl, true);\n        var query = url_parts.query;\n        var err =[];\n        if(query.autherr)\n            err.push(query.autherr);\n        return err;\n\n\n    };\n\n\n} has no method 'loginErrors'","timestamp":"2014-10-23T05:13:22.584Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Object function (){\n\n    this.loginErrors = function(requrl){\n        var url_parts = url.parse(requrl, true);\n        var query = url_parts.query;\n        var err =[];\n        if(query.autherr)\n            err.push(query.autherr);\n        return err;\n\n\n    };\n\n\n} has no method 'loginErrors'","timestamp":"2014-10-23T05:15:22.585Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Object function (){} has no method 'loginErrors'","timestamp":"2014-10-23T05:17:31.640Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Object function (){} has no method 'loginErrors'","timestamp":"2014-10-23T05:17:33.266Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Object function (){} has no method 'loginErrors'","timestamp":"2014-10-23T05:19:33.333Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Object function (){} has no method 'loginErrors'","timestamp":"2014-10-23T05:20:02.893Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Object function routeUtils(){} has no method 'loginErrors'","timestamp":"2014-10-23T05:20:34.521Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Object function routeUtils() {} has no method 'loginErrors'","timestamp":"2014-10-23T05:22:24.760Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Object function routeUtils() {} has no method 'loginErrors'","timestamp":"2014-10-23T05:22:41.449Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: SyntaxError: Unexpected token ;","timestamp":"2014-10-23T05:42:54.284Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: req is not defined","timestamp":"2014-10-23T05:43:27.389Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: req is not defined","timestamp":"2014-10-23T05:43:47.370Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: res is not defined","timestamp":"2014-10-23T05:45:36.942Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: res is not defined","timestamp":"2014-10-23T05:47:17.389Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: res is not defined","timestamp":"2014-10-23T05:50:55.834Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: res is not defined","timestamp":"2014-10-23T05:51:48.525Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: res is not defined","timestamp":"2014-10-23T05:52:23.562Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: res is not defined","timestamp":"2014-10-23T05:53:00.517Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'division' of undefined","timestamp":"2014-10-23T05:53:07.473Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: ReferenceError: res is not defined","timestamp":"2014-10-23T05:53:30.205Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'length' of undefined","timestamp":"2014-10-29T10:49:08.786Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'length' of undefined","timestamp":"2014-10-29T10:49:08.786Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'length' of undefined","timestamp":"2014-10-29T10:49:08.790Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'length' of undefined","timestamp":"2014-10-29T10:49:08.810Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'length' of undefined","timestamp":"2014-10-29T10:51:08.754Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'length' of undefined","timestamp":"2014-10-29T10:51:08.758Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'length' of undefined","timestamp":"2014-10-29T10:51:08.759Z"}
+{"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'length' of undefined","timestamp":"2014-10-29T10:51:08.768Z"}
+{"level":"error","message":"[/devel/nodemksite/app.js] Object Invalid date has no method 'addDays'","timestamp":"2014-10-30T12:18:19.779Z"}

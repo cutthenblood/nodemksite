@@ -133,6 +133,16 @@ module.exports =  function(callback) {
         app.use(function (req, res) {
             res.status(404).end('error');
         });
+        app.use(function(req,res,next){
+            var browser = req.headers['user-agent'];
+            console.log(browser);
+            if (browser.indexOf('Chrome')>-1 || browser.indexOf('Safari')>-1 || browser.indexOf('Opera')>-1 || browser.toLowerCase().indexOf('firefox') >-1)
+            {
+                next();
+            }
+            else
+                res.status(503).send('эта версия браузера не поддерживается,обратитесь к системноу администатору для установки google chrome  <a href="https://www.google.ru/intl/ru/chrome/browser/index.html">https://www.google.ru/intl/ru/chrome/browser/index.html</a>, так же поддерживаются последние версии Opera, Yandex Browser, Safari, FireFox');
+        });
         app.use(function(err, req, res, next) {
             if(err.message){
                 log.error(err.message);

@@ -204,27 +204,34 @@ var mprSchema = [
                 required: false,
                 label: '2000-2499'
             }
+            ,
+            {
+                name: 'gr32',
+                type: 'number',
+                required: false,
+                label: '2500 и более'
+            }
         ]
     },
     {
-        name: 'gr32-34',
+        name: 'gr33-35',
         type: 'subgraphs',
         label: 'Перинатальные потери:',
         sub:[
             {
-                name:'gr32',
+                name:'gr33',
                 type: 'number',
                 required: false,
                 label: 'Антенатальная гибель плода'
             },
             {
-                name:'gr33',
+                name:'gr34',
                 type: 'number',
                 required: false,
                 label: 'Интранатальная гибель плода'
             },
             {
-                name:'gr34',
+                name:'gr35',
                 type: 'number',
                 required: false,
                 label: 'Умерло в первые 168 часов'

@@ -60,18 +60,18 @@ load({
                     errors.push(['gr25',' гр. 6 = гр. 25 + 26']);
                     errors.push(['gr26',' гр. 6 = гр. 25 + 26']);
                 };
-                if(attrs.rows[0].gr6 < (attrs.rows[0].gr32+attrs.rows[0].gr33+attrs.rows[0].gr34)){
-                    errors.push(['gr32','гр. 6 ≥ гр. 32 + 33 + 34']);
-                    errors.push(['gr33','гр. 6 ≥ гр. 32 + 33 + 34']);
-                    errors.push(['gr34','гр. 6 ≥ гр. 32 + 33 + 34']);
+                if(attrs.rows[0].gr6 < (attrs.rows[0].gr33+attrs.rows[0].gr34+attrs.rows[0].gr35)){
+                    errors.push(['gr32','гр. 6 ≥ гр. 33 + 34 + 35']);
+                    errors.push(['gr33','гр. 6 ≥ гр. 33 + 34 + 35']);
+                    errors.push(['gr34','гр. 6 ≥ гр. 33 + 34 + 35']);
 
                 };
-                if(attrs.rows[0].gr6 > (attrs.rows[0].gr27+attrs.rows[0].gr28+attrs.rows[0].gr29+attrs.rows[0].gr30+attrs.rows[0].gr31)){
-                    errors.push(['gr27','гр. 6 <= гр. 27 + 28 + 29 + 30 + 31']);
-                    errors.push(['gr28','гр. 6 <= гр. 27 + 28 + 29 + 30 + 31']);
-                    errors.push(['gr29','гр. 6 <= гр. 27 + 28 + 29 + 30 + 31']);
-                    errors.push(['gr30','гр. 6 <= гр. 27 + 28 + 29 + 30 + 31']);
-                    errors.push(['gr31','гр. 6 <= гр. 27 + 28 + 29 + 30 + 31']);
+                if(attrs.rows[0].gr6 > (attrs.rows[0].gr27+attrs.rows[0].gr28+attrs.rows[0].gr29+attrs.rows[0].gr30+attrs.rows[0].gr31+attrs.rows[0].gr32)){
+                    errors.push(['gr27','гр. 6 <= гр. 27 + 28 + 29 + 30 + 31 + 32']);
+                    errors.push(['gr28','гр. 6 <= гр. 27 + 28 + 29 + 30 + 31+ 32']);
+                    errors.push(['gr29','гр. 6 <= гр. 27 + 28 + 29 + 30 + 31+ 32']);
+                    errors.push(['gr30','гр. 6 <= гр. 27 + 28 + 29 + 30 + 31+ 32']);
+                    errors.push(['gr31','гр. 6 <= гр. 27 + 28 + 29 + 30 + 31+ 32']);
 
 
 
