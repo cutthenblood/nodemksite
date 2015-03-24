@@ -233,6 +233,32 @@ module.exports = function (db) {
             errproc(err,result,callback);
         });
     };
+    this.getOrgmMprPD = function(collection,startdate,stopdate,callback) {
+        this._db.collection(collection).aggregate(
+            {$unwind:"$rows"},
+            {$match:{"inputdate":{$gte:parseInt(startdate),$lte:parseInt(stopdate)}}},
+            {$group:{
+                "_id":{"user":"$rows.username","mo":"$rows.mo"},
+                "gr4":{$sum:"$rows.gr4"},"gr5":{$sum:"$rows.gr5"},"gr6":{$sum:"$rows.gr6"},"gr7":{$sum:"$rows.gr7"},"gr8":{$sum:"$rows.gr8"},"gr9":{$sum:"$rows.gr9"},
+                "gr10":{$sum:"$rows.gr10"},"gr14":{$sum:"$rows.gr14"},
+                "gr11":{$sum:"$rows.gr11"},"gr15":{$sum:"$rows.gr15"},
+                "gr12":{$sum:"$rows.gr12"},"gr16":{$sum:"$rows.gr16"},
+                "gr13":{$sum:"$rows.gr13"},"gr17":{$sum:"$rows.gr17"}
+
+
+            }}
+            ,function (err, result) {
+                errproc(err,result,callback);
+            });
+    };
+    this.getOrgmMprOne = function(collection,startdate,stopdate,mo,callback) {
+        this._db.collection(collection).aggregate(
+            {$unwind:"$rows"},
+            {$match:{"rows.mo":mo,"inputdate":{$gte:parseInt(startdate),$lte:parseInt(stopdate)}}}
+            ,function (err, result) {
+                errproc(err,result,callback);
+            });
+    };
     this.getOrgmMprWhoInput = function(collection,startdate,stopdate,callback) {
         this._db.collection(collection).aggregate(
             {$unwind:"$rows"},
@@ -326,9 +352,12 @@ module.exports = function (db) {
                  callback(result);
                  }*/
             });
-
-
         },
+    this.getUsersOptions = function (collection,options, callback) {
+        this._db.collection(collection).find({},options).toArray(function (err, result) {
+            errproc(err,result,callback);
+        });
+    },
      this.getUsersArg = function (collection,arg, callback) {
             this._db.collection(collection).find(arg).toArray(function (err, result) {
                 errproc(err,result,callback);

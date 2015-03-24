@@ -352,3 +352,83 @@
 {"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'length' of undefined","timestamp":"2014-10-29T10:51:08.759Z"}
 {"level":"error","message":"[/devel/nodemksite/bin/www.js] domain: TypeError: Cannot read property 'length' of undefined","timestamp":"2014-10-29T10:51:08.768Z"}
 {"level":"error","message":"[/devel/nodemksite/app.js] Object Invalid date has no method 'addDays'","timestamp":"2014-10-30T12:18:19.779Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: Error: listen EACCES","timestamp":"2015-02-25T08:39:02.855Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Error: failed to connect to [10.46.1.210:27017]","timestamp":"2015-03-05T06:32:23.909Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot call method 'collection' of undefined","timestamp":"2015-03-17T11:12:58.108Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot call method 'collection' of undefined","timestamp":"2015-03-17T11:23:12.827Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot call method 'collection' of undefined","timestamp":"2015-03-17T11:23:14.261Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot call method 'collection' of undefined","timestamp":"2015-03-17T11:23:21.855Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot call method 'collection' of undefined","timestamp":"2015-03-17T11:23:22.542Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot call method 'collection' of undefined","timestamp":"2015-03-17T11:23:22.702Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot call method 'collection' of undefined","timestamp":"2015-03-17T11:23:22.885Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot call method 'collection' of undefined","timestamp":"2015-03-17T11:23:47.806Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot call method 'collection' of undefined","timestamp":"2015-03-17T11:23:50.031Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot call method 'collection' of undefined","timestamp":"2015-03-17T11:23:50.750Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot call method 'collection' of undefined","timestamp":"2015-03-17T11:23:51.814Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot call method 'collection' of undefined","timestamp":"2015-03-17T11:26:02.539Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot call method 'collection' of undefined","timestamp":"2015-03-17T11:26:24.838Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] type is not defined","timestamp":"2015-03-19T06:44:21.580Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] type is not defined","timestamp":"2015-03-19T06:46:04.300Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] type is not defined","timestamp":"2015-03-19T06:48:39.060Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] type is not defined","timestamp":"2015-03-19T06:48:58.280Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] type is not defined","timestamp":"2015-03-19T06:49:08.506Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Error: failed to connect to [127.0.0.1:27022]","timestamp":"2015-03-19T12:07:38.620Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Error: failed to connect to [127.0.0.1:27022]","timestamp":"2015-03-19T12:08:25.340Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Error: failed to connect to [127.0.0.1:27022]","timestamp":"2015-03-19T12:08:28.758Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: isLoggedIn is not defined","timestamp":"2015-03-23T12:08:48.397Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: isLoggedIn is not defined","timestamp":"2015-03-24T05:58:22.314Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: isLoggedIn is not defined","timestamp":"2015-03-24T06:29:11.360Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: isLoggedIn is not defined","timestamp":"2015-03-24T06:30:34.442Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: isLoggedIn is not defined","timestamp":"2015-03-24T06:31:15.336Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: isLoggedIn is not defined","timestamp":"2015-03-24T06:31:52.857Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: isLoggedIn is not defined","timestamp":"2015-03-24T06:32:04.957Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: isLoggedIn is not defined","timestamp":"2015-03-24T06:32:24.490Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: isLoggedIn is not defined","timestamp":"2015-03-24T06:33:40.810Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: isLoggedIn is not defined","timestamp":"2015-03-24T06:35:15.638Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: isLoggedIn is not defined","timestamp":"2015-03-24T06:44:09.947Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: isLoggedIn is not defined","timestamp":"2015-03-24T06:45:54.385Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: isLoggedIn is not defined","timestamp":"2015-03-24T06:47:45.952Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: isLoggedIn is not defined","timestamp":"2015-03-24T06:50:28.841Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: isLoggedIn is not defined","timestamp":"2015-03-24T07:19:57.365Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: isLoggedIn is not defined","timestamp":"2015-03-24T07:23:23.144Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: isLoggedIn is not defined","timestamp":"2015-03-24T07:24:24.859Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: isLoggedIn is not defined","timestamp":"2015-03-24T07:25:27.661Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: isLoggedIn is not defined","timestamp":"2015-03-24T07:25:38.837Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: isLoggedIn is not defined","timestamp":"2015-03-24T07:25:50.041Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2015-03-24T07:29:33.432Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2015-03-24T07:33:10.316Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2015-03-24T07:33:59.678Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-03-24T07:36:24.509Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user not exists","timestamp":"2015-03-24T07:36:24.510Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-03-24T07:36:26.729Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user not exists","timestamp":"2015-03-24T07:36:26.729Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-03-24T07:36:32.010Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user not exists","timestamp":"2015-03-24T07:36:32.011Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-03-24T07:47:20.929Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user not exists","timestamp":"2015-03-24T07:47:20.930Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-03-24T07:47:26.949Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user not exists","timestamp":"2015-03-24T07:47:26.949Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-03-24T07:47:43.142Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user not exists","timestamp":"2015-03-24T07:47:43.143Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-03-24T07:47:43.301Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user not exists","timestamp":"2015-03-24T07:47:43.301Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-03-24T07:47:45.229Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user not exists","timestamp":"2015-03-24T07:47:45.230Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-03-24T07:48:00.047Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user not exists","timestamp":"2015-03-24T07:48:00.048Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-03-24T07:48:03.539Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user not exists","timestamp":"2015-03-24T07:48:03.539Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-03-24T07:48:37.997Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user not exists","timestamp":"2015-03-24T07:48:37.999Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-03-24T07:48:38.596Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user not exists","timestamp":"2015-03-24T07:48:38.596Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-03-24T07:48:40.614Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user not exists","timestamp":"2015-03-24T07:48:40.614Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-03-24T07:49:44.000Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user not exists","timestamp":"2015-03-24T07:49:44.002Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-03-24T07:49:48.991Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user not exists","timestamp":"2015-03-24T07:49:48.993Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-03-24T07:49:53.434Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user not exists","timestamp":"2015-03-24T07:49:53.435Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-03-24T07:49:56.345Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user not exists","timestamp":"2015-03-24T07:49:56.346Z"}

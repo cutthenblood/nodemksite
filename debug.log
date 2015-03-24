@@ -2363,3 +2363,443 @@
 {"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-11-05T14:26:38.541Z"}
 {"level":"info","message":"[/devel/nodemksite/bin/www.js] domain wrapper","timestamp":"2014-11-05T14:30:49.120Z"}
 {"level":"info","message":"[/devel/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2014-11-05T14:30:49.120Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: Error: listen EACCES","timestamp":"2015-02-25T08:39:02.854Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-02-25T08:39:18.566Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-02-25T08:39:18.568Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/user.js] null","timestamp":"2015-02-25T08:39:51.866Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Error: failed to connect to [10.46.1.210:27017]","timestamp":"2015-03-05T06:32:23.908Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-05T06:32:53.798Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-05T06:32:53.799Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-05T06:34:08.885Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-05T06:34:08.886Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-05T06:34:35.660Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-05T06:34:35.660Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-05T06:54:36.357Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-05T06:54:36.358Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-05T06:55:07.396Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-05T06:55:07.397Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-05T06:55:51.540Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-05T06:55:51.541Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-05T06:56:11.444Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-05T06:56:11.445Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-05T06:57:20.512Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-05T06:57:20.513Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-05T06:57:57.600Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-05T06:57:57.600Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-05T06:58:15.107Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-05T06:58:15.108Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-05T06:58:34.272Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-05T06:58:34.272Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-05T06:59:30.320Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-05T06:59:30.321Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-05T07:00:13.057Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-05T07:00:13.058Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-05T07:00:42.056Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-05T07:00:42.057Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-17T11:11:25.906Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-17T11:11:25.907Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-17T11:12:39.140Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-17T11:12:39.140Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot call method 'collection' of undefined","timestamp":"2015-03-17T11:12:58.108Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-17T11:23:09.630Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-17T11:23:09.631Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot call method 'collection' of undefined","timestamp":"2015-03-17T11:23:12.826Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot call method 'collection' of undefined","timestamp":"2015-03-17T11:23:14.261Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot call method 'collection' of undefined","timestamp":"2015-03-17T11:23:21.855Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot call method 'collection' of undefined","timestamp":"2015-03-17T11:23:22.542Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot call method 'collection' of undefined","timestamp":"2015-03-17T11:23:22.702Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot call method 'collection' of undefined","timestamp":"2015-03-17T11:23:22.885Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-17T11:23:43.742Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-17T11:23:43.743Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot call method 'collection' of undefined","timestamp":"2015-03-17T11:23:47.806Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot call method 'collection' of undefined","timestamp":"2015-03-17T11:23:50.031Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot call method 'collection' of undefined","timestamp":"2015-03-17T11:23:50.750Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot call method 'collection' of undefined","timestamp":"2015-03-17T11:23:51.814Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-17T11:24:44.151Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-17T11:24:44.151Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot call method 'collection' of undefined","timestamp":"2015-03-17T11:26:02.539Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-17T11:26:09.331Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-17T11:26:09.332Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot call method 'collection' of undefined","timestamp":"2015-03-17T11:26:24.838Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-17T11:26:47.538Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-17T11:26:47.539Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/user.js] null","timestamp":"2015-03-17T11:27:40.184Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/user.js] null","timestamp":"2015-03-17T11:27:45.572Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/user.js] null","timestamp":"2015-03-17T11:28:03.028Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-17T11:58:25.115Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-17T11:58:25.115Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/user.js] null","timestamp":"2015-03-17T11:58:28.590Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/user.js] null","timestamp":"2015-03-17T12:01:32.586Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-17T12:02:12.477Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-17T12:02:12.478Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-17T12:04:20.484Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-17T12:04:20.485Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/user.js] null","timestamp":"2015-03-17T12:04:26.732Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-18T06:57:43.705Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-18T06:57:43.705Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-18T07:00:27.249Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-18T07:00:27.250Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-18T07:02:07.530Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-18T07:02:07.531Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-18T07:03:50.982Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-18T07:03:50.983Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/user.js] null","timestamp":"2015-03-18T07:04:14.765Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-18T07:04:44.366Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-18T07:04:44.367Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-18T07:09:03.940Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-18T07:09:03.941Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-18T07:12:06.937Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-18T07:12:06.938Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-18T07:12:30.260Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-18T07:12:30.261Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-18T07:13:03.245Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-18T07:13:03.246Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-18T07:14:05.154Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-18T07:14:05.155Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-18T07:20:14.996Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-18T07:20:14.997Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-18T07:30:25.465Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-18T07:30:25.466Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-18T07:39:39.773Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-18T07:39:39.774Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-18T07:47:52.670Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-18T07:47:52.670Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-18T07:51:24.292Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-18T07:51:24.293Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-18T07:53:52.640Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-18T07:53:52.642Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-18T07:56:02.153Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-18T07:56:02.154Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-18T07:57:20.450Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-18T07:57:20.451Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-18T08:00:51.218Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-18T08:00:51.219Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-18T08:02:41.674Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-18T08:02:41.675Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-19T06:42:35.770Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-19T06:42:35.771Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-19T06:43:53.130Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-19T06:43:53.132Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/user.js] null","timestamp":"2015-03-19T06:43:56.592Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] type is not defined","timestamp":"2015-03-19T06:44:21.579Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-19T06:45:46.969Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-19T06:45:46.970Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] type is not defined","timestamp":"2015-03-19T06:46:04.300Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-19T06:48:35.886Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-19T06:48:35.887Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] type is not defined","timestamp":"2015-03-19T06:48:39.060Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] type is not defined","timestamp":"2015-03-19T06:48:58.279Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] type is not defined","timestamp":"2015-03-19T06:49:08.505Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-19T06:49:43.380Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-19T06:49:43.381Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-19T06:51:36.725Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-19T06:51:36.726Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-19T06:52:44.895Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-19T06:52:44.896Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/user.js] null","timestamp":"2015-03-19T06:52:51.913Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Error: failed to connect to [127.0.0.1:27022]","timestamp":"2015-03-19T12:07:38.619Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Error: failed to connect to [127.0.0.1:27022]","timestamp":"2015-03-19T12:08:25.340Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Error: failed to connect to [127.0.0.1:27022]","timestamp":"2015-03-19T12:08:28.758Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-19T12:08:42.799Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-19T12:08:42.801Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-19T12:11:17.933Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-19T12:11:17.934Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-19T12:12:10.219Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-19T12:12:10.220Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-19T12:12:37.730Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-19T12:12:37.731Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-19T12:13:31.178Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-19T12:13:31.179Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-19T12:14:15.785Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-19T12:14:15.786Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-19T12:25:27.362Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-19T12:25:27.363Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-19T12:26:02.068Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-19T12:26:02.069Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-19T12:27:00.790Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-19T12:27:00.792Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-19T12:27:57.156Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-19T12:27:57.157Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-19T12:34:02.569Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-19T12:34:02.570Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-19T12:35:53.569Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-19T12:35:53.570Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-19T12:36:20.135Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-19T12:36:20.136Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-19T12:37:43.870Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-19T12:37:43.871Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-19T12:39:17.584Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-19T12:39:17.584Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-19T12:44:17.328Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-19T12:44:17.328Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-19T12:48:27.980Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-19T12:48:27.982Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-19T12:49:52.027Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-19T12:49:52.028Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-19T12:50:12.118Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-19T12:50:12.119Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-19T12:50:17.056Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-19T12:50:17.058Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-19T12:53:38.031Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-19T12:53:38.031Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-19T12:54:21.905Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-19T12:54:21.906Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-19T12:55:23.853Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-19T12:55:23.854Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T06:06:09.841Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T06:06:09.842Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/user.js] null","timestamp":"2015-03-20T06:06:28.570Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T06:08:08.513Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T06:08:08.514Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T06:25:48.777Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T06:25:48.778Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T06:27:33.483Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T06:27:33.484Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T06:28:24.348Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T06:28:24.349Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T06:29:31.704Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T06:29:31.704Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T06:30:04.519Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T06:30:04.520Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T06:31:18.924Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T06:31:18.925Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T06:33:10.510Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T06:33:10.512Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T06:33:58.765Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T06:33:58.766Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T06:36:01.878Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T06:36:01.879Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/user.js] null","timestamp":"2015-03-20T06:36:21.462Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T06:37:17.635Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T06:37:17.637Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T06:37:33.639Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T06:37:33.640Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T06:37:47.386Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T06:37:47.387Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T06:45:30.783Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T06:45:30.784Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T06:48:33.631Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T06:48:33.632Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T06:48:55.683Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T06:48:55.684Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T06:53:36.281Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T06:53:36.282Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T06:53:59.292Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T06:53:59.292Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T06:54:43.173Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T06:54:43.174Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T06:59:40.562Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T06:59:40.563Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T07:00:05.348Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T07:00:05.349Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T07:05:30.848Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T07:05:30.849Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T07:06:04.410Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T07:06:04.411Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T07:07:04.439Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T07:07:04.440Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T07:07:47.394Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T07:07:47.396Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T07:13:58.884Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T07:13:58.885Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T07:15:25.803Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T07:15:25.804Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T07:16:13.336Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T07:16:13.337Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T07:18:04.901Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T07:18:04.902Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T07:19:03.139Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T07:19:03.140Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T07:19:17.775Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T07:19:17.776Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T07:22:29.511Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T07:22:29.512Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T07:24:29.189Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T07:24:29.190Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T07:37:21.366Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T07:37:21.368Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T07:39:33.590Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T07:39:33.591Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T07:40:43.384Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T07:40:43.385Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T07:41:36.456Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T07:41:36.458Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T07:42:13.314Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T07:42:13.315Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T07:43:00.053Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T07:43:00.054Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T07:43:31.597Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T07:43:31.598Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T07:46:27.395Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T07:46:27.396Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T07:47:21.135Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T07:47:21.136Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T07:49:35.805Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T07:49:35.806Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T07:50:39.566Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T07:50:39.567Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T07:51:16.005Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T07:51:16.006Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T07:51:51.619Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T07:51:51.620Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T07:52:54.268Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T07:52:54.270Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T07:57:30.573Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T07:57:30.574Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T07:59:18.255Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T07:59:18.256Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T08:01:01.776Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T08:01:01.777Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T08:05:45.353Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T08:05:45.354Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-20T08:06:21.346Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-20T08:06:21.347Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: isLoggedIn is not defined","timestamp":"2015-03-23T12:08:48.396Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-23T12:08:48.676Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-23T12:08:48.676Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/user.js] null","timestamp":"2015-03-23T12:09:48.503Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/user.js] null","timestamp":"2015-03-23T12:13:16.585Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/user.js] null","timestamp":"2015-03-23T12:13:26.110Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: isLoggedIn is not defined","timestamp":"2015-03-24T05:58:22.313Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-24T05:58:22.457Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-24T05:58:22.457Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/user.js] null","timestamp":"2015-03-24T05:58:30.268Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/user.js] null","timestamp":"2015-03-24T05:58:52.202Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: isLoggedIn is not defined","timestamp":"2015-03-24T06:29:11.359Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-24T06:29:11.463Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-24T06:29:11.464Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: isLoggedIn is not defined","timestamp":"2015-03-24T06:30:34.441Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-24T06:30:34.540Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-24T06:30:34.540Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: isLoggedIn is not defined","timestamp":"2015-03-24T06:31:15.335Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-24T06:31:15.499Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-24T06:31:15.499Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: isLoggedIn is not defined","timestamp":"2015-03-24T06:31:52.857Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-24T06:31:52.966Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-24T06:31:52.967Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: isLoggedIn is not defined","timestamp":"2015-03-24T06:32:04.956Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-24T06:32:05.068Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-24T06:32:05.069Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: isLoggedIn is not defined","timestamp":"2015-03-24T06:32:24.490Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-24T06:32:24.597Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-24T06:32:24.598Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: isLoggedIn is not defined","timestamp":"2015-03-24T06:33:40.810Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-24T06:33:40.912Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-24T06:33:40.912Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: isLoggedIn is not defined","timestamp":"2015-03-24T06:35:15.637Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-24T06:35:15.758Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-24T06:35:15.758Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: isLoggedIn is not defined","timestamp":"2015-03-24T06:44:09.946Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-24T06:44:10.052Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-24T06:44:10.052Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: isLoggedIn is not defined","timestamp":"2015-03-24T06:45:54.384Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-24T06:45:54.492Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-24T06:45:54.492Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: isLoggedIn is not defined","timestamp":"2015-03-24T06:47:45.951Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-24T06:47:46.057Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-24T06:47:46.058Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: isLoggedIn is not defined","timestamp":"2015-03-24T06:50:28.841Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-24T06:50:28.947Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-24T06:50:28.947Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: isLoggedIn is not defined","timestamp":"2015-03-24T07:19:57.365Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-24T07:19:57.477Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-24T07:19:57.477Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: isLoggedIn is not defined","timestamp":"2015-03-24T07:23:23.144Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-24T07:23:23.244Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-24T07:23:23.245Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: isLoggedIn is not defined","timestamp":"2015-03-24T07:24:24.859Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-24T07:24:24.962Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-24T07:24:24.963Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: isLoggedIn is not defined","timestamp":"2015-03-24T07:25:27.660Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-24T07:25:27.761Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-24T07:25:27.761Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: isLoggedIn is not defined","timestamp":"2015-03-24T07:25:38.836Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-24T07:25:38.946Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-24T07:25:38.946Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: isLoggedIn is not defined","timestamp":"2015-03-24T07:25:50.041Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-24T07:25:50.135Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-24T07:25:50.135Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2015-03-24T07:29:33.431Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-24T07:29:33.549Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-24T07:29:33.549Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2015-03-24T07:33:10.315Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-24T07:33:10.417Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-24T07:33:10.418Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: passport is not defined","timestamp":"2015-03-24T07:33:59.677Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-24T07:33:59.770Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-24T07:33:59.770Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/user.js] null","timestamp":"2015-03-24T07:34:06.320Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/user.js] null","timestamp":"2015-03-24T07:34:10.028Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/user.js] null","timestamp":"2015-03-24T07:34:16.076Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/user.js] null","timestamp":"2015-03-24T07:34:18.869Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-24T07:35:41.632Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-24T07:35:41.632Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-24T07:36:19.423Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-24T07:36:19.424Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-03-24T07:36:24.509Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user not exists","timestamp":"2015-03-24T07:36:24.510Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-03-24T07:36:26.728Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user not exists","timestamp":"2015-03-24T07:36:26.729Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-03-24T07:36:32.010Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user not exists","timestamp":"2015-03-24T07:36:32.011Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-24T07:45:03.774Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-24T07:45:03.776Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/user.js] null","timestamp":"2015-03-24T07:45:14.985Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/user.js] null","timestamp":"2015-03-24T07:45:25.204Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/user.js] null","timestamp":"2015-03-24T07:45:47.063Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-24T07:47:15.795Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-24T07:47:15.795Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-03-24T07:47:20.929Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user not exists","timestamp":"2015-03-24T07:47:20.930Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-03-24T07:47:26.948Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user not exists","timestamp":"2015-03-24T07:47:26.949Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-24T07:47:36.341Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-24T07:47:36.342Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-03-24T07:47:43.142Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user not exists","timestamp":"2015-03-24T07:47:43.143Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-03-24T07:47:43.301Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user not exists","timestamp":"2015-03-24T07:47:43.301Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-03-24T07:47:45.229Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user not exists","timestamp":"2015-03-24T07:47:45.230Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-24T07:47:57.944Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-24T07:47:57.946Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-03-24T07:48:00.047Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user not exists","timestamp":"2015-03-24T07:48:00.047Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-03-24T07:48:03.538Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user not exists","timestamp":"2015-03-24T07:48:03.539Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-24T07:48:34.503Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-24T07:48:34.504Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-03-24T07:48:37.997Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user not exists","timestamp":"2015-03-24T07:48:37.999Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-03-24T07:48:38.596Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user not exists","timestamp":"2015-03-24T07:48:38.596Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-03-24T07:48:40.613Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user not exists","timestamp":"2015-03-24T07:48:40.614Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-24T07:49:38.611Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-24T07:49:38.611Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-03-24T07:49:44.000Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user not exists","timestamp":"2015-03-24T07:49:44.001Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-03-24T07:49:48.991Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user not exists","timestamp":"2015-03-24T07:49:48.993Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-03-24T07:49:53.434Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user not exists","timestamp":"2015-03-24T07:49:53.435Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-03-24T07:49:56.345Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user not exists","timestamp":"2015-03-24T07:49:56.345Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-24T07:58:11.922Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-24T07:58:11.923Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/user.js] null","timestamp":"2015-03-24T07:58:36.692Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-24T07:59:20.234Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-24T07:59:20.235Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/user.js] null","timestamp":"2015-03-24T07:59:44.217Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-24T08:00:11.578Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-24T08:00:11.579Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-24T08:00:34.584Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-24T08:00:34.586Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/user.js] null","timestamp":"2015-03-24T08:00:43.814Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/user.js] null","timestamp":"2015-03-24T08:00:58.585Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/user.js] null","timestamp":"2015-03-24T08:01:02.165Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/user.js] null","timestamp":"2015-03-24T08:01:11.045Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/user.js] null","timestamp":"2015-03-24T08:01:14.969Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain wrapper","timestamp":"2015-03-24T08:06:11.583Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/bin/www.js] Express server listening on port 3000","timestamp":"2015-03-24T08:06:11.584Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/user.js] null","timestamp":"2015-03-24T08:06:21.130Z"}

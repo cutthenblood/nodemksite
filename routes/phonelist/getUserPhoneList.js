@@ -11,7 +11,7 @@ module.exports = function(app) {
             var opts = {
                 filter: '(&(objectClass=user))',
                 scope: 'sub',
-                attributes: ['sAMAccountName', 'mail', 'sn', 'givenName', 'middleName', 'displayName', 'ipPhone', 'physicalDeliveryOfficeName', 'department', 'title']
+                attributes: ['sAMAccountName', 'mail', 'sn', 'givenName', 'middleName', 'displayName', 'ipPhone', 'physicalDeliveryOfficeName', 'department', 'title','telephoneNumber']
             };
             client.search('ou=Users MK,dc=mk,dc=local', opts, function (err, res) {
                 console.log(err);

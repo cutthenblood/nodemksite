@@ -15,6 +15,8 @@
       <script type="text/javascript" src="/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
       <script type="text/javascript" src="/eonasdan-bootstrap-datetimepicker/src/js/locales/bootstrap-datetimepicker.ru.js"></script>
       <link rel="stylesheet" href="/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" />
+      <link href="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.0-rc.2/css/select2.min.css" rel="stylesheet" />
+      <script src="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.0-rc.2/js/select2.min.js"></script>
   </head>
   <body onload="startTime()">
   <script>var users = <%= users%>;</script>
@@ -113,12 +115,15 @@
   <div class="row">
       <div class="container col-lg-12" id="mainbody">
           <div class="row"><button type="button" class="btn btn-default" id="mpr">Mониторинг преждевременных родов</button></div>
+          <div class="row"><button type="button" class="btn btn-default" id="mprPD">Mониторинг мероприятий по перенатальной диагностике</button></div>
           <div class="row"><div class="container" id="report"></div></div>
       </div>
   </div>
+
      <script src="/js/loader.js"></script>
       <script src="/js/orgm/orgmModel.js"></script>
         <script src="/schemas/orgm/mprScm.js"></script>
+  <script src="/schemas/orgm/mprPDScm.js"></script>
       <script>
           function startTime() {
                $("#clock").html(moment().format('DD.MM.YYYY, HH:mm:ss'));

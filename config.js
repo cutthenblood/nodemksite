@@ -6,7 +6,7 @@ var conf = {
     routesPath: __dirname + '/routes',//путь дл роутов
     viewCache: false,
     port: 3000,
-    mongoConnect: 'mongodb://10.46.1.210:27017/mksite',
+    mongoConnect: 'mongodb://127.0.0.1:27022/mksite',
     session: {
         secret: "Fj549t=_s-4g-dfh34uyHdfy54&3450hfgjslfsgfgnpsggpoag0JFj54834thK)=",
         redis: {

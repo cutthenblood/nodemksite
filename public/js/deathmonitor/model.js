@@ -1,4 +1,4 @@
-(function($){
+ (function($){
 
     var MOmodel = Backbone.Model.extend({
         url: '/deathmonitor/uploadform',
@@ -95,12 +95,15 @@
             var weekday = now.day();
             var diff = now.diff(date, 'days');
             if (diff<1) return _this.renderDateError("<h3>Вводить данные за дату в будущем запрещено</h3>");
-            if (weekday == 1) {
-                if(diff<4){
+            _this.dateok=true;
+            return;
+            
+          /*  if (weekday == 1) {
+               // if(diff<4){
                     _this.dateok=true;
                     return;
-                }
-                else{
+              //  }
+                *//*else{
                     this.postdate(date.format("DD.MM.YYYY"),date.add(1,"days").format("DD.MM.YYYY"),function(res)
                     {
                         if (res!="ok"){
@@ -114,7 +117,7 @@
                         }
 
                     });
-                }
+                }*//*
 
 
 
@@ -140,7 +143,7 @@
 
                     });
                 }
-            }
+            }*/
 
 
 
@@ -230,3 +233,4 @@
  });
 
  */
+           

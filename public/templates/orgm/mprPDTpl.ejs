@@ -1,0 +1,125 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+<div class="panel panel-default ">
+
+    <div class="panel-heading">
+
+        Добавить запись &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="btn btn-danger" id="emptydates">За какие даты нет данных?</button>
+    </div>
+
+    <div class="panel-body">
+        <form id="mainaddform" class="form-horizontal" action="/orgm" method="get"
+              data-bv-message="Ошибка в заполнении формы"
+              data-bv-feedbackicons-valid="glyphicon glyphicon-ok"
+              data-bv-feedbackicons-invalid="glyphicon glyphicon-remove"
+              data-bv-feedbackicons-validating="glyphicon glyphicon-refresh"
+                >
+            <div class="row">
+                <div class="form-group">
+                    <label class="col-lg-2 control-label">МО</label>
+                    <div class="col-lg-9 ">
+                        <select class="form-control" id="mo"  autofocus>
+                            <% users.forEach(function(user){
+                                user.mo.forEach(function(moo){
+                                   %> <option value="<%- moo.group%>"><%=moo.fullname.replace(/ {2,}/g,' ')%></option>
+                                <%});})%>
+                        </select>
+                    </div>
+                </div>
+</div>
+<div class="row">
+    <div class="row">
+            <div class="form-group">
+                <label class="col-lg-2 control-label">мониторинг за</label>
+
+                <div class='input-group col-lg-9' id="date" >
+                    <input type='text' class="form-control" name="inputdate"/>
+            <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+            </span>
+                </div>
+
+            </div>
+
+        </div>
+</div>
+
+
+<% function walk(val){
+    if(val.type == 'subgraphs')
+        {%>
+<div class="row">
+            <div class="well">
+                <h4><%= val.label%> </h4>
+                <% val.sub.forEach(walk) %>
+            </div>
+</div>
+            <%}
+    else {%>
+            <div class="row">
+            <div class="form-group">
+                <label class="col-lg-4 control-label"><%=val.label%></label>
+                <div class="col-lg-8">
+                    <table cellspacing="2" width="100%"><tr>
+                            <td>
+                                <%if(val.type=='date'){%>
+                                <div class='input-group date '  data-date-format="DD.MM.YYYY" >
+                                    <input type='text' class="form-control" name="<%=val.name%>"
+                                           data-bv-notempty="true"
+
+                                           data-bv-notempty-message="Поле не заполнено"
+                                            />
+                                            <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+                                            </span>
+
+
+                                    <%} else {
+                                            if(val.type =='textarea'){%>
+                                    <textarea
+                                    <%} else {%>
+                                    <input type="text"
+                                            <%}%>
+                                           class="form-control" name='<%=val.name%>'
+                                            <%if (val.type == 'number'){%>
+                                           data-bv-integer="true"
+                                           data-bv-notempty="true"
+                                           data-bv-notempty-message="Поле не заполнено"
+                                           data-bv-integer-message="Вводяться только числа"
+                                            <%}%>
+                                            />
+                                    <%}%>
+                            </td>
+                            <td>&nbsp&nbsp(Гр.<%=val.name.slice(2)%>)</td>
+                        </tr></table>
+                </div>
+
+            </div>
+            </div>
+                <%}
+
+}
+            table.forEach( walk);
+
+
+            %>
+
+
+
+            <div class="row">
+            <div class="form-group">
+                <div class="col-lg-9 col-lg-offset-3">
+                    <button type="submit" class="btn btn-primary" name="submitexit" >Сохранить и выйти</button>
+                   <!-- <button type="submit" class="btn btn-primary" name="submitcontinue">Сохранить и продолжить</button>-->
+                </div>
+            </div>
+</div>
+
+
+
+        </form>
+    </div>
+    </div>
+            </div>
+    </div>
+</div>
