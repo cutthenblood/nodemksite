@@ -225,8 +225,6 @@ req.body.inputdate = moment(req.body.inputdate,"DD.MM.YYYY").startOf('day').valu
          }
          response.send(JSON.stringify(res.sort(function(a,b){
              return moment(a.date,'DD.MM.YYYY').diff(moment(b.date,'DD.MM.YYYY'));
-
-
          }))).end();
 
      });
