@@ -149,7 +149,7 @@ load({
         var MainView = Backbone.View.extend({
             el:$('#mainbody'),
 
-            template: {'mpr':loaded.mprTpl,'mprPD':loaded.mprPDTpl},
+            template: {'mpr':loaded.mprTpl,'mprPDTpl':loaded.mprPDTpl},
             events:{
                 'click button#mpr': 'rendermpr',
                 'click button#mprPD': 'rendermprPD',
@@ -277,7 +277,7 @@ load({
             rendermprPD:function(){
                 console.log('rendermprPD');
                 monitoring = 'mprPD';
-                $('#report').html(this.template.mpr({users:users,'table':mprPDSchema}));
+                $('#report').html(this.template.mprPDTpl({users:users,'table':mprPDSchema}));
                 $('.date').datetimepicker({
                     //defaultDate: moment().format(),
                     pickTime: false,

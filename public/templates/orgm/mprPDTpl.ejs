@@ -22,9 +22,16 @@
                     <div class="col-lg-9 ">
                         <select class="form-control" id="mo"  autofocus>
                             <% users.forEach(function(user){
+
+                                if (user.uz)
+                                        {
+                                        %> <option ><%=user.uz.replace(/ {2,}/g,' ')%></option>
+                                        <%}
+                                        else{
+
                                 user.mo.forEach(function(moo){
                                    %> <option value="<%- moo.group%>"><%=moo.fullname.replace(/ {2,}/g,' ')%></option>
-                                <%});})%>
+                                <%});}})%>
                         </select>
                     </div>
                 </div>

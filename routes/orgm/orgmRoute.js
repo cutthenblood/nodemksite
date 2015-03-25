@@ -69,7 +69,14 @@ module.exports = function (app) {
                     return;
                 } else {
 
-                    res.render('login/login', {action:'/orgm/auth',logintitle:'Организационно-методический отдел',users:result.filter(function(us) {if(us.division == undefined) return us;}), message: err });}
+                    res.render('login/login', {action:'/orgm/auth',logintitle:'Организационно-методический отдел',users:result.filter(function(us) {if(us.division == undefined) return us;}).sort(
+                        function(a,b){
+                            if(a.username< b.username)
+                                return -1;
+                            else if(a.username==b.username) return 0
+                            else return -0;
+                        }
+                    ), message: err });}
             });
         }
         else res.status(503).send('эта версия браузера не поддерживается,обратитесь к системноу администатору для установки google chrome  <a href="https://www.google.ru/intl/ru/chrome/browser/index.html">https://www.google.ru/intl/ru/chrome/browser/index.html</a>, так же поддерживаются последние версии Opera, Yandex Browser, Safari, FireFox');

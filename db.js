@@ -344,7 +344,7 @@ module.exports = function (db) {
 
         },
     this.getUsers = function (collection, callback) {
-            this._db.collection(collection).find({},{'division':1,'username':1,'mo':1}).toArray(function (err, result) {
+            this._db.collection(collection).find({},{'division':1,'username':1,'mo':1,'uz':1}).toArray(function (err, result) {
                 errproc(err,result,callback);
                 /*  if (err) {
                  if (err) throw err;
