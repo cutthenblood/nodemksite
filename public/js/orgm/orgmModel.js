@@ -121,14 +121,14 @@ load({
 
                     };
 */
-                if(attrs.rows[0].gr13 < (attrs.rows[0].gr4+attrs.rows[0].gr7+attrs.rows[0].gr10)){
+                if(attrs.rows[0].gr13 != (attrs.rows[0].gr4+attrs.rows[0].gr7+attrs.rows[0].gr10)){
                     errors.push(['gr13','гр. 13 = гр. 4 + 7 + 10']);
                     errors.push(['gr13','гр. 13 = гр. 4 + 7 + 10']);
                     errors.push(['gr13','гр. 13 = гр. 4 + 7 + 10']);
 
                 };
 
-                if(attrs.rows[0].gr14 < (attrs.rows[0].gr5+attrs.rows[0].gr8+attrs.rows[0].gr11)){
+                if(attrs.rows[0].gr14 != (attrs.rows[0].gr5+attrs.rows[0].gr8+attrs.rows[0].gr11)){
                     errors.push(['gr14','гр. 14 = гр. 5 + 8 + 11']);
                     errors.push(['gr14','гр. 14 = гр. 5 + 8 + 11']);
                     errors.push(['gr14','гр. 14 = гр. 5 + 8 + 11']);

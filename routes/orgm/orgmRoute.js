@@ -559,21 +559,19 @@ req.body.inputdate = moment(req.body.inputdate,"DD.MM.YYYY").startOf('day').valu
                      var promise = result.map(function (item) {
                          return new vow.Promise(function(resolve){
                              if(item._id){
-
-                                 if(item._id.group == null) {
-                                     dbmethods.getUser('users',{username:item._id.user.replace(/ {2,}/g,' ')},function(err,us){
+                                 item.period = moment(item.inputdate).format("MM.YYYY");
+                                 item.gr6 = (parseInt(item.gr5)*100)/parseInt(item.gr4);
+                                 item.gr9 = (parseInt(item.gr8)*100)/parseInt(item.gr7);
+                                 item.gr12 = (parseInt(item.gr11)*100)/parseInt(item.gr7);
+                                 item.gr15 = (parseInt(item.gr14)*100)/parseInt(item.gr13);
+                                 dbmethods.getUser('users',{username:item._id.user.replace(/ {2,}/g,' ')},function(err,us){
                                          item.username = item._id.user;
                                          item.mo = item._id.mo.replace(/ {2,}/g,' ');
                                          ind+=1;
                                          resolve(item);
                                      })
-                                 } else {
-                                     item.username = item._id.user;
-                                     item.mo = item._id.mo.replace(/ {2,}/g,' ');
-                                     resolve(item);
-                                 }
                              };
-                             item.period = moment(item.inputdate).format("MM.YYYY");
+
 
                          });
                      });

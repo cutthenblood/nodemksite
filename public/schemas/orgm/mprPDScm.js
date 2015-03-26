@@ -107,7 +107,7 @@ var mprPDSchema = [
         name:'gr13',
         type: 'number',
         required: false,
-        label: 'Общее количество беременных, состоящих на учете'
+        label: 'Общее количество беременных, вставших на учет'
     },
     {
         name:'gr14-15',
