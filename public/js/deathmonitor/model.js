@@ -50,9 +50,9 @@
             this.noreload=false;
             _this.dateok=false;
             $('#date').datetimepicker({
-                defaultDate: moment().format("DD.MM.YYYY"),
-                pickTime: false,
-                language: 'ru'
+
+
+                locale: 'ru'
             });
             $("#bskdate").html("Кол-во умерших от БСК всего за  <b>"+$('#date').data("DateTimePicker").getDate().format("DD.MM.YYYY")+"</b>");
 

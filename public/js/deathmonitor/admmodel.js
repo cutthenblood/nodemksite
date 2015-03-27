@@ -10,7 +10,7 @@
             var _this=this;
             $('#date').datetimepicker({
                 defaultDate: moment().format(),
-                language: 'ru'
+                locale: 'ru'
             });
         },
         getReport: function(){

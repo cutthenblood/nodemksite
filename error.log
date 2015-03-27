@@ -432,3 +432,4 @@
 {"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user not exists","timestamp":"2015-03-24T07:49:53.435Z"}
 {"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-03-24T07:49:56.345Z"}
 {"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user not exists","timestamp":"2015-03-24T07:49:56.346Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] startdate is not defined","timestamp":"2015-03-26T07:41:59.906Z"}

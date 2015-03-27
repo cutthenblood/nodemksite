@@ -11,6 +11,7 @@ module.exports = function (app) {
             if(query.autherr) {
                 err.push(query.autherr);
             }
+            app.set('ucl','users');
             res.render('deathmonitor/login', { message: err });
         }
         else

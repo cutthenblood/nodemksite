@@ -69,12 +69,12 @@ load({
 
                         $('#adminForm').html(_this.template.mpr({users:users}));
                         $('#mprDateStart').datetimepicker({
-                            pickTime: false,
-                            language: 'ru'
+
+                            locale: 'ru'
                         });
                         $('#mprDateEnd').datetimepicker({
-                            pickTime: false,
-                            language: 'ru'
+
+                            locale: 'ru'
                         });
                         $('#moname').select2();
                         switch(monitoring){
@@ -86,12 +86,12 @@ load({
                         .fail(function() {
                             $('#adminForm').html(this.template.mpr({}));
                             $('#mprDateStart').datetimepicker({
-                                pickTime: false,
-                                language: 'ru'
+
+                                locale: 'ru'
                             });
                             $('#mprDateEnd').datetimepicker({
-                                pickTime: false,
-                                language: 'ru'
+
+                                locale: 'ru'
                             });
                             return this;
                         });
