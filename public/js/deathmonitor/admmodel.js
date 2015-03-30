@@ -14,7 +14,7 @@
             });
         },
         getReport: function(){
-            var date = $('#date').data("DateTimePicker").getDate().format("DD.MM.YYYY");
+            var date = $('#date').data("DateTimePicker").date().format("DD.MM.YYYY");
             var rasingsum = $('#rasingsum').prop('checked');
             window.location.href ="/deathmonitor/getReport?date="+date+"&raisingsum="+rasingsum;
 
