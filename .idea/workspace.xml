@@ -31,26 +31,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="orgmModel.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="orgmModel.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/js/orgm/orgmModel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.2" vertical-offset="2886" max-vertical-offset="5598">
-              <caret line="327" column="76" selection-start-line="327" selection-start-column="71" selection-end-line="327" selection-end-column="76" />
+            <state vertical-scroll-proportion="0.5298103" vertical-offset="2723" max-vertical-offset="4338">
+              <caret line="397" column="18" selection-start-line="397" selection-start-column="18" selection-end-line="397" selection-end-column="18" />
               <folding>
                 <element signature="e#260#4727#0" expanded="false" />
                 <element signature="e#4788#7038#0" expanded="false" />
                 <element signature="e#8973#9379#0" expanded="false" />
                 <element signature="e#9425#9779#0" expanded="false" />
                 <element signature="e#14425#14507#0" expanded="false" />
+                <element signature="e#14563#17576#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="model.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="model.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/deathmonitor/model.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18344827" vertical-offset="2765" max-vertical-offset="4392">
+            <state vertical-scroll-proportion="-4.4333334" vertical-offset="2765" max-vertical-offset="4392">
               <caret line="161" column="67" selection-start-line="161" selection-start-column="67" selection-end-line="161" selection-end-column="67" />
               <folding />
             </state>
@@ -336,8 +337,8 @@
         <option value="$PROJECT_DIR$/public/js/mmo/mmoAdminModel.js" />
         <option value="$PROJECT_DIR$/public/js/mmo/mmoModel.js" />
         <option value="$PROJECT_DIR$/public/js/orgm/orgmAdminModel.js" />
-        <option value="$PROJECT_DIR$/public/js/orgm/orgmModel.js" />
         <option value="$PROJECT_DIR$/public/js/deathmonitor/model.js" />
+        <option value="$PROJECT_DIR$/public/js/orgm/orgmModel.js" />
       </list>
     </option>
   </component>
@@ -402,69 +403,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodemksite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodemksite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodemksite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodemksite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="orgm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodemksite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodemksite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deathmonitor" />
+              <option name="myItemId" value="node_modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2293,20 +2232,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/orgm/orgmModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.2" vertical-offset="2886" max-vertical-offset="5598">
-          <caret line="327" column="76" selection-start-line="327" selection-start-column="71" selection-end-line="327" selection-end-column="76" />
-          <folding>
-            <element signature="e#260#4727#0" expanded="false" />
-            <element signature="e#4788#7038#0" expanded="false" />
-            <element signature="e#8973#9379#0" expanded="false" />
-            <element signature="e#9425#9779#0" expanded="false" />
-            <element signature="e#14425#14507#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/orgm/orgmAdminModel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.6" vertical-offset="222" max-vertical-offset="2340">
@@ -2317,9 +2242,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/deathmonitor/model.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18344827" vertical-offset="2765" max-vertical-offset="4392">
+        <state vertical-scroll-proportion="-4.4333334" vertical-offset="2765" max-vertical-offset="4392">
           <caret line="161" column="67" selection-start-line="161" selection-start-column="67" selection-end-line="161" selection-end-column="67" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/orgm/orgmModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5298103" vertical-offset="2723" max-vertical-offset="4338">
+          <caret line="397" column="18" selection-start-line="397" selection-start-column="18" selection-end-line="397" selection-end-column="18" />
+          <folding>
+            <element signature="e#260#4727#0" expanded="false" />
+            <element signature="e#4788#7038#0" expanded="false" />
+            <element signature="e#8973#9379#0" expanded="false" />
+            <element signature="e#9425#9779#0" expanded="false" />
+            <element signature="e#14425#14507#0" expanded="false" />
+            <element signature="e#14563#17576#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -386,15 +386,16 @@ load({
             saveformPD: function (validator,submittype) {
                 validator.resetForm();
 
-                if (this.dateok == false){
+
+
+                var arr = [];
+                var dfate = moment($('#date').data("DateTimePicker").date().valueOf()).startOf('month');
+                if (!dfate.isValid()){
                     this.noreload=true;
                     this.renderDateError("<h3>Неправильная дата</h3>");
                     this.scrolltotop();
                     return;
                 };
-
-                var arr = [];
-                var dfate = moment($('#date').data("DateTimePicker").date().valueOf()).startOf('month');
                 mprPDmodel.set('inputdate',dfate.format("DD.MM.YYYY").valueOf());
 
                 var row={};
