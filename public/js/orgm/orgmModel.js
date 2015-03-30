@@ -292,11 +292,11 @@ load({
                 var _this=this;
                 this.noreload=false;
                 _this.dateok=false;
-                $("#date").on("dp.change",function (e) {
+               /* $("#date").on("dp.change",function (e) {
 
                     var dt = $('#date').data("DateTimePicker").date().format("DD.MM.YYYY");
                     _this.validateDate(moment(dt,"DD.MM.YYYY").startOf('month'),'mprPD');
-                });
+                });*/
                 this.validator = $('#mainaddform').
                     bootstrapValidator().on('success.form.bv', function(e) {
                         // Prevent submit form
