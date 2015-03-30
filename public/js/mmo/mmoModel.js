@@ -51,8 +51,8 @@ load({
 
                 $('.date').datetimepicker({
                     //defaultDate: moment().format(),
-                    pickTime: false,
-                    language: 'ru'
+                    //pickTime: false,
+                    locale: 'ru'
                 });
                 var _this=this;
                 this.noreload=false;

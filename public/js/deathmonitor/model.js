@@ -51,14 +51,16 @@
             _this.dateok=false;
             $('#date').datetimepicker({
 
+                format: 'DD.MM.YYYY',
+                useCurrent: false,
 
                 locale: 'ru'
             });
-            $("#bskdate").html("Кол-во умерших от БСК всего за  <b>"+$('#date').data("DateTimePicker").getDate().format("DD.MM.YYYY")+"</b>");
+            //$("#bskdate").html("Кол-во умерших от БСК всего за  <b>"+moment().format("DD.MM.YYYY")+"</b>");
 
             $("#date").on("dp.change",function (e) {
 
-                var dt = $('#date').data("DateTimePicker").getDate().format("DD.MM.YYYY");
+                var dt = $('#date').data("DateTimePicker").date().format("DD.MM.YYYY");
                 $("#bskdate").html("Кол-во умерших от БСК всего за  <b>"+dt+"</b>");
                 _this.validateDate(_this.validateDate(moment(dt,"DD.MM.YYYY")));
             });

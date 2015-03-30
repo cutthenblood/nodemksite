@@ -12,8 +12,8 @@ module.exports = function (passport, app) {
     // used to deserialize the user
     passport.deserializeUser(function (id, done) {
         var dbfactory = app.get('dbmethods');
-        var collection = app.get('ucl');
-        if(!collection)
+    /*    var collection = app.get('ucl');
+        if(!collection)*/
             collection = 'users';
         dbfactory.getUserById(collection, id, function (err, user) {
             if (err) {
@@ -29,8 +29,8 @@ module.exports = function (passport, app) {
     passport.use('local',new LocalStrategy(
         function (username, password, done) {
             var dbfactory = app.get('dbmethods');
-            var collection = app.get('ucl');
-            if(!collection)
+   /*         var collection = app.get('ucl');
+            if(!collection)*/
                 collection = 'users';
 
             dbfactory.getUser(collection, {username: username}, function (err, user) {

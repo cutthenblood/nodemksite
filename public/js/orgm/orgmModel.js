@@ -251,16 +251,17 @@ load({
                 $('#report').html(this.template.mpr({users:users,'table':mprSchema}));
                 $('.date').datetimepicker({
                     //defaultDate: moment().format(),
-                    pickTime: false,
+                    //pickTime: false,
                     format: 'DD.MM.YYYY',
-                    language: 'ru'
+                    useCurrent: false,
+                    locale: 'ru-RU'
                 });
                 var _this=this;
                 this.noreload=false;
                 _this.dateok=false;
                 $("#date").on("dp.change",function (e) {
 
-                    var dt = $('#date').data("DateTimePicker").getDate().format("DD.MM.YYYY");
+                    var dt = $('#date').data("DateTimePicker").date().format("DD.MM.YYYY");
                     _this.validateDate(moment(dt,"DD.MM.YYYY"),'mpr');
                 });
                 this.validator = $('#mainaddform').

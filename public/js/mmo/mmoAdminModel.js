@@ -25,8 +25,8 @@ load({
                 //var tst = _.flatten(mprSchema,true);
                 $('#adminForm').html(this.template.ofosvkr({}));
                 $('#ofosvkrDateStart').datetimepicker({
-                    pickTime: false,
-                    language: 'ru'
+                    //pickTime: false,
+                    locale: 'ru'
                 });
 
                 return this;
