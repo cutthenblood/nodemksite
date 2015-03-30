@@ -161,8 +161,8 @@ load({
 
             },
             EmptyDatesShow: function(e){
-                var beg = $('#wiDateStart').data("DateTimePicker").getDate().valueOf();
-                var end = $('#wiDateEnd').data("DateTimePicker").getDate().valueOf();
+                var beg = $('#wiDateStart').data("DateTimePicker").date().valueOf();
+                var end = $('#wiDateEnd').data("DateTimePicker").date().valueOf();
                 if(!moment(beg).isValid()) return;
                 if(!moment(end).isValid()) return;
                 if ((end-beg)<0) return;
@@ -323,7 +323,7 @@ load({
                 //var validator = $('#mainaddform').data('bootstrapValidator');
                 //var vl = validator.validateField('gr5');
                 var arr = [];
-		var dfate = moment($('#date').data("DateTimePicker").getDate().valueOf());
+		var dfate = moment($('#date').data("DateTimePicker").date().valueOf());
                 mprmodel.set('inputdate',dfate.format("DD.MM.YYYY"));
                 //var dfate = moment($('#date').data("DateTimePicker").getDate().valueOf()).startOf('day');
                 //mprmodel.set('inputdate',dfate.valueOf());
@@ -394,7 +394,7 @@ load({
                 };
 
                 var arr = [];
-                var dfate = moment($('#date').data("DateTimePicker").getDate().valueOf()).startOf('month');
+                var dfate = moment($('#date').data("DateTimePicker").date().valueOf()).startOf('month');
                 mprPDmodel.set('inputdate',dfate.format("DD.MM.YYYY").valueOf());
 
                 var row={};

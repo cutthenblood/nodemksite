@@ -24,8 +24,8 @@ load({
             $('#ErrorModal').modal();
             },
             whoinput: function(){
-                var beg = $('#mprDateStart').data("DateTimePicker").getDate().valueOf();
-                var end = $('#mprDateEnd').data("DateTimePicker").getDate().valueOf();
+                var beg = $('#mprDateStart').data("DateTimePicker").date().valueOf();
+                var end = $('#mprDateEnd').data("DateTimePicker").date().valueOf();
                 $('#whoinputdiv').html('');
                 var jqxhr = $.post( "/orgm/mprwhoinput",{"startdate":beg,"enddate":end}, function(res) {
                     console.log(res);
@@ -103,8 +103,8 @@ load({
             },
             report: function(button){
 
-                var beg = $('#mprDateStart').data("DateTimePicker").getDate().valueOf();
-                var end = $('#mprDateEnd').data("DateTimePicker").getDate().valueOf();
+                var beg = $('#mprDateStart').data("DateTimePicker").date().valueOf();
+                var end = $('#mprDateEnd').data("DateTimePicker").date().valueOf();
                 var mo=  $('#moname option:selected').text();
                 var type = $(button.currentTarget).attr('id');
 

@@ -165,7 +165,7 @@
                 return;
             }
             var arr = [];
-            momodel.set('inputdate',$('#date').data("DateTimePicker").getDate().format("DD.MM.YYYY"));
+            momodel.set('inputdate',$('#date').data("DateTimePicker").date().format("DD.MM.YYYY"));
             var row={};
             row["username"]=$('#moname').text();
             row['date']=new Date();

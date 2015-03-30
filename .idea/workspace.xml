@@ -6,6 +6,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/mmo/mmoAdminModel.js" afterPath="$PROJECT_DIR$/public/js/mmo/mmoAdminModel.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/mmo/mmoModel.js" afterPath="$PROJECT_DIR$/public/js/mmo/mmoModel.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/deathmonitor/model.js" afterPath="$PROJECT_DIR$/public/js/deathmonitor/model.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/orgm/orgmAdminModel.js" afterPath="$PROJECT_DIR$/public/js/orgm/orgmAdminModel.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/orgm/orgmModel.js" afterPath="$PROJECT_DIR$/public/js/orgm/orgmModel.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/passport.js" afterPath="$PROJECT_DIR$/passport.js" />
     </list>
@@ -30,29 +31,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="orgmModel.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="orgmModel.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/orgm/orgmModel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6171875" vertical-offset="1704" max-vertical-offset="3870">
-              <caret line="297" column="63" selection-start-line="297" selection-start-column="63" selection-end-line="297" selection-end-column="63" />
+            <state vertical-scroll-proportion="-8.2" vertical-offset="2886" max-vertical-offset="5598">
+              <caret line="327" column="76" selection-start-line="327" selection-start-column="71" selection-end-line="327" selection-end-column="76" />
               <folding>
                 <element signature="e#260#4727#0" expanded="false" />
                 <element signature="e#4788#7038#0" expanded="false" />
-                <element signature="e#7721#8938#0" expanded="false" />
-                <element signature="e#8979#9385#0" expanded="false" />
-                <element signature="e#9431#9785#0" expanded="false" />
-                <element signature="e#14431#14513#0" expanded="false" />
-                <element signature="e#14569#17585#0" expanded="false" />
+                <element signature="e#8973#9379#0" expanded="false" />
+                <element signature="e#9425#9779#0" expanded="false" />
+                <element signature="e#14425#14507#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="model.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="model.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/js/deathmonitor/model.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="702" max-vertical-offset="4392">
-              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.18344827" vertical-offset="2765" max-vertical-offset="4392">
+              <caret line="161" column="67" selection-start-line="161" selection-start-column="67" selection-end-line="161" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -61,12 +60,9 @@
       <file leaf-file-name="orgmAdminModel.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/orgm/orgmAdminModel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="222" max-vertical-offset="1728">
-              <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-              <folding>
-                <element signature="e#808#1724#0" expanded="false" />
-                <element signature="e#3901#4595#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="-4.6" vertical-offset="222" max-vertical-offset="2340">
+              <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -336,12 +332,12 @@
         <option value="$PROJECT_DIR$/views/deathmonitor/index.ejs" />
         <option value="$PROJECT_DIR$/views/deathmonitor/fillfrm.ejs" />
         <option value="$PROJECT_DIR$/public/js/deathmonitor/admmodel.js" />
-        <option value="$PROJECT_DIR$/public/js/orgm/orgmAdminModel.js" />
         <option value="$PROJECT_DIR$/passport.js" />
         <option value="$PROJECT_DIR$/public/js/mmo/mmoAdminModel.js" />
         <option value="$PROJECT_DIR$/public/js/mmo/mmoModel.js" />
-        <option value="$PROJECT_DIR$/public/js/deathmonitor/model.js" />
+        <option value="$PROJECT_DIR$/public/js/orgm/orgmAdminModel.js" />
         <option value="$PROJECT_DIR$/public/js/orgm/orgmModel.js" />
+        <option value="$PROJECT_DIR$/public/js/deathmonitor/model.js" />
       </list>
     </option>
   </component>
@@ -2044,17 +2040,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/orgm/orgmAdminModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="222" max-vertical-offset="1728">
-          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-          <folding>
-            <element signature="e#808#1724#0" expanded="false" />
-            <element signature="e#3901#4595#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/passport.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.328125" vertical-offset="0" max-vertical-offset="1044">
@@ -2101,14 +2086,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1116">
           <caret line="12" column="28" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/deathmonitor/model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="702" max-vertical-offset="4392">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2318,17 +2295,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/orgm/orgmModel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6171875" vertical-offset="1704" max-vertical-offset="3870">
-          <caret line="297" column="63" selection-start-line="297" selection-start-column="63" selection-end-line="297" selection-end-column="63" />
+        <state vertical-scroll-proportion="-8.2" vertical-offset="2886" max-vertical-offset="5598">
+          <caret line="327" column="76" selection-start-line="327" selection-start-column="71" selection-end-line="327" selection-end-column="76" />
           <folding>
             <element signature="e#260#4727#0" expanded="false" />
             <element signature="e#4788#7038#0" expanded="false" />
-            <element signature="e#7721#8938#0" expanded="false" />
-            <element signature="e#8979#9385#0" expanded="false" />
-            <element signature="e#9431#9785#0" expanded="false" />
-            <element signature="e#14431#14513#0" expanded="false" />
-            <element signature="e#14569#17585#0" expanded="false" />
+            <element signature="e#8973#9379#0" expanded="false" />
+            <element signature="e#9425#9779#0" expanded="false" />
+            <element signature="e#14425#14507#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/orgm/orgmAdminModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6" vertical-offset="222" max-vertical-offset="2340">
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/deathmonitor/model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18344827" vertical-offset="2765" max-vertical-offset="4392">
+          <caret line="161" column="67" selection-start-line="161" selection-start-column="67" selection-end-line="161" selection-end-column="67" />
+          <folding />
         </state>
       </provider>
     </entry>
