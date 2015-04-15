@@ -1,0 +1,1433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="73f64d1a-c00d-4f31-a426-127e21100db1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/templates/orgm/adminTpl.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/templates/orgm/checkResultTpl.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/templates/orgm/checkTpl.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/schemas/orgm/deathmScm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/templates/orgm/deathmTpl.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/templates/login.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/templates/orgm/mainTpl.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/orgm/orgmJs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/orgm/orgmView.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/start" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tst.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tst" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.js" afterPath="$PROJECT_DIR$/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.js" afterPath="$PROJECT_DIR$/db.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/debug.log" afterPath="$PROJECT_DIR$/debug.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/error.log" afterPath="$PROJECT_DIR$/error.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/deathmonitor/fillfrm.js" afterPath="$PROJECT_DIR$/routes/deathmonitor/fillfrm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/schemas/orgm/mprPDScm.js" afterPath="$PROJECT_DIR$/public/schemas/orgm/mprPDScm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/orgm/mprPDTpl.ejs" afterPath="$PROJECT_DIR$/public/templates/orgm/mprPDTpl.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/schemas/orgm/mprScm.js" afterPath="$PROJECT_DIR$/public/schemas/orgm/mprScm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/orgm/mprTpl.ejs" afterPath="$PROJECT_DIR$/public/templates/orgm/mprTpl.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/orgm/orgmModel.js" afterPath="$PROJECT_DIR$/public/js/orgm/orgmModel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/orgm/orgmRoute.js" afterPath="$PROJECT_DIR$/routes/orgm/orgmRoute.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sandbox.js" afterPath="$PROJECT_DIR$/sandbox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/www.js" afterPath="$PROJECT_DIR$/bin/www.js" />
+    </list>
+    <ignored path="nodemksite.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="nodemksite" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="orgmJs.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/orgm/orgmJs.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.366667" vertical-offset="1123" max-vertical-offset="1872">
+              <caret line="702" column="38" selection-start-line="702" selection-start-column="38" selection-end-line="702" selection-end-column="38" />
+              <folding>
+                <element signature="e#489#685#0" expanded="false" />
+                <element signature="e#728#934#0" expanded="false" />
+                <element signature="e#1894#2234#0" expanded="false" />
+                <element signature="e#2264#2653#0" expanded="false" />
+                <element signature="e#2685#3113#0" expanded="false" />
+                <element signature="e#3146#3543#0" expanded="false" />
+                <element signature="e#3575#4006#0" expanded="false" />
+                <element signature="e#4062#11849#0" expanded="false" />
+                <element signature="e#9128#9842#0" expanded="false" />
+                <element signature="e#12432#13039#0" expanded="false" />
+                <element signature="e#13076#13158#0" expanded="false" />
+                <element signature="e#13196#16529#0" expanded="false" />
+                <element signature="e#16564#17090#0" expanded="false" />
+                <element signature="e#17132#17426#0" expanded="false" />
+                <element signature="e#17463#17511#0" expanded="false" />
+                <element signature="e#17558#17876#0" expanded="false" />
+                <element signature="e#17926#18559#0" expanded="false" />
+                <element signature="e#18595#18896#0" expanded="false" />
+                <element signature="e#18940#19765#0" expanded="false" />
+                <element signature="e#19800#20564#0" expanded="false" />
+                <element signature="e#20014#20193#0" expanded="false" />
+                <element signature="e#20601#21062#0" expanded="false" />
+                <element signature="e#21100#21513#0" expanded="false" />
+                <element signature="e#21543#23909#0" expanded="false" />
+                <element signature="e#23959#24748#0" expanded="false" />
+                <element signature="e#24808#26087#0" expanded="false" />
+                <element signature="e#26129#29604#0" expanded="false" />
+                <element signature="e#29642#29699#0" expanded="false" />
+                <element signature="e#29744#30772#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admmodel.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/deathmonitor/admmodel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="1116">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adminTpl.ejs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/templates/orgm/adminTpl.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.481482" vertical-offset="311" max-vertical-offset="2016">
+              <caret line="30" column="75" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="75" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="checkTpl.ejs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/templates/orgm/checkTpl.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="16.185184" vertical-offset="743" max-vertical-offset="1440">
+              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="orgmRoute.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/orgm/orgmRoute.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4556962" vertical-offset="1188" max-vertical-offset="2160">
+              <caret line="783" column="0" selection-start-line="783" selection-start-column="0" selection-end-line="783" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!block;n#isLoggedIn#0" expanded="false" />
+                <element signature="n#!!block;n#isAdminIn#0" expanded="false" />
+                <element signature="e#1105#1687#0" expanded="false" />
+                <element signature="e#1728#3333#0" expanded="false" />
+                <element signature="e#3469#3697#0" expanded="false" />
+                <element signature="e#3700#3774#0" expanded="false" />
+                <element signature="e#3844#4465#0" expanded="false" />
+                <element signature="e#4539#5170#0" expanded="false" />
+                <element signature="e#5274#6554#0" expanded="false" />
+                <element signature="e#6627#8378#0" expanded="false" />
+                <element signature="e#8449#11277#0" expanded="false" />
+                <element signature="e#11335#11380#0" expanded="false" />
+                <element signature="e#11446#11869#0" expanded="false" />
+                <element signature="e#11949#25049#0" expanded="false" />
+                <element signature="e#25154#26747#0" expanded="false" />
+                <element signature="e#26793#26841#0" expanded="false" />
+                <element signature="e#26893#27164#0" expanded="false" />
+                <element signature="e#27248#27503#0" expanded="false" />
+                <element signature="e#27568#28311#0" expanded="false" />
+                <element signature="e#28381#29598#0" expanded="false" />
+                <element signature="e#31042#38550#0" expanded="false" />
+                <element signature="e#31703#36150#0" expanded="false" />
+                <element signature="e#38579#42710#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getReport.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/deathmonitor/getReport.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2520">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/public/app/main.js" />
+        <option value="$PROJECT_DIR$/views/mksite.ejs" />
+        <option value="$PROJECT_DIR$/routes/mksite/mainroute.js" />
+        <option value="$PROJECT_DIR$/public/app/templates/login.ejs" />
+        <option value="$PROJECT_DIR$/public/app/login.js" />
+        <option value="$PROJECT_DIR$/routes/kadry/index.js" />
+        <option value="$PROJECT_DIR$/public/templates/orgm/orgmMprAdminTpl.ejs" />
+        <option value="$PROJECT_DIR$/user.js" />
+        <option value="$PROJECT_DIR$/views/login/login.ejs" />
+        <option value="$PROJECT_DIR$/public/js/kadry/kadryModel.js" />
+        <option value="$PROJECT_DIR$/views/kadry/kadryIndex.ejs" />
+        <option value="$PROJECT_DIR$/routes/kadry/kadryRoute.js" />
+        <option value="$PROJECT_DIR$/routes/deathmonitor/login.js" />
+        <option value="$PROJECT_DIR$/views/orgm/orgmIndex.ejs" />
+        <option value="$PROJECT_DIR$/views/orgm/orgmAdmin.ejs" />
+        <option value="$PROJECT_DIR$/views/deathmonitor/admin.ejs" />
+        <option value="$PROJECT_DIR$/views/deathmonitor/index.ejs" />
+        <option value="$PROJECT_DIR$/views/deathmonitor/fillfrm.ejs" />
+        <option value="$PROJECT_DIR$/passport.js" />
+        <option value="$PROJECT_DIR$/public/js/mmo/mmoAdminModel.js" />
+        <option value="$PROJECT_DIR$/public/js/mmo/mmoModel.js" />
+        <option value="$PROJECT_DIR$/public/js/orgm/orgmAdminModel.js" />
+        <option value="$PROJECT_DIR$/public/js/deathmonitor/model.js" />
+        <option value="$PROJECT_DIR$/public/js/deathmonitor/admmodel.js" />
+        <option value="$PROJECT_DIR$/views/orgm/orgmView.html" />
+        <option value="$PROJECT_DIR$/views/orgm/orgmLogin.ejs" />
+        <option value="$PROJECT_DIR$/public/js/bmd.js" />
+        <option value="$PROJECT_DIR$/public/templates/login.ejs" />
+        <option value="$PROJECT_DIR$/public/js/orgm/orgmModel.js" />
+        <option value="$PROJECT_DIR$/bin/www.js" />
+        <option value="$PROJECT_DIR$/www.js" />
+        <option value="$PROJECT_DIR$/start" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/tst" />
+        <option value="$PROJECT_DIR$/views/orgm/orgmView.ejs" />
+        <option value="$PROJECT_DIR$/public/schemas/orgm/mprScm.js" />
+        <option value="$PROJECT_DIR$/public/schemas/orgm/mprPDScm.js" />
+        <option value="$PROJECT_DIR$/public/templates/orgm/mprPDTpl.ejs" />
+        <option value="$PROJECT_DIR$/public/templates/orgm/mprTpl.ejs" />
+        <option value="$PROJECT_DIR$/routes/deathmonitor/fillfrm.js" />
+        <option value="$PROJECT_DIR$/public/templates/orgm/mainTpl.ejs" />
+        <option value="$PROJECT_DIR$/public/templates/orgm/deathmTpl.ejs" />
+        <option value="$PROJECT_DIR$/public/schemas/orgm/deathmScm.js" />
+        <option value="$PROJECT_DIR$/sandbox.js" />
+        <option value="$PROJECT_DIR$/config.js" />
+        <option value="$PROJECT_DIR$/db.js" />
+        <option value="$PROJECT_DIR$/public/templates/orgm/checkResultTpl.ejs" />
+        <option value="$PROJECT_DIR$/public/templates/orgm/checkTpl.ejs" />
+        <option value="$PROJECT_DIR$/public/templates/orgm/adminTpl.ejs" />
+        <option value="$PROJECT_DIR$/public/js/orgm/orgmJs.js" />
+        <option value="$PROJECT_DIR$/routes/orgm/orgmRoute.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1855" />
+    <option name="height" value="1176" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="orgm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="orgm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deathmonitor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="orgm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="schemas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="orgm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="schemas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="orgm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deathmonitor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../reality_refactoring/reality" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
+    <property name="LayoutCode.rearrangeEntriesEJS" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="197" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="231" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="238" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1136" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="208" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="228" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="234" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1132" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="LayoutCode.rearrangeEntriesPlain text" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJSON" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/" />
+      <recent name="$PROJECT_DIR$/bin" />
+      <recent name="$PROJECT_DIR$/public/templates/orgm" />
+      <recent name="$PROJECT_DIR$/public/js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\devel\nodemksite\public\stylesheets\deathmonitor" />
+      <recent name="C:\devel\nodemksite\public\js\phonelist" />
+      <recent name="C:\devel\nodemksite\views\phonelist" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.www">
+    <configuration default="false" name="app" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/bin/node" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
+      <RunnerSettings RunnerId="NodeJS.debug" />
+      <RunnerSettings RunnerId="NodeJS.run" />
+      <ConfigurationWrapper RunnerId="NodeJS.debug" />
+      <ConfigurationWrapper RunnerId="NodeJS.run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="sandbox.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/bin/node" path-to-js-file="sandbox.js" working-dir="$PROJECT_DIR$">
+      <RunnerSettings RunnerId="NodeJS.debug" />
+      <RunnerSettings RunnerId="NodeJS.run" />
+      <ConfigurationWrapper RunnerId="NodeJS.debug" />
+      <ConfigurationWrapper RunnerId="NodeJS.run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="user.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/bin/node" path-to-js-file="user.js" working-dir="$PROJECT_DIR$">
+      <RunnerSettings RunnerId="NodeJS.debug" />
+      <RunnerSettings RunnerId="NodeJS.run" />
+      <ConfigurationWrapper RunnerId="NodeJS.debug" />
+      <ConfigurationWrapper RunnerId="NodeJS.run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="tst.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/bin/node" path-to-js-file="tst.js" working-dir="$PROJECT_DIR$">
+      <RunnerSettings RunnerId="NodeJS.debug" />
+      <ConfigurationWrapper RunnerId="NodeJS.debug" />
+      <method />
+    </configuration>
+    <configuration default="false" name="www.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/bin/node" path-to-js-file="www.js" working-dir="$PROJECT_DIR$">
+      <RunnerSettings RunnerId="NodeJS.debug" />
+      <RunnerSettings RunnerId="NodeJS.run" />
+      <ConfigurationWrapper RunnerId="NodeJS.debug" />
+      <ConfigurationWrapper RunnerId="NodeJS.run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="name" value="Dart" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="false" name="www" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="/usr/bin/node" path-to-js-file="bin/www.js" working-dir="$PROJECT_DIR$">
+      <RunnerSettings RunnerId="NodeJS.debug" />
+      <RunnerSettings RunnerId="NodeJS.run" />
+      <ConfigurationWrapper RunnerId="NodeJS.debug" />
+      <ConfigurationWrapper RunnerId="NodeJS.run" />
+      <method />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.www" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.app" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.sandbox.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.user.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.tst.js" />
+      <item index="5" class="java.lang.String" itemvalue="Node.js.www.js" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.tst.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.www.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.app" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.sandbox.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.user.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="73f64d1a-c00d-4f31-a426-127e21100db1" name="Default" comment="" />
+      <created>1403075305057</created>
+      <updated>1403075305057</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="24" width="1855" height="1176" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2037037" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19432314" sideWeight="0.5006135" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19432314" sideWeight="0.4993865" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39166668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30185184" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298479" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30555555" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24714829" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19432314" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23859316" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/express/lib/application.js</url>
+          <line>504</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/express/lib/router/index.js</url>
+          <line>300</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/deathmonitor/getReport.js</url>
+          <line>52</line>
+          <option name="timeStamp" value="337" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/bower-requirejs/lib/index.js</url>
+          <line>114</line>
+          <option name="timeStamp" value="386" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/bower-requirejs/lib/build-config.js</url>
+          <line>77</line>
+          <option name="timeStamp" value="391" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/public/app/login.js</url>
+          <line>13</line>
+          <option name="timeStamp" value="393" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/orgm/orgmRoute.js</url>
+          <line>280</line>
+          <option name="timeStamp" value="410" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/sandbox.js</url>
+          <line>179</line>
+          <option name="timeStamp" value="487" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/orgm/orgmRoute.js</url>
+          <line>195</line>
+          <option name="timeStamp" value="496" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/sandbox.js</url>
+          <line>171</line>
+          <option name="timeStamp" value="498" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/orgm/orgmRoute.js</url>
+          <line>63</line>
+          <option name="timeStamp" value="500" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/db.js</url>
+          <line>285</line>
+          <option name="timeStamp" value="511" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/orgm/orgmRoute.js</url>
+          <line>738</line>
+          <option name="timeStamp" value="518" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="519" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/js/locales/bootstrap-datetimepicker.ar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1062">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/kadry/kadryRoute.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="667" max-vertical-offset="1818">
+          <caret line="55" column="49" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="49" />
+          <folding>
+            <element signature="e#2886#3116#0" expanded="false" />
+            <element signature="e#3183#3323#0" expanded="false" />
+            <element signature="e#4066#4187#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/deathmonitor/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30993378" vertical-offset="0" max-vertical-offset="755">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/deathmonitor/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/deathmonitor/admin.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.333333" vertical-offset="0" max-vertical-offset="1674">
+          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/deathmonitor/bootstrap-datetimepicker.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="42" max-vertical-offset="558">
+          <caret line="25" column="337" selection-start-line="25" selection-start-column="337" selection-end-line="25" selection-end-column="337" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/mmo/mmoAdminModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="256" max-vertical-offset="1026">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/mmo/mmoModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="786" max-vertical-offset="2808">
+          <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/orgm/orgmLogin.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.11111" vertical-offset="627" max-vertical-offset="1368">
+          <caret line="65" column="29" selection-start-line="65" selection-start-column="3" selection-end-line="65" selection-end-column="29" />
+          <folding>
+            <marker date="1426833359922" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426833359922" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426833359922" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/login/login.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.444445" vertical-offset="627" max-vertical-offset="1368">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="66" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/bootstrapValidator/.bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1044">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/orgm/orgmIndex.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-68.0" vertical-offset="0" max-vertical-offset="2160">
+          <caret line="124" column="0" selection-start-line="124" selection-start-column="0" selection-end-line="126" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ipban.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="768">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0234375" vertical-offset="0" max-vertical-offset="768">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/www.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2109375" vertical-offset="762" max-vertical-offset="1854">
+          <caret line="94" column="19" selection-start-line="94" selection-start-column="19" selection-end-line="94" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0703125" vertical-offset="54" max-vertical-offset="1764">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/orgm/orgmAdminModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1796875" vertical-offset="222" max-vertical-offset="2340">
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/orgm/orgmModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="492" max-vertical-offset="3456">
+          <caret line="309" column="54" selection-start-line="309" selection-start-column="54" selection-end-line="309" selection-end-column="54" />
+          <folding>
+            <element signature="e#260#4727#0" expanded="false" />
+            <element signature="e#4787#7037#0" expanded="false" />
+            <element signature="e#5251#6255#0" expanded="false" />
+            <element signature="e#7720#8931#0" expanded="false" />
+            <element signature="e#8972#9378#0" expanded="false" />
+            <element signature="e#9424#9778#0" expanded="false" />
+            <element signature="e#9825#11104#0" expanded="false" />
+            <element signature="e#11169#11666#0" expanded="false" />
+            <element signature="e#11704#13033#0" expanded="false" />
+            <element signature="e#13069#14384#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/loader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31283423" vertical-offset="0" max-vertical-offset="748">
+          <caret line="27" column="19" selection-start-line="13" selection-start-column="16" selection-end-line="27" selection-end-column="19" />
+          <folding>
+            <element signature="e#439#765#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/backbone/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/templates/orgm/mprPDTpl.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="2376">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/deathmonitor/fillfrm.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="55.0" vertical-offset="1791" max-vertical-offset="4680">
+          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+          <folding>
+            <marker date="1427357263664" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1427357263664" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1427357263664" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1427357263664" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1427357263664" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/schemas/orgm/mprScm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="4122">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="e#433#646#0" expanded="false" />
+            <element signature="e#664#862#0" expanded="false" />
+            <element signature="e#880#3400#0" expanded="false" />
+            <element signature="e#1614#2320#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/templates/orgm/mprTpl.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="108">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="118" selection-end-column="6" />
+          <folding>
+            <element signature="tag#div#0" expanded="false" />
+            <marker date="1428065742568" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428065742568" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428065742568" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428065742568" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428065742568" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428065742568" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428065742568" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428065742568" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428065742568" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/templates/orgm/deathmTpl.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.666666" vertical-offset="702" max-vertical-offset="2070">
+          <caret line="76" column="84" selection-start-line="76" selection-start-column="84" selection-end-line="76" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/schemas/orgm/mprPDScm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3060">
+          <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/deathmonitor/fillfrm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="137" selection-end-column="9" />
+          <folding>
+            <element signature="e#479#745#0" expanded="false" />
+            <element signature="e#493#561#0" expanded="false" />
+            <element signature="e#575#650#0" expanded="false" />
+            <element signature="e#766#942#0" expanded="false" />
+            <element signature="e#780#847#0" expanded="false" />
+            <element signature="e#861#941#0" expanded="false" />
+            <element signature="e#972#3741#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/deathmonitor/uploadform.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1022">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sandbox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.1" vertical-offset="2571" max-vertical-offset="3366">
+          <caret line="616" column="44" selection-start-line="616" selection-start-column="31" selection-end-line="616" selection-end-column="44" />
+          <folding>
+            <element signature="n#!!block;n#encode_range#0" expanded="false" />
+            <element signature="n#!!block;n#safe_decode_range#0" expanded="false" />
+            <element signature="n#!!block;n#convertTable#0" expanded="false" />
+            <element signature="e#9328#59271#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1402" max-vertical-offset="2664">
+          <caret line="82" column="29" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6267943" vertical-offset="1227" max-vertical-offset="1854">
+          <caret line="90" column="19" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tst.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
+          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/schemas/orgm/deathmScm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
+          <caret line="281" column="17" selection-start-line="281" selection-start-column="17" selection-end-line="281" selection-end-column="17" />
+          <folding>
+            <element signature="e#258#858#0" expanded="false" />
+            <element signature="e#864#1307#0" expanded="false" />
+            <element signature="e#1486#3876#0" expanded="false" />
+            <element signature="e#4062#6454#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="618" max-vertical-offset="1836">
+          <caret line="274" column="9" selection-start-line="274" selection-start-column="9" selection-end-line="274" selection-end-column="9" />
+          <folding>
+            <element signature="e#230#286#0" expanded="false" />
+            <element signature="e#310#337#0" expanded="false" />
+            <element signature="e#482#562#0" expanded="false" />
+            <element signature="e#568#822#0" expanded="false" />
+            <element signature="e#858#1032#0" expanded="false" />
+            <element signature="e#966#1024#0" expanded="false" />
+            <element signature="e#1086#1927#0" expanded="false" />
+            <element signature="e#1125#1194#0" expanded="false" />
+            <element signature="e#1283#1595#0" expanded="false" />
+            <element signature="e#1514#1583#0" expanded="false" />
+            <element signature="e#1626#1669#0" expanded="false" />
+            <element signature="e#1683#1921#0" expanded="false" />
+            <element signature="e#1840#1909#0" expanded="false" />
+            <element signature="e#1987#2921#0" expanded="false" />
+            <element signature="e#2001#2325#0" expanded="false" />
+            <element signature="e#2840#2909#0" expanded="false" />
+            <element signature="e#2992#3296#0" expanded="false" />
+            <element signature="e#3765#4930#0" expanded="false" />
+            <element signature="e#4012#4922#0" expanded="false" />
+            <element signature="e#4069#4897#0" expanded="false" />
+            <element signature="e#4154#4764#0" expanded="false" />
+            <element signature="e#4309#4740#0" expanded="false" />
+            <element signature="e#4382#4683#0" expanded="false" />
+            <element signature="e#4536#4647#0" expanded="false" />
+            <element signature="e#4790#4879#0" expanded="false" />
+            <element signature="e#4995#6286#0" expanded="false" />
+            <element signature="e#5840#5959#0" expanded="false" />
+            <element signature="e#6345#7571#0" expanded="false" />
+            <element signature="e#6622#7559#0" expanded="false" />
+            <element signature="e#6683#7543#0" expanded="false" />
+            <element signature="e#6776#7394#0" expanded="false" />
+            <element signature="e#6806#6938#0" expanded="false" />
+            <element signature="e#7171#7290#0" expanded="false" />
+            <element signature="e#7327#7334#0" expanded="false" />
+            <element signature="e#7424#7521#0" expanded="false" />
+            <element signature="e#7651#7938#0" expanded="false" />
+            <element signature="e#7865#7926#0" expanded="false" />
+            <element signature="e#8014#10676#0" expanded="false" />
+            <element signature="e#8024#9157#0" expanded="false" />
+            <element signature="e#9260#10613#0" expanded="false" />
+            <element signature="e#9434#10506#0" expanded="false" />
+            <element signature="e#9443#10505#0" expanded="false" />
+            <element signature="e#10530#10601#0" expanded="false" />
+            <element signature="e#10630#10667#0" expanded="false" />
+            <element signature="e#10749#12064#0" expanded="false" />
+            <element signature="e#10932#11966#0" expanded="false" />
+            <element signature="e#10940#11965#0" expanded="false" />
+            <element signature="e#12003#12056#0" expanded="false" />
+            <element signature="e#12139#12969#0" expanded="false" />
+            <element signature="e#12322#12863#0" expanded="false" />
+            <element signature="e#12330#12862#0" expanded="false" />
+            <element signature="e#12900#12961#0" expanded="false" />
+            <element signature="e#13048#13336#0" expanded="false" />
+            <element signature="e#13267#13328#0" expanded="false" />
+            <element signature="e#13417#13846#0" expanded="false" />
+            <element signature="e#14580#15034#0" expanded="false" />
+            <element signature="e#14788#14928#0" expanded="false" />
+            <element signature="e#14798#14927#0" expanded="false" />
+            <element signature="e#14965#15026#0" expanded="false" />
+            <element signature="e#15096#15271#0" expanded="false" />
+            <element signature="e#15202#15263#0" expanded="false" />
+            <element signature="e#15706#15857#0" expanded="false" />
+            <element signature="e#15862#16036#0" expanded="false" />
+            <element signature="e#16093#16165#0" expanded="false" />
+            <element signature="e#16225#16922#0" expanded="false" />
+            <element signature="e#16336#16913#0" expanded="false" />
+            <element signature="e#16379#16575#0" expanded="false" />
+            <element signature="e#16416#16482#0" expanded="false" />
+            <element signature="e#16488#16561#0" expanded="false" />
+            <element signature="e#16592#16903#0" expanded="false" />
+            <element signature="e#16988#17418#0" expanded="false" />
+            <element signature="e#17121#17404#0" expanded="false" />
+            <element signature="e#17168#17388#0" expanded="false" />
+            <element signature="e#17209#17283#0" expanded="false" />
+            <element signature="e#17289#17370#0" expanded="false" />
+            <element signature="e#17472#17823#0" expanded="false" />
+            <element signature="e#17600#17811#0" expanded="false" />
+            <element signature="e#17664#17797#0" expanded="false" />
+            <element signature="e#17892#18043#0" expanded="false" />
+            <element signature="e#17982#18035#0" expanded="false" />
+            <element signature="e#18105#18417#0" expanded="false" />
+            <element signature="e#18192#18403#0" expanded="false" />
+            <element signature="e#18256#18389#0" expanded="false" />
+            <element signature="e#18422#18643#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/deathmonitor/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19136523" vertical-offset="232" max-vertical-offset="1116">
+          <caret line="22" column="115" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="115" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/passport.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34" vertical-offset="144" max-vertical-offset="1044">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/orgm/orgmAdmin.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38737446" vertical-offset="0" max-vertical-offset="882">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.531646" vertical-offset="0" max-vertical-offset="3456">
+          <caret line="478" column="38" selection-start-line="478" selection-start-column="27" selection-end-line="478" selection-end-column="38" />
+          <folding>
+            <element signature="e#19966#70797#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/templates/orgm/checkResultTpl.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7747489" vertical-offset="0" max-vertical-offset="1170">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/deathmonitor/model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.164557" vertical-offset="1350" max-vertical-offset="4392">
+          <caret line="29" column="13" selection-start-line="6" selection-start-column="12" selection-end-line="29" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/templates/orgm/orgmMprAdminTpl.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.333333" vertical-offset="0" max-vertical-offset="1206">
+          <caret line="20" column="33" selection-start-line="14" selection-start-column="23" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <marker date="1426833927319" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426833927319" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/orgm/orgmView.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30989957" vertical-offset="0" max-vertical-offset="697">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/templates/login.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7934003" vertical-offset="149" max-vertical-offset="846">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="41" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/templates/orgm/mainTpl.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1032999" vertical-offset="5" max-vertical-offset="918">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="45" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/templates/orgm/checkTpl.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="16.185184" vertical-offset="743" max-vertical-offset="1440">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/deathmonitor/admmodel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="1116">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/deathmonitor/getReport.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2520">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/templates/orgm/adminTpl.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.481482" vertical-offset="311" max-vertical-offset="2016">
+          <caret line="30" column="75" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/orgm/orgmJs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.366667" vertical-offset="1123" max-vertical-offset="1872">
+          <caret line="702" column="38" selection-start-line="702" selection-start-column="38" selection-end-line="702" selection-end-column="38" />
+          <folding>
+            <element signature="e#489#685#0" expanded="false" />
+            <element signature="e#728#934#0" expanded="false" />
+            <element signature="e#1894#2234#0" expanded="false" />
+            <element signature="e#2264#2653#0" expanded="false" />
+            <element signature="e#2685#3113#0" expanded="false" />
+            <element signature="e#3146#3543#0" expanded="false" />
+            <element signature="e#3575#4006#0" expanded="false" />
+            <element signature="e#4062#11849#0" expanded="false" />
+            <element signature="e#9128#9842#0" expanded="false" />
+            <element signature="e#12432#13039#0" expanded="false" />
+            <element signature="e#13076#13158#0" expanded="false" />
+            <element signature="e#13196#16529#0" expanded="false" />
+            <element signature="e#16564#17090#0" expanded="false" />
+            <element signature="e#17132#17426#0" expanded="false" />
+            <element signature="e#17463#17511#0" expanded="false" />
+            <element signature="e#17558#17876#0" expanded="false" />
+            <element signature="e#17926#18559#0" expanded="false" />
+            <element signature="e#18595#18896#0" expanded="false" />
+            <element signature="e#18940#19765#0" expanded="false" />
+            <element signature="e#19800#20564#0" expanded="false" />
+            <element signature="e#20014#20193#0" expanded="false" />
+            <element signature="e#20601#21062#0" expanded="false" />
+            <element signature="e#21100#21513#0" expanded="false" />
+            <element signature="e#21543#23909#0" expanded="false" />
+            <element signature="e#23959#24748#0" expanded="false" />
+            <element signature="e#24808#26087#0" expanded="false" />
+            <element signature="e#26129#29604#0" expanded="false" />
+            <element signature="e#29642#29699#0" expanded="false" />
+            <element signature="e#29744#30772#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/orgm/orgmRoute.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4556962" vertical-offset="1188" max-vertical-offset="2160">
+          <caret line="783" column="0" selection-start-line="783" selection-start-column="0" selection-end-line="783" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#isLoggedIn#0" expanded="false" />
+            <element signature="n#!!block;n#isAdminIn#0" expanded="false" />
+            <element signature="e#1105#1687#0" expanded="false" />
+            <element signature="e#1728#3333#0" expanded="false" />
+            <element signature="e#3469#3697#0" expanded="false" />
+            <element signature="e#3700#3774#0" expanded="false" />
+            <element signature="e#3844#4465#0" expanded="false" />
+            <element signature="e#4539#5170#0" expanded="false" />
+            <element signature="e#5274#6554#0" expanded="false" />
+            <element signature="e#6627#8378#0" expanded="false" />
+            <element signature="e#8449#11277#0" expanded="false" />
+            <element signature="e#11335#11380#0" expanded="false" />
+            <element signature="e#11446#11869#0" expanded="false" />
+            <element signature="e#11949#25049#0" expanded="false" />
+            <element signature="e#25154#26747#0" expanded="false" />
+            <element signature="e#26793#26841#0" expanded="false" />
+            <element signature="e#26893#27164#0" expanded="false" />
+            <element signature="e#27248#27503#0" expanded="false" />
+            <element signature="e#27568#28311#0" expanded="false" />
+            <element signature="e#28381#29598#0" expanded="false" />
+            <element signature="e#31042#38550#0" expanded="false" />
+            <element signature="e#31703#36150#0" expanded="false" />
+            <element signature="e#38579#42710#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

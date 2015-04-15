@@ -7,7 +7,6 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var fs = require('fs');
 var vow = require('vow');
-//var requireDir = require('require-dir');
 var router = express.Router();
 var mongodb = require('mongodb');
 var dbfactory = require('./db');
@@ -18,25 +17,15 @@ var session = require('express-session');
 var RedisStore = require('connect-redis')(session);
 var conf = require('./config.js');
 
-var toobusy = require('toobusy');
-
-//var routes = require('./routes/phonelist/phonelist');
-//var phonelist = require('./routes/phonelist/getUserPhoneList');
-//var bcrypt   = require('bcrypt-nodejs');
-//var pass = bcrypt.hashSync("Erkd#923", bcrypt.genSaltSync(10), null);
-//var dir = requireDir('./views', {recurse: true});
-
-
-//console.log(bcrypt.hashSync('admin_8921', bcrypt.genSaltSync(10), null)+'');
-
-var ipban = require('./ipban.js');
 var app = express();
-
+var server = require('http').createServer(app);
 app.set('conf', conf);
 app.use(session({
     store: new RedisStore({ host: conf.session.redis.host, port: conf.session.redis.port, ttl: 604800 }),
     secret: conf.session.secret,
     key: 'session',
+    resave: true,
+    saveUninitialized: true,
     cookie: { maxAge: 604800000 },
     fail: function (data, accept) {
         accept(null, true);
@@ -46,8 +35,7 @@ app.use(session({
     }}));
 
 app.set('router',express.Router());
-app.use(ipban('on'));
-// view engine setup
+
 var viewspath = pathbuiledr.join(__dirname, 'views');
 
 app.set('views',viewspath);
@@ -116,20 +104,13 @@ var promises = {
     db: mongoConnectPromise(conf.mongoConnect)
 };
 
-module.exports =  function(callback) {
-
+module.exports =  function() {
     vow.all(promises).then(function (result) {
         app.set('port',conf.port);
         var dbfy = new dbfactory(result.db);
         app.set('dbmethods', dbfy);
         auth(passport, app);
-        app.use(function(req, res, next) {
-            if (toobusy()) {
-                res.send(503, "Перегрузка!!");
-            } else {
-                next();
-            }
-        });
+
         app.use(function (req, res) {
             res.status(404).end('error');
         });
@@ -154,7 +135,8 @@ module.exports =  function(callback) {
             res.status(500).send("Ooops!!");
         });
 
-        callback(app);
+        server.listen(conf.port, function () {
+        });
     })
 }
 

@@ -433,3 +433,29 @@
 {"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-03-24T07:49:56.345Z"}
 {"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user not exists","timestamp":"2015-03-24T07:49:56.346Z"}
 {"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] startdate is not defined","timestamp":"2015-03-26T07:41:59.906Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: response is not defined","timestamp":"2015-03-30T13:34:40.092Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: response is not defined","timestamp":"2015-03-30T13:34:47.422Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: response is not defined","timestamp":"2015-03-30T13:34:48.423Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: response is not defined","timestamp":"2015-03-30T13:34:58.717Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/bin/www.js] domain: ReferenceError: response is not defined","timestamp":"2015-03-30T13:35:00.984Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Error: failed to connect to [127.0.0.1:27022]","timestamp":"2015-03-31T06:04:52.050Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] toobusy is not defined","timestamp":"2015-03-31T12:49:10.734Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot set property 'password' of undefined","timestamp":"2015-04-01T11:43:39.011Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot set property 'password' of undefined","timestamp":"2015-04-01T11:43:43.885Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot set property 'password' of undefined","timestamp":"2015-04-01T11:43:45.108Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot set property 'password' of undefined","timestamp":"2015-04-01T11:44:48.177Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot set property 'password' of undefined","timestamp":"2015-04-01T11:44:50.337Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot set property 'password' of undefined","timestamp":"2015-04-01T11:45:04.990Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot set property 'password' of undefined","timestamp":"2015-04-01T11:45:07.247Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot set property 'password' of undefined","timestamp":"2015-04-01T11:45:11.352Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot set property 'password' of undefined","timestamp":"2015-04-01T11:46:05.206Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot set property 'password' of undefined","timestamp":"2015-04-01T11:47:30.833Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot set property 'password' of undefined","timestamp":"2015-04-01T11:47:45.521Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot set property 'password' of undefined","timestamp":"2015-04-01T11:48:02.207Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot set property 'password' of undefined","timestamp":"2015-04-01T11:53:14.184Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] startdate is not defined","timestamp":"2015-04-06T08:45:34.222Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] collection name must be a String","timestamp":"2015-04-07T07:38:25.362Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] collection name must be a String","timestamp":"2015-04-07T07:38:36.532Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] collection name must be a String","timestamp":"2015-04-07T07:38:54.800Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] collection names cannot be empty","timestamp":"2015-04-07T08:17:12.384Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/db.js] ReferenceError: beg is not defined","timestamp":"2015-04-09T11:59:06.836Z"}

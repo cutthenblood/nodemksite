@@ -1,0 +1,105 @@
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+
+            <a class="navbar-brand " href="#main"> - <%= name%></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="/logout">Выход</a></li>
+                <li><a class="navbar-brand" href="#"><div id="clock"></div></a></li>
+
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<div id="alert"></div>
+<div id="report">
+    <div>
+        <div class="row">
+            <div class="col-md-7">
+                <form id="mainaddform" class="form-horizontal" action="/main" method="get"
+                      data-toggle="validator" role="form" data-disable="true">
+                    <div class="row">
+                        <div class="form-group">
+                            <label class="col-xs-2 control-label">Мониторинг</label>
+
+                            <div class="col-xs-9 ">
+                                <select class="form-control" id="monitoring" autofocus>
+
+                                    <option value="mpr">преждевременных родов</option>
+                                    <option value="mprPD">мероприятий по пренатальной диагностике</option>
+                                    <option value="deathm">ежедневный мониторинг смертности от болезней системы кровообращения</option>
+
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            <label class="col-xs-2 control-label">МО</label>
+
+                            <div class="col-xs-9 ">
+                                <select class="form-control dmdis mpdis" id="mo"  autofocus>
+
+
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="form-group">
+                            <label class="col-xs-2 control-label">C</label>
+
+                            <div class='input-group date col-xs-4' id="dateStart" data-date-format="DD.MM.YYYY">
+                                <input type='text' class="form-control" name="inputdate"/>
+                                        <span class="input-group-addon"><span
+                                                    class="glyphicon glyphicon-calendar"></span>
+                                        </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            <label class="col-xs-2 control-label">ПО</label>
+
+                            <div class='input-group date col-xs-4' id="dateEnd" data-date-format="DD.MM.YYYY">
+                                <input type='text' class="form-control dmdis" name="inputdate"/>
+                                        <span class="input-group-addon"><span
+                                                    class="glyphicon glyphicon-calendar"></span>
+                                        </span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-xs-9 col-xs-offset-3">
+                            <button type="button" class="btn btn-primary col-lg-offset-3 report" name="submitBtn" id="mprreport">Загрузить по всем</button>
+                            <button type="button" class="btn btn-primary dmdis mpdis report" name="submitBtn" id="mprone">Загрузить по МО</button>
+                            <button type="button" class="btn btn-primary whoinput">Кто не ввел</button><br><br>
+                            </button>
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+        <br/>
+
+
+        <div id="whoinput" class="container-fluid"></div>
+
+    </div>
+</div>
+<script src="/schemas/orgm/mprScm.js"></script>
+<script src="/schemas/orgm/mprPDScm.js"></script>
+<script src="/schemas/orgm/deathmScm.js"></script>
+<script src="/jquery-file-download/src/Scripts/jquery.fileDownload.js" type="text/javascript"></script>
+
+

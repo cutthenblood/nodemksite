@@ -14,7 +14,8 @@ module.exports = function (app) {
     app.get('/deathmonitor/fillfrm', isLoggedIn,function (req, res) {
         var url_parts = url.parse(req.url, true);
         var query = url_parts.query;
-        var iznih1=[{
+        var iznih1=[
+            {
             "gr":"3",
             "label":"в стационаре"
         },
@@ -26,7 +27,8 @@ module.exports = function (app) {
                 "gr":"5",
                 "label":"в др. местах"
             }];
-        var iznih2=[{
+        var iznih2=[
+            {
             "gr":"6",
             "label":"вскрыто ПАО"
         },

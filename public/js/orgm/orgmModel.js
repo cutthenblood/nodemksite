@@ -86,7 +86,6 @@ load({
                 }
 
             }
-
         });
         var mprPDModel = Backbone.Model.extend({
             url: '/orgm/mprPD/uploadform',
@@ -281,13 +280,10 @@ load({
                 $('#report').html(this.template.mprPDTpl({users:users,'table':mprPDSchema}));
                 moment.locale('ru');
                 $('.date').datetimepicker({
-
-
                     viewMode: 'years',
                     format: 'MM/YYYY',
                     locale: 'ru-RU',
                     useCurrent: false
-
                 });
                 var _this=this;
                 this.noreload=false;
@@ -389,13 +385,15 @@ load({
 
 
                 var arr = [];
-                var dfate = moment($('#date').data("DateTimePicker").date().valueOf()).startOf('month');
-                if (!dfate.isValid()){
+                var dt = $('#date').data("DateTimePicker").date();
+                if (!dt.isValid()){
                     this.noreload=true;
                     this.renderDateError("<h3>Неправильная дата</h3>");
                     this.scrolltotop();
                     return;
                 };
+                var dfate = dt.startOf('month');
+
                 mprPDmodel.set('inputdate',dfate.format("DD.MM.YYYY").valueOf());
 
                 var row={};

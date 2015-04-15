@@ -1,94 +1,97 @@
-// Much better!
-var log = require('../log.js')(module);
-//var cluster = require('cluster');
-
-
-/*
-if (cluster.isMaster) {
-
-    cluster.fork();
-    cluster.fork();
-
-    cluster.on('disconnect', function (worker) {
-        log.error('disconnect!');
-        cluster.fork();
-    });
-
-} else {
-    var domain = require('domain');
-    var serverfn = require('../app');
-    serverfn(function (app) {
-        app.use(function (req, res, next) {
-
-            var d = domain.create();
-            d.on('error', function (er) {
-                log.error('error', er.stack);
-
-                try {
-                    // make sure we close down within 30 seconds
-                    var killtimer = setTimeout(function () {
-                        process.exit(1);
-                    }, 30000);
-                    // But don't keep the process open just for that!
-                    killtimer.unref();
-
-                    // stop taking new requests.
-                    server.close();
-
-                    cluster.worker.disconnect();
-
-                    // try to send an error to the request that triggered the problem
-                    res.statusCode = 500;
-                    res.setHeader('content-type', 'text/plain');
-                    res.end('Oops, there was a problem!\n');
-                } catch (er2) {
-                    // oh well, not much we can do at this point.
-                    console.error('Error sending 500!', er2.stack);
-                }
-            });
-
-            d.add(req);
-            d.add(res);
-
-            // Now run the handler function in the domain.
-            d.run(function () {
-                app.router(req, res, next);
-            });
-        });
-
-        var server = app.listen(app.get('port'), function () {
-            log.info('domain wrapper');
-            log.info('Express server listening on port ' + app.get('port'));
-        });
-    });
+var os = require('os');
+var fs = require('fs');
+var cluster = require('cluster');
+var exec = require('child_process').exec;
+var vow = require('vow');
+var colors = require('colors');
+if(!process.env.NODE_ENV){
+    process.env.NODE_ENV = 'production';
 }
-*/
+var conf = require('./../config.js');
 
+/**
+ *
+ * @param callback {Function}
+ */
+function clearPids(callback) {
+    var killPromise = function (pid) {
+        return new vow.Promise(function (resolve, reject, notify) {
+            exec('kill ' + pid, function (error, stdout, stderr) {
+                //console.log('kill ' + pid, error, stdout, stderr);
+                fs.unlink('./pids/' + pid, function (err) {
+                    //console.log('delete ' + pid);
+                    resolve();
+                });
+            });
+        });
+    };
+    fs.readdir('./pids', function (err, files) {
+        if (err) {
+            fs.mkdir('pids', function () {
+                callback();
+            });
+        } else {
+            var promises = [];
+            files.forEach(function (file) {
+                promises.push(killPromise(file));
+            });
+            vow.all(promises).then(function () {
+                callback();
+            });
+        }
+    });
 
+}
+/**
+ *
+ * @param conf {Object}
+ * @param middlewares {Function}
+ */
+//module.exports = function (conf, middlewares) {
+    if (cluster.isMaster) {
+        var ports = {};
+        var maxPort = conf.port;
 
- var domain = require('domain');
- var serverdomain = domain.create();
+        clearPids(function () {
+            fs.writeFile('./pids/' + process.pid, 'master', function (err) {
+            });
+            var CPUsCount = os.cpus().length;
+            for (var i = 0; i < CPUsCount; ++i) {
+                var newWorker = cluster.fork({
+                    port: maxPort
+                });
+                ports[newWorker.process.pid] = maxPort;
+                ++maxPort;
+            }
+            console.log('pids:ports', ports);
+            cluster.on('exit', function (worker, address) {
+                fs.unlink('./pids/' + worker.process.pid, function (err) {
+                });
+                var port = ports[worker.process.pid];
+                delete ports[worker.process.pid];
+                console.log(('Worker ' + worker.process.pid + ' died.').red, address);
+                var newWorker = cluster.fork({
+                    port: port
+                });
+                ports[newWorker.process.pid] = port;
+                console.log('pids:ports', ports);
+            });
 
- var log = require('../log.js')(module);
- serverdomain.on('error',function(err){
- log.error("domain: " +err);
- });
-
- serverdomain.run(function(){
-var serverfn = require('../app');
-serverfn(function(app){
-
- app.listen(app.get('port'), function() {
- log.info('domain wrapper');
- log.info('Express server listening on port ' + app.get('port'));
- });
-
-});
-
-//
- });
-
-
-
-
-
+            cluster.on('listening', function (worker, address) {
+                fs.writeFile('./pids/' + worker.process.pid, '', function (err) {
+                });
+                console.log(('Worker ' + worker.process.pid + ' is now listening on port ' + address.port + ' in ' + process.env.NODE_ENV + ' mode.').green);
+                worker.on('message', function (msg) {
+                    if (msg.cmd == 'restart') {
+                        console.log('restart all children instances');
+                        Object.keys(cluster.workers).forEach(function (id) {
+                            cluster.workers[id].kill();
+                        });
+                    }
+                });
+            });
+        });
+    } else {
+        require('./../app')();
+    }
+//};

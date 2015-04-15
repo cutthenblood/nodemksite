@@ -171,10 +171,11 @@ module.exports = function (db) {
                     });
             });
         },
-    this.getByInputDate = function (collection, startdate,stopdate, callback) {
-            var beg = convertDatesISO(startdate);
-            var end = convertDatesISO(stopdate);
-            this._db.collection(collection).find({inputdate: {$gte:beg,$lt:end}}).toArray(function (err, result) {
+    this.getByInputDate = function (collection, startdate, callback) {
+            //var beg = convertDatesISO(startdate);
+            //var end = convertDatesISO(stopdate);
+
+            this._db.collection(collection).find({inputdate:startdate }).toArray(function (err, result) {
                 errproc(err,result,callback);
             });
         };
@@ -190,12 +191,12 @@ module.exports = function (db) {
          smgr33:{$sum:"$rows.gr33"}
          }})
          */
-        var beg = convertDatesISO(startdate);
-        var end =convertDatesISO(stopdate);
+        //var beg = convertDatesISO(startdate);
+        //var end =convertDatesISO(stopdate);
         try {
             this._db.collection(collection).aggregate(
                 {$unwind: "$rows"},
-                {$match: {"inputdate": {$gte: beg, $lte: end}}},
+                {$match: {"inputdate": {$gte: startdate, $lte: stopdate}}},
                 {$group: {"_id": "$rows.username", gr2: {$sum: "$rows.gr2"},
                     gr3: {$sum: "$rows.gr3"}, gr4: {$sum: "$rows.gr4"}, gr5: {$sum: "$rows.gr5"}, gr6: {$sum: "$rows.gr6"}, gr7: {$sum: "$rows.gr7"},
                     gr8: {$sum: "$rows.gr8"}, gr9: {$sum: "$rows.gr9"}, gr10: {$sum: "$rows.gr10"}, gr11: {$sum: "$rows.gr11"}, gr12: {$sum: "$rows.gr12"},
@@ -272,6 +273,23 @@ module.exports = function (db) {
                 errproc(err,result,callback);
             });
     };
+    this.getOrgmWhoInput = function(data) {
+        var req = {$match:{
+                //"rows.mo":mo,
+                "inputdate":{$gte:data.startdate,$lte:data.stopdate}}};
+        if(data.mo)
+            req['$match']['rows.mo']=data.mo
+        if(data.username)
+            req['$match']['rows.username']=data.username
+        //collection,startdate,stopdate,mo,callback
+        console.log(data.collection);
+        console.log(req);
+        this._db.collection(data.collection).aggregate({$unwind:"$rows"},
+            req
+            ,function (err, result) {
+                errproc(err,result,data.callback);
+            });
+    };
     this.getOrgmMprEmptyDates = function(collection,startdate,stopdate,username,callback) {
         this._db.collection(collection).aggregate(
             {$unwind:"$rows"},
@@ -290,7 +308,20 @@ module.exports = function (db) {
                 errproc(err,result,callback);
             });
     };
+    this.checkDate = function(data){
+        var rows={};
+        if(data.mo)
+            rows={'mo':data.mo}
+        if(data.username)
+            rows={'username':data.username}
+        this._db.collection(data.collection).find(
+            {"inputdate": data.date},
+            {'rows':
+            {$elemMatch:rows}}).toArray(function(err,result){
+                errproc(err,result,data.callback);
+            });
 
+    }
 
 
 

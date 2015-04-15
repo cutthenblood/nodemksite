@@ -298,7 +298,7 @@ var res = _.chain(ob).pairs().sortBy(function(kvArray) {return kvArray[0];} )
     .zipObject().value();
 
 var a=12;*/
-var users = [
+/*var users = [
     { username:'Муниципальное бюджетное учреждение здравоохранения муниципального образования Абинский район "Центральная районная больница"', raion:'Абинский',password:6682},
     { username:'Муниципальное бюджетное учреждение здравоохранения муниципального образования Абинский район "Холмская районная больница №2"', raion:'Абинский',password:5137},
     { username:'Муниципальное бюджетное учреждение здравоохранения муниципального образования Абинский район "Ахтырская районная больница №3"', raion:'Абинский',password:2244},
@@ -597,15 +597,33 @@ var users = [
     { username:'ГБОУ СПО Сочинский медколледж', raion:'',password:7390}
 
 
-];
+];*/
 
-/*
+
 
 MongoClient.connect(conf.mongoConnect, function (err, db) {
     if (err) {
         log.error(err);
         return;
     }
-    db.collection('kadry_users').insert()
+    db.collection('everyday_copy').find({}).toArray(function(err,result){
+        if(err)
+            console.log(err);
+        else {
+            result.forEach(function(itm){
 
-});*/
+                var newdate = itm.inputdate.valueOf();
+
+                db.collection('everyday_copy').update({"_id":itm._id},{$set:{'inputdate':newdate}},function(err){
+                console.log(err);
+                });
+            });
+
+
+
+
+
+        }
+    })
+
+});
