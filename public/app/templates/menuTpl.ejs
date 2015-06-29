@@ -1,0 +1,34 @@
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+
+            <a class="navbar-brand " href="">
+                Район - <%= user.username%></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Мониторинги <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu" id="mainmenu">
+
+                    </ul>
+                </li>
+
+                <li><a href="#check">Проверить внесенные данные</a></li>
+
+
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#logout">Выход</a></li>
+                <li><a class="navbar-brand" href="#"><div id="clock"></div></a></li>
+
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<div id="content"></div>
