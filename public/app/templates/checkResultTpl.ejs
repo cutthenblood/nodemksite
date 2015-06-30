@@ -7,9 +7,13 @@
     mapping.forEach(function(tr){
         %><tr>
         <%
+
             if(!date){
                 %><th rowspan="<%=info.row%>">Дата</th><%
             date=true;
+            }
+            if(all){
+                %><th rowspan="<%=info.row%>">МО</th><%
             }
 
          tr.forEach(function(td){
@@ -53,6 +57,10 @@
                 <%=moment(parseInt(itm.inputdate)).format('DD.MM.YYYY')%>
             </td>
             <%
+                if(all){
+                %><td ><%= (itm.rows.mo)?itm.rows.mo:'-'%></td><%
+                }
+
              columns.forEach(function(col){
                  var n = 'gr'+col;
 

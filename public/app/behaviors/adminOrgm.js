@@ -123,16 +123,13 @@ define([
 
             var _this = this;
             var coll = new UsersCollection();
-            var p  = coll.fetch();
-            p.done(function(){
-                _this.view.users = coll.models;
-
-
-                _this.monitChange({currentTarget:
-                {value:$('#monitoring').val()}});
-                $('#mo').select2();
-
-            })
+            coll.deferred
+                .done(function () {
+                    _this.view.users = coll.getByDivision('orgm');
+                    _this.monitChange({currentTarget:
+                    {value:$('#monitoring').val()}});
+                    $('#mo').select2();
+                });
         },
         getReport: function(button){
             button.preventDefault();

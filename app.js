@@ -109,6 +109,7 @@ module.exports =  function() {
         app.set('port',conf.port);
         var dbfy = new dbfactory(result.db);
         app.set('dbmethods', dbfy);
+        app.set('db',result.db);
         auth(passport, app);
 
         app.use(function (req, res) {

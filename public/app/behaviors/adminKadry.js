@@ -9,13 +9,32 @@ define([
     'datepicker',
     'core/orgmViewUtility',
     'schemas/datesScm',
-    'collections/users',
     'text!templates/whoinputTpl.ejs',
+    'pako',
+    'core/utls'
+], function($, _, Backbone,Mn,Validator,S2,Picker,Utility,date,resultTpl,Pako,Utls){
 
-], function($, _, Backbone,Mn,Validator,S2,Picker,Utility,date,UsersCollection,resultTpl){
+    function base64toBlob(base64Data, contentType) {
+        contentType = contentType || '';
+        var sliceSize = 1024;
+        var byteCharacters = atob(base64Data);
+        var bytesLength = byteCharacters.length;
+        var slicesCount = Math.ceil(bytesLength / sliceSize);
+        var byteArrays = new Array(slicesCount);
 
+        for (var sliceIndex = 0; sliceIndex < slicesCount; ++sliceIndex) {
+            var begin = sliceIndex * sliceSize;
+            var end = Math.min(begin + sliceSize, bytesLength);
 
-    var adminBehOrgm = Mn.Behavior.extend({
+            var bytes = new Array(end - begin);
+            for (var offset = begin, i = 0 ; offset < end; ++i, ++offset) {
+                bytes[i] = byteCharacters[offset].charCodeAt(0);
+            }
+            byteArrays[sliceIndex] = new Uint8Array(bytes);
+        }
+        return new Blob(byteArrays, { type: contentType });
+    };
+    var adminBehKadry = Mn.Behavior.extend({
         events: {
             'change select#monitoring': 'monitChange',
             'click button.whoinput': 'renderwhoinput',
@@ -23,11 +42,21 @@ define([
             'change input#all':     'chkbxall'
 
         },
+        /*collectionEvents: {
+            sync: "render"
+        },*/
         chkbxall: function(e){
             if(e.currentTarget.checked)
-                $('#mo').attr('disabled','disabled');
+                {
+                        $("#mo > option").prop("selected","selected");
+                        $("#mo").trigger("change");
+                      }
+
             else
-                $('#mo').removeAttr('disabled','disabled');
+                {
+                    $("#mo > option").removeAttr("selected");
+                    $("#mo").trigger("change");
+                }
 
         },
         viewUsers: function(type){
@@ -77,22 +106,13 @@ define([
             $('#whoinput').html('');
             $('#alert').html('');
             var _this=this;
-            var dtStart = $('#dateStart').data("DateTimePicker").date();
-            var type = $('#monitoring option:selected').val();
-            var mo =$('#mo option:selected').text().trim().replace(/ {2,}/g,' ');
-            if (!dtStart || !dtStart.isValid()) {
-                $('#alert').html('<div class="alert alert-danger" role="alert">Ошибка в дате</div>');
-                return;
-            }
-            var dtEnd = $('#dateEnd').data("DateTimePicker").date();
-            if (!dtEnd || !dtEnd.isValid()) {
-                $('#alert').html('<div class="alert alert-danger" role="alert">Ошибка в дате</div>');
-                return;
 
-            }
-            var util = new Utility({type:type,start:dtStart,end:dtEnd,mo:mo,username:mo});
-            var data = util.whoinput();
-            data.all = $('#all')[0].checked;
+            var data = {
+                kstart:$('#kstart option:selected').text(),
+                kend:$('#kend option:selected').text(),
+                ystart:$('#ystart option:selected').text(),
+                yend:$('#yend option:selected').text(),
+                type:$('#monitoring option:selected').val()};
             var whoinp = $.ajax({
                 url : '/whoinput',
                 data : data,
@@ -121,36 +141,53 @@ define([
         },
         onShow: function(){
 
-            var _this = this;
-            var coll = new UsersCollection();
-            var p  = coll.fetch();
-            p.done(function(){
-                _this.view.users = coll.models;
-
-
-                _this.monitChange({currentTarget:
-                {value:$('#monitoring').val()}});
-                $('#mo').select2();
-
-            })
+            this.render();
         },
         getReport: function(button){
             button.preventDefault();
             $('#alert').html('');
-            $(button.currentTarget).attr('id');
-            var type = $('#monitoring option:selected').val();
-            var mo = $('#mo option:selected').text().trim().replace(/ {2,}/g,' ');
-            var sdate = $('#dateStart').data("DateTimePicker").date();
-            var edate = $('#dateEnd').data("DateTimePicker").date();
-            var all = $('#all')[0].checked;
-            var util = new Utility({all:all,type:type,start:sdate,end:edate,mo:mo});
-            var data = util.getReport();
-            window.open("/orgm/report/"+JSON.stringify(data), '_blank');
+            var mo =[];
+            $('#mo option:selected').each(function(){
+                mo.push($(this).text())
+            });
+            var data = {
+                kstart:$('#kstart option:selected').text(),
+                kend:$('#kend option:selected').text(),
+                ystart:$('#ystart option:selected').text(),
+                yend:$('#yend option:selected').text(),
+                mos:mo,
+                type:$('#monitoring option:selected').val()};
+            Utls.uploadFile('/kadry/report/',"cp",Array.prototype.join.call(Pako.gzip(JSON.stringify(data))));
+        },
+        render: function(){
+            console.log('kadry render');
+            //this.$('.zerg')
+            //this.view.collection.deffered.done(function(){
+
+
+            var _this = this;
+            this.view.collection.deferred
+                .done(function () {
+
+                    _this.$el.html(_this.view.template(_this.view.serializeData()) );
+                    $('#mo').select2({tags: "true",
+                        placeholder: "Выберите"});
+                    $('.date').datetimepicker({ viewMode: 'years',
+                            format: 'MM/YYYY',
+                            locale: 'ru-RU',
+                            useCurrent: false});
+
+
+
+
+                });
+            //})
+
         }
     });
     if(!window.Behaviors)
         window.Behaviors = {};
-    window.Behaviors.adminBehOrgm = adminBehOrgm;
-    return adminBehOrgm;
+    window.Behaviors.adminBehKadry = adminBehKadry;
+    return adminBehKadry;
 
 });

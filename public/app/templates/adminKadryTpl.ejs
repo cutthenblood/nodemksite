@@ -1,7 +1,7 @@
 <div id="alert"></div>
 <div>
     <div class="row">
-        <div class="col-md-7">
+        <div class="col-md-10">
             <form id="mainaddform" class="form-horizontal" action="/main" method="get"
                   data-toggle="validator" role="form" data-disable="true">
                 <div class="row">
@@ -11,24 +11,26 @@
                         <div class="col-xs-9 ">
                             <select class="form-control" id="monitoring" autofocus>
 
-                                <option value="mpr">преждевременных родов</option>
-                                <option value="mprPD">мероприятий по пренатальной диагностике</option>
-                                <option value="deathm">ежедневный мониторинг смертности от болезней системы кровообращения</option>
-
+                                <option value="kadry">Мониторинг по "Эффективным контрактам"</option>
                             </select>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="form-group">
-                        <label class="col-xs-2 control-label">МО</label>
+                        <label class="col-xs-1 control-label">МО</label>
 
-                        <div class="col-xs-8 ">
-                            <select class="form-control" id="mo" autofocus>
+                        <div class="col-xs-10 ">
+                            <select class="form-control" id="mo"  multiple="multiple" style="width: 100%" autofocus>
+                                <% if(mos)
+                                    mos.forEach(function(itm){
+                                         var mo = itm.toJSON();
+                                         %><option><%=mo.username%></option>
+                                <%}) %>
 
                             </select>
                         </div>
-                        <div class="col-xs-2 ">
+                        <div class="col-xs-1 ">
                             <div class="checkbox">
                                 <label>
                                     <input type="checkbox" id="all"> Все
@@ -42,11 +44,30 @@
                     <div class="form-group">
                         <label class="col-xs-2 control-label">C</label>
 
-                        <div class='input-group date col-xs-4' id="dateStart" data-date-format="DD.MM.YYYY">
-                            <input type='text' class="form-control" name="inputdate"/>
-                                        <span class="input-group-addon"><span
-                                                    class="glyphicon glyphicon-calendar"></span>
-                                        </span>
+                        <div class="col-md-5">
+                            <div class="row">
+                                <div class="col-md-2  columns">Квартал</div>
+                                <div class="col-md-2  columns">
+                                    <div class="form-group">
+                                        <select class="form-control" id="kstart" autofocus>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-2  columns">Год</div>
+                                <div class="col-md-2  columns">
+                                    <div class="form-group">
+                                        <select class="form-control" id="ystart" autofocus>
+                                            <option>2015</option>
+                                            <option>2016</option>
+                                            <option>2017</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -54,11 +75,30 @@
                     <div class="form-group">
                         <label class="col-xs-2 control-label">ПО</label>
 
-                        <div class='input-group date col-xs-4' id="dateEnd" data-date-format="DD.MM.YYYY">
-                            <input type='text' class="form-control " name="inputdate"/>
-                                        <span class="input-group-addon"><span
-                                                    class="glyphicon glyphicon-calendar"></span>
-                                        </span>
+                        <div class="col-md-5">
+                            <div class="row">
+                                <div class="col-md-2  columns">Квартал</div>
+                                <div class="col-md-2  columns">
+                                    <div class="form-group">
+                                        <select class="form-control" id="kend" autofocus>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-2  columns">Год</div>
+                                <div class="col-md-2  columns">
+                                    <div class="form-group">
+                                        <select class="form-control" id="yend" autofocus>
+                                            <option>2015</option>
+                                            <option>2016</option>
+                                            <option>2017</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -82,4 +122,5 @@
     <div id="whoinput" class="container-fluid"></div>
 
 </div>
-<script src="/jquery-file-download/src/Scripts/jquery.fileDownload.js" type="text/javascript"></script>
+<!--
+<script src="/jquery-file-download/src/Scripts/jquery.fileDownload.js" type="text/javascript"></script>-->

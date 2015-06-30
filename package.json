@@ -22,7 +22,7 @@
       "ipaddr.js": "0.1.2",
       "moment": "latest",
       "lodash": "2.4.1",
-      "mongodb": "1.4.7",
+      "mongodb": "latest",
       "xlsx-template": "0.0.2",
       "toobusy": "latest",
       "connect-redis": ">=2.0.0",

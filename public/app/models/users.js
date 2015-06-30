@@ -1,3 +1,10 @@
-/**
- * Created by anza on 16.04.15.
- */
+// Filename: models/users
+define([
+    'backbone'
+], function(Backbone){
+    var userModel = Backbone.Model.extend({
+        urlRoot: '/rest/users'
+    });
+    // Return the model for the module
+    return userModel;
+});

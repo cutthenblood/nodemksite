@@ -59,8 +59,8 @@ module.exports = function (app) {
                         function(a,b){
                             if(a.username< b.username)
                                 return -1;
-                            else if(a.username==b.username) return 0
-                            else return -0;
+                            else if(a.username==b.username) return 0;
+                            else return 1;
                         }
                     ), message: err });}
             });
@@ -86,16 +86,12 @@ module.exports = function (app) {
         res.render('kadry/kadryIndex', {});
 
     });
-    app.post('/kadry/uploadform',isLoggedIn, function(req, res,next) {
+    app.post('/kadry/save', function(req, res,next) {
         var dbmethods = app.get('dbmethods');
         if (req.body.hasOwnProperty('_id')) {
             delete req.body._id;
         }
-
-        req.body.inputdate = moment(req.body.inputdate,"DD.MM.YYYY").startOf('day').valueOf();
-        //req.body.inputdate = convertDatesISO(req.body.inputdate);
-        //req.body.rows[0].date = new Date(req.body.rows[0].date);
-        dbmethods.insupOrgm('kadry',req.body,function (err, results) {
+        dbmethods.insupKadry('kadry',req.body,function (err, results) {
             if (err) {
                 log.error(err);
                 res.status(500).send();
@@ -105,10 +101,7 @@ module.exports = function (app) {
         });
 
     });
-    app.get('/logout', function(req, res){
-        req.logout();
-        app.set('ucl',undefined);
-        res.redirect('http://medicinakubani.ru/lpustat');
-    });
+
+
 }
 

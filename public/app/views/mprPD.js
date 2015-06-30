@@ -1,13 +1,13 @@
-// Filename: views/mpr
+// Filename: views/mprPD
 define([
-    'jquery',
+
     'lodash',
     'backbone',
-    'scheas/mprScm',
+    'schemas/mprPDScm',
     // Using the Require.js text! plugin, we are loaded raw text
     // which will be used as our views primary template
     'text!templates/project/list.html'
-], function($, _, Backbone, scm, template){
+], function( _, Backbone, scm, template){
     var ProjectListView = Backbone.View.extend({
         el: $('#content'),
         render: function(user){

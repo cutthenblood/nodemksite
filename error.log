@@ -459,3 +459,103 @@
 {"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] collection name must be a String","timestamp":"2015-04-07T07:38:54.800Z"}
 {"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] collection names cannot be empty","timestamp":"2015-04-07T08:17:12.384Z"}
 {"level":"error","message":"[/devel/ndmks/1/nodemksite/db.js] ReferenceError: beg is not defined","timestamp":"2015-04-09T11:59:06.836Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] uid is not defined","timestamp":"2015-04-17T09:00:14.040Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] uid is not defined","timestamp":"2015-04-17T09:00:16.281Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] uid is not defined","timestamp":"2015-04-17T09:00:21.008Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] uid is not defined","timestamp":"2015-04-17T09:00:21.016Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] uid is not defined","timestamp":"2015-04-17T09:00:25.809Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] uid is not defined","timestamp":"2015-04-17T09:00:25.804Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] uid is not defined","timestamp":"2015-04-17T09:00:32.050Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] uid is not defined","timestamp":"2015-04-17T09:00:32.047Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] uid is not defined","timestamp":"2015-04-17T09:01:05.252Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] uid is not defined","timestamp":"2015-04-17T09:01:11.494Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot read property '0' of undefined","timestamp":"2015-04-22T06:59:16.227Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot read property '0' of undefined","timestamp":"2015-04-22T07:01:13.331Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot read property 'username' of undefined","timestamp":"2015-04-27T07:56:48.376Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot read property 'username' of undefined","timestamp":"2015-04-27T07:58:30.394Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot read property 'username' of undefined","timestamp":"2015-04-27T08:00:22.457Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-04-27T12:57:24.655Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user privileges not exists","timestamp":"2015-04-27T12:57:24.656Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-04-27T12:57:24.656Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user privileges not exists","timestamp":"2015-04-27T12:57:24.657Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-04-27T12:57:24.663Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user privileges not exists","timestamp":"2015-04-27T12:57:24.665Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-04-27T13:02:14.550Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user privileges not exists","timestamp":"2015-04-27T13:02:14.551Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-04-27T13:02:14.554Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user privileges not exists","timestamp":"2015-04-27T13:02:14.554Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-04-27T13:02:14.559Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user privileges not exists","timestamp":"2015-04-27T13:02:14.560Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-04-27T13:03:09.966Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user privileges not exists","timestamp":"2015-04-27T13:03:09.967Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-04-27T13:03:09.969Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user privileges not exists","timestamp":"2015-04-27T13:03:09.970Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-04-27T13:03:09.972Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user privileges not exists","timestamp":"2015-04-27T13:03:09.972Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-04-29T11:24:13.205Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user privileges not exists","timestamp":"2015-04-29T11:24:13.207Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-04-29T11:48:46.208Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user privileges not exists","timestamp":"2015-04-29T11:48:46.230Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-04-29T11:48:58.138Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user privileges not exists","timestamp":"2015-04-29T11:48:58.140Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Property 'msg' of object #<Object> is not a function","timestamp":"2015-05-05T08:32:23.062Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] json is not defined","timestamp":"2015-05-05T08:33:43.237Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] err is not defined","timestamp":"2015-05-05T08:36:01.139Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object [object Object] has no method 'getOrgmWhoInput'","timestamp":"2015-05-27T11:57:26.354Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object [object Object] has no method 'getOrgmWhoInput'","timestamp":"2015-05-27T11:59:18.234Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] collection names cannot be empty","timestamp":"2015-06-03T08:29:35.523Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] collection names cannot be empty","timestamp":"2015-06-03T08:31:49.886Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/db.js] MongoError: Field name duplication not allowed with modifiers","timestamp":"2015-06-03T09:04:41.577Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/routes/orgm/orgmRoute.js] MongoError: Field name duplication not allowed with modifiers","timestamp":"2015-06-03T09:04:41.578Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] collection name must be a String","timestamp":"2015-06-15T08:03:34.163Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] collection name must be a String","timestamp":"2015-06-15T08:04:32.104Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] type is not defined","timestamp":"2015-06-15T08:10:27.624Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Unexpected token u","timestamp":"2015-06-15T08:15:05.051Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Unexpected token u","timestamp":"2015-06-15T08:15:46.274Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Unexpected token u","timestamp":"2015-06-15T08:32:36.135Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Unexpected token u","timestamp":"2015-06-15T08:47:26.541Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Unexpected token u","timestamp":"2015-06-15T08:47:54.713Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Unexpected token o","timestamp":"2015-06-15T08:49:29.490Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Invalid magic number: 6A626F5B @0","timestamp":"2015-06-15T08:56:34.988Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] pako is not defined","timestamp":"2015-06-15T11:23:56.138Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] pako is not defined","timestamp":"2015-06-15T11:25:13.345Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] pako is not defined","timestamp":"2015-06-15T11:37:40.303Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] pako is not defined","timestamp":"2015-06-15T11:38:45.774Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] pako is not defined","timestamp":"2015-06-15T11:38:56.920Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Unexpected token o","timestamp":"2015-06-15T11:39:20.273Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Unexpected token o","timestamp":"2015-06-15T11:39:29.997Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Unexpected token o","timestamp":"2015-06-15T11:40:33.295Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Unexpected token o","timestamp":"2015-06-15T11:40:49.911Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Unexpected end of input","timestamp":"2015-06-15T11:41:14.783Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Unexpected end of input","timestamp":"2015-06-15T11:42:24.232Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] unknown compression method","timestamp":"2015-06-15T11:42:34.040Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] unknown compression method","timestamp":"2015-06-15T11:43:32.778Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] unknown compression method","timestamp":"2015-06-15T11:43:45.500Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] unknown compression method","timestamp":"2015-06-15T11:44:12.940Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] query is not defined","timestamp":"2015-06-15T11:45:01.731Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] type is not defined","timestamp":"2015-06-15T11:47:44.686Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] type is not defined","timestamp":"2015-06-15T11:48:15.460Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] type is not defined","timestamp":"2015-06-15T11:48:47.735Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Forbidden","timestamp":"2015-06-16T06:32:23.022Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] ENOENT, stat '/devel/ndmks/1/nodemksite/routes/tempfiledir/test.xlsx'","timestamp":"2015-06-16T06:34:00.462Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] ENOENT, stat '/devel/ndmks/1/nodemksite/routes/tempfiledir/test.xlsx'","timestamp":"2015-06-16T06:34:37.464Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] incorrect header check","timestamp":"2015-06-16T06:50:18.887Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] incorrect header check","timestamp":"2015-06-16T06:51:02.637Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] invalid distance too far back","timestamp":"2015-06-16T08:35:19.255Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] invalid distance too far back","timestamp":"2015-06-16T08:35:35.566Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] invalid distance too far back","timestamp":"2015-06-16T08:38:37.424Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] invalid distance too far back","timestamp":"2015-06-16T08:42:22.461Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] incorrect header check","timestamp":"2015-06-16T08:45:55.001Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] invalid distance too far back","timestamp":"2015-06-16T08:54:28.235Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] incorrect data check","timestamp":"2015-06-16T08:57:06.101Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] incorrect header check","timestamp":"2015-06-16T11:26:23.740Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] incorrect header check","timestamp":"2015-06-16T11:27:39.346Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] incorrect header check","timestamp":"2015-06-16T11:30:02.378Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] reqdata is not defined","timestamp":"2015-06-16T11:30:35.743Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] reqdata is not defined","timestamp":"2015-06-16T11:38:11.166Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] collection name must be a String","timestamp":"2015-06-17T08:46:24.135Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] collection name must be a String","timestamp":"2015-06-17T08:46:54.116Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] collection name must be a String","timestamp":"2015-06-17T08:48:21.104Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] collection name must be a String","timestamp":"2015-06-17T08:48:23.351Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] collection name must be a String","timestamp":"2015-06-17T08:48:43.111Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] collection name must be a String","timestamp":"2015-06-17T08:49:11.135Z"}

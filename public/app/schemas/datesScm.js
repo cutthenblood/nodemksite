@@ -1,3 +1,14 @@
-/**
- * Created by anza on 29.04.15.
- */
+define(function () {
+    return {
+        'mpr':{format: 'DD.MM.YYYY',
+        useCurrent: false,
+        locale: 'ru-RU'},'mprPD':
+    { viewMode: 'years',
+        format: 'MM/YYYY',
+        locale: 'ru-RU',
+        useCurrent: false},
+        'deathm':{   format: 'DD.MM.YYYY',
+            useCurrent: false,
+            locale: 'ru-RU'}
+    };
+});

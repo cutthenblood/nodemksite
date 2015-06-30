@@ -1,0 +1,33 @@
+{
+  "name": "lz4.js",
+  "version": "0.1.2",
+  "authors": [
+    "ukyo <ukyo.web@gmail.com>"
+  ],
+  "description": "lz4 for browser",
+  "main": "dist/lz4.js",
+  "keywords": [
+    "lz4",
+    "compression",
+    "emscripten",
+    "asm.js"
+  ],
+  "license": "MIT",
+  "homepage": "github.com/ukyo/lz4.js",
+  "ignore": [
+    "dev",
+    "node_modules",
+    "test",
+    "example"
+  ],
+  "_release": "0.1.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.1.2",
+    "commit": "fc89f9400c004f30daace2fbb6ee3d4038d460fe"
+  },
+  "_source": "git://github.com/ukyo/lz4.js.git",
+  "_target": "~0.1.2",
+  "_originalSource": "lz4",
+  "_direct": true
+}
