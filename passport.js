@@ -2,6 +2,7 @@ var LocalStrategy = require('passport-local').Strategy;
 var log = require('./log')(module);
 // load up the user model
 var User = require('./user');
+var pg = require('./core/pgDB.js');
 module.exports = function (passport, app) {
 
     // used to serialize the user for the session
@@ -12,9 +13,7 @@ module.exports = function (passport, app) {
     // used to deserialize the user
     passport.deserializeUser(function (id, done) {
         var dbfactory = app.get('dbmethods');
-    /*    var collection = app.get('ucl');
-        if(!collection)*/
-            collection = 'users';
+        var collection = 'users';
         dbfactory.getUserById(collection, id, function (err, user) {
             if (err) {
                 log.error("cannot auth");
@@ -29,10 +28,6 @@ module.exports = function (passport, app) {
     passport.use('local',new LocalStrategy(
         function (username, password, done) {
             var dbfactory = app.get('dbmethods');
-   /*         var collection = app.get('ucl');
-            if(!collection)*/
-                //collection = 'users';
-
             dbfactory.getUserAuth('users', {username: username}, function (err, user) {
                 if (err) {
                     log.error("cannot auth");
@@ -47,6 +42,24 @@ module.exports = function (passport, app) {
                         else done(null, false)
                     })
                 }
+            });
+        }
+    ));
+    passport.use('local_pg',new LocalStrategy(
+        function (username, password, done) {
+            var query = new pg(app.get('pgdb'));
+            var result= query.getUserAuth(username);
+            result.then(function(e){
+                if(e.rows.length>0){
+                    var dbuser = new User(e.rows[0]);
+                    dbuser.validPassword(password, function (res) {
+                        if (res) {
+                            done(null, dbuser);
+                        }
+                        else done(null, false)
+                    })
+                }
+                var a = 12;
             });
         }
     ));

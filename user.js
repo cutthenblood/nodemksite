@@ -10,7 +10,8 @@ var User = function(fields) {
         return bcrypt.hashSync(password, bcrypt.genSaltSync(8), null);
     };
     this.validPassword = function(password,callback) {
-       bcrypt.compare(password, _this.password, function(err, res) {
+
+       bcrypt.compare(password, (_this.password)?_this.password:_this.pwd, function(err, res) {
           log.info(err);
             callback(res);
         });

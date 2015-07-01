@@ -559,3 +559,11 @@
 {"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] collection name must be a String","timestamp":"2015-06-17T08:48:23.351Z"}
 {"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] collection name must be a String","timestamp":"2015-06-17T08:48:43.111Z"}
 {"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] collection name must be a String","timestamp":"2015-06-17T08:49:11.135Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] browser is not defined","timestamp":"2015-06-30T11:50:02.519Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object 1436130000000 has no method 'toLowerCase'","timestamp":"2015-07-01T07:44:56.335Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object 1436130000000 has no method 'toLowerCase'","timestamp":"2015-07-01T07:45:01.800Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object 1436821200000 has no method 'toLowerCase'","timestamp":"2015-07-01T07:45:40.575Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object 1437426000000 has no method 'toLowerCase'","timestamp":"2015-07-01T07:45:48.186Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object 1438117200000 has no method 'toLowerCase'","timestamp":"2015-07-01T08:00:14.769Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] vowNode is not defined","timestamp":"2015-07-01T09:11:53.113Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot call method 'toString' of undefined","timestamp":"2015-07-01T09:16:20.251Z"}

@@ -13,6 +13,7 @@ var _ = require('lodash');
 var bcrypt   = require('bcrypt-nodejs');
 var commonDB = require('./../../core/commonDB.js');
 var pako = require('pako');
+var mt = require('moment-timezone');
 var salt = function(password){
     return bcrypt.hashSync(password, bcrypt.genSaltSync(8), null);
 };
@@ -38,6 +39,16 @@ function isAdminIn(req, res, next) {
 module.exports = function (app) {
 
     app.post('/auth', passport.authenticate('local'), function (req, res) {
+        if(req.user){
+            var user = _.clone(req.user, true);
+            user.role = req.user.role;
+            user.password = 'guess!!';
+            res.send(req.isAuthenticated() ? user : '0');}
+        else
+            res.send('0');
+
+    });
+    app.post('/authenticate', passport.authenticate('local_pg'), function (req, res) {
         if(req.user){
             var user = _.clone(req.user, true);
             user.role = req.user.role;
@@ -112,7 +123,13 @@ module.exports = function (app) {
 
     });
     app.post('/validateDate',isLoggedIn, function (req, response) {
-
+        var errmsg={res:"0",msg:"Ошибка"};
+        var check = moment(parseInt(req.body.date));
+        if(check.hour()!=0) {
+            errmsg.msg = "Ошибка в часовом поясе!";
+            response.send(JSON.stringify(errmsg));
+            return;
+        }
         var calend = {
             "2015":{
                 "1":{"1":{"isWorking":2},"2":{"isWorking":2},"5":{"isWorking":2},"6":{"isWorking":2},"7":{"isWorking":2},"8":{"isWorking":2},"9":{"isWorking":2}},
@@ -131,7 +148,7 @@ module.exports = function (app) {
         var mn = md.month();
         var now = moment();
        // var pr = calend["2015"][mn.toString()][md.date().toString()].isWorking;
-        var errmsg={res:"0",msg:"Ошибка"};
+
         var dbmethods = app.get('dbmethods');
         dbmethods.getSettings('orgm',type,function(err,result){
             if(result.validateDate){
@@ -191,7 +208,7 @@ module.exports = function (app) {
                 }
             }
             else {
-                err.res="1";
+                errmsg.res="1";
                 response.send(JSON.stringify(errmsg));
                 return;
             }
@@ -905,5 +922,15 @@ module.exports = function (app) {
             });
 
         }*/
+    });
+
+    app.get('/mk', function (req, res) {
+        var browser = req.headers['user-agent'];
+        if (browser.indexOf('Chrome') > 0)
+            res.render('mksite', {appfolder:'pgapp/main'});
+        else
+            res.render('browser', {});
+
+        //res.render('mksite', {});
     });
 };

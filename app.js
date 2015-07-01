@@ -16,7 +16,7 @@ var passport = require('passport');
 var session = require('express-session');
 var RedisStore = require('connect-redis')(session);
 var conf = require('./config.js');
-
+var pg = require('pg');
 var app = express();
 var server = require('http').createServer(app);
 app.set('conf', conf);
@@ -68,6 +68,21 @@ function mongoConnectPromise(connectionString) {
     });
 }
 
+function pgConnectPromise(connectionString) {
+    return new vow.Promise(function (resolve, reject, notify) {
+
+        pg.connect(connectionString, function(err, db, done) {
+            if (err) {
+                log.error(err);
+                reject(err);
+            } else {
+                resolve({db:db,done:done});
+            }
+        });
+    });
+}
+
+
 function routePromise(router, path) {
     app.use(passport.initialize());
     app.use(passport.session());
@@ -101,7 +116,8 @@ function routePromise(router, path) {
 }
 var promises = {
     routes: routePromise(app, pathbuiledr.join(__dirname, 'routes')),
-    db: mongoConnectPromise(conf.mongoConnect)
+    db: mongoConnectPromise(conf.mongoConnect),
+    pgdb: pgConnectPromise(conf.pgConnect)
 };
 
 module.exports =  function() {
@@ -110,6 +126,7 @@ module.exports =  function() {
         var dbfy = new dbfactory(result.db);
         app.set('dbmethods', dbfy);
         app.set('db',result.db);
+        app.set('pgdb',result.pgdb);
         auth(passport, app);
 
         app.use(function (req, res) {

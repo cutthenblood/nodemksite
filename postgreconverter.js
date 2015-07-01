@@ -31,8 +31,9 @@ pg.connect(conString, function(err, client, done) {
                     console.log(err1)
                 } else {
 
-                    var pgPromises = [promiseQuery(client,'select * from mos'),promiseQuery(client,'select * from divisions where id=2'),
+                    var pgPromises = [promiseQuery(client,'select * from mos'),promiseQuery(client,'select * from divisions'),
                         promiseQuery(client,'select * from roles where id =2'),promiseQuery(client,'select * from uzs')];
+                    var pgPromises1 = [];
                     vow.allResolved(pgPromises).spread(function spread(moses,divisions,roles,uzs){
                         if (moses.isRejected() || divisions.isRejected() || roles.isRejected() || uzs.isRejected()) {
                             console.log('error');
@@ -44,11 +45,11 @@ pg.connect(conString, function(err, client, done) {
                             var uz = uzs.valueOf();
                             var pgusers = [];
 
-                            result.map(function(user){
+                            var cipromise = result.map(function(user){
                                 var pguser={};
                                 pguser.username = user.username;
                                 pguser.pwd = user.password;
-                                pguser.division = division.rows[0].id;
+                                pguser.division = division.rows.filter(function(itm){return itm.name == user.division})[0].id;
                                 pguser.role = role.rows[0].id;
                                 pguser.umo = [];
                                 pguser.uuz = [];
@@ -73,54 +74,35 @@ pg.connect(conString, function(err, client, done) {
                                 catch(e){
                                     console.log(e);
                                 }
+                                if(user.password)
+                                return new vow.Promise(function(resolve){
+                                    client.query('INSERT INTO users(division, role, pwd, username) VALUES ($1, $2, $3, $4) RETURNING id;',
+                                        [pguser.division, role.rows[0].id, user.password, user.username],function(err,r){
+                                            console.log(err);
+                                            var a=12;
+                                            pguser.id= r.rows[0].id;
+                                            //
+                                            pguser.uuz.forEach(function(itmuz){
+                                                pgPromises1.push(promiseQuery(client,'INSERT INTO useruz( uzid, userid) VALUES ($1, $2);',[itmuz,pguser.id]));
+                                            });
+                                            pguser.umo.forEach(function(itmumo){
+                                                pgPromises1.push(promiseQuery(client,'INSERT INTO usermos( moid, userid) VALUES ($1, $2);',[itmumo,pguser.id]));
+                                            });
+                                            resolve();
 
-                                var a=12;
-
-
-                                /*client.query('INSERT INTO users(division, role, pwd, username) VALUES ($1, $2, $3, $4) RETURNING id;',
-                                    [division.rows[0].id, role.rows[0].id, user.password, user.username],function(err,r){
-                                        console.log(err);
-                                        var a=12;
-                                        done();
-                                    });*/
-
-                            })
+                                        });
+                                });
+                            });
+                            vow.allResolved(cipromise).then(function(e){
+                                vow.allResolved(pgPromises1).then(function(e){
+                                    done();
+                                })
+                            });
                         }
                     });
+
                 }
             });
         }
     });
 });
-
-
-
-/*
-
-var client = new pg.Client(conString);
-client.connect(function(err) {
-    if(err) {
-        return console.error('could not connect to postgres', err);
-    }
-    var cn = function(err,res){
-        if(err)
-            console.log(err);
-    }
-
-
-
-
-
-
-
-    */
-/*client.query('SELECT NOW() AS "theTime"', function(err, result) {
-        if(err) {
-            return console.error('error running query', err);
-        }
-        console.log(result.rows[0].theTime);
-        //output: Tue Jan 15 2013 19:12:47 GMT-600 (CST)
-        client.end();
-    });*//*
-
-});*/

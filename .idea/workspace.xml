@@ -2,87 +2,93 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73f64d1a-c00d-4f31-a426-127e21100db1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pids/29495" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pids/29513" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pids/29514" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pids/29515" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pids/29516" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pids/29517" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pids/29518" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pids/29519" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pids/29520" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kadry_users.xlsx" afterPath="$PROJECT_DIR$/kadry_users.xlsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/orgm/mprtmpl.xlsx" afterPath="$PROJECT_DIR$/templates/orgm/mprtmpl.xlsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/views/admin.js" afterPath="$PROJECT_DIR$/public/app/views/admin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/behaviors/adminKadry.js" afterPath="$PROJECT_DIR$/public/app/behaviors/adminKadry.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/templates/adminKadryTpl.ejs" afterPath="$PROJECT_DIR$/public/app/templates/adminKadryTpl.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/behaviors/adminOrgm.js" afterPath="$PROJECT_DIR$/public/app/behaviors/adminOrgm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/templates/adminTpl.ejs" afterPath="$PROJECT_DIR$/public/app/templates/adminTpl.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/orgm/adminTpl.ejs" afterPath="$PROJECT_DIR$/public/templates/orgm/adminTpl.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/views/admin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/behaviors/adminKadry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/templates/adminKadryTpl.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/behaviors/adminOrgm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/templates/adminTpl.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/core/baserouter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/core/baseview.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/browser.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/templates/browserTpl.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/templates/browserTpl.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/behaviors/check.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/views/check.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/templates/checkResultTpl.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/templates/checkTpl.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/schemas/datesScm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/schemas/deathmScm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/schemas/infoMessages.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/behaviors/kadry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/models/kadry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/views/kadry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/templates/kadryTpl.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/behaviors/login.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/views/login.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/templates/loginRegisterTpl.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/templates/loginTpl.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/views/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/templates/mainTpl.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/schemas/menu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/views/menu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/templates/menuTpl.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/schemas/mloDnScm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/schemas/mloDnScm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/templates/monitoringTpl.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/views/mpr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/views/mprPD.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/schemas/mprPDScm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/schemas/mprScm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/behaviors/orgm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/models/orgm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/core/orgmViewUtility.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/pgDB.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/router.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/models/session.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/behaviors/settings.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/collections/settings.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/models/settings.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/views/settings.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/templates/settingsTpl.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/collections/users.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/models/users.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/core/utls.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/views/viewsFactory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/templates/whoinputTpl.ejs" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pids/11990" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pids/12008" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pids/12009" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pids/12010" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pids/12011" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pids/12012" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pids/12013" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pids/12014" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pids/12015" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/moment-timezone/README.md" afterPath="$PROJECT_DIR$/node_modules/moment-timezone/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/app.js" afterPath="$PROJECT_DIR$/public/app/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/baserouter.js" afterPath="$PROJECT_DIR$/public/app/baserouter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/core/baserouter.js" afterPath="$PROJECT_DIR$/public/app/core/baserouter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/core/baseview.js" afterPath="$PROJECT_DIR$/public/app/core/baseview.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js" afterPath="$PROJECT_DIR$/bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/behaviors/check.js" afterPath="$PROJECT_DIR$/public/app/behaviors/check.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/views/check.js" afterPath="$PROJECT_DIR$/public/app/views/check.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/templates/checkResultTpl.ejs" afterPath="$PROJECT_DIR$/public/app/templates/checkResultTpl.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/templates/checkTpl.ejs" afterPath="$PROJECT_DIR$/public/app/templates/checkTpl.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/commonDB.js" afterPath="$PROJECT_DIR$/core/commonDB.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/moment-timezone/changelog.md" afterPath="$PROJECT_DIR$/node_modules/moment-timezone/changelog.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.js" afterPath="$PROJECT_DIR$/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/schemas/datesScm.js" afterPath="$PROJECT_DIR$/public/app/schemas/datesScm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.js" afterPath="$PROJECT_DIR$/db.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/schemas/deathmScm.js" afterPath="$PROJECT_DIR$/public/app/schemas/deathmScm.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/debug.log" afterPath="$PROJECT_DIR$/debug.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/error.log" afterPath="$PROJECT_DIR$/error.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/schemas/infoMessages.js" afterPath="$PROJECT_DIR$/public/app/schemas/infoMessages.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/behaviors/kadry.js" afterPath="$PROJECT_DIR$/public/app/behaviors/kadry.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/models/kadry.js" afterPath="$PROJECT_DIR$/public/app/models/kadry.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/views/kadry.js" afterPath="$PROJECT_DIR$/public/app/views/kadry.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/kadry/kadryRoute.js" afterPath="$PROJECT_DIR$/routes/kadry/kadryRoute.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/templates/kadryTpl.ejs" afterPath="$PROJECT_DIR$/public/app/templates/kadryTpl.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/moment-timezone/data/meta/latest.json" afterPath="$PROJECT_DIR$/node_modules/moment-timezone/data/meta/latest.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/moment-timezone/data/packed/latest.json" afterPath="$PROJECT_DIR$/node_modules/moment-timezone/data/packed/latest.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/moment-timezone/data/unpacked/latest.json" afterPath="$PROJECT_DIR$/node_modules/moment-timezone/data/unpacked/latest.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/behaviors/login.js" afterPath="$PROJECT_DIR$/public/app/behaviors/login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/views/login.js" afterPath="$PROJECT_DIR$/public/app/views/login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/templates/loginRegisterTpl.ejs" afterPath="$PROJECT_DIR$/public/app/templates/loginRegisterTpl.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/templates/loginTpl.ejs" afterPath="$PROJECT_DIR$/public/app/templates/loginTpl.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/main.js" afterPath="$PROJECT_DIR$/public/app/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/views/main.js" afterPath="$PROJECT_DIR$/public/app/views/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/templates/mainTpl.ejs" afterPath="$PROJECT_DIR$/public/app/templates/mainTpl.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/mksite/mainroute.js" afterPath="$PROJECT_DIR$/routes/mksite/mainroute.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/schemas/menu.js" afterPath="$PROJECT_DIR$/public/app/schemas/menu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/views/menu.js" afterPath="$PROJECT_DIR$/public/app/views/menu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/templates/menuTpl.ejs" afterPath="$PROJECT_DIR$/public/app/templates/menuTpl.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/mksite.ejs" afterPath="$PROJECT_DIR$/views/mksite.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/templates/monitoringTpl.ejs" afterPath="$PROJECT_DIR$/public/app/templates/monitoringTpl.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/views/mpr.js" afterPath="$PROJECT_DIR$/public/app/views/mpr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/views/mprPD.js" afterPath="$PROJECT_DIR$/public/app/views/mprPD.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/schemas/mprPDScm.js" afterPath="$PROJECT_DIR$/public/app/schemas/mprPDScm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/schemas/orgm/mprPDScm.js" afterPath="$PROJECT_DIR$/public/schemas/orgm/mprPDScm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/schemas/mprScm.js" afterPath="$PROJECT_DIR$/public/app/schemas/mprScm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/schemas/orgm/mprScm.js" afterPath="$PROJECT_DIR$/public/schemas/orgm/mprScm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/moment-timezone/moment-timezone-utils.js" afterPath="$PROJECT_DIR$/node_modules/moment-timezone/moment-timezone-utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/moment-timezone/moment-timezone.js" afterPath="$PROJECT_DIR$/node_modules/moment-timezone/moment-timezone.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/behaviors/orgm.js" afterPath="$PROJECT_DIR$/public/app/behaviors/orgm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/models/orgm.js" afterPath="$PROJECT_DIR$/public/app/models/orgm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/orgm/orgmJs.js" afterPath="$PROJECT_DIR$/public/js/orgm/orgmJs.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/orgm/orgmRoute.js" afterPath="$PROJECT_DIR$/routes/orgm/orgmRoute.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/core/orgmViewUtility.js" afterPath="$PROJECT_DIR$/public/app/core/orgmViewUtility.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/moment-timezone/package.json" afterPath="$PROJECT_DIR$/node_modules/moment-timezone/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/passport.js" afterPath="$PROJECT_DIR$/passport.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/postgreconverter.js" afterPath="$PROJECT_DIR$/postgreconverter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/router.js" afterPath="$PROJECT_DIR$/public/app/router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/models/session.js" afterPath="$PROJECT_DIR$/public/app/models/session.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/behaviors/settings.js" afterPath="$PROJECT_DIR$/public/app/behaviors/settings.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/collections/settings.js" afterPath="$PROJECT_DIR$/public/app/collections/settings.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/models/settings.js" afterPath="$PROJECT_DIR$/public/app/models/settings.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/views/settings.js" afterPath="$PROJECT_DIR$/public/app/views/settings.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/templates/settingsTpl.ejs" afterPath="$PROJECT_DIR$/public/app/templates/settingsTpl.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user.js" afterPath="$PROJECT_DIR$/user.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/collections/users.js" afterPath="$PROJECT_DIR$/public/app/collections/users.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/models/users.js" afterPath="$PROJECT_DIR$/public/app/models/users.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/core/utls.js" afterPath="$PROJECT_DIR$/public/app/core/utls.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/views/viewsFactory.js" afterPath="$PROJECT_DIR$/public/app/views/viewsFactory.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/templates/whoinputTpl.ejs" afterPath="$PROJECT_DIR$/public/app/templates/whoinputTpl.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nodemksite.iws" />
@@ -106,31 +112,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="kadry.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/app/behaviors/kadry.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="3060">
-              <caret line="108" column="36" selection-start-line="108" selection-start-column="36" selection-end-line="108" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="postgreconverter.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/postgreconverter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="756" max-vertical-offset="2376">
-              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2052">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="check.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/app/behaviors/check.js">
+      <file leaf-file-name="router.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/pgapp/router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1037" max-vertical-offset="1944">
-              <caret line="76" column="41" selection-start-line="70" selection-start-column="12" selection-end-line="76" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="2754">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -139,71 +135,59 @@
       <file leaf-file-name="config.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="450">
-              <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
+              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vowPromisify.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/vowPromisify.js">
+      <file leaf-file-name="session.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/pgapp/models/session.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="432">
-              <caret line="9" column="66" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="864" max-vertical-offset="2286">
+              <caret line="66" column="36" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db.js">
+      <file leaf-file-name="passport.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/passport.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="8575" max-vertical-offset="9612">
-              <caret line="494" column="15" selection-start-line="487" selection-start-column="11" selection-end-line="494" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.29157668" vertical-offset="0" max-vertical-offset="1278">
+              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainroute.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/mksite/mainroute.js">
+      <file leaf-file-name="user.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-71.7" vertical-offset="585" max-vertical-offset="2862">
-              <caret line="484" column="58" selection-start-line="484" selection-start-column="58" selection-end-line="484" selection-end-column="58" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
               <folding>
-                <element signature="e#1504#2887#0" expanded="false" />
-                <element signature="e#2931#3857#0" expanded="false" />
-                <element signature="e#3926#7501#0" expanded="false" />
-                <element signature="e#8156#9743#0" expanded="false" />
-                <element signature="e#9907#10023#0" expanded="false" />
-                <element signature="e#10057#10180#0" expanded="false" />
-                <element signature="e#10213#10334#0" expanded="false" />
-                <element signature="e#10359#10442#0" expanded="false" />
-                <element signature="e#10450#11806#0" expanded="false" />
-                <element signature="e#12356#12537#0" expanded="false" />
-                <element signature="e#12782#13692#0" expanded="false" />
-                <element signature="e#14984#17471#0" expanded="false" />
-                <element signature="e#17523#18496#0" expanded="false" />
-                <element signature="e#18547#19302#0" expanded="false" />
-                <element signature="e#19924#38535#0" expanded="false" />
+                <element signature="e#711#19993#0" expanded="false" />
+                <element signature="e#19994#70825#0" expanded="false" />
+                <element signature="e#70826#122374#0" expanded="false" />
+                <element signature="e#122375#122410#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="orgmRoute.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="orgmRoute.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/orgm/orgmRoute.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4361979" vertical-offset="655" max-vertical-offset="1692">
-              <caret line="737" column="21" selection-start-line="737" selection-start-column="21" selection-end-line="737" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="10431" max-vertical-offset="11124">
+              <caret line="1181" column="67" selection-start-line="1181" selection-start-column="67" selection-end-line="1181" selection-end-column="67" />
               <folding>
                 <element signature="e#452#522#0" expanded="false" />
                 <element signature="e#539#659#0" expanded="false" />
                 <element signature="e#545#657#0" expanded="false" />
                 <element signature="n#!!block;n#isLoggedIn#0" expanded="false" />
                 <element signature="n#!!block;n#isAdminIn#0" expanded="false" />
-                <element signature="e#1188#1250#0" expanded="false" />
                 <element signature="e#26479#28072#0" expanded="false" />
                 <element signature="e#26721#27717#0" expanded="false" />
                 <element signature="e#27007#27705#0" expanded="false" />
@@ -217,10 +201,7 @@
                 <element signature="e#28573#28828#0" expanded="false" />
                 <element signature="e#28595#28781#0" expanded="false" />
                 <element signature="e#28893#29728#0" expanded="false" />
-                <element signature="e#29141#29185#0" expanded="false" />
-                <element signature="e#29538#29719#0" expanded="false" />
-                <element signature="e#29561#29648#0" expanded="false" />
-                <element signature="e#29654#29709#0" expanded="false" />
+                <element signature="e#29798#32017#0" expanded="false" />
                 <element signature="e#30179#30297#0" expanded="false" />
                 <element signature="e#31666#31735#0" expanded="false" />
                 <element signature="e#31882#31967#0" expanded="false" />
@@ -305,28 +286,45 @@
                 <element signature="e#49085#49154#0" expanded="false" />
                 <element signature="e#49564#49656#0" expanded="false" />
                 <element signature="e#49694#49796#0" expanded="false" />
-                <element signature="e#49877#49918#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kadryTpl.ejs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/app/templates/kadryTpl.ejs">
+      <file leaf-file-name="pgDB.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/pgDB.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="5454" max-vertical-offset="59058">
-              <caret line="1929" column="84" selection-start-line="1929" selection-start-column="84" selection-end-line="1929" selection-end-column="84" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="648">
+              <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
+      <file leaf-file-name="mainroute.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/mksite/mainroute.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1854" max-vertical-offset="2682">
-              <caret line="103" column="45" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="45" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="490" max-vertical-offset="1476">
+              <caret line="50" column="27" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="27" />
+              <folding>
+                <element signature="e#1884#3267#0" expanded="false" />
+                <element signature="e#3311#4237#0" expanded="false" />
+                <element signature="e#4306#8100#0" expanded="false" />
+                <element signature="e#8165#20332#0" expanded="false" />
+                <element signature="e#8755#10342#0" expanded="false" />
+                <element signature="e#10506#10622#0" expanded="false" />
+                <element signature="e#10656#10779#0" expanded="false" />
+                <element signature="e#10812#10933#0" expanded="false" />
+                <element signature="e#10958#11041#0" expanded="false" />
+                <element signature="e#11049#12405#0" expanded="false" />
+                <element signature="e#12955#13136#0" expanded="false" />
+                <element signature="e#13381#14291#0" expanded="false" />
+                <element signature="e#15583#18070#0" expanded="false" />
+                <element signature="e#18122#19095#0" expanded="false" />
+                <element signature="e#19146#19901#0" expanded="false" />
+                <element signature="e#20379#20462#0" expanded="false" />
+                <element signature="e#20523#39134#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -344,29 +342,13 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/public/app/schemas/infoMessages.js" />
-        <option value="$PROJECT_DIR$/app.js" />
-        <option value="/node.js" />
-        <option value="$PROJECT_DIR$/node_modules/mongodb/package.json" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/public/app/templates/whoinputTpl.ejs" />
-        <option value="$PROJECT_DIR$/public/app/behaviors/check.js" />
-        <option value="$PROJECT_DIR$/public/app/templates/checkResultTpl.ejs" />
-        <option value="$PROJECT_DIR$/public/app/core/orgmViewUtility.js" />
-        <option value="$PROJECT_DIR$/public/app/templates/settingsTpl.ejs.js" />
-        <option value="$PROJECT_DIR$/routes/kadry/kadryRoute.js" />
-        <option value="$PROJECT_DIR$/public/app/views/viewsFactory.js" />
         <option value="$PROJECT_DIR$/public/app/behaviors/settings.js" />
         <option value="$PROJECT_DIR$/public/app/templates/settingsTpl.ejs" />
         <option value="$PROJECT_DIR$/public/app/templates/monitoringTpl.ejs" />
         <option value="$PROJECT_DIR$/public/app/models/orgm.js" />
         <option value="$PROJECT_DIR$/public/app/templates/mainTpl.ejs" />
         <option value="$PROJECT_DIR$/public/app/templates/menuTpl.ejs" />
-        <option value="$PROJECT_DIR$/public/app/behaviors/orgm.js" />
         <option value="$PROJECT_DIR$/db.js" />
-        <option value="$PROJECT_DIR$/public/app/schemas/menu.js" />
-        <option value="$PROJECT_DIR$/public/app/templates/loginTpl.ejs" />
-        <option value="$PROJECT_DIR$/user.js" />
         <option value="$PROJECT_DIR$/public/app/views/kadry.js" />
         <option value="$PROJECT_DIR$/public/app/models/kadry.js" />
         <option value="$PROJECT_DIR$/public/app/behaviors/admin.js" />
@@ -375,12 +357,10 @@
         <option value="$PROJECT_DIR$/public/app/views/main.js" />
         <option value="$PROJECT_DIR$/public/app/views/menu.js" />
         <option value="$PROJECT_DIR$/public/app/models/settings.js" />
-        <option value="$PROJECT_DIR$/public/app/router.js" />
         <option value="$PROJECT_DIR$/public/app/collections/settings.js" />
         <option value="$PROJECT_DIR$/public/app/collections/users.js" />
         <option value="$PROJECT_DIR$/public/app/behaviors/adminOrgm.js" />
         <option value="$PROJECT_DIR$/public/app/views/login.js" />
-        <option value="$PROJECT_DIR$/public/app/behaviors/login.js" />
         <option value="$PROJECT_DIR$/public/app/views/settings.js" />
         <option value="$PROJECT_DIR$/public/app/views/admin.js" />
         <option value="$PROJECT_DIR$/public/app/schemas/datesScm.js" />
@@ -388,13 +368,31 @@
         <option value="$PROJECT_DIR$/public/app/main.js" />
         <option value="$PROJECT_DIR$/public/app/core/utls.js" />
         <option value="$PROJECT_DIR$/public/app/behaviors/adminKadry.js" />
-        <option value="$PROJECT_DIR$/core/commonDB.js" />
         <option value="$PROJECT_DIR$/public/app/templates/kadryTpl.ejs" />
         <option value="$PROJECT_DIR$/public/app/behaviors/kadry.js" />
-        <option value="$PROJECT_DIR$/config.js" />
-        <option value="$PROJECT_DIR$/routes/mksite/mainroute.js" />
+        <option value="$PROJECT_DIR$/public/app/behaviors/orgm.js" />
+        <option value="$PROJECT_DIR$/public/app/templates/browserTpl.ejs" />
+        <option value="$PROJECT_DIR$/views/browser.html" />
         <option value="$PROJECT_DIR$/postgreconverter.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/public/app/schemas/mloScm.js" />
+        <option value="$PROJECT_DIR$/public/app/schemas/mloDnScm.js" />
+        <option value="$PROJECT_DIR$/public/app/behaviors/login.js" />
+        <option value="$PROJECT_DIR$/public/app/views/viewsFactory.js" />
+        <option value="$PROJECT_DIR$/public/app/schemas/menu.js" />
+        <option value="$PROJECT_DIR$/public/app/router.js" />
+        <option value="$PROJECT_DIR$/public/app/templates/loginTpl.ejs" />
+        <option value="$PROJECT_DIR$/views/mksite.ejs" />
+        <option value="$PROJECT_DIR$/public/app/app.js" />
+        <option value="$PROJECT_DIR$/public/pgapp/router.js" />
+        <option value="$PROJECT_DIR$/core/commonDB.js" />
         <option value="$PROJECT_DIR$/routes/orgm/orgmRoute.js" />
+        <option value="$PROJECT_DIR$/routes/mksite/mainroute.js" />
+        <option value="$PROJECT_DIR$/public/pgapp/models/session.js" />
+        <option value="$PROJECT_DIR$/core/pgDB.js" />
+        <option value="$PROJECT_DIR$/user.js" />
+        <option value="$PROJECT_DIR$/passport.js" />
+        <option value="$PROJECT_DIR$/config.js" />
       </list>
     </option>
   </component>
@@ -481,7 +479,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="orgm" />
+              <option name="myItemId" value="mksite" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -513,7 +511,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="pgapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -531,11 +529,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="pgapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="behaviors" />
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -545,7 +543,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../old/nodemksite" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../reality_refactoring/reality" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
@@ -553,21 +551,21 @@
     <property name="LayoutCode.rearrangeEntriesEJS" value="false" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="197" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="196" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="231" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="229" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="238" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="236" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1136" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1128" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="208" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="207" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="228" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="226" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="234" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="232" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1132" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1124" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="LayoutCode.rearrangeEntriesPlain text" value="false" />
     <property name="LayoutCode.rearrangeEntriesJSON" value="false" />
@@ -579,11 +577,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/pgapp" />
       <recent name="$PROJECT_DIR$/bower_components" />
       <recent name="$PROJECT_DIR$/public/app/behaviors" />
       <recent name="$PROJECT_DIR$/public/app/templates" />
       <recent name="$PROJECT_DIR$/public/app/collections" />
-      <recent name="$PROJECT_DIR$/core" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\devel\nodemksite\public\stylesheets\deathmonitor" />
@@ -591,7 +589,7 @@
       <recent name="C:\devel\nodemksite\views\phonelist" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.www">
+  <component name="RunManager" selected="Node.js.tst.js">
     <configuration default="false" name="app" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/bin/node" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
       <RunnerSettings RunnerId="NodeJS.debug" />
       <RunnerSettings RunnerId="NodeJS.run" />
@@ -723,16 +721,16 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33079848" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19432314" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19432314" sideWeight="0.49867374" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33240741" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11481482" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19432314" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24907407" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298479" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24904943" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962963" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3314815" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -740,27 +738,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2037037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39166668" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19432314" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298479" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19432314" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19432314" sideWeight="0.49867374" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30185184" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -818,13 +795,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/routes/mksite/mainroute.js</url>
-          <line>528</line>
+          <line>545</line>
           <option name="timeStamp" value="684" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/postgreconverter.js</url>
-          <line>82</line>
-          <option name="timeStamp" value="751" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/routes/orgm/orgmRoute.js</url>
@@ -836,183 +808,19 @@
           <line>725</line>
           <option name="timeStamp" value="754" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/postgreconverter.js</url>
+          <line>97</line>
+          <option name="timeStamp" value="775" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="755" />
+      <option name="time" value="787" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/app/templates/monitoringTpl.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11809045" vertical-offset="1544" max-vertical-offset="2772">
-          <caret line="91" column="54" selection-start-line="91" selection-start-column="54" selection-end-line="91" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sandbox.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11430">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.5333333" vertical-offset="4266" max-vertical-offset="8856">
-          <caret line="785" column="0" selection-start-line="785" selection-start-column="0" selection-end-line="785" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/views/viewsFactory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="41" max-vertical-offset="864">
-          <caret line="29" column="48" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/schemas/menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
-          <caret line="3" column="59" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/models/session.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48786408" vertical-offset="606" max-vertical-offset="2160">
-          <caret line="63" column="40" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/models/kadry.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
-          <caret line="7" column="7" selection-start-line="4" selection-start-column="15" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/models/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/views/check.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="666">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/views/kadry.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
-          <caret line="16" column="15" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/views/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/views/menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/templates/adminTpl.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="1620">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/marionette/lib/backbone.marionette.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33290654" vertical-offset="34138" max-vertical-offset="68850">
-          <caret line="1911" column="17" selection-start-line="1911" selection-start-column="4" selection-end-line="1911" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/models/settings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1092233" vertical-offset="0" max-vertical-offset="824">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/views/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.0" vertical-offset="0" max-vertical-offset="972">
-          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/behaviors/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.8" vertical-offset="402" max-vertical-offset="1638">
-          <caret line="37" column="26" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/collections/settings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28398058" vertical-offset="0" max-vertical-offset="824">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/collections/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="558">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/views/settings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="846">
-          <caret line="31" column="19" selection-start-line="27" selection-start-column="12" selection-end-line="31" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/templates/settingsTpl.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="792">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/views/admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.066667" vertical-offset="124" max-vertical-offset="1386">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1314" max-vertical-offset="2196">
-          <caret line="131" column="61" selection-start-line="131" selection-start-column="61" selection-end-line="131" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/app/schemas/datesScm.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
@@ -1041,20 +849,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1926">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="1440">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/behaviors/orgm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.333333" vertical-offset="884" max-vertical-offset="2232">
-          <caret line="68" column="21" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1097,6 +891,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="607" max-vertical-offset="2376">
           <caret line="125" column="0" selection-start-line="124" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1104,14 +899,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="5454" max-vertical-offset="59058">
           <caret line="1929" column="84" selection-start-line="1929" selection-start-column="84" selection-end-line="1929" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1602" max-vertical-offset="2682">
-          <caret line="103" column="45" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -1131,18 +918,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/vowPromisify.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
-          <caret line="9" column="66" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/vow-node/lib/vow-node.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1150,6 +930,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.54563105" vertical-offset="1627" max-vertical-offset="2142">
           <caret line="106" column="23" selection-start-line="106" selection-start-column="23" selection-end-line="106" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1157,37 +938,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2460733" vertical-offset="5392" max-vertical-offset="6156">
           <caret line="310" column="0" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/commonDB.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.09714286" vertical-offset="102" max-vertical-offset="1152">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1134">
-          <caret line="494" column="15" selection-start-line="487" selection-start-column="11" selection-end-line="494" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/postgreconverter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="756" max-vertical-offset="2376">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1200,41 +950,283 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/templates/browserTpl.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="162">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/views/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11523688" vertical-offset="0" max-vertical-offset="781">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/templates/monitoringTpl.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2772">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/schemas/mprPDScm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3132">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="168" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/views/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3522505" vertical-offset="0" max-vertical-offset="1022">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/behaviors/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.0842105" vertical-offset="1472" max-vertical-offset="2232">
+          <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/behaviors/orgm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1229" max-vertical-offset="2232">
+          <caret line="91" column="23" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/schemas/mloDnScm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1008">
+          <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/views/viewsFactory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="122" max-vertical-offset="882">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="e#1171#2146#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/schemas/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+          <caret line="14" column="78" selection-start-line="14" selection-start-column="78" selection-end-line="14" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/views/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/templates/loginTpl.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4665757" vertical-offset="0" max-vertical-offset="1062">
+          <caret line="19" column="151" selection-start-line="19" selection-start-column="151" selection-end-line="19" selection-end-column="151" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/baserouter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="760">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/browser.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.0" vertical-offset="0" max-vertical-offset="324">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding>
+            <marker date="1435664920519" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1435664920519" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1435664920519" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1435664920519" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/mksite.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.0" vertical-offset="0" max-vertical-offset="450">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="1440">
+          <caret line="64" column="3" selection-start-line="0" selection-start-column="0" selection-end-line="74" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pgapp/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="760">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="2754">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pgapp/behaviors/orgm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2232">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/vowPromisify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
+          <caret line="9" column="66" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1413" max-vertical-offset="2448">
+          <caret line="128" column="21" selection-start-line="128" selection-start-column="21" selection-end-line="128" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!block;n#routePromise#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/commonDB.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1152">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="7203" max-vertical-offset="9612">
+          <caret line="417" column="42" selection-start-line="417" selection-start-column="42" selection-end-line="417" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pgapp/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1440">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pgapp/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2754">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/mksite/mainroute.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-71.7" vertical-offset="585" max-vertical-offset="2862">
-          <caret line="484" column="58" selection-start-line="484" selection-start-column="58" selection-end-line="484" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="490" max-vertical-offset="1476">
+          <caret line="50" column="27" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="27" />
           <folding>
-            <element signature="e#1504#2887#0" expanded="false" />
-            <element signature="e#2931#3857#0" expanded="false" />
-            <element signature="e#3926#7501#0" expanded="false" />
-            <element signature="e#8156#9743#0" expanded="false" />
-            <element signature="e#9907#10023#0" expanded="false" />
-            <element signature="e#10057#10180#0" expanded="false" />
-            <element signature="e#10213#10334#0" expanded="false" />
-            <element signature="e#10359#10442#0" expanded="false" />
-            <element signature="e#10450#11806#0" expanded="false" />
-            <element signature="e#12356#12537#0" expanded="false" />
-            <element signature="e#12782#13692#0" expanded="false" />
-            <element signature="e#14984#17471#0" expanded="false" />
-            <element signature="e#17523#18496#0" expanded="false" />
-            <element signature="e#18547#19302#0" expanded="false" />
-            <element signature="e#19924#38535#0" expanded="false" />
+            <element signature="e#1884#3267#0" expanded="false" />
+            <element signature="e#3311#4237#0" expanded="false" />
+            <element signature="e#4306#8100#0" expanded="false" />
+            <element signature="e#8165#20332#0" expanded="false" />
+            <element signature="e#8755#10342#0" expanded="false" />
+            <element signature="e#10506#10622#0" expanded="false" />
+            <element signature="e#10656#10779#0" expanded="false" />
+            <element signature="e#10812#10933#0" expanded="false" />
+            <element signature="e#10958#11041#0" expanded="false" />
+            <element signature="e#11049#12405#0" expanded="false" />
+            <element signature="e#12955#13136#0" expanded="false" />
+            <element signature="e#13381#14291#0" expanded="false" />
+            <element signature="e#15583#18070#0" expanded="false" />
+            <element signature="e#18122#19095#0" expanded="false" />
+            <element signature="e#19146#19901#0" expanded="false" />
+            <element signature="e#20379#20462#0" expanded="false" />
+            <element signature="e#20523#39134#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pgapp/models/session.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="864" max-vertical-offset="2286">
+          <caret line="66" column="36" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/postgreconverter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2052">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/pgDB.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="808">
+          <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/orgm/orgmRoute.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4361979" vertical-offset="655" max-vertical-offset="1692">
-          <caret line="737" column="21" selection-start-line="737" selection-start-column="21" selection-end-line="737" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="10377" max-vertical-offset="11124">
+          <caret line="1181" column="67" selection-start-line="1181" selection-start-column="67" selection-end-line="1181" selection-end-column="67" />
           <folding>
             <element signature="e#452#522#0" expanded="false" />
             <element signature="e#539#659#0" expanded="false" />
             <element signature="e#545#657#0" expanded="false" />
             <element signature="n#!!block;n#isLoggedIn#0" expanded="false" />
             <element signature="n#!!block;n#isAdminIn#0" expanded="false" />
-            <element signature="e#1188#1250#0" expanded="false" />
             <element signature="e#26479#28072#0" expanded="false" />
             <element signature="e#26721#27717#0" expanded="false" />
             <element signature="e#27007#27705#0" expanded="false" />
@@ -1248,10 +1240,7 @@
             <element signature="e#28573#28828#0" expanded="false" />
             <element signature="e#28595#28781#0" expanded="false" />
             <element signature="e#28893#29728#0" expanded="false" />
-            <element signature="e#29141#29185#0" expanded="false" />
-            <element signature="e#29538#29719#0" expanded="false" />
-            <element signature="e#29561#29648#0" expanded="false" />
-            <element signature="e#29654#29709#0" expanded="false" />
+            <element signature="e#29798#32017#0" expanded="false" />
             <element signature="e#30179#30297#0" expanded="false" />
             <element signature="e#31666#31735#0" expanded="false" />
             <element signature="e#31882#31967#0" expanded="false" />
@@ -1336,8 +1325,36 @@
             <element signature="e#49085#49154#0" expanded="false" />
             <element signature="e#49564#49656#0" expanded="false" />
             <element signature="e#49694#49796#0" expanded="false" />
-            <element signature="e#49877#49918#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="e#711#19993#0" expanded="false" />
+            <element signature="e#19994#70825#0" expanded="false" />
+            <element signature="e#70826#122374#0" expanded="false" />
+            <element signature="e#122375#122410#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/passport.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29157668" vertical-offset="0" max-vertical-offset="1278">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
