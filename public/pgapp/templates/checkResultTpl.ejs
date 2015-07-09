@@ -1,7 +1,7 @@
 
 <table class=" table table-hover table-bordered table-condensed">
 
-<thead>
+<thead align="center">
     <%
         var date = false;
     mapping.forEach(function(tr){
@@ -17,7 +17,7 @@
             }
 
          tr.forEach(function(td){
-         %><th align="center" <%
+         %><th <%
              if('rowspan' in td){
                  %>rowspan="<%=td.rowspan%>"<%
              }
@@ -32,13 +32,16 @@
     })
 
  %>
-<tr><th valign="center" align="center">1</th>
+<tr><th></th>
 <%
  columns.forEach(function(col){
-     %>
-    <th align="center"><%=col%></th>
+         if(!isNaN(parseInt(col))){ %>
 
-    <%
+    <th ><%=col%></th>
+
+    <%} else {
+        %><th ></th><%
+    }
 
  })
   %>
@@ -47,27 +50,26 @@
 </thead>
     <tbody>
         <%data.forEach(function(itm){
-            var style='';
-            var n = 'gr'+columns[1];
-            if(itm.rows[n]=='-')
-                style = 'class="danger"';
+        console.log(itm);
+        if(date){
+        %><td valign="center" align="center" ><%=moment(itm.inputdate).format('DD.MM.YYYY')%></td>
+        <%
+        }
+        columns.forEach(function(col){
+        var n;
+        if(!isNaN(parseInt(col)))
+            n = 'gr'+col;
+        else
+            n = col;
+        %>
 
-                    %><tr <%= style%> >
-            <td >
-                <%=moment(parseInt(itm.inputdate)).format('DD.MM.YYYY')%>
-            </td>
-            <%
-                if(all){
-                %><td ><%= (itm.rows.mo)?itm.rows.mo:'-'%></td><%
-                }
+        <td valign="center" align="center" ><%=(parseInt(itm[n])==0)?"":itm[n]%></td>
+        <%}) %>
 
-             columns.forEach(function(col){
-                 var n = 'gr'+col;
 
-                 %>
 
-            <td valign="center" align="center" ><%=(parseInt(itm.rows[n])==0)?"":itm.rows[n]%></td>
-            <%}) %>
+
+
          </tr><%});%>
     </tbody>
 </table>

@@ -37,92 +37,90 @@ var KadryBeh = Mn.Behavior.extend({
         });
 
     },
+
+    countInputs: function(allsum,val,r,c){
+
+        var elem = '#r';
+        var elemAll = '#r';
+
+        if(["4","5"].indexOf(c)>=0){
+            var el = '#r'+r+'c3';
+            if(el in allsum)
+                allsum[el] += parseInt(val);
+            else
+                allsum[el] = parseInt(val);
+            this.countInputs(allsum,val,r,3);
+        }
+        if(r>=55 && r<=74) {
+            switch (r % 4) {
+                case 3:
+                    elem += '51c' + c;
+                    break;
+                case 0:
+                    elem += '52c' + c;
+                    break;
+                case 1:
+                    elem += '53c' + c;
+                    break;
+                case 2:
+                    elem += '54c' + c;
+                    break;
+            }
+            if(elem in allsum)
+                allsum[elem] += parseInt(val);
+            else
+                allsum[elem] = parseInt(val);
+        }
+        switch (r % 4) {
+            case 3:
+                elemAll += '3c' + c;
+                break;
+            case 0:
+                elemAll += '4c' + c;
+                break;
+            case 1:
+                elemAll += '5c' + c;
+                break;
+            case 2:
+                elemAll += '6c' + c;
+                break;
+        }
+        if(elemAll in allsum)
+            allsum[elemAll] += parseInt(val);
+        else
+            allsum[elemAll]= parseInt(val);
+    },
     chginput: function (e) {
         if(e.currentTarget.validity.patternMismatch)
             return;
         var allsum={};
-        var cnt = function(that){
-            var inp = $(that)[0];
-            if($(that).attr('hdr')=="")
-                return false;
-            if(inp.validity.patternMismatch)
-                return false;
-            if(isNaN(parseInt(inp.value)))
-                return false;
-            var elemid = inp.id;
-            var elem = '#r';
-            var elemAll = '#r';
-            var r = parseInt(elemid.substring(1,elemid.indexOf('c')));
-            var c = parseInt(elemid.substring(elemid.indexOf('c')+1));
-            if(r>=55 && r<=74) {
-                switch (r % 4) {
-                    case 3:
-                        elem += '51c' + c;
-                        break;
-                    case 0:
-                        elem += '52c' + c;
-                        break;
-                    case 1:
-                        elem += '53c' + c;
-                        break;
-                    case 2:
-                        elem += '54c' + c;
-                        break;
-                }
-                if(elem in allsum)
-                    allsum[elem] += parseInt(inp.value);
-                else
-                    allsum[elem] = parseInt(inp.value);
-            }
-            var topsum = function(r,c,elemAll,allsum,val){
-                switch (r % 4) {
-                    case 3:
-                        elemAll += '3c' + c;
-                        break;
-                    case 0:
-                        elemAll += '4c' + c;
-                        break;
-                    case 1:
-                        elemAll += '5c' + c;
-                        break;
-                    case 2:
-                        elemAll += '6c' + c;
-                        break;
-                }
-                if(elemAll in allsum)
-                    allsum[elemAll] += val;
-                else
-                    allsum[elemAll]= val;
-            };
-
-
-            topsum(r,c,elemAll,allsum,parseInt(inp.value));
-            return true;
-        };
-        $('form input[type="text"]:enabled').each(function(){
-            if(!cnt(this))
-                return;
-            var elemid = $(this)[0].id;
-            var r = parseInt(elemid.substring(1,elemid.indexOf('c')));
-            var c = parseInt(elemid.substring(elemid.indexOf('c')+1));
+        var curinp={};
+        var suminp={};
+        curinp["#"+e.currentTarget.id]= parseInt(e.currentTarget.value);
+        var _this = this;
+        $('form input[hdr!=""]').each(function(){
             var inp = $(this)[0];
-            if([4,5].indexOf(c)>=0){
-                var el = '#r'+r+'c3';
-
-                if(el in allsum)
-                    allsum[el] += parseInt(inp.value);
-                else
-                    allsum[el] = parseInt(inp.value);
-            }
-        });
-        _.forEach(allsum,function(value,key){
-            $(key).val(value);
-        });
-        $("input[id*='c3']").each(function () {
-            if(!cnt(this))
+            console.log(inp.id);
+            if(inp.validity.patternMismatch){
+                console.log("id - "+inp.id+' err - validity');
+                return;}
+            if(isNaN(parseInt(inp.value))) {
+                console.log("id - "+inp.id+' err - NaN');
                 return;
+            }
+            var elem = '#'+inp.id;
+            if(elem.slice(-1)=="3") {
+                console.log("id - "+inp.id+' err - c3');
+                return;
+            }
+            if(!(elem in curinp))
+                curinp['#'+inp.id] = parseInt(inp.value);
         });
-        _.forEach(allsum,function(value,key){
+        _.forEach(curinp,function(value,key){
+            _this.countInputs(suminp,value,key.slice(0,-2).slice(2),key.slice(-1));
+        });
+        var a=12;
+        _.forEach(suminp,function(value,key){
             $(key).val(value);
         });
 

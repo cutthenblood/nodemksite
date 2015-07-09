@@ -6,11 +6,11 @@ var conf = {
     routesPath: __dirname + '/routes',//путь дл роутов
     viewCache: false,
     port: 3000,
-    mongoConnect: 'mongodb://127.0.0.1:27020/mksite',
+    mongoConnect: 'mongodb://127.0.0.1:27017/mksite',
     pgConnect:'postgres://postgres:admin@localhost/mksite',
     mode:'pg',
     session: {
-        secret: "Fj549t=_s-4g-dfh34uyHdfy54&3450hfgjslfsgfgnpsggpoag0JFj54834thK)=",
+        secret: "phuck",//"Fj549t=_s-4g-dfh34uyHdfy54&3450hfgjslfsgfgnpsggpoag0JFj54834thK)=",
         redis: {
             host: "localhost",
             port: 6379

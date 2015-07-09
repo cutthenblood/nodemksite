@@ -1,20 +1,41 @@
-
+if (typeof define !== 'function') {
+    var define = require('amdefine')(module);
+}
 define(function () {
     return [
         {
             name:'info',
             type: 'info',
-            row:3,
+            row:2,
             col:5,
             fullname:'Мониторинг обеспеченности детского населения',
             uz:false
 
         },
         {
+            name:'inputdate',
+            type: 'date',
+            label: 'мониторинг за'
+
+        },
+        {
+            name:'date',
+            type: 'hidden',
+            label: ''
+        },
+        {
+            name:'mtype',
+            type: 'select',
+            label: 'Тип льготы',
+            values:['Федеральная','Региональная'],
+            rowspan:2
+        },
+        {
             name:'gr2',
             type: 'number',
             required: false,
-            label: 'Обеспечено пациентов с 01.01.2015г (накопительно) / Кол-во (единиц)'
+            label: 'Обеспечено пациентов с 01.01.2015г (накопительно) / Кол-во (единиц)',
+            rowspan:2
         },
         {
             name:'gr3-4',
@@ -40,12 +61,14 @@ define(function () {
             name:'gr5',
             type: 'number',
             required: false,
-            label: 'Находится рецептов на отсроченном обеспечении до 10 дней / Кол-во (единиц)'
+            label: 'Находится рецептов на отсроченном обеспечении до 10 дней / Кол-во (единиц)',
+            rowspan:2
         },{
             name:'gr6',
             type: 'number',
             required: false,
-            label: ' Находится  рецептов на отсроченном обеспечении  свыше 10 дней / Кол-во (единиц)'
+            label: ' Находится  рецептов на отсроченном обеспечении  свыше 10 дней / Кол-во (единиц)',
+            rowspan:2
         }
     ];
 });

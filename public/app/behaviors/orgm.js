@@ -45,7 +45,7 @@ define([
         },
         validateDate: function(){
             var _this = this;
-            this.view.model.validateDate($('#date').data("DateTimePicker").date().startOf('day').valueOf(),function(resp){
+            this.view.model.validateDate($('#mo option:selected').text().trim(),$('#date').data("DateTimePicker").date().startOf('day').valueOf(),function(resp){
                 var data = JSON.parse(resp);
                 if(data.res=="1"){
                     _this.datevalid = true;

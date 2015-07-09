@@ -67,9 +67,9 @@ define([
                 return;
 
             }
-            var util = new Utility({type:type,start:dtStart,end:dtEnd,mo:mo,username:this.view.user.username});
+            var util = new Utility({type:type,start:dtStart,end:dtEnd,mo:mo,userid:this.view.user._id});
             var whoinp = $.ajax({
-                url : '/orgm/whoinput',
+                url : '/getinput',
                 data : util.whoinput(),
                 type : 'POST'
             });

@@ -2,16 +2,19 @@ define([
     'schemas/mprScm',
     'schemas/mprPDScm',
     'schemas/deathmScm',
+    'schemas/mloDnScm'
 
-  ], function(mprSchema,mprPDSchema,deathmSchema){
+  ], function(mprSchema,mprPDSchema,deathmSchema,mlodnSchema){
     function convertSchema(schema,result,columns){
         var _this = this;
         var tr = [];
         schema.forEach(function(itm){
             var td ={};
-            if(itm.type=="info") return;
-            if(itm.type!='subgraphs')
+            if(["number","subgraphs","select" ].indexOf(itm.type)<0) return;
+            if(itm.type=='number')
                 columns.push(parseInt(itm.name.slice(2)));
+            else if(itm.type=='select')
+                columns.push(itm.name);
             if('rowspan' in itm)
                 td.rowspan=itm.rowspan;
             if('colspan' in itm)
@@ -47,6 +50,8 @@ define([
             this.schema = data.schema;
         if(data.inputdate)
             this.inputdate = data.inputdate;
+        if(data.userid)
+            this.userid = data.userid;
         if(data.all)
             this.all = data.all;
         else
@@ -68,6 +73,9 @@ define([
 
                 'deathm': function(){
                     return _this.inputdate.startOf('day').valueOf();
+                },
+                'mloDn': function(){
+                    return _this.inputdate.format('DD.MM.YYYY');
                 }
             };
             return this._switch(callbacks)();
@@ -81,6 +89,14 @@ define([
                     data.start = _this.start.startOf('day').valueOf();
                     data.end = _this.end.startOf('day').valueOf();
                     data.mo=_this.mo;
+                    return data;
+                },
+                'mlodn': function(){
+                    var data = {};
+                    data.type = _this.type;
+                    data.start = _this.start.startOf('day').format("DD.MM.YYYY");
+                    data.end = _this.end.startOf('day').format("DD.MM.YYYY");
+                    data.userid = _this.userid;
                     return data;
                 },
 
@@ -120,6 +136,10 @@ define([
                 'deathm': function(){
                     convertSchema(deathmSchema,mapping,columns);
                     return deathmSchema[0];
+                },
+                'mlodn': function(){
+                    convertSchema(mlodnSchema,mapping,columns);
+                    return mlodnSchema[0];
                 }
             };
             return this._switch(callbacks)();

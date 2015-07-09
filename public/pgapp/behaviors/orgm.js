@@ -17,7 +17,12 @@ define([
             useCurrent: false},
         'deathm':{   format: 'DD.MM.YYYY',
             useCurrent: false,
-            locale: 'ru-RU'}};
+            locale: 'ru-RU'},
+    'mlodn':{
+        format: 'DD.MM.YYYY',
+        useCurrent: false,
+        locale: 'ru-RU'
+    }};
 
     var OrgmBeh = Mn.Behavior.extend({
         /*events: {
@@ -45,7 +50,9 @@ define([
         },
         validateDate: function(){
             var _this = this;
-            this.view.model.validateDate($('#date').data("DateTimePicker").date().startOf('day').valueOf(),function(resp){
+            //todo сделать))
+            _this.datevalid = true;
+            this.view.model.validateDate($('#date').data("DateTimePicker").date().startOf('day').format('DD.MM.YYYY'),function(resp){
                 var data = JSON.parse(resp);
                 if(data.res=="1"){
                     _this.datevalid = true;
@@ -74,10 +81,11 @@ define([
                 this.view.model.set('type',this.view.model._model);
                 var user = this.view.model.get('user');
                 var row={};
-                row["username"]=user.username;
-                row["mo"]=$('#mo option:selected').text().trim().replace(/ {2,}/g,' ');
-                row['date']=new Date();
-                row['date'] =row['date'].valueOf();
+                //row["username"]=user.username;
+                //row["mo"]=$('#mo option:selected').text().trim().replace(/ {2,}/g,' ');
+
+                row['date'] =moment().format('DD.MM.YYYY');
+                row['mtype'] = $('#mtype option:selected').text().trim();
                 $('form input[name^="gr"]').each(
                     function (index) {
                         var input = $(this);
@@ -102,10 +110,13 @@ define([
 
                 } else {
                     console.log('valid');
-                   // this.view.model.save();
+                    this.view.model.unset('info');
+                    this.view.model.unset('table');
+
+                   this.view.model.save();
                     this.scrolltotop();
-                    alert('Ваши данные успешно сохранены!');
-                    Backbone.history.navigate('', { trigger : true });
+                    //alert('Ваши данные успешно сохранены!');
+                   // Backbone.history.navigate('', { trigger : true });
                 }
             }
         }

@@ -21,7 +21,7 @@
       "winston": "latest",
       "ipaddr.js": "0.1.2",
       "moment": "latest",
-      "lodash": "2.4.1",
+      "lodash": "latest",
       "mongodb": "latest",
       "xlsx-template": "0.0.2",
       "toobusy": "latest",

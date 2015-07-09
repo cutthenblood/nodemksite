@@ -10,7 +10,7 @@
      %>
 
     <div class="row">
-        <div class="col-xs-7">
+        <div class="col-md-12">
             <div id="alert"></div>
             <div class="panel panel-default ">
 
@@ -58,23 +58,10 @@
                             </div>
                         </div>
                         <%}%>
-                        <div class="row">
-                            <div class="row">
-                                <div class="form-group">
-                                    <label class="col-xs-2 control-label col-xs-offset-2">мониторинг за</label>
 
-                                    <div class='input-group date col-xs-5' id="date" data-date-format="DD.MM.YYYY">
-                                        <input type='text' class="form-control" name="inputdate"/>
-                                        <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
-                                        </span>
-                                    </div>
-
-                                </div>
-
-                            </div>
-                        </div>
 
                         <% function walk(val){
+                        console.log(val.type);
                                 if(val.type == 'subgraphs')
                         { %>
                         <div class="row">
@@ -84,7 +71,48 @@
                             </div>
                         </div>
                         <% }
-                        else if(val.type!='info'){ %>
+                        else if (val.type == 'select'){
+                            %>
+                        <div class="row">
+                            <div class="form-group">
+                                <label class="col-xs-4 control-label"><%=val.label%></label>
+
+                                <div class="col-xs-4 ">
+                                    <select class="form-control" id="<%=val.name%>" autofocus>
+                                        <%
+                                        val.values.forEach(function(val){
+                                        %>
+                                        <option><%= val %></option>
+                                        <%
+                                        })
+                                           %>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <%
+                        }
+                        else if(val.type=='date'){ %>
+                            <div class="row">
+                                <div class="row">
+                                    <div class="form-group">
+                                        <label class="col-xs-2 control-label col-xs-offset-2"><%= val.label %></label>
+
+                                        <div class='input-group date col-xs-5' id="date" data-date-format="DD.MM.YYYY">
+                                            <input type='text' class="form-control" name="<%= val.name %>"/>
+                                            <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+                                            </span>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div><%
+                        }
+                        else if(['subgraphs','number','text'].indexOf(val.type)>=0){ %>
                         <div class="row">
                             <div class="form-group">
                                 <label class="col-xs-4 control-label"><%= val.label %></label>
@@ -130,6 +158,7 @@
                         <% }
 
                         }
+
                         table.forEach(walk);
                         %>
                         <div class="row">

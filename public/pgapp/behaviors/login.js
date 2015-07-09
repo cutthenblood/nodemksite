@@ -52,7 +52,7 @@ define([
             e.preventDefault();
             var email = $('#email').val();
             var password = $('#password').val();
-            Session.login({'username':$('#userlist').val(),'password':$('input[name=password]').val()},function(err){
+            Session.login({'username':$('#userlist').val(),'password':$('input[name=password]').val(),'division':this.otdel},function(err){
                 if(err)
                 {$('.alert').show();
                     $('.alert').html(err);}
@@ -106,7 +106,7 @@ define([
                 alert(res.responseText);
 
             });
-            window.location = '/orgmRjs';
+            window.location = '/mk';
         }
 
 

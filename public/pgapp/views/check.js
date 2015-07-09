@@ -7,9 +7,10 @@ define([
     'behaviors/check',
     'text!templates/checkTpl.ejs',
     'text!templates/checkResultTpl.ejs',
-    'models/session'
+    'models/session',
+    'models/orgm',
 
-], function($, _, Backbone,Mn,CheckBeh, template,result,Session){
+], function($, _, Backbone,Mn,CheckBeh, template,result,Session,orgmModel){
     var checkView = Mn.LayoutView.extend({
         template: _.template(template),
         resultTemplate: _.template(result),
@@ -20,6 +21,9 @@ define([
         },
         initialize: function(){
             this.user = Session.get('user');
+            var model = new orgmModel();
+            model.set('user',Session.get('user'));
+            this.model = model;
             $('#monitoring').trigger('change');
         },
         onShow: function(){

@@ -396,21 +396,7 @@ module.exports = function (db) {
                     callback('user not exists',null);
                 }
             });
-
-
-            /*if (err) {
-             callback(err, null);
-             } else {
-             if (result.length) {
-             console.log('user exists');
-             callback(null, result[0]);
-             } else {
-             console.log('user not exists');
-             callback(null);
-             }
-             }*/
         });
-
     },
     this.getUserAuth = function (collection, credentials, callback) {
         var _this = this;

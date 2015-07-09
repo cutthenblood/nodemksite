@@ -12,7 +12,8 @@ define(function () {
 
         ],
         mlo:[
-            {name:'Мониторинг обеспеченности детского населения',href:'mloDn'}
+            {name:'Мониторинг обеспеченности детского населения',href:'mloDn'},
+            {name:'menuelem',href:'check',text:'Проверить внесенные данные'}
 
         ],
         admin:[

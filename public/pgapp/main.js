@@ -5,7 +5,7 @@
 require.config({
     paths: {
         jquery: '/jquery/dist/jquery',
-        lodash: '/lodash/lodash',
+        lodash: '/lodash/lodash.min',
         underscore: '/underscore/underscore',
         backbone: '/backbone/backbone',
         marionette:'/marionette/lib/backbone.marionette',

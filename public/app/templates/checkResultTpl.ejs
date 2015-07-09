@@ -1,73 +1,76 @@
+<div class="row">
+    <div class="col-md-8">
+    <table class=" table table-hover table-bordered table-condensed">
 
-<table class=" table table-hover table-bordered table-condensed">
-
-<thead>
-    <%
-        var date = false;
-    mapping.forEach(function(tr){
-        %><tr>
+    <thead>
         <%
-
-            if(!date){
-                %><th rowspan="<%=info.row%>">Дата</th><%
-            date=true;
-            }
-            if(all){
-                %><th rowspan="<%=info.row%>">МО</th><%
-            }
-
-         tr.forEach(function(td){
-         %><th align="center" <%
-             if('rowspan' in td){
-                 %>rowspan="<%=td.rowspan%>"<%
-             }
-             if('colspan' in td){
-            %>colspan="<%=td.colspan%>"<%
-             }
-             %>><%=td.val%></th><%
-         })
-          %>
-        </tr><%
-
-    })
-
- %>
-<tr><th valign="center" align="center">1</th>
-<%
- columns.forEach(function(col){
-     %>
-    <th align="center"><%=col%></th>
-
-    <%
-
- })
-  %>
-
-</tr>
-</thead>
-    <tbody>
-        <%data.forEach(function(itm){
-            var style='';
-            var n = 'gr'+columns[1];
-            if(itm.rows[n]=='-')
-                style = 'class="danger"';
-
-                    %><tr <%= style%> >
-            <td >
-                <%=moment(parseInt(itm.inputdate)).format('DD.MM.YYYY')%>
-            </td>
+            var date = false;
+        mapping.forEach(function(tr){
+            %><tr>
             <%
+
+                if(!date){
+                    %><th rowspan="<%=info.row%>">Дата</th><%
+                date=true;
+                }
                 if(all){
-                %><td ><%= (itm.rows.mo)?itm.rows.mo:'-'%></td><%
+                    %><th rowspan="<%=info.row%>">МО</th><%
                 }
 
-             columns.forEach(function(col){
-                 var n = 'gr'+col;
+             tr.forEach(function(td){
+             %><th align="center" <%
+                 if('rowspan' in td){
+                     %>rowspan="<%=td.rowspan%>"<%
+                 }
+                 if('colspan' in td){
+                %>colspan="<%=td.colspan%>"<%
+                 }
+                 %>><%=td.val%></th><%
+             })
+              %>
+            </tr><%
 
-                 %>
+        })
 
-            <td valign="center" align="center" ><%=(parseInt(itm.rows[n])==0)?"":itm.rows[n]%></td>
-            <%}) %>
-         </tr><%});%>
-    </tbody>
-</table>
+     %>
+    <tr><th valign="center" align="center">1</th>
+    <%
+     columns.forEach(function(col){
+         %>
+        <th align="center"><%=col%></th>
+
+        <%
+
+     })
+      %>
+
+    </tr>
+    </thead>
+        <tbody>
+            <%data.forEach(function(itm){
+                var style='';
+                var n = 'gr'+columns[1];
+                if(itm.rows[n]=='-')
+                    style = 'class="danger"';
+
+                        %><tr <%= style%> >
+                <td >
+                    <%=moment(parseInt(itm.inputdate)).format('DD.MM.YYYY')%>
+                </td>
+                <%
+                    if(all){
+                    %><td ><%= (itm.rows.mo)?itm.rows.mo:'-'%></td><%
+                    }
+
+                 columns.forEach(function(col){
+                     var n = 'gr'+col;
+
+                     %>
+
+                <td valign="center" align="center" ><%=(parseInt(itm.rows[n])==0)?"":itm.rows[n]%></td>
+                <%}) %>
+             </tr><%});%>
+        </tbody>
+    </table>
+</div>
+</div>

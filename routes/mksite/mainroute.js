@@ -12,8 +12,10 @@ var vow = require('vow');
 var _ = require('lodash');
 var bcrypt   = require('bcrypt-nodejs');
 var commonDB = require('./../../core/commonDB.js');
+var pg = require('./../../core/pgDB.js');
 var pako = require('pako');
 var mt = require('moment-timezone');
+
 var salt = function(password){
     return bcrypt.hashSync(password, bcrypt.genSaltSync(8), null);
 };
@@ -52,7 +54,13 @@ module.exports = function (app) {
         if(req.user){
             var user = _.clone(req.user, true);
             user.role = req.user.role;
+            delete user.password;
             user.password = 'guess!!';
+            if('pwd' in user)
+                delete user.pwd;
+            var query = new pg(app.get('pgdb'));
+            query.loginstat({userid:user._id,type:'login',date:moment().utc().format(),ip:req.ip,ips:req.ips,useragent:req.headers['user-agent']})
+                .then(function(e){},function(err){console.log(err)});
             res.send(req.isAuthenticated() ? user : '0');}
         else
             res.send('0');
@@ -143,79 +151,116 @@ module.exports = function (app) {
 
         var date = parseInt(req.body.date);
         var md = moment(date);
+        var mo = req.body.mo;
         var type = req.body.type;
         var dow = md.day();
         var mn = md.month();
         var now = moment();
-       // var pr = calend["2015"][mn.toString()][md.date().toString()].isWorking;
-
+        var data;
+        data = {date: date};
+        if(type == 'mpr'){
+            data.mo=mo;
+            data.collection = 'orgmMpr'
+        }
+        else if (type =='mprPD'){
+            data.mo=mo;
+            data.collection = 'orgmMprPD'
+        }
+        else if(type == 'deathm') {
+            data.collection = 'everyday';
+            data.username = req.user.username;
+        }
         var dbmethods = app.get('dbmethods');
         dbmethods.getSettings('orgm',type,function(err,result){
-            if(result.validateDate){
-                if(type == 'mpr'){
-                    if(now.hour()>11){
-                        errmsg.msg= "Нужно вводить данные до 12";
-                        response.send(JSON.stringify(errmsg));
-                        return;
-                    }else if(now.day()==1 && dow >4){
-                        errmsg.res="1";
-                        response.send(JSON.stringify(errmsg));
-                        return;
-                    } else if((now.day()-dow)==1 && now>=md){
-                        errmsg.res="1";
-                        response.send(JSON.stringify(errmsg));
-                        return;
-                    } else {
-                        errmsg.msg= "Нужно вводить ежедневно за прошедший день";
-                        response.send(JSON.stringify(errmsg));
-                        return;
-                    }
+
+            data.callback= function (err1,result1){
+                if (err1)
+                {
+                    console.log(err);
+                    res.status(500).send("Ошибка");
 
                 }
-                else if(type == 'deathm') {
-                     if(now.hour()>15){//todo was 9
-                        errmsg.msg = "Нужно вводить данные до 10";
-                        response.send(JSON.stringify(errmsg));
-                        return;
-                    }else if(now.day()==1 && dow >4){
-                        errmsg.res="1";
-                        response.send(JSON.stringify(errmsg));
-                        return;
-                    } else if((now.day()-dow)==1 && now>=md){
-                        errmsg.res="1";
-                        response.send(JSON.stringify(errmsg));
-                        return;
-                    } else {
-                        errmsg.msg = "Нужно вводить ежедневно за прошедший день";
-                        response.send(JSON.stringify(errmsg));
-                        return;
-                    }
-                }
-                else if (type =='mprPD'){
-                    if(now.hour()>11){
-                        errmsg.msg = "Нужно вводить данные до 12";
-                        response.send(JSON.stringify(errmsg));
-                        return;
-                    } else  if(now.date()>29 || now.date()<24){
-                        errmsg.msg = "Нужно вводить данные с 24 по 29 число месяца";
-                        response.send(JSON.stringify(errmsg));
-                        return;
-                    } else {
-                        errmsg.res="1";
-                        response.send(JSON.stringify(errmsg));
-                        return;
-                    }
-                }
-            }
-            else {
-                errmsg.res="1";
-                response.send(JSON.stringify(errmsg));
-                return;
-            }
+                if(result1.length==0)
+                    result1=[{}];
 
+                if(!("rows" in result1[0]))
+                    if(result.validateDate){
+                        if(type == 'mpr'){
+                           if(now.valueOf()<date){
+                                errmsg.res="0";
+                                errmsg.msg= "Воод только за прошедшие дни или сегодня";
+                                response.send(JSON.stringify(errmsg));
+                                return;
+                            }
+                            else if(now.hour()>11){
+                                errmsg.msg= "Нужно вводить данные до 12";
+                                response.send(JSON.stringify(errmsg));
+                                return;
+                            }else if(now.day()==1 && dow >4){
+                                errmsg.res="1";
+                                response.send(JSON.stringify(errmsg));
+                                return;
+                            }
+
+                            /*else if(  [0,1].indexOf(now.day()-dow)>=0 && now>=md){
+                             errmsg.res="1";
+                             response.send(JSON.stringify(errmsg));
+                             return;
+                             } */
+                            else {
+                                errmsg.res= "1";
+                                response.send(JSON.stringify(errmsg));
+                                return;
+                            }
+
+                        }
+                        else if(type == 'deathm') {
+                            if(now.hour()>15){//todo was 9
+                                errmsg.msg = "Нужно вводить данные до 10";
+                                response.send(JSON.stringify(errmsg));
+                                return;
+                            }else if(now.day()==1 && dow >4){
+                                errmsg.res="1";
+                                response.send(JSON.stringify(errmsg));
+                                return;
+                            } else if((now.day()-dow)==1 && now>=md){
+                                errmsg.res="1";
+                                response.send(JSON.stringify(errmsg));
+                                return;
+                            } else {
+                                errmsg.msg = "Нужно вводить ежедневно за прошедший день";
+                                response.send(JSON.stringify(errmsg));
+                                return;
+                            }
+                        }
+                        else if (type =='mprPD'){
+                            if(now.hour()>11){
+                                errmsg.msg = "Нужно вводить данные до 12";
+                                response.send(JSON.stringify(errmsg));
+                                return;
+                            } else  if(now.date()>29 || now.date()<24){
+                                errmsg.msg = "Нужно вводить данные с 24 по 29 число месяца";
+                                response.send(JSON.stringify(errmsg));
+                                return;
+                            } else {
+                                errmsg.res="1";
+                                response.send(JSON.stringify(errmsg));
+                                return;
+                            }
+                        }
+                    }
+                    else {
+                        errmsg.res="1";
+                        response.send(JSON.stringify(errmsg));
+                        return;
+                    }
+                else{
+                    errmsg.res="0";
+                    errmsg.msg="данные уже внесены";
+                    response.send(JSON.stringify(errmsg));}
+            };
+            dbmethods.checkDate(data);
         });
-
-
     });
     app.post('/whoinput',isLoggedIn, function (req, response) {
 
@@ -499,6 +544,11 @@ module.exports = function (app) {
              res.status(200).send('logout');
 
         });
+    /*app.get('/logout', function(req, res){
+        req.logout();
+        res.status(200).send('logout');
+
+    });*/
     app.post('/kadry/report/',isAdminIn,function(req,resp){
         console.log('report route');
         var reqdata = JSON.parse(pako.inflate(req.body.cp.split(','),{to:"string"}));
@@ -525,6 +575,8 @@ module.exports = function (app) {
                 var sumall = {};
                 repdataValue.map(function(itm){
                     _.forEach(itm.rows,function(val,key){
+                        if(val==null)
+
                         if(key[0]=='r')
                             if(key in sumall)
                                 sumall[key]+=val;
@@ -926,11 +978,220 @@ module.exports = function (app) {
 
     app.get('/mk', function (req, res) {
         var browser = req.headers['user-agent'];
-        if (browser.indexOf('Chrome') > 0)
+        console.log(browser);
+        if (browser.indexOf('Chrome') > 0 || browser.indexOf('CriOS') > 0)
             res.render('mksite', {appfolder:'pgapp/main'});
         else
             res.render('browser', {});
 
         //res.render('mksite', {});
+    });
+    app.post('/save',isLoggedIn, function(req, res,next) {
+
+        var query = new pg(app.get('pgdb'));
+        try {
+            query.insup(req.body).then(function (e) {
+                    e.promise.then(function(res){
+                        console.log(res.command);
+                    },
+                        function (err) {
+                            console.log(err);
+                        })
+
+
+
+                },
+                function (err) {
+                    console.log(err);
+                });
+        }
+        catch(e){
+            var b=12;
+        }
+
+//        var dbmethods = app.get('dbmethods');
+//        var type = req.body.type;
+//        delete req.body.type;
+//        delete req.body.info;
+//        delete req.body.table;
+//        delete req.body.user;
+//
+//        if (req.body.hasOwnProperty('_id')) {
+//            delete req.body._id;
+//        }
+//        req.body.inputdate = parseInt(req.body.inputdate);
+//        var collection='';
+//        if(type == 'mpr')
+//            collection = 'orgmMpr';
+//        if(type == 'mprPD')
+//            collection = 'orgmMprPD';
+//        if(type == 'deathm')
+//            collection = 'everyday';
+//        dbmethods.insupOrgm(collection,req.body,function (err, results) {
+//            if (err) {
+//                log.error(err);
+//                res.status(500).send();
+//            } else {
+//                res.status(200).send();
+//            }
+//        });
+
+    });
+    app.post('/getinput',isLoggedIn, function (req, response) {
+
+        var query = new pg(app.get('pgdb'));
+        query.getByUser(req.body).then(function(e){
+                var a=12;
+                response.send(JSON.stringify(e.rows));
+
+        },
+        function(err){
+            var b = 12;
+        })
+
+
+
+
+        /*var collection = '';
+
+        var data = {startdate:start,stopdate:end,callback:function(err,result){
+            if (err)
+            {
+                log.info(err);
+                res.status(500).send("Ошибка");
+                return;
+            }
+            if(result.length>0)
+            {
+                var keys = _.keys(result[0]);
+                var curdate = start;
+
+                while (curdate<=end){
+                    console.log(moment(curdate).format('DD.MM.YYYY'));
+                    var dtin = _.findIndex(result,function(itm){
+                        return itm.inputdate == curdate;
+                    });
+                    if(dtin<0){
+                        var row = {inputdate:curdate,rows:{}};
+                        _.forEach(result[0].rows,function(n,key){
+                            row.rows[key] = '-';
+                            row.rows.username = user;
+                            row.rows.mo = mo;
+                        });
+                        result.push(row);
+                    }
+                    if(['mpr','deathm'].indexOf(type)>=0)
+                        curdate = moment(curdate).add(24, 'h').valueOf();
+                    if(type=='mprPD')
+                        curdate = moment(curdate).add(1, 'M').valueOf();
+                }
+                response.send(JSON.stringify(_.sortBy(result,function(itm){
+                    return itm.inputdate;
+                })));
+            }
+            else
+            {
+                console.log("no");
+                response.status(200).send([]);
+            }
+        }};
+        if(type == 'mpr'){
+            data.collection = 'orgmMpr';
+            data.mo = mo;}
+        else if(type == 'mprPD'){
+            data.collection = 'orgmMprPD';
+            data.mo = mo;
+        }
+        else if(type == 'deathm'){
+            data.collection = 'everyday';
+            data.username = mo;
+        }
+
+
+        dbmethods.getOrgmWhoInput(data);*/
+
+    });
+    app.post('/vDate',isLoggedIn, function (req, response) {
+        var errmsg={res:"0",msg:"Ошибка"};
+        var calend = {
+            "2015":{
+                "1":{"1":{"isWorking":2},"2":{"isWorking":2},"5":{"isWorking":2},"6":{"isWorking":2},"7":{"isWorking":2},"8":{"isWorking":2},"9":{"isWorking":2}},
+                "2":{"23":{"isWorking":2}},
+                "3":{"9":{"isWorking":2}},
+                "5":{"1":{"isWorking":2},"4":{"isWorking":2},"11":{"isWorking":2}},
+                "6":{"12":{"isWorking":2}},
+                "11":{"4":{"isWorking":2}}
+            }};
+
+
+
+        var md = moment(req.body.date,'DD.MM.YYYY');
+        var date = parseInt(md.valueOf());
+        var mo = req.body.mo;
+        var type = req.body.type;
+        var dow = md.day();
+        var mn = md.month();
+        var now = moment();
+        var data;
+        data = {date: date};
+        if(type == 'mpr'){
+            data.mo=mo;
+            data.collection = 'orgmMpr'
+        }
+        else if (type =='mprPD'){
+            data.mo=mo;
+            data.collection = 'orgmMprPD'
+        }
+        else if(type == 'deathm') {
+            data.collection = 'everyday';
+            data.username = req.user.username;
+        }
+        var query = new pg(app.get('pgdb'));
+        query.vDate(req.body).then(function(e){
+                if(e.rows.length>0){
+                    if(e.rows[0].validatedate){
+                        if(e.rows[0].indb){
+                            errmsg.res="0";
+                            errmsg.msg="данные уже внесены";
+                            response.send(JSON.stringify(errmsg));
+                        } else{
+                            if(type == 'mlodn'){
+                                if(now.valueOf()<date){
+                                    errmsg.res="0";
+                                    errmsg.msg= "Воод только за прошедшие дни или сегодня";
+                                    response.send(JSON.stringify(errmsg));
+                                    return;
+                                }
+                                else if(now.hour()>11){
+                                    errmsg.msg= "Нужно вводить данные до 12";
+                                    response.send(JSON.stringify(errmsg));
+                                    return;
+                                }else if(now.day()==1 && dow >4){
+                                    errmsg.res="1";
+                                    response.send(JSON.stringify(errmsg));
+                                    return;
+                                }
+                                else {
+                                    errmsg.res= "1";
+                                    response.send(JSON.stringify(errmsg));
+                                    return;
+                                }
+
+                            }
+                        }
+
+                    }
+                    else {
+                        errmsg.res="1";
+                        response.send(JSON.stringify(errmsg));
+                        return;
+                    }
+                }
+
+        },
+        function(err){
+            console.log(err);
+        });
+
     });
 };

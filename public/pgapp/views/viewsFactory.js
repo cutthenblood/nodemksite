@@ -1,7 +1,7 @@
 // Filename: views/viewsFactory
 define([
 
-    'lodash',
+    'underscore',
     'backbone',
     'marionette',
     'schemas/mprScm',
@@ -17,7 +17,7 @@ define([
     'datepicker'
 ], function( _, Backbone,Mn, mprscm,mprPDscm,deathmscm,infoMes,mloDn,orgmModel,Session,OrgmBeh,template,validator,picker){
 
-    var schemas = {'mpr':mprscm,'mprPD':mprPDscm,'deathm':deathmscm,'mloDn':mloDn};
+    var schemas = {'mpr':mprscm,'mprPD':mprPDscm,'deathm':deathmscm,'mlodn':mloDn};
 
     var orgmView = Mn.ItemView.extend({
         template : _.template(template),
@@ -39,38 +39,4 @@ define([
     });
     return orgmView;
 
-
-    /*var viewsFactory = function(type){
-        this._type = type;
-        this.generate = function(user,scm){
-            var view = BaseView.extend({
-                 template: _.template(template),
-                initialize: function(user){
-                  this.user = user;
-                },
-                render: function(){
-                    $('#content').html( this.template({user:this.user,'table':scm}) );
-                }
-            });
-            return new view(user);
-        }
-    };
-    viewsFactory.prototype.getView = function(user){
-        var _this = this;
-
-        switch(this._type){
-            case 'mpr': {
-                return _this.generate(user,mprscm);
-
-                break;}
-            case 'mprPD': {
-                return _this.generate(user,mprPDscm);
-                break;}
-            case 'deathm': {
-                return _this.generate(user,deathmscm);
-                break;}
-        }
-
-    };
-    return viewsFactory;*/
 });

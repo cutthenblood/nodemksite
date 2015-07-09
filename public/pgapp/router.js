@@ -20,6 +20,7 @@ define([
             //"main":         "main",
             "login":        "login",
             "logout":       "logout",
+            "mloDn":        "mloDn",
             "mpr":          "mpr",
             "mprPD":        "mprPD",
             "check":        "check",
@@ -48,7 +49,7 @@ define([
             if(isAuth){
                 var user = Session.get('user');
 
-                var accessPrivil = this.defaultPages.concat(user.privileges.webfaceaccess);
+                var accessPrivil = this.defaultPages.concat(user.webfaceaccess);
                 //if(path = "#admin")
                  //   Session.set('admin',)
 
@@ -80,7 +81,7 @@ define([
             Backbone.history.start();
         },
         notFound: function(){
-            window.location = '/orgmRjs';
+            window.location = '/mk';
         },
         menu: function(callback) {
            /* //console.log('main');
@@ -115,6 +116,9 @@ define([
         },
         mpr: function(){
             this.mainview.getRegion('content').show(new ViewsFactory({type:'mpr'}));
+        },
+        mloDn: function(){
+            this.mainview.getRegion('content').show(new ViewsFactory({type:'mlodn'}));
         },
         mprPD: function(){
             this.mainview.getRegion('content').show(new ViewsFactory({type:'mprPD'}));

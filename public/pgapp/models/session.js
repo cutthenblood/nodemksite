@@ -99,6 +99,7 @@ define([
 
 
         getAuth : function(callback){
+            console.log('getAuth');
             var that = this;
             var Session = this.fetch();
 

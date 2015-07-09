@@ -3,7 +3,7 @@ define([
     'backbone'
 ], function(Backbone){
     var Model = Backbone.Model.extend({
-        url: '/orgm/save',
+        url: '/save',
         setModel: function(name){
             this._model = name;
         },
@@ -141,10 +141,11 @@ define([
 
         },
         validateDate: function(date,callback){
+            var user = this.get('user');
 
-            var data = {type: this._model,date:date};
+            var data = {type: this._model,inputdate:date,division:user.division,userid:user._id};
             var vd = $.ajax({
-                url : '/validateDate',
+                url : '/vDate',
                 data : data,
                 type : 'POST'
             });

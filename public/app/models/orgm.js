@@ -140,9 +140,9 @@ define([
             }
 
         },
-        validateDate: function(date,callback){
+        validateDate: function(mo,date,callback){
 
-            var data = {type: this._model,date:date};
+            var data = {mo:mo,type: this._model,date:date};
             var vd = $.ajax({
                 url : '/validateDate',
                 data : data,

@@ -20,19 +20,7 @@ var pg = require('pg');
 var app = express();
 var server = require('http').createServer(app);
 app.set('conf', conf);
-app.use(session({
-    store: new RedisStore({ host: conf.session.redis.host, port: conf.session.redis.port, ttl: 604800 }),
-    secret: conf.session.secret,
-    key: 'session',
-    resave: true,
-    saveUninitialized: true,
-    cookie: { maxAge: 604800000 },
-    fail: function (data, accept) {
-        accept(null, true);
-    },
-    success: function (data, accept) {
-        accept(null, true);
-    }}));
+
 
 app.set('router',express.Router());
 
@@ -48,7 +36,19 @@ app.use(bodyParser.urlencoded());
 app.use(cookieParser());
 app.use(express.static(pathbuiledr.join(__dirname, 'public')));
 app.use(express.static(pathbuiledr.join(__dirname, 'bower_components')));
-
+app.use(session({
+    store: new RedisStore({ host: conf.session.redis.host, port: conf.session.redis.port, ttl: 604800 }),
+    secret: conf.session.secret,
+    key: 'session',
+    resave: true,
+    saveUninitialized: true,
+    cookie: { maxAge: 604800000 },
+    fail: function (data, accept) {
+        accept(null, true);
+    },
+    success: function (data, accept) {
+        accept(null, true);
+    }}));
 
 app.use(function (err, req, res, next) {
     console.log("this one ");
@@ -132,7 +132,7 @@ module.exports =  function() {
         app.use(function (req, res) {
             res.status(404).end('error');
         });
-        app.use(function(req,res,next){
+        /*app.use(function(req,res,next){
             var browser = req.headers['user-agent'];
             console.log(browser);
             if (browser.indexOf('Chrome')>-1 || browser.indexOf('Safari')>-1 || browser.indexOf('Opera')>-1 || browser.toLowerCase().indexOf('firefox') >-1)
@@ -141,7 +141,7 @@ module.exports =  function() {
             }
             else
                 res.status(503).send('эта версия браузера не поддерживается,обратитесь к системноу администатору для установки google chrome  <a href="https://www.google.ru/intl/ru/chrome/browser/index.html">https://www.google.ru/intl/ru/chrome/browser/index.html</a>, так же поддерживаются последние версии Opera, Yandex Browser, Safari, FireFox');
-        });
+        });*/
         app.use(function(err, req, res, next) {
             if(err.message){
                 log.error(err.message);

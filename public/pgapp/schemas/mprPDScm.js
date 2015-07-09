@@ -11,6 +11,7 @@ define(function () {
 
         },
 
+
         {
             name:'gr4-6',
             type: 'subgraphs',

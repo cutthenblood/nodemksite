@@ -1186,6 +1186,15 @@ module.exports = function (app) {
 
         //res.render('mksite', {});
     });
+    app.get('/orgm', function (req, res) {
+        var browser = req.headers['user-agent'];
+        if (browser.indexOf('Chrome') > 0 || browser.indexOf('CriOS') > 0)
+            res.render('mksite', {appfolder:'app/main'});
+        else
+            res.render('browser', {});
+
+        //res.render('mksite', {});
+    });
 
 };
 
