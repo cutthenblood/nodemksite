@@ -5,7 +5,7 @@ var pg = require('pg');
 var sutil = require('./scmUtil.js');
 var mloDnScm = require('./../public/pgapp/schemas/mloDnScm.js');
 var promiseQuery = function(obj,config,values){
-    console.log('promiseQuery - '+config);
+    //console.log('promiseQuery - '+config);
     var fn = vowNode.promisify(pg.Client.prototype.query);
     if(values)
         return fn.call(obj, config,values);
@@ -21,16 +21,26 @@ module.exports  = function(db){
     this.done = function(){
         this._db.done();
     };
-    this.getUserAuth = function (username,division) {
+    this.getUserAuth = function (id,division) {
         var _this = this;
         return promiseQuery(this._db.db,
-            'select users.id as _id, privileges.webfaceaccess, users.username, users.pwd, divisions.name as division, monitorings.monitorings ' +
+            'select users.id as _id, privileges.webfaceaccess, users.username, users.pwd, divisions.name as division, monitorings.monitorings,roles.role ' +
                 'from users ' +
                 'join divisions on users.division = divisions.id ' +
-                'join privileges on divisions.id = privileges.divisionid ' +
+                'join roles on users.role = roles.id ' +
+                'join privileges on divisions.id = privileges.divisionid and roles.id = privileges.role ' +
                 'join monitorings on divisions.id = monitorings.division ' +
-                'where users.username= $1 and divisions.name = $2',
-            [username,division]);
+                'where users.id= $1 and divisions.name = $2',
+            [id,division]);
+    },
+    this.getUsersByDivision = function(division){
+        return promiseQuery(this._db.db,
+                'select users.id, users.username ' +
+                'from users ' +
+                'join divisions on users.division = divisions.id ' +
+                'where divisions.name = $1' +
+                'ORDER BY users.role Desc, users.username ASC ;',
+            [division]);
     },
     this.getUserById = function (id) {
         return promiseQuery(this._db.db,
@@ -58,7 +68,7 @@ module.exports  = function(db){
 
         /*select * from (select 'mlodn'::text as monitoring, userid, moid, inputdate from mlodn) as t
         left join permissons as t2  on t2.monitoring = t.monitoring*/
-        this._db.db.query
+        //this._db.db.query
 
         var query = ["select * from (select '",data.type, "'::text as monitoring, userid, moid, inputdate from mlodn ",
             ' where (userid = $1 and inputdate = $2 ',(data.moid)?'and moid = $3 ':'',')',

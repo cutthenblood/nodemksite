@@ -12,7 +12,12 @@ define(function () {
             locale: 'ru-RU'},
         'mlodn':{   format: 'DD.MM.YYYY',
             useCurrent: false,
-            locale: 'ru-RU'}
+            locale: 'ru-RU'},
+        'mlodn':{
+            format: 'DD.MM.YYYY',
+            useCurrent: false,
+            locale: 'ru-RU'
+        }
     };
 
 

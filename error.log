@@ -762,3 +762,75 @@
 {"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] error: relation \"monitoings\" does not exist","timestamp":"2015-07-08T07:12:30.267Z"}
 {"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] cannot auth","timestamp":"2015-07-08T07:12:30.269Z"}
 {"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot call method 'then' of undefined","timestamp":"2015-07-09T07:49:43.978Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-07-09T08:35:04.624Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] not found","timestamp":"2015-07-09T08:35:04.625Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-07-09T08:38:39.255Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] not found","timestamp":"2015-07-09T08:38:39.255Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-07-09T08:38:48.386Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] not found","timestamp":"2015-07-09T08:38:48.386Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot read property 'done' of undefined","timestamp":"2015-07-09T09:03:57.957Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot read property 'done' of undefined","timestamp":"2015-07-09T09:03:59.901Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot read property 'done' of undefined","timestamp":"2015-07-09T09:04:55.346Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot read property 'done' of undefined","timestamp":"2015-07-09T09:05:51.188Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot call method 'pop' of undefined","timestamp":"2015-07-09T09:13:06.735Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object #<Object> has no method 'pop'","timestamp":"2015-07-09T09:14:24.215Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] error: permission denied for relation users","timestamp":"2015-07-09T09:22:25.460Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] cannot auth","timestamp":"2015-07-09T09:22:25.462Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot read property 'done' of undefined","timestamp":"2015-07-09T09:52:03.687Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot read property 'done' of undefined","timestamp":"2015-07-09T09:52:06.399Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] error: syntax error at or near \"monitorings\"","timestamp":"2015-07-09T11:33:28.116Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] cannot auth","timestamp":"2015-07-09T11:33:28.117Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-07-09T11:33:39.735Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] not found","timestamp":"2015-07-09T11:33:39.737Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-07-09T11:33:41.163Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] not found","timestamp":"2015-07-09T11:33:41.164Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-07-09T11:33:42.911Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] not found","timestamp":"2015-07-09T11:33:42.911Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object [object Object] has no method 'getUsersByDivision'","timestamp":"2015-07-09T12:32:26.612Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object [object Object] has no method 'getUsersByDivision'","timestamp":"2015-07-09T12:32:37.005Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object [object Object] has no method 'getUsersByDivision'","timestamp":"2015-07-09T12:32:37.008Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object [object Object] has no method 'getUsersByDivision'","timestamp":"2015-07-09T12:32:46.837Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object [object Object] has no method 'getUsersByDivision'","timestamp":"2015-07-09T12:33:00.195Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object [object Object] has no method 'getUsersByDivision'","timestamp":"2015-07-09T12:33:00.202Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object [object Object] has no method 'getUsersByDivision'","timestamp":"2015-07-09T12:38:06.324Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object [object Object] has no method 'getUsersByDivision'","timestamp":"2015-07-09T12:38:12.664Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object [object Object] has no method 'getUsersByDivision'","timestamp":"2015-07-09T12:38:19.024Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object [object Object] has no method 'getUsersByDivision'","timestamp":"2015-07-09T12:38:21.817Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object [object Object] has no method 'getUsersByDivision'","timestamp":"2015-07-09T12:38:24.134Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object [object Object] has no method 'getUsersByDivision'","timestamp":"2015-07-09T12:38:40.186Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object [object Object] has no method 'getUsersByDivision'","timestamp":"2015-07-09T12:39:44.547Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object [object Object] has no method 'getUsersByDivision'","timestamp":"2015-07-09T12:39:55.921Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object [object Object] has no method 'getUsersByDivision'","timestamp":"2015-07-09T12:40:23.408Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object [object Object] has no method 'getUsersByDivision'","timestamp":"2015-07-09T12:40:28.358Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object [object Object] has no method 'getUsersByDivision'","timestamp":"2015-07-09T12:40:28.362Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object [object Object] has no method 'getUsersByDivision'","timestamp":"2015-07-09T12:51:38.630Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object [object Object] has no method 'getUsersByDivision'","timestamp":"2015-07-09T12:51:38.641Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object [object Object] has no method 'getUsersByDivision'","timestamp":"2015-07-09T12:51:45.930Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object [object Object] has no method 'getUsersByDivision'","timestamp":"2015-07-09T12:51:45.934Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object [object Object] has no method 'getUsersByDivision'","timestamp":"2015-07-09T12:51:51.133Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object [object Object] has no method 'getUsersByDivision'","timestamp":"2015-07-09T12:52:23.001Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object [object Object] has no method 'getUsersByDivision'","timestamp":"2015-07-09T13:47:35.691Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object [object Object] has no method 'getUsersByDivision'","timestamp":"2015-07-09T13:50:33.792Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object [object Object] has no method 'getUsersByDivision'","timestamp":"2015-07-09T13:50:36.802Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object [object Object] has no method 'getUsersByDivision'","timestamp":"2015-07-09T13:53:02.612Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object [object Object] has no method 'getUsersByDivision'","timestamp":"2015-07-09T13:53:33.602Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object [object Object] has no method 'getUsersByDivision'","timestamp":"2015-07-09T13:53:38.576Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object [object Object] has no method 'getUsersByDivision'","timestamp":"2015-07-09T13:54:21.731Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object [object Object] has no method 'getUsersByDivision'","timestamp":"2015-07-09T13:54:23.005Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object [object Object] has no method 'getUsersByDivision'","timestamp":"2015-07-09T13:56:06.962Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object [object Object] has no method 'getUsersByDivision'","timestamp":"2015-07-09T13:58:15.226Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object [object Object] has no method 'getUsersByDivision'","timestamp":"2015-07-09T13:58:49.408Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object [object Object] has no method 'getUsersByDivision'","timestamp":"2015-07-09T13:59:47.508Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object [object Object] has no method 'getUsersByDivision'","timestamp":"2015-07-09T14:01:07.915Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object [object Object] has no method 'getUsersByDivision'","timestamp":"2015-07-09T14:07:31.693Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object [object Object] has no method 'getUsersByDivision'","timestamp":"2015-07-09T14:11:17.147Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-07-10T08:21:08.643Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] not found","timestamp":"2015-07-10T08:21:08.644Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] username is not defined","timestamp":"2015-07-10T08:22:59.859Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] username is not defined","timestamp":"2015-07-10T08:23:01.546Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Error: connect ECONNREFUSED","timestamp":"2015-07-10T12:33:11.072Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Error: connect ECONNREFUSED","timestamp":"2015-07-10T12:33:11.075Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Error: connect ECONNREFUSED","timestamp":"2015-07-10T12:33:11.065Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Error: connect ECONNREFUSED","timestamp":"2015-07-10T12:33:11.080Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Error: connect ECONNREFUSED","timestamp":"2015-07-10T12:33:11.075Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Error: connect ECONNREFUSED","timestamp":"2015-07-10T12:33:11.070Z"}

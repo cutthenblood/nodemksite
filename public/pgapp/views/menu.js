@@ -11,10 +11,10 @@ define([
     var MenuView = Mn.ItemView.extend({
         //el:'#menu',
         //template:  _.template(template),
-        template : function(serialized_model) {
+        template : function(sm) {
             return _.template(template)({
-                user:serialized_model.user,
-                menu : menu[serialized_model.user.division]
+                user:sm.user,
+                menu : menu[sm.user.role][sm.user.division]
             });
         },
         name:'menuView',

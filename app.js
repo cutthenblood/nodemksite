@@ -70,6 +70,7 @@ function mongoConnectPromise(connectionString) {
 
 function pgConnectPromise(connectionString) {
     return new vow.Promise(function (resolve, reject, notify) {
+        pg.defaults.poolSize = 200;
 
         pg.connect(connectionString, function(err, db, done) {
             if (err) {

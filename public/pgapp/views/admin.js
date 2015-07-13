@@ -6,61 +6,65 @@ define([
     'marionette',
     'text!templates/adminTpl.ejs',
     'text!templates/adminKadryTpl.ejs',
-    'behaviors/adminOrgm',
-    'behaviors/adminKadry',
+    'behaviors/admin',
     'models/session',
     'select2',
     'validator',
-    'collections/users'
+    'models/users'
 
-], function($,_, Backbone,Mn, templateOrgm,templateKadry,AdminBehOrgm,AdminBehKadry,Session,s2,validator,UsersCollection){
+], function($,_, Backbone,Mn, template,templateKadry,AdminBeh,Session,s2,validator,UserModel){
     var adminView = Mn.ItemView.extend({
+        template:_.template(template),
        // templates: {kadry:_.template(templateKadry), orgm: _.template(templateOrgm)},
-        collection: new UsersCollection(),
-        template : function(sm) {
-            switch(sm.model.get('otdel')){
-                case 'orgm':{
-
-                    return _.template(templateOrgm); break;}
-                case 'kadry':{
-                    return _.template(templateKadry)({
-                        mos:sm.collection.getByDivision('kadry')
-                    }); break;}
-//                    var coll = new UsersCollection();
-//                    var p  = coll.fetch();
-//                    p.done(function(){
-//                        return _.template(templateKadry)({
-//                            mos: coll.getByDivision('kadry')
+        //collection: new UserModel(Session.get('otdel')),
+//        template : function(sm) {
+//            switch(sm.model.get('otdel')){
+//                case 'orgm':{
+//
+//                    return _.template(templateOrgm); break;}
+//                case 'mlo':{
+//                    sm.usermodel.deferred
+//                        .done(function () {
+//                            return _.template(templateOrgm)({
+//                                user:sm.model.get('user'),
+//                                mos:sm.usermodel.attributes
+//                            });
 //                        });
-//                    });
-                   // break;}
-            }
+//
+//                    break;}
+//                case 'kadry':{
+//
+//                    return _.template(templateKadry)({
+//                        mos:sm.collection.getByDivision('kadry')
+//                    }); break;}
+//
+//            }
+//        },
+        behaviors:  {
+            'adminB': AdminBeh
+
         },
-        behaviors:  function() {
-                    switch( Session.get('otdel')){
-                        case 'orgm':{ return {'adminBehOrgm':AdminBehOrgm}; break;}
-                        case 'kadry':{return {'adminBehKadry':AdminBehKadry}; break;}
-                    }
-                },
         serializeData: function(){
             return {
                 "model": this.model,
-                "collection":this.collection
+                "usermodel":this.usermodel
             }
         },
         initialize: function(){
+            var _this = this;
             var model =  Backbone.Model.extend({
                 //otdel: this.otdel
             });
-
+            this.usermodel = new UserModel({id:Session.get('otdel')});
             this.model = new model();
             this.model.set('otdel',Session.get('otdel'));
+            this.model.set('user',Session.get('user'));
+            this.usermodel.deferred.done(function () {
+                _this.render();
+                $('#mo').select2();
 
 
-           /* switch( this.model.get('otdel')){
-                case 'orgm':{ this.behaviors = {'adminB':AdminBehOrgm}; break;}
-                case 'kadry':{this.behaviors = {'adminB':AdminBehKadry}; break;}
-            }*/
+            });
 
         }
 
@@ -68,5 +72,6 @@ define([
 
     });
     // Our module now returns our view
+
     return adminView;
 });

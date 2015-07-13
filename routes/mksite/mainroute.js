@@ -15,7 +15,7 @@ var commonDB = require('./../../core/commonDB.js');
 var pg = require('./../../core/pgDB.js');
 var pako = require('pako');
 var mt = require('moment-timezone');
-
+var config = require('./../../config.js');
 var salt = function(password){
     return bcrypt.hashSync(password, bcrypt.genSaltSync(8), null);
 };
@@ -66,42 +66,59 @@ module.exports = function (app) {
             res.send('0');
 
     });
-    app.get('/rest/:collection',function(req,res){
-        var dbmethods = app.get('dbmethods');
-        var cdb = new commonDB(app.get('db'));
-        if(req.params.collection=='users')
-            dbmethods.getUsers('users',function(er,result){
-                if (er)
-                {
-                    log.info(er);
-                    res.status(500).send("Ошибка");
-                    return;
-                } else {
-                    res.send(JSON.stringify(result.sort(
-                        function (a, b) {
-                            if (a.username < b.username)
-                                return -1;
-                            else if (a.username == b.username) return 0;
-                            else return 1;
-                        }
-                    ))).end();
-                }
-            });
-        if(req.params.collection =='settings'){
-            var promises = [cdb.getSettings()];
-            vow.allResolved(promises).spread(function spread(settings){
-                if (settings.isRejected()) {
-                    log.error("rejected - "
-                        + settings.isRejected() ? settings.valueOf() : "");
-                    return callback("error in db query", null);
-                } else {
-                    var settingsValue = settings.valueOf();
-                    res.send(JSON.stringify(settingsValue)).end();
+    app.get('/res/:collection',function(req,res){
 
-                }
+    });
+    app.get('/rest/:collection/:division',function(req,res){
+
+        if(config.mode=='mongo') {
+            var dbmethods = app.get('dbmethods');
+            var cdb = new commonDB(app.get('db'));
+            if (req.params.collection == 'users')
+                dbmethods.getUsers('users', function (er, result) {
+                    if (er) {
+                        log.info(er);
+                        res.status(500).send("Ошибка");
+                        return;
+                    } else {
+                        res.send(JSON.stringify(result.sort(
+                            function (a, b) {
+                                if (a.username < b.username)
+                                    return -1;
+                                else if (a.username == b.username) return 0;
+                                else return 1;
+                            }
+                        ))).end();
+                    }
+                });
+            if (req.params.collection == 'settings') {
+                var promises = [cdb.getSettings()];
+                vow.allResolved(promises).spread(function spread(settings) {
+                    if (settings.isRejected()) {
+                        log.error("rejected - "
+                            + settings.isRejected() ? settings.valueOf() : "");
+                        return callback("error in db query", null);
+                    } else {
+                        var settingsValue = settings.valueOf();
+                        res.send(JSON.stringify(settingsValue)).end();
+
+                    }
+                })
+            }
+        }
+        if(config.mode=='pg'){
+            var query = new pg(app.get('pgdb'));
+            query.getUsersByDivision(req.params.division).then(function(e){
+                    if(e.rows.length>0){
+                        res.send(JSON.stringify(e.rows)).end();
+                    }
+                },
+            function(err){
+                console.log(err);
             })
         }
     });
+
     app.post('/reguser',function(req,res){
         var dbmethods = app.get('dbmethods');
         var otdel = req.body.otdel;
@@ -1047,7 +1064,7 @@ module.exports = function (app) {
         },
         function(err){
             var b = 12;
-        })
+        });
 
 
 
@@ -1125,7 +1142,7 @@ module.exports = function (app) {
 
 
 
-        var md = moment(req.body.date,'DD.MM.YYYY');
+        var md = moment(req.body.inputdate,'DD.MM.YYYY');
         var date = parseInt(md.valueOf());
         var mo = req.body.mo;
         var type = req.body.type;
@@ -1147,51 +1164,52 @@ module.exports = function (app) {
             data.username = req.user.username;
         }
         var query = new pg(app.get('pgdb'));
-        query.vDate(req.body).then(function(e){
-                if(e.rows.length>0){
-                    if(e.rows[0].validatedate){
-                        if(e.rows[0].indb){
-                            errmsg.res="0";
-                            errmsg.msg="данные уже внесены";
-                            response.send(JSON.stringify(errmsg));
-                        } else{
-                            if(type == 'mlodn'){
-                                if(now.valueOf()<date){
-                                    errmsg.res="0";
-                                    errmsg.msg= "Воод только за прошедшие дни или сегодня";
-                                    response.send(JSON.stringify(errmsg));
-                                    return;
-                                }
-                                else if(now.hour()>11){
-                                    errmsg.msg= "Нужно вводить данные до 12";
-                                    response.send(JSON.stringify(errmsg));
-                                    return;
-                                }else if(now.day()==1 && dow >4){
-                                    errmsg.res="1";
-                                    response.send(JSON.stringify(errmsg));
-                                    return;
-                                }
-                                else {
-                                    errmsg.res= "1";
-                                    response.send(JSON.stringify(errmsg));
-                                    return;
-                                }
+             query.vDate(req.body).then(function (e) {
+                    if (e.rows.length > 0) {
+                        if (e.rows[0].validatedate) {
+                            if (e.rows[0].indb) {
+                                errmsg.res = "0";
+                                errmsg.msg = "данные уже внесены";
+                                response.send(JSON.stringify(errmsg));
+                            } else {
+                                if (type == 'mlodn') {
+                                    if (now.valueOf() < date) {
+                                        errmsg.res = "0";
+                                        errmsg.msg = "Воод только за прошедшие дни или сегодня";
+                                        response.send(JSON.stringify(errmsg));
+                                        return;
+                                    }
+                                    else if (now.hour() > 11) {
+                                        errmsg.msg = "Нужно вводить данные до 12";
+                                        response.send(JSON.stringify(errmsg));
+                                        return;
+                                    } else if (now.day() == 1 && dow > 4) {
+                                        errmsg.res = "1";
+                                        response.send(JSON.stringify(errmsg));
+                                        return;
+                                    }
+                                    else {
+                                        errmsg.res = "1";
+                                        response.send(JSON.stringify(errmsg));
+                                        return;
+                                    }
 
+                                }
                             }
+
                         }
-
+                        else {
+                            errmsg.res = "1";
+                            response.send(JSON.stringify(errmsg));
+                            return;
+                        }
                     }
-                    else {
-                        errmsg.res="1";
-                        response.send(JSON.stringify(errmsg));
-                        return;
-                    }
-                }
 
-        },
-        function(err){
-            console.log(err);
-        });
+                },
+                function (err) {
+                    console.log(err);
+                });
+
 
     });
 };

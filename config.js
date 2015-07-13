@@ -7,7 +7,7 @@ var conf = {
     viewCache: false,
     port: 3000,
     mongoConnect: 'mongodb://127.0.0.1:27017/mksite',
-    pgConnect:'postgres://postgres:admin@localhost/mksite',
+    pgConnect:'postgres://website:kidenbie12392kd@localhost/mksite',
     mode:'pg',
     session: {
         secret: "phuck",//"Fj549t=_s-4g-dfh34uyHdfy54&3450hfgjslfsgfgnpsggpoag0JFj54834thK)=",

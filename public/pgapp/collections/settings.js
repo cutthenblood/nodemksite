@@ -5,11 +5,11 @@ define([
     'models/settings'
 ], function(Backbone,Mn,SettingsModel){
     var settingsCollection = Backbone.Collection.extend({
-        url: '/rest/settings',
+        //url: '/rest/settings',
         model: SettingsModel,
         initialize: function() {
             // Assign the Deferred issued by fetch() as a property
-            this.deferred = this.fetch();
+          //  this.deferred = this.fetch();
         }
 
     });

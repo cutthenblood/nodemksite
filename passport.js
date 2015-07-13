@@ -57,7 +57,7 @@ module.exports = function (passport, app) {
     passport.use('local',new LocalStrategy(
         function (username, password, done) {
             var dbfactory = app.get('dbmethods');
-            dbfactory.getUserAuth('users', {username: username}, function (err, user) {
+            dbfactory.getUserAuth('users', {id: username}, function (err, user) {
                 if (err) {
                     log.error("cannot auth");
                     done(err, null);

@@ -1,7 +1,7 @@
 // Filename: behaviors/login
 define([
     'jquery',
-    'underscore',
+    'lodash',
     'backbone',
     'marionette',
     'models/session',
@@ -17,6 +17,7 @@ define([
         },
         otdelSelect: function(e){
             var val = e.currentTarget.value;
+            var _this = this;
             this.otdel = val;
             this.view.model.set("otdel",e.currentTarget.value);
             $('.otdel').each(function(){
@@ -26,25 +27,17 @@ define([
             $( e.currentTarget ).removeClass("btn-default");
             $( e.currentTarget ).addClass("btn-primary");
             var html = '<select class="form-control" name="username" id="userlist" autofocus>';
-            if(val == 'kadry'){
-                this.view.collection.models.forEach(function(user) {
-                    var cur = user.toJSON();
-                    if(cur.division=='kadry'){
-                        html += '<option>' + cur.username + '</option>'
-                    }
-                })
-            }
-            if(val=='orgm' || val=='mlo'){
-                this.view.collection.models.forEach(function(user) {
-                    var cur = user.toJSON();
-                    if(cur.division!='kadry') {
-                        html += '<option>' + cur.username + '</option>';
-                    }
-                })
-            }
-            html+='<option>Администратор</option>';
-            $('.users').html(html);
-            $('#userlist').select2();
+            this.view.usermodel.set('id',val);
+            this.view.usermodel.deffetch().done(function () {
+                _.map(_this.view.usermodel.attributes,function(user){
+                    if(user.id)
+                        html += '<option value ="'+user.id+'">' + user.username + '</option>'
+                });
+                //html+='<option>Администратор</option>';
+                $('.users').html(html);
+                $('#userlist').select2();
+
+            });
 
         },
         login: function(e){
