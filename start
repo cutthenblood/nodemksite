@@ -1,2 +1,2 @@
 #!/bin/sh
-node app > /var/log/nodemksite/console.log 2>/var/log/nodemksite/error.log &
+node www.js >> /var/log/nodemksite/console.log 2>>/var/log/nodemksite/error.log &

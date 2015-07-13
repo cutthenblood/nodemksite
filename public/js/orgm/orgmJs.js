@@ -402,6 +402,7 @@ load({
             }
         });
         var orgmmodel = new Model();
+
         var MainView = Backbone.View.extend({
             el:$('#mainbody'),
             template: {'login':loaded.loginTpl,'adminTpl':loaded.adminTpl,'checkResultTpl':loaded.checkResultTpl,
@@ -411,9 +412,9 @@ load({
                 'click button#loginButton': 'loggingIn',
                 'change select#monitoring': 'monitChange',
                 'click button.report':      'getReport',
-                'click button.whoinput':      'renderwhoinput'
-
-
+                'click button.whoinput':    'renderwhoinput',
+                'click [type="checkbox"]':  'editchecked',
+                'click button.edit':        'renderedit'
             },
             initialize: function () {
 
@@ -434,6 +435,23 @@ load({
             scrolltotop: function(){
                 $("html, body").animate({ scrollTop: 0 }, "slow");
             },
+            editchecked: function(e){
+                //$('.edtdis').removeAttr('edtdis','disabled');
+                if(e.currentTarget.checked) {
+                    $('.edtdis').hide();
+                    $('.edit').show();
+                }
+                else{
+                    $('.edtdis').show();
+                    $('.edit').hide();
+                    //$('#monitoring').trigger('change');
+                }
+
+                //$('#monitoring').trigger('change');
+            },
+
+
+
             monitChange: function(e){
                 if(e.currentTarget.value=='mpr'){
                     $('.date').each(function(dt) {
@@ -664,10 +682,12 @@ load({
                         function (index) {
                             var input = $(this);
                             var gr = input.attr('name');
-                            if(gr.indexOf('gr')==-1){
+                            if(gr.indexOf('gr')==-1)
                                 return;
-                            }
-                            row[gr]= parseInt(input.val());
+                            if(input.val()=="")
+                                row[gr] = 0;
+                            else
+                                row[gr]= parseInt(input.val());
 
                         });
                     orgmmodel.set("rows",[row]);
@@ -677,7 +697,7 @@ load({
                             var selector = 'input[name="'+item[0]+'"]'
                             $(selector).val("Ошибка - "+item[1]);
                         });
-                        $('#mainaddform').validator('validate')
+                        $('#mainaddform').validator('validate');
                         this.scrolltotop();
 
                     } else {
@@ -780,6 +800,7 @@ load({
 
                     $('#mo').html(options);
                     $("#mo").select2();
+                    $('.edit').hide();
                 };
                 if(this.users){
                     render(this.users)
@@ -809,6 +830,20 @@ load({
                     .done(function () { })
                     .fail(function (err) {
                         $('#alert').html('<div class="alert alert-danger" role="alert">Ошибка '+err+'</div>'); });
+            },
+            renderedit: function(){
+                var _this = this;
+                var type = $('#monitoring option:selected').val();
+                _this._user={mo: [{fullname:$('#mo option:selected').text()}]};
+                switch(type){
+                    case 'mpr':{
+                        $('#whoinput').html(this.template.mprTpl({user:this._user,'table':mprSchema}));
+
+                        break;}
+                    case 'mprPD':{ _this.renderMprPD();break;}
+                    case 'deathm':{ _this.renderdeathm();break;}
+                }
+
             }
 
         });

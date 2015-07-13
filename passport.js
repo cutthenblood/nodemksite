@@ -31,9 +31,9 @@ module.exports = function (passport, app) {
             var dbfactory = app.get('dbmethods');
    /*         var collection = app.get('ucl');
             if(!collection)*/
-                collection = 'users';
+                //collection = 'users';
 
-            dbfactory.getUser(collection, {username: username}, function (err, user) {
+            dbfactory.getUserAuth('users', {username: username}, function (err, user) {
                 if (err) {
                     log.error("cannot auth");
                     done(err, null);

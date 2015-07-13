@@ -2,35 +2,296 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73f64d1a-c00d-4f31-a426-127e21100db1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/templates/orgm/adminTpl.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/templates/orgm/checkResultTpl.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/templates/orgm/checkTpl.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/schemas/orgm/deathmScm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/templates/orgm/deathmTpl.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/templates/login.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/templates/orgm/mainTpl.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/orgm/orgmJs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/orgm/orgmView.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/start" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tst.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tst" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jsonpack/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jsonpack/CONTRIBUTORS.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jsonpack/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jsonpack/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jsonpack/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/views/admin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/behaviors/adminKadry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/templates/adminKadryTpl.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/behaviors/adminOrgm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/templates/adminTpl.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/baserouter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/core/baserouter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/core/baseview.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/behaviors/check.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/views/check.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/templates/checkResultTpl.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/commonDB.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/schemas/datesScm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/schemas/deathmScm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/schemas/infoMessages.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/behaviors/kadry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/models/kadry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/views/kadry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/behaviors/login.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/views/login.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/templates/loginRegisterTpl.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jsonpack/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/views/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/templates/mainTpl.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/schemas/menu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/views/menu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/templates/menuTpl.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/templates/monitoringTpl.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/views/mpr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/views/mprPD.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/schemas/mprPDScm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/schemas/mprScm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/behaviors/orgm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/models/orgm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/core/orgmViewUtility.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jsonpack/package.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jsonpack/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/router.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/models/session.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/behaviors/settings.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/collections/settings.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/models/settings.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/views/settings.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/templates/settingsTpl.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jsonpack/test/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/collections/users.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/models/users.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/core/utls.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/views/viewsFactory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/vowPromisify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/templates/whoinputTpl.ejs" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/admin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/aggregation_cursor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/auth/mongodb_cr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/auth/mongodb_gssapi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/auth/mongodb_plain.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/auth/mongodb_sspi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/auth/mongodb_x509.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/collection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/collection/aggregation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/collection/batch/common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/collection/batch/ordered.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/collection/batch/unordered.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/collection/commands.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/collection/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/collection/geo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/collection/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/collection/query.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/collection/shared.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/command_cursor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/commands/base_command.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/commands/db_command.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/commands/delete_command.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/commands/get_more_command.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/commands/insert_command.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/commands/kill_cursor_command.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/commands/query_command.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/commands/update_command.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/base.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/connection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/connection_pool.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/connection_utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/mongos.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/read_preference.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/repl_set/ha.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/repl_set/options.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/repl_set/repl_set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/repl_set/repl_set_state.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/repl_set/strategies/ping_strategy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/repl_set/strategies/statistics_strategy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/server.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/server_capabilities.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/url_parser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/cursor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/cursorstream.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/db.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/gridfs/chunk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/gridfs/grid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/gridfs/gridstore.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/gridfs/readstream.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/mongo_client.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/responses/mongo_reply.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/scope.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/binding.gyp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/browser_build/bson.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/browser_build/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/build/config.gypi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/build_browser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/builderror.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/ext/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/ext/bson.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/ext/bson.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/ext/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/ext/win32/ia32/bson.node" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/ext/win32/x64/bson.node" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/ext/wscript" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/lib/bson/binary.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/lib/bson/binary_parser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/lib/bson/bson.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/lib/bson/bson_new.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/lib/bson/code.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/lib/bson/db_ref.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/lib/bson/double.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/lib/bson/float_parser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/lib/bson/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/lib/bson/long.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/lib/bson/max_key.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/lib/bson/min_key.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/lib/bson/objectid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/lib/bson/symbol.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/lib/bson/timestamp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/node_modules/nan/.dntrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/node_modules/nan/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/node_modules/nan/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/node_modules/nan/build/config.gypi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/node_modules/nan/include_dirs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/node_modules/nan/nan.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/node_modules/nan/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/t" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/tools/gleak.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/tools/jasmine-1.1.0/MIT.LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/tools/jasmine-1.1.0/jasmine-html.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/tools/jasmine-1.1.0/jasmine.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/tools/jasmine-1.1.0/jasmine.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/tools/jasmine-1.1.0/jasmine_favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/v8.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/v8.result" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/binding.gyp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/build/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/build/Release/.deps/Release/kerberos.node.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/build/Release/.deps/Release/obj.target/kerberos.node.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/build/Release/kerberos.node" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/build/Release/obj.target/kerberos.node" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/build/binding.Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/build/config.gypi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/build/kerberos.target.mk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/auth_processes/mongodb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/base64.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/base64.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/kerberos.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/kerberos.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/kerberos.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/kerberos_context.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/kerberos_context.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/kerberosgss.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/kerberosgss.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/sspi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/win32/base64.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/win32/base64.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/win32/kerberos.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/win32/kerberos.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/win32/kerberos_sspi.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/win32/kerberos_sspi.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/win32/worker.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/win32/worker.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_buffer.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_buffer.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_buffer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_buffer_descriptor.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_buffer_descriptor.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_buffer_descriptor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_context.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_context.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_context.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_credentials.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_credentials.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_credentials.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/worker.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/worker.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/test/kerberos_tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/test/kerberos_win32_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/test/win32/security_buffer_descriptor_tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/test/win32/security_buffer_tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/test/win32/security_credentials_tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/duplex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/lib/_stream_duplex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/lib/_stream_passthrough.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/lib/_stream_readable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/lib/_stream_transform.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/lib/_stream_writable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/float.patch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/lib/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits/inherits.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits/inherits_browser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/isarray/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/isarray/build/build.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/isarray/component.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/isarray/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/isarray/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/string_decoder/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/string_decoder/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/string_decoder/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/string_decoder/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/string_decoder/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/passthrough.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/readable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/transform.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/writable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pids/29495" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pids/29513" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pids/29514" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pids/29515" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pids/29516" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pids/29517" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pids/29518" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pids/29519" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pids/29520" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/app/login.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/app/require.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/app/require.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/app/templates/login.ejs" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node_modules/mongodb/.gitmodules" afterPath="$PROJECT_DIR$/public/app/app.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node_modules/mongodb/.travis.yml" afterPath="$PROJECT_DIR$/bower_components/jsonpack/.travis.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/build/Release/linker.lock" afterPath="$PROJECT_DIR$/public/app/templates/checkTpl.ejs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/builderror.log" afterPath="$PROJECT_DIR$/public/app/templates/kadryTpl.ejs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/app/config.js" afterPath="$PROJECT_DIR$/public/app/templates/loginTpl.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kadry_users.xlsx" afterPath="$PROJECT_DIR$/kadry_users.xlsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/orgm/mprtmpl.xlsx" afterPath="$PROJECT_DIR$/templates/orgm/mprtmpl.xlsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/orgm/adminTpl.ejs" afterPath="$PROJECT_DIR$/public/templates/orgm/adminTpl.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.js" afterPath="$PROJECT_DIR$/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js" afterPath="$PROJECT_DIR$/bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.js" afterPath="$PROJECT_DIR$/db.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/debug.log" afterPath="$PROJECT_DIR$/debug.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/error.log" afterPath="$PROJECT_DIR$/error.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/deathmonitor/fillfrm.js" afterPath="$PROJECT_DIR$/routes/deathmonitor/fillfrm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/kadry/kadryRoute.js" afterPath="$PROJECT_DIR$/routes/kadry/kadryRoute.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/main.js" afterPath="$PROJECT_DIR$/public/app/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/mksite/mainroute.js" afterPath="$PROJECT_DIR$/routes/mksite/mainroute.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/mksite.ejs" afterPath="$PROJECT_DIR$/views/mksite.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/schemas/orgm/mprPDScm.js" afterPath="$PROJECT_DIR$/public/schemas/orgm/mprPDScm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/orgm/mprPDTpl.ejs" afterPath="$PROJECT_DIR$/public/templates/orgm/mprPDTpl.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/schemas/orgm/mprScm.js" afterPath="$PROJECT_DIR$/public/schemas/orgm/mprScm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/orgm/mprTpl.ejs" afterPath="$PROJECT_DIR$/public/templates/orgm/mprTpl.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/orgm/orgmModel.js" afterPath="$PROJECT_DIR$/public/js/orgm/orgmModel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/orgm/orgmJs.js" afterPath="$PROJECT_DIR$/public/js/orgm/orgmJs.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/orgm/orgmRoute.js" afterPath="$PROJECT_DIR$/routes/orgm/orgmRoute.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sandbox.js" afterPath="$PROJECT_DIR$/sandbox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/passport.js" afterPath="$PROJECT_DIR$/passport.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user.js" afterPath="$PROJECT_DIR$/user.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/www.js" afterPath="$PROJECT_DIR$/bin/www.js" />
     </list>
     <ignored path="nodemksite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,81 +314,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="orgmJs.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/js/orgm/orgmJs.js">
+      <file leaf-file-name="adminKadry.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/app/behaviors/adminKadry.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7209945" vertical-offset="2214" max-vertical-offset="3618">
-              <caret line="781" column="39" selection-start-line="781" selection-start-column="39" selection-end-line="781" selection-end-column="39" />
+            <state vertical-scroll-proportion="-7.266667" vertical-offset="1150" max-vertical-offset="2430">
+              <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
               <folding>
-                <element signature="e#1930#6659#0" expanded="false" />
-                <element signature="e#6705#9743#0" expanded="false" />
-                <element signature="e#9788#17575#0" expanded="false" />
-                <element signature="e#18280#18887#0" expanded="false" />
-                <element signature="e#18924#19006#0" expanded="false" />
-                <element signature="e#19044#22463#0" expanded="false" />
-                <element signature="e#22498#23163#0" expanded="false" />
-                <element signature="e#23205#23499#0" expanded="false" />
-                <element signature="e#23536#23584#0" expanded="false" />
-                <element signature="e#23631#23949#0" expanded="false" />
-                <element signature="e#23999#24632#0" expanded="false" />
-                <element signature="e#24668#24969#0" expanded="false" />
-                <element signature="e#25013#25838#0" expanded="false" />
-                <element signature="e#25873#26637#0" expanded="false" />
-                <element signature="e#26674#27135#0" expanded="false" />
-                <element signature="e#27173#27586#0" expanded="false" />
-                <element signature="e#27616#29750#0" expanded="false" />
-                <element signature="e#29800#30589#0" expanded="false" />
+                <element signature="e#2013#2707#0" expanded="false" />
+                <element signature="e#2741#3577#0" expanded="false" />
+                <element signature="e#5974#6667#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="checkResultTpl.ejs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/templates/orgm/checkResultTpl.ejs">
+      <file leaf-file-name="utls.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/app/core/utls.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="17.333334" vertical-offset="486" max-vertical-offset="1278">
-              <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
+              <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tables.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bower_components/bootstrap/less/tables.less">
+      <file leaf-file-name="kadry.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/app/behaviors/kadry.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.8947368" vertical-offset="2676" max-vertical-offset="4302">
-              <caret line="161" column="25" selection-start-line="161" selection-start-column="19" selection-end-line="161" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.30097088" vertical-offset="562" max-vertical-offset="3060">
+              <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adminTpl.ejs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/templates/orgm/adminTpl.ejs">
+      <file leaf-file-name="check.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/app/behaviors/check.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.481482" vertical-offset="1301" max-vertical-offset="1998">
-              <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="642" max-vertical-offset="1944">
+              <caret line="76" column="41" selection-start-line="70" selection-start-column="12" selection-end-line="76" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap.css">
+      <file leaf-file-name="adminKadryTpl.ejs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/app/templates/adminKadryTpl.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.5666666" vertical-offset="77587" max-vertical-offset="104238">
-              <caret line="4323" column="13" selection-start-line="4323" selection-start-column="7" selection-end-line="4323" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="checkTpl.ejs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/templates/orgm/checkTpl.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="306" max-vertical-offset="1440">
-              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-              <folding />
+            <state vertical-scroll-proportion="-60.851852" vertical-offset="607" max-vertical-offset="2376">
+              <caret line="125" column="0" selection-start-line="124" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+              <folding>
+                <marker date="1434355159908" expanded="true" signature="1183:1361" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,54 +373,218 @@
       <file leaf-file-name="orgmRoute.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/orgm/orgmRoute.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="897" max-vertical-offset="13788">
-              <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+            <state vertical-scroll-proportion="-29.066668" vertical-offset="1396" max-vertical-offset="2664">
+              <caret line="986" column="106" selection-start-line="986" selection-start-column="106" selection-end-line="986" selection-end-column="106" />
               <folding>
-                <element signature="e#30077#30146#0" expanded="false" />
-                <element signature="e#30179#30259#0" expanded="false" />
-                <element signature="e#30293#30380#0" expanded="false" />
-                <element signature="e#30501#31551#0" expanded="false" />
-                <element signature="e#31621#47611#0" expanded="false" />
-                <element signature="e#32043#39553#0" expanded="false" />
-                <element signature="e#34186#36050#0" expanded="false" />
-                <element signature="e#37306#39524#0" expanded="false" />
-                <element signature="e#40168#43635#0" expanded="false" />
-                <element signature="e#43695#47605#0" expanded="false" />
+                <element signature="e#452#522#0" expanded="false" />
+                <element signature="e#539#659#0" expanded="false" />
+                <element signature="e#545#657#0" expanded="false" />
+                <element signature="n#!!block;n#isLoggedIn#0" expanded="false" />
+                <element signature="e#1188#1250#0" expanded="false" />
+                <element signature="e#26479#28072#0" expanded="false" />
+                <element signature="e#26721#27717#0" expanded="false" />
+                <element signature="e#27007#27705#0" expanded="false" />
+                <element signature="e#27049#27182#0" expanded="false" />
+                <element signature="e#27188#27690#0" expanded="false" />
+                <element signature="e#27262#27350#0" expanded="false" />
+                <element signature="e#27398#27641#0" expanded="false" />
+                <element signature="e#28118#28166#0" expanded="false" />
+                <element signature="e#28218#28489#0" expanded="false" />
+                <element signature="e#28241#28447#0" expanded="false" />
+                <element signature="e#28573#28828#0" expanded="false" />
+                <element signature="e#28595#28781#0" expanded="false" />
+                <element signature="e#28893#29728#0" expanded="false" />
+                <element signature="e#29141#29185#0" expanded="false" />
+                <element signature="e#29538#29719#0" expanded="false" />
+                <element signature="e#29561#29648#0" expanded="false" />
+                <element signature="e#29654#29709#0" expanded="false" />
+                <element signature="e#29798#31845#0" expanded="false" />
+                <element signature="e#30085#31467#0" expanded="false" />
+                <element signature="e#30144#31466#0" expanded="false" />
+                <element signature="e#30179#30297#0" expanded="false" />
+                <element signature="e#30342#31329#0" expanded="false" />
+                <element signature="e#30464#31175#0" expanded="false" />
+                <element signature="e#30600#30680#0" expanded="false" />
+                <element signature="e#30713#31086#0" expanded="false" />
+                <element signature="e#30844#31020#0" expanded="false" />
+                <element signature="e#31250#31311#0" expanded="false" />
+                <element signature="e#31359#31456#0" expanded="false" />
+                <element signature="e#31494#31563#0" expanded="false" />
+                <element signature="e#31596#31676#0" expanded="false" />
+                <element signature="e#31710#31795#0" expanded="false" />
+                <element signature="e#32100#32175#0" expanded="false" />
+                <element signature="e#32208#32285#0" expanded="false" />
+                <element signature="e#32320#32420#0" expanded="false" />
+                <element signature="e#32546#32667#0" expanded="false" />
+                <element signature="e#33647#33793#0" expanded="false" />
+                <element signature="e#33976#34031#0" expanded="false" />
+                <element signature="e#34144#38929#0" expanded="false" />
+                <element signature="e#34177#34340#0" expanded="false" />
+                <element signature="e#34417#34834#0" expanded="false" />
+                <element signature="e#34883#35026#0" expanded="false" />
+                <element signature="e#35315#35574#0" expanded="false" />
+                <element signature="e#35642#37782#0" expanded="false" />
+                <element signature="e#35712#37754#0" expanded="false" />
+                <element signature="e#35758#37722#0" expanded="false" />
+                <element signature="e#35824#37257#0" expanded="false" />
+                <element signature="e#35955#37218#0" expanded="false" />
+                <element signature="e#36085#36172#0" expanded="false" />
+                <element signature="e#36223#37175#0" expanded="false" />
+                <element signature="e#36402#36603#0" expanded="false" />
+                <element signature="e#37263#37688#0" expanded="false" />
+                <element signature="e#37530#37545#0" expanded="false" />
+                <element signature="e#37845#38904#0" expanded="false" />
+                <element signature="e#37939#38055#0" expanded="false" />
+                <element signature="e#38100#38241#0" expanded="false" />
+                <element signature="e#38275#38380#0" expanded="false" />
+                <element signature="e#38419#38496#0" expanded="false" />
+                <element signature="e#39112#39275#0" expanded="false" />
+                <element signature="e#39363#39506#0" expanded="false" />
+                <element signature="e#39842#39948#0" expanded="false" />
+                <element signature="e#40073#40574#0" expanded="false" />
+                <element signature="e#40614#40742#0" expanded="false" />
+                <element signature="e#41554#41700#0" expanded="false" />
+                <element signature="e#41722#41841#0" expanded="false" />
+                <element signature="e#41868#41923#0" expanded="false" />
+                <element signature="e#42005#45683#0" expanded="false" />
+                <element signature="e#42038#42201#0" expanded="false" />
+                <element signature="e#42278#42478#0" expanded="false" />
+                <element signature="e#42527#42670#0" expanded="false" />
+                <element signature="e#42959#43421#0" expanded="false" />
+                <element signature="e#43489#44593#0" expanded="false" />
+                <element signature="e#43559#44565#0" expanded="false" />
+                <element signature="e#43605#44534#0" expanded="false" />
+                <element signature="e#44201#44499#0" expanded="false" />
+                <element signature="e#44656#45659#0" expanded="false" />
+                <element signature="e#44750#44866#0" expanded="false" />
+                <element signature="e#44911#45052#0" expanded="false" />
+                <element signature="e#45086#45191#0" expanded="false" />
+                <element signature="e#45230#45307#0" expanded="false" />
+                <element signature="e#45743#49653#0" expanded="false" />
+                <element signature="e#45958#46102#0" expanded="false" />
+                <element signature="e#46124#46244#0" expanded="false" />
+                <element signature="e#46286#46339#0" expanded="false" />
+                <element signature="e#46400#49333#0" expanded="false" />
+                <element signature="e#46429#46576#0" expanded="false" />
+                <element signature="e#46602#49314#0" expanded="false" />
+                <element signature="e#46680#47105#0" expanded="false" />
+                <element signature="e#47154#47295#0" expanded="false" />
+                <element signature="e#47424#47563#0" expanded="false" />
+                <element signature="e#47617#47752#0" expanded="false" />
+                <element signature="e#47808#48169#0" expanded="false" />
+                <element signature="e#48054#48143#0" expanded="false" />
+                <element signature="e#48266#48521#0" expanded="false" />
+                <element signature="e#48560#48728#0" expanded="false" />
+                <element signature="e#48758#48855#0" expanded="false" />
+                <element signature="e#48913#48982#0" expanded="false" />
+                <element signature="e#49705#49746#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sandbox.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sandbox.js">
+      <file leaf-file-name="mainroute.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/mksite/mainroute.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="299" max-vertical-offset="3366">
-              <caret line="179" column="0" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
+            <state vertical-scroll-proportion="-13.533334" vertical-offset="926" max-vertical-offset="10908">
+              <caret line="243" column="0" selection-start-line="243" selection-start-column="0" selection-end-line="243" selection-end-column="0" />
               <folding>
-                <element signature="n#!!block;n#encode_range#0" expanded="false" />
-                <element signature="n#!!block;n#safe_decode_range#0" expanded="false" />
-                <element signature="n#!!block;n#convertTable#0" expanded="false" />
-                <element signature="e#9328#59271#0" expanded="false" />
+                <element signature="e#532#602#0" expanded="false" />
+                <element signature="n#!!block;n#isLoggedIn#0" expanded="false" />
+                <element signature="e#1197#1452#0" expanded="false" />
+                <element signature="e#1219#1405#0" expanded="false" />
+                <element signature="e#1504#2887#0" expanded="false" />
+                <element signature="e#1700#2286#0" expanded="false" />
+                <element signature="e#1742#1875#0" expanded="false" />
+                <element signature="e#1881#2272#0" expanded="false" />
+                <element signature="e#1980#2223#0" expanded="false" />
+                <element signature="e#2500#2703#0" expanded="false" />
+                <element signature="e#2931#3857#0" expanded="false" />
+                <element signature="e#3208#3846#0" expanded="false" />
+                <element signature="e#3229#3316#0" expanded="false" />
+                <element signature="e#3322#3836#0" expanded="false" />
+                <element signature="e#3469#3822#0" expanded="false" />
+                <element signature="e#3614#3803#0" expanded="false" />
+                <element signature="e#3926#7501#0" expanded="false" />
+                <element signature="e#3950#4408#0" expanded="false" />
+                <element signature="e#3971#4407#0" expanded="false" />
+                <element signature="e#4839#7491#0" expanded="false" />
+                <element signature="e#4876#7339#0" expanded="false" />
+                <element signature="e#4911#5744#0" expanded="false" />
+                <element signature="e#4950#5134#0" expanded="false" />
+                <element signature="e#5165#5323#0" expanded="false" />
+                <element signature="e#5362#5520#0" expanded="false" />
+                <element signature="e#5526#5725#0" expanded="false" />
+                <element signature="e#5787#6634#0" expanded="false" />
+                <element signature="e#5827#6024#0" expanded="false" />
+                <element signature="e#6055#6213#0" expanded="false" />
+                <element signature="e#6252#6410#0" expanded="false" />
+                <element signature="e#6416#6616#0" expanded="false" />
+                <element signature="e#6675#7325#0" expanded="false" />
+                <element signature="e#6714#6899#0" expanded="false" />
+                <element signature="e#6940#7143#0" expanded="false" />
+                <element signature="e#7149#7307#0" expanded="false" />
+                <element signature="e#7357#7480#0" expanded="false" />
+                <element signature="e#9586#9691#0" expanded="false" />
+                <element signature="e#9724#9840#0" expanded="false" />
+                <element signature="e#9874#9997#0" expanded="false" />
+                <element signature="e#10168#10251#0" expanded="false" />
+                <element signature="e#10259#11615#0" expanded="false" />
+                <element signature="e#12056#12237#0" expanded="false" />
+                <element signature="e#12693#13370#0" expanded="false" />
+                <element signature="e#12849#13340#0" expanded="false" />
+                <element signature="e#12904#13306#0" expanded="false" />
+                <element signature="e#12983#13150#0" expanded="false" />
+                <element signature="e#13441#13496#0" expanded="false" />
+                <element signature="e#14007#14153#0" expanded="false" />
+                <element signature="e#14446#15557#0" expanded="false" />
+                <element signature="e#14625#15527#0" expanded="false" />
+                <element signature="e#14755#15314#0" expanded="false" />
+                <element signature="e#14839#15015#0" expanded="false" />
+                <element signature="e#15078#15276#0" expanded="false" />
+                <element signature="e#15643#16839#0" expanded="false" />
+                <element signature="e#15831#16805#0" expanded="false" />
+                <element signature="e#15969#16572#0" expanded="false" />
+                <element signature="e#16057#16253#0" expanded="false" />
+                <element signature="e#16320#16530#0" expanded="false" />
+                <element signature="e#17265#17441#0" expanded="false" />
+                <element signature="e#17500#17655#0" expanded="false" />
+                <element signature="e#18143#18678#0" expanded="false" />
+                <element signature="e#18223#18399#0" expanded="false" />
+                <element signature="e#18458#18644#0" expanded="false" />
+                <element signature="e#18910#18965#0" expanded="false" />
+                <element signature="e#19034#19168#0" expanded="false" />
+                <element signature="e#19320#19403#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/app/login.js">
+      <file leaf-file-name="commonDB.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/commonDB.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="388" max-vertical-offset="1152">
+              <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db.js">
+      <file leaf-file-name="kadryTpl.ejs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/app/templates/kadryTpl.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.0" vertical-offset="5038" max-vertical-offset="7632">
-              <caret line="291" column="0" selection-start-line="291" selection-start-column="0" selection-end-line="291" selection-end-column="0" />
+            <state vertical-scroll-proportion="-513.4737" vertical-offset="5454" max-vertical-offset="59058">
+              <caret line="1929" column="84" selection-start-line="1929" selection-start-column="84" selection-end-line="1929" selection-end-column="84" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="728" max-vertical-offset="2682">
+              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -201,10 +603,57 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/public/templates/orgm/checkResultTpl.ejs" />
+        <option value="$PROJECT_DIR$/public/app/models/session.js" />
+        <option value="$PROJECT_DIR$/public/app/schemas/infoMessages.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="/node.js" />
+        <option value="$PROJECT_DIR$/node_modules/mongodb/package.json" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/public/app/templates/whoinputTpl.ejs" />
+        <option value="$PROJECT_DIR$/public/app/behaviors/check.js" />
+        <option value="$PROJECT_DIR$/public/app/templates/checkResultTpl.ejs" />
+        <option value="$PROJECT_DIR$/public/app/core/orgmViewUtility.js" />
+        <option value="$PROJECT_DIR$/public/app/templates/settingsTpl.ejs.js" />
+        <option value="$PROJECT_DIR$/routes/kadry/kadryRoute.js" />
+        <option value="$PROJECT_DIR$/public/app/views/viewsFactory.js" />
+        <option value="$PROJECT_DIR$/public/app/behaviors/settings.js" />
+        <option value="$PROJECT_DIR$/public/app/templates/settingsTpl.ejs" />
+        <option value="$PROJECT_DIR$/public/app/templates/monitoringTpl.ejs" />
+        <option value="$PROJECT_DIR$/public/app/models/orgm.js" />
+        <option value="$PROJECT_DIR$/public/app/templates/mainTpl.ejs" />
+        <option value="$PROJECT_DIR$/public/app/templates/menuTpl.ejs" />
+        <option value="$PROJECT_DIR$/public/app/behaviors/orgm.js" />
+        <option value="$PROJECT_DIR$/db.js" />
+        <option value="$PROJECT_DIR$/public/app/schemas/menu.js" />
+        <option value="$PROJECT_DIR$/public/app/templates/loginTpl.ejs" />
         <option value="$PROJECT_DIR$/routes/orgm/orgmRoute.js" />
-        <option value="$PROJECT_DIR$/public/templates/orgm/adminTpl.ejs" />
-        <option value="$PROJECT_DIR$/public/js/orgm/orgmJs.js" />
+        <option value="$PROJECT_DIR$/user.js" />
+        <option value="$PROJECT_DIR$/config.js" />
+        <option value="$PROJECT_DIR$/public/app/views/kadry.js" />
+        <option value="$PROJECT_DIR$/public/app/models/kadry.js" />
+        <option value="$PROJECT_DIR$/public/app/behaviors/admin.js" />
+        <option value="$PROJECT_DIR$/public/app/templates/adminTpl.ejs" />
+        <option value="$PROJECT_DIR$/public/app/views/check.js" />
+        <option value="$PROJECT_DIR$/public/app/views/main.js" />
+        <option value="$PROJECT_DIR$/public/app/views/menu.js" />
+        <option value="$PROJECT_DIR$/public/app/models/settings.js" />
+        <option value="$PROJECT_DIR$/public/app/router.js" />
+        <option value="$PROJECT_DIR$/public/app/collections/settings.js" />
+        <option value="$PROJECT_DIR$/public/app/collections/users.js" />
+        <option value="$PROJECT_DIR$/public/app/behaviors/adminOrgm.js" />
+        <option value="$PROJECT_DIR$/public/app/views/login.js" />
+        <option value="$PROJECT_DIR$/public/app/behaviors/login.js" />
+        <option value="$PROJECT_DIR$/public/app/views/settings.js" />
+        <option value="$PROJECT_DIR$/public/app/views/admin.js" />
+        <option value="$PROJECT_DIR$/public/app/schemas/datesScm.js" />
+        <option value="$PROJECT_DIR$/public/app/templates/adminKadryTpl.ejs" />
+        <option value="$PROJECT_DIR$/public/app/main.js" />
+        <option value="$PROJECT_DIR$/public/app/core/utls.js" />
+        <option value="$PROJECT_DIR$/public/app/behaviors/adminKadry.js" />
+        <option value="$PROJECT_DIR$/core/commonDB.js" />
+        <option value="$PROJECT_DIR$/routes/mksite/mainroute.js" />
+        <option value="$PROJECT_DIR$/public/app/templates/kadryTpl.ejs" />
+        <option value="$PROJECT_DIR$/public/app/behaviors/kadry.js" />
       </list>
     </option>
   </component>
@@ -214,9 +663,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="-4" />
+    <option name="y" value="24" />
     <option name="width" value="1855" />
-    <option name="height" value="1204" />
+    <option name="height" value="1176" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -272,7 +721,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -286,7 +735,53 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kadry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tempfiledir" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -304,7 +799,61 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -326,25 +875,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="orgm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodemksite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodemksite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -362,29 +897,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="schemas" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="orgm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodemksite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodemksite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="schemas" />
+              <option name="myItemId" value="behaviors" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -398,33 +915,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodemksite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodemksite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="orgm" />
+              <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -435,7 +926,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../reality_refactoring/reality" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../old/nodemksite" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
@@ -465,11 +956,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/" />
-      <recent name="$PROJECT_DIR$/bin" />
-      <recent name="$PROJECT_DIR$/public/templates/orgm" />
-      <recent name="$PROJECT_DIR$/public/js" />
+      <recent name="$PROJECT_DIR$/bower_components" />
+      <recent name="$PROJECT_DIR$/public/app/behaviors" />
+      <recent name="$PROJECT_DIR$/public/app/templates" />
+      <recent name="$PROJECT_DIR$/public/app/collections" />
+      <recent name="$PROJECT_DIR$/core" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\devel\nodemksite\public\stylesheets\deathmonitor" />
@@ -548,6 +1039,17 @@
       <setting name="preferredDebugBrowser" value="Chrome" />
       <method />
     </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
@@ -572,10 +1074,10 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Node.js.tst.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.www.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.app" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.sandbox.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.user.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.user.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.www.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.app" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.sandbox.js" />
       </list>
     </recent_temporary>
   </component>
@@ -592,47 +1094,49 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1204" extended-state="6" />
+    <frame x="65" y="24" width="1855" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3314815" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19432314" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19432314" sideWeight="0.49867374" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39166668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26481482" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19432314" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30185184" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298479" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20925926" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298479" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2037037" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2037037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30555555" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24714829" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39166668" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19432314" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298479" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19432314" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19432314" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23859316" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19432314" sideWeight="0.49867374" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30185184" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -653,444 +1157,782 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/base.js</url>
+          <line>244</line>
+          <option name="timeStamp" value="559" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/orgm/orgmRoute.js</url>
+          <line>1054</line>
+          <option name="timeStamp" value="627" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/public/app/views/settings.js</url>
+          <line>7</line>
+          <option name="timeStamp" value="628" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/orgm/orgmRoute.js</url>
+          <line>826</line>
+          <option name="timeStamp" value="629" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/orgm/orgmRoute.js</url>
+          <line>845</line>
+          <option name="timeStamp" value="631" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/orgm/orgmRoute.js</url>
+          <line>864</line>
+          <option name="timeStamp" value="633" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/orgm/orgmRoute.js</url>
+          <line>33</line>
+          <option name="timeStamp" value="651" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/mksite/mainroute.js</url>
+          <line>520</line>
+          <option name="timeStamp" value="684" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="523" />
+      <option name="time" value="687" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/js/mmo/mmoModel.js">
+    <entry file="file://$PROJECT_DIR$/public/app/templates/menuTpl.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+        <state vertical-scroll-proportion="-24.814816" vertical-offset="140" max-vertical-offset="936">
+          <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/orgm/orgmLogin.ejs">
+    <entry file="file://$PROJECT_DIR$/public/app/templates/loginTpl.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.11111" vertical-offset="0" max-vertical-offset="0">
-          <caret line="65" column="29" selection-start-line="65" selection-start-column="3" selection-end-line="65" selection-end-column="29" />
-          <folding />
+        <state vertical-scroll-proportion="-21.333334" vertical-offset="162" max-vertical-offset="1062">
+          <caret line="41" column="89" selection-start-line="41" selection-start-column="89" selection-end-line="41" selection-end-column="89" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/login/login.ejs">
+    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap-validator/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.444445" vertical-offset="0" max-vertical-offset="0">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="66" selection-end-column="9" />
-          <folding />
+        <state vertical-scroll-proportion="0.29471034" vertical-offset="0" max-vertical-offset="794">
+          <caret line="13" column="67" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="67" />
         </state>
       </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/bootstrapValidator/.bower.json">
+    <entry file="file://$PROJECT_DIR$/bower_components/jquery-validation/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/orgm/orgmIndex.ejs">
+    <entry file="file://$PROJECT_DIR$/bower_components/jquery-form-validator/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-68.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="124" column="0" selection-start-line="124" selection-start-column="0" selection-end-line="126" selection-end-column="51" />
+        <state vertical-scroll-proportion="0.5761844" vertical-offset="108" max-vertical-offset="7560">
+          <caret line="31" column="60" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="60" />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/jquery-form-validator/form-validator/jquery.form-validator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.666667" vertical-offset="1468" max-vertical-offset="30402">
+          <caret line="96" column="60" selection-start-line="96" selection-start-column="47" selection-end-line="96" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ipban.js">
+    <entry file="file://$PROJECT_DIR$/public/app/templates/monitoringTpl.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.11809045" vertical-offset="1544" max-vertical-offset="2772">
+          <caret line="91" column="54" selection-start-line="91" selection-start-column="54" selection-end-line="91" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sandbox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11430">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/start">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0234375" vertical-offset="0" max-vertical-offset="0">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/www.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2109375" vertical-offset="0" max-vertical-offset="0">
-          <caret line="94" column="19" selection-start-line="94" selection-start-column="19" selection-end-line="94" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/www">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0703125" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/orgm/orgmModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="309" column="54" selection-start-line="309" selection-start-column="54" selection-end-line="309" selection-end-column="54" />
-          <folding>
-            <element signature="e#260#4727#0" expanded="false" />
-            <element signature="e#4787#7037#0" expanded="false" />
-            <element signature="e#5251#6255#0" expanded="false" />
-            <element signature="e#7720#8931#0" expanded="false" />
-            <element signature="e#8972#9378#0" expanded="false" />
-            <element signature="e#9424#9778#0" expanded="false" />
-            <element signature="e#9825#11104#0" expanded="false" />
-            <element signature="e#11169#11666#0" expanded="false" />
-            <element signature="e#11704#13033#0" expanded="false" />
-            <element signature="e#13069#14384#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/loader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31283423" vertical-offset="0" max-vertical-offset="0">
-          <caret line="27" column="19" selection-start-line="13" selection-start-column="16" selection-end-line="27" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/backbone/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/templates/orgm/mprPDTpl.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="0">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/deathmonitor/fillfrm.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="55.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/schemas/orgm/mprScm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/templates/orgm/mprTpl.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="118" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/templates/orgm/deathmTpl.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.666666" vertical-offset="0" max-vertical-offset="0">
-          <caret line="76" column="84" selection-start-line="76" selection-start-column="84" selection-end-line="76" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/schemas/orgm/mprPDScm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/deathmonitor/fillfrm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="137" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/deathmonitor/uploadform.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="82" column="29" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6267943" vertical-offset="0" max-vertical-offset="0">
-          <caret line="90" column="19" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/schemas/orgm/deathmScm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="281" column="17" selection-start-line="281" selection-start-column="17" selection-end-line="281" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/deathmonitor/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19136523" vertical-offset="0" max-vertical-offset="0">
-          <caret line="22" column="115" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/passport.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34" vertical-offset="0" max-vertical-offset="0">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/orgm/orgmAdmin.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38737446" vertical-offset="0" max-vertical-offset="0">
-          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.531646" vertical-offset="0" max-vertical-offset="0">
-          <caret line="478" column="38" selection-start-line="478" selection-start-column="27" selection-end-line="478" selection-end-column="38" />
+        <state vertical-scroll-proportion="5.5333333" vertical-offset="4266" max-vertical-offset="8856">
+          <caret line="785" column="0" selection-start-line="785" selection-start-column="0" selection-end-line="785" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/views/viewsFactory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="41" max-vertical-offset="864">
+          <caret line="29" column="48" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/schemas/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
+          <caret line="3" column="59" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/models/session.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48786408" vertical-offset="606" max-vertical-offset="2160">
+          <caret line="63" column="40" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
           <folding>
-            <element signature="e#19966#70797#0" expanded="false" />
+            <element signature="e#1277#1495#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/templates/orgm/orgmMprAdminTpl.ejs">
+    <entry file="file://$PROJECT_DIR$/public/app/models/kadry.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.333333" vertical-offset="0" max-vertical-offset="0">
-          <caret line="20" column="33" selection-start-line="14" selection-start-column="23" selection-end-line="20" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
+          <caret line="7" column="7" selection-start-line="4" selection-start-column="15" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/models/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/views/check.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="666">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/templates/login.ejs">
+    <entry file="file://$PROJECT_DIR$/public/app/views/kadry.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7934003" vertical-offset="0" max-vertical-offset="0">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="41" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/templates/orgm/mainTpl.ejs">
+    <entry file="file://$PROJECT_DIR$/public/app/views/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1032999" vertical-offset="0" max-vertical-offset="0">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="45" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/deathmonitor/model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="29" column="13" selection-start-line="6" selection-start-column="12" selection-end-line="29" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/deathmonitor/admmodel.js">
+    <entry file="file://$PROJECT_DIR$/public/app/views/menu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="18" column="96" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="96" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/templates/adminTpl.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="1620">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/marionette/lib/backbone.marionette.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33290654" vertical-offset="34138" max-vertical-offset="68850">
+          <caret line="1911" column="17" selection-start-line="1911" selection-start-column="4" selection-end-line="1911" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/models/settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1092233" vertical-offset="0" max-vertical-offset="824">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/views/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.0" vertical-offset="0" max-vertical-offset="972">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/behaviors/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.8" vertical-offset="402" max-vertical-offset="1638">
+          <caret line="37" column="26" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="26" />
+          <folding>
+            <element signature="e#2256#3407#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/collections/settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28398058" vertical-offset="0" max-vertical-offset="824">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/collections/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="558">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/views/settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="846">
+          <caret line="31" column="19" selection-start-line="27" selection-start-column="12" selection-end-line="31" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/templates/settingsTpl.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="792">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/views/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.066667" vertical-offset="124" max-vertical-offset="1386">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1314" max-vertical-offset="2196">
+          <caret line="131" column="61" selection-start-line="131" selection-start-column="61" selection-end-line="131" selection-end-column="61" />
+          <folding>
+            <element signature="e#2880#2929#0" expanded="false" />
+            <element signature="e#2959#3012#0" expanded="false" />
+            <element signature="e#3047#3263#0" expanded="false" />
+            <element signature="e#3293#3669#0" expanded="false" />
+            <element signature="e#3697#3775#0" expanded="false" />
+            <element signature="e#3804#4017#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/schemas/datesScm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="8" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/deathmonitor/getReport.js">
+    <entry file="file://$PROJECT_DIR$/public/app/behaviors/adminOrgm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="23" column="75" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="75" />
+        <state vertical-scroll-proportion="32.233334" vertical-offset="1795" max-vertical-offset="2430">
+          <caret line="69" column="55" selection-start-line="65" selection-start-column="16" selection-end-line="69" selection-end-column="55" />
+          <folding>
+            <element signature="e#671#854#0" expanded="false" />
+            <element signature="e#889#1583#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/lz4/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1584">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/jsonpack/test/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1926">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/orgm/orgmAdminModel.js">
+    <entry file="file://$PROJECT_DIR$/public/app/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="112" column="39" selection-start-line="112" selection-start-column="32" selection-end-line="112" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="1440">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/orgm/orgmView.ejs">
+    <entry file="file://$PROJECT_DIR$/public/app/behaviors/orgm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.0" vertical-offset="0" max-vertical-offset="648">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        <state vertical-scroll-proportion="-11.333333" vertical-offset="884" max-vertical-offset="2232">
+          <caret line="68" column="21" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tst.js">
+    <entry file="file://$PROJECT_DIR$/public/app/behaviors/settings.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="724">
-          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/xlsx-template/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.266666" vertical-offset="2932" max-vertical-offset="16308">
+          <caret line="185" column="36" selection-start-line="185" selection-start-column="28" selection-end-line="185" selection-end-column="36" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/core/orgmViewUtility.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="164" selection-end-column="3" />
+          <folding>
+            <element signature="e#181#943#0" expanded="false" />
+            <element signature="e#977#5265#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/core/utls.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
+          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="728" max-vertical-offset="2682">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.0" vertical-offset="5038" max-vertical-offset="7632">
-          <caret line="291" column="0" selection-start-line="291" selection-start-column="0" selection-end-line="291" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap/less/tables.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.8947368" vertical-offset="2676" max-vertical-offset="4302">
-          <caret line="161" column="25" selection-start-line="161" selection-start-column="19" selection-end-line="161" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5666666" vertical-offset="77587" max-vertical-offset="104238">
-          <caret line="4323" column="13" selection-start-line="4323" selection-start-column="7" selection-end-line="4323" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/templates/orgm/checkResultTpl.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="17.333334" vertical-offset="486" max-vertical-offset="1278">
-          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/bower-requirejs/lib/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1598" max-vertical-offset="2322">
-          <caret line="114" column="0" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="5159" max-vertical-offset="7326">
-          <caret line="300" column="0" selection-start-line="300" selection-start-column="0" selection-end-line="300" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33287293" vertical-offset="8831" max-vertical-offset="9702">
-          <caret line="504" column="0" selection-start-line="504" selection-start-column="0" selection-end-line="504" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/bower-requirejs/lib/build-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.80110496" vertical-offset="806" max-vertical-offset="1530">
-          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sandbox.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="299" max-vertical-offset="3366">
-          <caret line="179" column="0" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.3189189" vertical-offset="736" max-vertical-offset="1962">
+          <caret line="250" column="72" selection-start-line="250" selection-start-column="72" selection-end-line="250" selection-end-column="72" />
           <folding>
-            <element signature="n#!!block;n#encode_range#0" expanded="false" />
-            <element signature="n#!!block;n#safe_decode_range#0" expanded="false" />
-            <element signature="n#!!block;n#convertTable#0" expanded="false" />
-            <element signature="e#9328#59271#0" expanded="false" />
+            <element signature="n#!!block;n#errproc#0" expanded="false" />
+            <element signature="e#230#286#0" expanded="false" />
+            <element signature="e#310#337#0" expanded="false" />
+            <element signature="e#347#382#0" expanded="false" />
+            <element signature="e#482#562#0" expanded="false" />
+            <element signature="e#568#822#0" expanded="false" />
+            <element signature="e#858#1032#0" expanded="false" />
+            <element signature="e#966#1024#0" expanded="false" />
+            <element signature="e#1086#1927#0" expanded="false" />
+            <element signature="e#1125#1194#0" expanded="false" />
+            <element signature="e#1283#1595#0" expanded="false" />
+            <element signature="e#1514#1583#0" expanded="false" />
+            <element signature="e#1626#1669#0" expanded="false" />
+            <element signature="e#1683#1921#0" expanded="false" />
+            <element signature="e#1840#1909#0" expanded="false" />
+            <element signature="e#1987#2921#0" expanded="false" />
+            <element signature="e#2001#2325#0" expanded="false" />
+            <element signature="e#2840#2909#0" expanded="false" />
+            <element signature="e#2982#3708#0" expanded="false" />
+            <element signature="e#2992#3296#0" expanded="false" />
+            <element signature="e#3560#3609#0" expanded="false" />
+            <element signature="e#3639#3700#0" expanded="false" />
+            <element signature="e#3765#4930#0" expanded="false" />
+            <element signature="e#4012#4922#0" expanded="false" />
+            <element signature="e#4069#4897#0" expanded="false" />
+            <element signature="e#4154#4764#0" expanded="false" />
+            <element signature="e#4309#4740#0" expanded="false" />
+            <element signature="e#4382#4683#0" expanded="false" />
+            <element signature="e#4536#4647#0" expanded="false" />
+            <element signature="e#4790#4879#0" expanded="false" />
+            <element signature="e#6500#7839#0" expanded="false" />
+            <element signature="e#6805#7827#0" expanded="false" />
+            <element signature="e#6866#7794#0" expanded="false" />
+            <element signature="e#6959#7645#0" expanded="false" />
+            <element signature="e#7140#7617#0" expanded="false" />
+            <element signature="e#7217#7552#0" expanded="false" />
+            <element signature="e#7393#7512#0" expanded="false" />
+            <element signature="e#7675#7772#0" expanded="false" />
+            <element signature="e#7898#9124#0" expanded="false" />
+            <element signature="e#8175#9112#0" expanded="false" />
+            <element signature="e#8236#9096#0" expanded="false" />
+            <element signature="e#8329#8947#0" expanded="false" />
+            <element signature="e#8359#8491#0" expanded="false" />
+            <element signature="e#8724#8843#0" expanded="false" />
+            <element signature="e#8880#8887#0" expanded="false" />
+            <element signature="e#8977#9074#0" expanded="false" />
+            <element signature="e#9195#9478#0" expanded="false" />
+            <element signature="e#9209#9248#0" expanded="false" />
+            <element signature="e#9405#9466#0" expanded="false" />
+            <element signature="e#9554#12231#0" expanded="false" />
+            <element signature="e#9564#10697#0" expanded="false" />
+            <element signature="e#10706#10745#0" expanded="false" />
+            <element signature="e#10804#12168#0" expanded="false" />
+            <element signature="e#10989#12061#0" expanded="false" />
+            <element signature="e#10998#12060#0" expanded="false" />
+            <element signature="e#12085#12156#0" expanded="false" />
+            <element signature="e#12185#12222#0" expanded="false" />
+            <element signature="e#13586#13639#0" expanded="false" />
+            <element signature="e#13722#14577#0" expanded="false" />
+            <element signature="e#13905#14471#0" expanded="false" />
+            <element signature="e#13913#14470#0" expanded="false" />
+            <element signature="e#14508#14569#0" expanded="false" />
+            <element signature="e#14656#14944#0" expanded="false" />
+            <element signature="e#14875#14936#0" expanded="false" />
+            <element signature="e#15025#15454#0" expanded="false" />
+            <element signature="e#15208#15348#0" expanded="false" />
+            <element signature="e#15218#15347#0" expanded="false" />
+            <element signature="e#15385#15446#0" expanded="false" />
+            <element signature="e#15498#16701#0" expanded="false" />
+            <element signature="e#15544#15677#0" expanded="false" />
+            <element signature="e#15552#15655#0" expanded="false" />
+            <element signature="e#16071#16693#0" expanded="false" />
+            <element signature="e#16140#16679#0" expanded="false" />
+            <element signature="e#16793#17247#0" expanded="false" />
+            <element signature="e#17001#17141#0" expanded="false" />
+            <element signature="e#17011#17140#0" expanded="false" />
+            <element signature="e#17178#17239#0" expanded="false" />
+            <element signature="e#17309#17484#0" expanded="false" />
+            <element signature="e#17415#17476#0" expanded="false" />
+            <element signature="e#17521#17911#0" expanded="false" />
+            <element signature="e#17767#17806#0" expanded="false" />
+            <element signature="e#17836#17902#0" expanded="false" />
+            <element signature="e#17919#18070#0" expanded="false" />
+            <element signature="e#18075#18249#0" expanded="false" />
+            <element signature="e#18438#19135#0" expanded="false" />
+            <element signature="e#18549#19126#0" expanded="false" />
+            <element signature="e#18592#18788#0" expanded="false" />
+            <element signature="e#18629#18695#0" expanded="false" />
+            <element signature="e#18701#18774#0" expanded="false" />
+            <element signature="e#18805#19116#0" expanded="false" />
+            <element signature="e#19205#20138#0" expanded="false" />
+            <element signature="e#19322#20128#0" expanded="false" />
+            <element signature="e#19365#20116#0" expanded="false" />
+            <element signature="e#19402#20022#0" expanded="false" />
+            <element signature="e#19570#20001#0" expanded="false" />
+            <element signature="e#19628#19974#0" expanded="false" />
+            <element signature="e#19678#19833#0" expanded="false" />
+            <element signature="e#19839#19948#0" expanded="false" />
+            <element signature="e#20028#20102#0" expanded="false" />
+            <element signature="e#20209#20639#0" expanded="false" />
+            <element signature="e#20342#20625#0" expanded="false" />
+            <element signature="e#20389#20609#0" expanded="false" />
+            <element signature="e#20430#20504#0" expanded="false" />
+            <element signature="e#20510#20591#0" expanded="false" />
+            <element signature="e#20702#21119#0" expanded="false" />
+            <element signature="e#20820#21107#0" expanded="false" />
+            <element signature="e#20867#21091#0" expanded="false" />
+            <element signature="e#20908#20982#0" expanded="false" />
+            <element signature="e#20988#21073#0" expanded="false" />
+            <element signature="e#21171#21504#0" expanded="false" />
+            <element signature="e#21262#21497#0" expanded="false" />
+            <element signature="e#21303#21487#0" expanded="false" />
+            <element signature="e#21338#21400#0" expanded="false" />
+            <element signature="e#21406#21475#0" expanded="false" />
+            <element signature="e#21556#21826#0" expanded="false" />
+            <element signature="e#21682#21814#0" expanded="false" />
+            <element signature="e#21880#22236#0" expanded="false" />
+            <element signature="e#22013#22224#0" expanded="false" />
+            <element signature="e#22077#22210#0" expanded="false" />
+            <element signature="e#22305#22456#0" expanded="false" />
+            <element signature="e#22395#22448#0" expanded="false" />
+            <element signature="e#22518#22830#0" expanded="false" />
+            <element signature="e#22605#22816#0" expanded="false" />
+            <element signature="e#22669#22802#0" expanded="false" />
+            <element signature="e#22835#23056#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/behaviors/adminKadry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.266667" vertical-offset="1150" max-vertical-offset="2430">
+          <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+          <folding>
+            <element signature="e#2013#2707#0" expanded="false" />
+            <element signature="e#2741#3577#0" expanded="false" />
+            <element signature="e#5974#6667#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/commonDB.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="388" max-vertical-offset="1152">
+          <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/mksite/mainroute.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.533334" vertical-offset="926" max-vertical-offset="10908">
+          <caret line="243" column="0" selection-start-line="243" selection-start-column="0" selection-end-line="243" selection-end-column="0" />
+          <folding>
+            <element signature="e#532#602#0" expanded="false" />
+            <element signature="n#!!block;n#isLoggedIn#0" expanded="false" />
+            <element signature="e#1197#1452#0" expanded="false" />
+            <element signature="e#1219#1405#0" expanded="false" />
+            <element signature="e#1504#2887#0" expanded="false" />
+            <element signature="e#1700#2286#0" expanded="false" />
+            <element signature="e#1742#1875#0" expanded="false" />
+            <element signature="e#1881#2272#0" expanded="false" />
+            <element signature="e#1980#2223#0" expanded="false" />
+            <element signature="e#2500#2703#0" expanded="false" />
+            <element signature="e#2931#3857#0" expanded="false" />
+            <element signature="e#3208#3846#0" expanded="false" />
+            <element signature="e#3229#3316#0" expanded="false" />
+            <element signature="e#3322#3836#0" expanded="false" />
+            <element signature="e#3469#3822#0" expanded="false" />
+            <element signature="e#3614#3803#0" expanded="false" />
+            <element signature="e#3926#7501#0" expanded="false" />
+            <element signature="e#3950#4408#0" expanded="false" />
+            <element signature="e#3971#4407#0" expanded="false" />
+            <element signature="e#4839#7491#0" expanded="false" />
+            <element signature="e#4876#7339#0" expanded="false" />
+            <element signature="e#4911#5744#0" expanded="false" />
+            <element signature="e#4950#5134#0" expanded="false" />
+            <element signature="e#5165#5323#0" expanded="false" />
+            <element signature="e#5362#5520#0" expanded="false" />
+            <element signature="e#5526#5725#0" expanded="false" />
+            <element signature="e#5787#6634#0" expanded="false" />
+            <element signature="e#5827#6024#0" expanded="false" />
+            <element signature="e#6055#6213#0" expanded="false" />
+            <element signature="e#6252#6410#0" expanded="false" />
+            <element signature="e#6416#6616#0" expanded="false" />
+            <element signature="e#6675#7325#0" expanded="false" />
+            <element signature="e#6714#6899#0" expanded="false" />
+            <element signature="e#6940#7143#0" expanded="false" />
+            <element signature="e#7149#7307#0" expanded="false" />
+            <element signature="e#7357#7480#0" expanded="false" />
+            <element signature="e#9586#9691#0" expanded="false" />
+            <element signature="e#9724#9840#0" expanded="false" />
+            <element signature="e#9874#9997#0" expanded="false" />
+            <element signature="e#10168#10251#0" expanded="false" />
+            <element signature="e#10259#11615#0" expanded="false" />
+            <element signature="e#12056#12237#0" expanded="false" />
+            <element signature="e#12693#13370#0" expanded="false" />
+            <element signature="e#12849#13340#0" expanded="false" />
+            <element signature="e#12904#13306#0" expanded="false" />
+            <element signature="e#12983#13150#0" expanded="false" />
+            <element signature="e#13441#13496#0" expanded="false" />
+            <element signature="e#14007#14153#0" expanded="false" />
+            <element signature="e#14446#15557#0" expanded="false" />
+            <element signature="e#14625#15527#0" expanded="false" />
+            <element signature="e#14755#15314#0" expanded="false" />
+            <element signature="e#14839#15015#0" expanded="false" />
+            <element signature="e#15078#15276#0" expanded="false" />
+            <element signature="e#15643#16839#0" expanded="false" />
+            <element signature="e#15831#16805#0" expanded="false" />
+            <element signature="e#15969#16572#0" expanded="false" />
+            <element signature="e#16057#16253#0" expanded="false" />
+            <element signature="e#16320#16530#0" expanded="false" />
+            <element signature="e#17265#17441#0" expanded="false" />
+            <element signature="e#17500#17655#0" expanded="false" />
+            <element signature="e#18143#18678#0" expanded="false" />
+            <element signature="e#18223#18399#0" expanded="false" />
+            <element signature="e#18458#18644#0" expanded="false" />
+            <element signature="e#18910#18965#0" expanded="false" />
+            <element signature="e#19034#19168#0" expanded="false" />
+            <element signature="e#19320#19403#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/behaviors/check.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="642" max-vertical-offset="1944">
+          <caret line="76" column="41" selection-start-line="70" selection-start-column="12" selection-end-line="76" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/orgm/orgmRoute.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="897" max-vertical-offset="13788">
-          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        <state vertical-scroll-proportion="-29.066668" vertical-offset="1396" max-vertical-offset="2664">
+          <caret line="986" column="106" selection-start-line="986" selection-start-column="106" selection-end-line="986" selection-end-column="106" />
           <folding>
-            <element signature="e#30077#30146#0" expanded="false" />
-            <element signature="e#30179#30259#0" expanded="false" />
-            <element signature="e#30293#30380#0" expanded="false" />
-            <element signature="e#30501#31551#0" expanded="false" />
-            <element signature="e#31621#47611#0" expanded="false" />
-            <element signature="e#32043#39553#0" expanded="false" />
-            <element signature="e#34186#36050#0" expanded="false" />
-            <element signature="e#37306#39524#0" expanded="false" />
-            <element signature="e#40168#43635#0" expanded="false" />
-            <element signature="e#43695#47605#0" expanded="false" />
+            <element signature="e#452#522#0" expanded="false" />
+            <element signature="e#539#659#0" expanded="false" />
+            <element signature="e#545#657#0" expanded="false" />
+            <element signature="n#!!block;n#isLoggedIn#0" expanded="false" />
+            <element signature="e#1188#1250#0" expanded="false" />
+            <element signature="e#26479#28072#0" expanded="false" />
+            <element signature="e#26721#27717#0" expanded="false" />
+            <element signature="e#27007#27705#0" expanded="false" />
+            <element signature="e#27049#27182#0" expanded="false" />
+            <element signature="e#27188#27690#0" expanded="false" />
+            <element signature="e#27262#27350#0" expanded="false" />
+            <element signature="e#27398#27641#0" expanded="false" />
+            <element signature="e#28118#28166#0" expanded="false" />
+            <element signature="e#28218#28489#0" expanded="false" />
+            <element signature="e#28241#28447#0" expanded="false" />
+            <element signature="e#28573#28828#0" expanded="false" />
+            <element signature="e#28595#28781#0" expanded="false" />
+            <element signature="e#28893#29728#0" expanded="false" />
+            <element signature="e#29141#29185#0" expanded="false" />
+            <element signature="e#29538#29719#0" expanded="false" />
+            <element signature="e#29561#29648#0" expanded="false" />
+            <element signature="e#29654#29709#0" expanded="false" />
+            <element signature="e#29798#31845#0" expanded="false" />
+            <element signature="e#30085#31467#0" expanded="false" />
+            <element signature="e#30144#31466#0" expanded="false" />
+            <element signature="e#30179#30297#0" expanded="false" />
+            <element signature="e#30342#31329#0" expanded="false" />
+            <element signature="e#30464#31175#0" expanded="false" />
+            <element signature="e#30600#30680#0" expanded="false" />
+            <element signature="e#30713#31086#0" expanded="false" />
+            <element signature="e#30844#31020#0" expanded="false" />
+            <element signature="e#31250#31311#0" expanded="false" />
+            <element signature="e#31359#31456#0" expanded="false" />
+            <element signature="e#31494#31563#0" expanded="false" />
+            <element signature="e#31596#31676#0" expanded="false" />
+            <element signature="e#31710#31795#0" expanded="false" />
+            <element signature="e#32100#32175#0" expanded="false" />
+            <element signature="e#32208#32285#0" expanded="false" />
+            <element signature="e#32320#32420#0" expanded="false" />
+            <element signature="e#32546#32667#0" expanded="false" />
+            <element signature="e#33647#33793#0" expanded="false" />
+            <element signature="e#33976#34031#0" expanded="false" />
+            <element signature="e#34144#38929#0" expanded="false" />
+            <element signature="e#34177#34340#0" expanded="false" />
+            <element signature="e#34417#34834#0" expanded="false" />
+            <element signature="e#34883#35026#0" expanded="false" />
+            <element signature="e#35315#35574#0" expanded="false" />
+            <element signature="e#35642#37782#0" expanded="false" />
+            <element signature="e#35712#37754#0" expanded="false" />
+            <element signature="e#35758#37722#0" expanded="false" />
+            <element signature="e#35824#37257#0" expanded="false" />
+            <element signature="e#35955#37218#0" expanded="false" />
+            <element signature="e#36085#36172#0" expanded="false" />
+            <element signature="e#36223#37175#0" expanded="false" />
+            <element signature="e#36402#36603#0" expanded="false" />
+            <element signature="e#37263#37688#0" expanded="false" />
+            <element signature="e#37530#37545#0" expanded="false" />
+            <element signature="e#37845#38904#0" expanded="false" />
+            <element signature="e#37939#38055#0" expanded="false" />
+            <element signature="e#38100#38241#0" expanded="false" />
+            <element signature="e#38275#38380#0" expanded="false" />
+            <element signature="e#38419#38496#0" expanded="false" />
+            <element signature="e#39112#39275#0" expanded="false" />
+            <element signature="e#39363#39506#0" expanded="false" />
+            <element signature="e#39842#39948#0" expanded="false" />
+            <element signature="e#40073#40574#0" expanded="false" />
+            <element signature="e#40614#40742#0" expanded="false" />
+            <element signature="e#41554#41700#0" expanded="false" />
+            <element signature="e#41722#41841#0" expanded="false" />
+            <element signature="e#41868#41923#0" expanded="false" />
+            <element signature="e#42005#45683#0" expanded="false" />
+            <element signature="e#42038#42201#0" expanded="false" />
+            <element signature="e#42278#42478#0" expanded="false" />
+            <element signature="e#42527#42670#0" expanded="false" />
+            <element signature="e#42959#43421#0" expanded="false" />
+            <element signature="e#43489#44593#0" expanded="false" />
+            <element signature="e#43559#44565#0" expanded="false" />
+            <element signature="e#43605#44534#0" expanded="false" />
+            <element signature="e#44201#44499#0" expanded="false" />
+            <element signature="e#44656#45659#0" expanded="false" />
+            <element signature="e#44750#44866#0" expanded="false" />
+            <element signature="e#44911#45052#0" expanded="false" />
+            <element signature="e#45086#45191#0" expanded="false" />
+            <element signature="e#45230#45307#0" expanded="false" />
+            <element signature="e#45743#49653#0" expanded="false" />
+            <element signature="e#45958#46102#0" expanded="false" />
+            <element signature="e#46124#46244#0" expanded="false" />
+            <element signature="e#46286#46339#0" expanded="false" />
+            <element signature="e#46400#49333#0" expanded="false" />
+            <element signature="e#46429#46576#0" expanded="false" />
+            <element signature="e#46602#49314#0" expanded="false" />
+            <element signature="e#46680#47105#0" expanded="false" />
+            <element signature="e#47154#47295#0" expanded="false" />
+            <element signature="e#47424#47563#0" expanded="false" />
+            <element signature="e#47617#47752#0" expanded="false" />
+            <element signature="e#47808#48169#0" expanded="false" />
+            <element signature="e#48054#48143#0" expanded="false" />
+            <element signature="e#48266#48521#0" expanded="false" />
+            <element signature="e#48560#48728#0" expanded="false" />
+            <element signature="e#48758#48855#0" expanded="false" />
+            <element signature="e#48913#48982#0" expanded="false" />
+            <element signature="e#49705#49746#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/templates/orgm/adminTpl.ejs">
+    <entry file="file://$PROJECT_DIR$/public/app/templates/adminKadryTpl.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.481482" vertical-offset="1301" max-vertical-offset="1998">
-          <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/templates/orgm/checkTpl.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/orgm/orgmJs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7209945" vertical-offset="2214" max-vertical-offset="3618">
-          <caret line="781" column="39" selection-start-line="781" selection-start-column="39" selection-end-line="781" selection-end-column="39" />
+        <state vertical-scroll-proportion="-60.851852" vertical-offset="607" max-vertical-offset="2376">
+          <caret line="125" column="0" selection-start-line="124" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
           <folding>
-            <element signature="e#1930#6659#0" expanded="false" />
-            <element signature="e#6705#9743#0" expanded="false" />
-            <element signature="e#9788#17575#0" expanded="false" />
-            <element signature="e#18280#18887#0" expanded="false" />
-            <element signature="e#18924#19006#0" expanded="false" />
-            <element signature="e#19044#22463#0" expanded="false" />
-            <element signature="e#22498#23163#0" expanded="false" />
-            <element signature="e#23205#23499#0" expanded="false" />
-            <element signature="e#23536#23584#0" expanded="false" />
-            <element signature="e#23631#23949#0" expanded="false" />
-            <element signature="e#23999#24632#0" expanded="false" />
-            <element signature="e#24668#24969#0" expanded="false" />
-            <element signature="e#25013#25838#0" expanded="false" />
-            <element signature="e#25873#26637#0" expanded="false" />
-            <element signature="e#26674#27135#0" expanded="false" />
-            <element signature="e#27173#27586#0" expanded="false" />
-            <element signature="e#27616#29750#0" expanded="false" />
-            <element signature="e#29800#30589#0" expanded="false" />
+            <marker date="1434355159908" expanded="true" signature="1183:1361" placeholder="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/templates/kadryTpl.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-513.4737" vertical-offset="5454" max-vertical-offset="59058">
+          <caret line="1929" column="84" selection-start-line="1929" selection-start-column="84" selection-end-line="1929" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/behaviors/kadry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30097088" vertical-offset="562" max-vertical-offset="3060">
+          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>

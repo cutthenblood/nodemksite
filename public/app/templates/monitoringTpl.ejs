@@ -1,0 +1,149 @@
+<div class="container-fluid">
+    <%
+    if(info){
+        %>
+    <div class="row alert alert-warning">
+        <%=info%>
+    </div>
+    <%
+    }
+     %>
+
+    <div class="row">
+        <div class="col-xs-12">
+            <div id="alert"></div>
+            <div class="panel panel-default ">
+
+                <div class="panel-heading">
+
+                    <h4><%=table[0].fullname%> </h4>
+
+                </div>
+                <div class="panel-body">
+                    <form id="mainaddform" class="form-horizontal" action="" method="post"
+                          data-toggle="validator" role="form" data-disable="true"
+                            >
+                        <% if(table[0].mo || table[0].uz){%>
+                        <div class="row">
+                            <div class="form-group">
+                                <label class="col-xs-2 control-label">МО</label>
+
+                                <div class="col-xs-9 ">
+                                    <select class="form-control" id="mo" autofocus>
+                                        <% //users.forEach(function(user){
+
+                                                if (table[0].uz && user.uz)
+                                        {%>
+                                        <option><%= user.uz.replace(/ {2,}/g, ' ') %></option>
+                                        <% }
+                                        else{
+                                             if(user.mo){
+
+                                                user.mo.forEach(function(moo){
+                                        %>
+                                        <option value="<%- moo.group %>"><%= moo.fullname.replace(/ {2,}/g, ' ') %></option>
+                                        <% });
+                                        }
+                                            else {
+                                        %>
+                                        <option><%= user.username.replace(/ {2,}/g, ' ') %></option>
+                                        <%
+                                        }
+
+                                        }
+                                        // })
+                                        %>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <%}%>
+                        <div class="row">
+                            <div class="row">
+                                <div class="form-group">
+                                    <label class="col-xs-2 control-label col-xs-offset-2">мониторинг за</label>
+
+                                    <div class='input-group date col-xs-5' id="date" data-date-format="DD.MM.YYYY">
+                                        <input type='text' class="form-control" name="inputdate"/>
+                                        <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+                                        </span>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <% function walk(val){
+                                if(val.type == 'subgraphs')
+                        { %>
+                        <div class="row">
+                            <div class="well">
+                                <h4><%= val.label %> </h4>
+                                <% val.sub.forEach(walk) %>
+                            </div>
+                        </div>
+                        <% }
+                        else if(val.type!='info'){ %>
+                        <div class="row">
+                            <div class="form-group">
+                                <label class="col-xs-4 control-label"><%= val.label %></label>
+
+                                <div class="col-xs-8">
+                                    <table cellspacing="2" width="100%">
+                                        <tr>
+                                            <td>
+                                                <% if(val.type == 'date'){ %>
+                                                <div class='input-group date ' data-date-format="DD.MM.YYYY">
+                                                    <input type='text' class="form-control" name="<%= val.name %>"
+                                                           required
+
+
+
+                                                            />
+                                            <span class="input-group-addon"><span
+                                                        class="glyphicon glyphicon-calendar"></span>
+                                            </span>
+
+                                                    <% } else {
+                                                            if(val.type == 'textarea'){ %>
+                                                    <textarea
+                                                    <% } else { %>
+                                                    <input type="text"
+                                                            <% } %>
+                                                           class="form-control" name='<%= val.name %>'
+                                                            <% if (val.type == 'number'){ %>
+                                                           pattern="[0-9]+"
+                                                           required
+
+                                                            <% } %>
+                                                            />
+                                                    <% } %>
+                                            </td>
+                                            <td>&nbsp&nbsp(Гр.<%= val.name.slice(2) %>)</td>
+                                        </tr>
+                                    </table>
+                                </div>
+
+                            </div>
+                        </div>
+                        <% }
+
+                        }
+                        table.forEach(walk);
+                        %>
+                        <div class="row">
+                            <div class="form-group">
+                                <div class="col-xs-9 col-xs-offset-3">
+                                    <button type="submit" class="btn btn-primary" name="submitexit">Сохранить и выйти
+                                    </button>
+                                    <!-- <button type="submit" class="btn btn-primary" name="submitcontinue">Сохранить и продолжить</button>-->
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

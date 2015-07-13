@@ -128,13 +128,45 @@ module.exports = function (db) {
             var row = data.rows;
             var username = row[0].username;
             var mo = row[0].mo;
+            var query = {};
+            if(collection == 'everyday')
+                query['$pull'] = {"rows":{"username": username}};
+            else
+                query['$pull'] = {"rows": {"mo": mo}};
+
             this._db.collection(collection).find({inputdate: parseInt(inputdate)}, {_id: 1}).toArray(function (err, result) {
                 errproc(err, result, callback, function () {
                         var docid = result;
                         if (docid.length == 1) {
-                            _this._db.collection(collection).update({ _id: docid[0]._id}, { $pull: {"rows": {"mo": mo}}}, function (err, result) {
+                            _this._db.collection(collection).update({ _id: docid[0]._id},query, function (err, result) {
                                 errproc(err, result, callback, function () {
-                                        _this._db.collection(collection).update({ inputdate: inputdate}, { $push: {"rows": row[0]}}, function (err, result) {
+                                        _this._db.collection(collection).update({ inputdate: inputdate},{$push: {"rows": row[0]}} , function (err, result) {
+                                            errproc(err, result, callback);
+                                        });
+                                    });
+                            });
+                        }
+                        else {
+                            _this.insert(collection, data, callback);
+                        }
+                    }
+                );
+            });
+        },
+        this.insupKadry = function (collection, data, callback) {
+            var _this = this;
+            var kvartal = data.kvartal;
+            var year = data.year;
+            var row = data.rows;
+            var username = row[0].username;
+
+            this._db.collection(collection).find({kvartal: kvartal,year: year}, {_id: 1}).toArray(function (err, result) {
+                errproc(err, result, callback, function () {
+                        var docid = result;
+                        if (docid.length == 1) {
+                            _this._db.collection(collection).update({ _id: new mongodb.ObjectID(docid[0]._id)}, { $pull: {"rows": {"username": username}}}, function (err, result) {
+                                errproc(err, result, callback, function () {
+                                        _this._db.collection(collection).update({ _id:new mongodb.ObjectID(docid[0]._id)}, { $push: {"rows": row[0]}}, function (err, result) {
                                             errproc(err, result, callback);
                                         });
                                     }
@@ -228,7 +260,7 @@ module.exports = function (db) {
                 "gr12":{$sum:"$rows.gr12"},"gr16":{$sum:"$rows.gr16"},"gr20":{$sum:"$rows.gr20"},"gr24":{$sum:"$rows.gr24"},"gr28":{$sum:"$rows.gr28"},
                 "gr13":{$sum:"$rows.gr13"},"gr17":{$sum:"$rows.gr17"},"gr21":{$sum:"$rows.gr21"},"gr25":{$sum:"$rows.gr25"},"gr29":{$sum:"$rows.gr29"},
                 "gr30":{$sum:"$rows.gr30"},"gr31":{$sum:"$rows.gr31"},"gr32":{$sum:"$rows.gr32"},"gr33":{$sum:"$rows.gr33"},"gr34":{$sum:"$rows.gr34"},
-                "gr35":{$sum:"$rows.gr35"}
+                "gr35":{$sum:"$rows.gr35"}, "gr36":{$sum:"$rows.gr36"}
             }}
             ,function (err, result) {
             errproc(err,result,callback);
@@ -239,7 +271,7 @@ module.exports = function (db) {
             {$unwind:"$rows"},
             {$match:{"inputdate":{$gte:parseInt(startdate),$lte:parseInt(stopdate)}}},
             {$group:{
-                "_id":{"user":"$rows.username","mo":"$rows.mo"},
+                "_id":{"user":"$rows.username","mo":"$rows.mo","inputdate":"$inputdate"},
                 "gr4":{$sum:"$rows.gr4"},"gr5":{$sum:"$rows.gr5"},"gr6":{$sum:"$rows.gr6"},"gr7":{$sum:"$rows.gr7"},"gr8":{$sum:"$rows.gr8"},"gr9":{$sum:"$rows.gr9"},
                 "gr10":{$sum:"$rows.gr10"},"gr14":{$sum:"$rows.gr14"},
                 "gr11":{$sum:"$rows.gr11"},"gr15":{$sum:"$rows.gr15"},
@@ -274,13 +306,15 @@ module.exports = function (db) {
             });
     };
     this.getOrgmWhoInput = function(data) {
+        var _this = this;
         var req = {$match:{
                 //"rows.mo":mo,
-                "inputdate":{$gte:data.startdate,$lte:data.stopdate}}};
+                "inputdate":{$gte:data.startdate,$lte:data.stopdate}}
+                    };
         if(data.mo)
-            req['$match']['rows.mo']=data.mo
+            req['$match']['rows.mo']=data.mo;
         if(data.username)
-            req['$match']['rows.username']=data.username
+            req['$match']['rows.username']=data.username;
         //collection,startdate,stopdate,mo,callback
         console.log(data.collection);
         console.log(req);
@@ -288,6 +322,24 @@ module.exports = function (db) {
             req
             ,function (err, result) {
                 errproc(err,result,data.callback);
+                /*if (err) {
+                    log.error(err);
+                    data.callback(err, null);
+                }
+                else {
+                    _this._db.collection('users').find({}).toArray(function(err1,users){
+                        if (err1) {
+                            log.error(err1);
+                            data.callback(err1, null);
+                        }
+                        else {
+                            //todo do whoinput!!
+
+
+                        }
+                    });
+
+                }*/
             });
     };
     this.getOrgmMprEmptyDates = function(collection,startdate,stopdate,username,callback) {
@@ -360,7 +412,34 @@ module.exports = function (db) {
         });
 
     },
-    this.getUser = function (collection, credentials, callback) {
+    this.getUserAuth = function (collection, credentials, callback) {
+        var _this = this;
+        this._db.collection(collection).find(credentials).toArray(function (err, result) {
+            errproc(err,result,function(){
+                if (result.length) {
+                    var division = result[0].division;
+                    _this._db.collection('privileges').find({division:division}).toArray(function(err1,result1){
+                        errproc(err1,result1,function() {
+                            if (result1.length) {
+                                result[0].privileges=result1[0];
+                                callback(null, result[0]);
+                            } else {
+                                callback('user privileges not exists', null);
+                            }
+                        })
+                        });
+
+                } else {
+
+                    callback('user not exists',null);
+                }
+            });
+        });
+
+
+    },
+
+        this.getUser = function (collection, credentials, callback) {
             console.log(credentials);
             this._db.collection(collection).find(credentials).toArray(function (err, result) {
                 errproc(err,result,function(){
@@ -374,8 +453,39 @@ module.exports = function (db) {
 
 
         },
+        this.getSettings = function (division,type,callback) {
+
+            this._db.collection('settings').find({'division':division,'type':type}).toArray(function (err, result) {
+                errproc(err,result,function(){
+                    if (result.length) {
+                        callback(null, result[0]);
+                    } else {
+                        callback('settings not exists',null);
+                    }
+                });
+            });
+        },
+    this.hasPassword = function(username,callback){
+      this._db.collection('users').find({username:username}).toArray(function(err,result){
+          errproc(err,result,function(){
+              if (result.length) {
+                  callback(null, result[0]);
+              } else {
+                  callback('user not exists',null);
+              }
+          });
+      })
+    },
+        this.addPassword = function(user,callback){
+            this._db.collection('users').update({ _id: user._id}, { $set: {password:user.password}}, function (err, result) {
+                if(err)
+                    callback(err)
+                else
+                    callback(result);
+            });
+        },
     this.getUsers = function (collection, callback) {
-            this._db.collection(collection).find({},{'division':1,'username':1,'mo':1,'uz':1}).toArray(function (err, result) {
+            this._db.collection(collection).find({'username':{$ne:'Администратор'}},{'password':0}).toArray(function (err, result) {
                 errproc(err,result,callback);
                 /*  if (err) {
                  if (err) throw err;

@@ -1,0 +1,1 @@
+var lz4={};(function(){

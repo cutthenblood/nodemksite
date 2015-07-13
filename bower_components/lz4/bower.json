@@ -1,0 +1,23 @@
+{
+  "name": "lz4.js",
+  "version": "0.1.0",
+  "authors": [
+    "ukyo <ukyo.web@gmail.com>"
+  ],
+  "description": "lz4 for browser",
+  "main": "dist/lz4.js",
+  "keywords": [
+    "lz4",
+    "compression",
+    "emscripten",
+    "asm.js"
+  ],
+  "license": "MIT",
+  "homepage": "github.com/ukyo/lz4.js",
+  "ignore": [
+    "dev",
+    "node_modules",
+    "test",
+    "example"
+  ]
+}

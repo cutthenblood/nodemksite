@@ -6,4 +6,8 @@ body {
 a {
   color: #00B7FF;
 }
-
+.buttonpressed {
+    color: #333;
+    background-color: #90eb42;
+    border-color: #adadad;
+}

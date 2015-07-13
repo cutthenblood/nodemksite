@@ -459,3 +459,364 @@
 {"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] collection name must be a String","timestamp":"2015-04-07T07:38:54.800Z"}
 {"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] collection names cannot be empty","timestamp":"2015-04-07T08:17:12.384Z"}
 {"level":"error","message":"[/devel/ndmks/1/nodemksite/db.js] ReferenceError: beg is not defined","timestamp":"2015-04-09T11:59:06.836Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] uid is not defined","timestamp":"2015-04-17T09:00:14.040Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] uid is not defined","timestamp":"2015-04-17T09:00:16.281Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] uid is not defined","timestamp":"2015-04-17T09:00:21.008Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] uid is not defined","timestamp":"2015-04-17T09:00:21.016Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] uid is not defined","timestamp":"2015-04-17T09:00:25.809Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] uid is not defined","timestamp":"2015-04-17T09:00:25.804Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] uid is not defined","timestamp":"2015-04-17T09:00:32.050Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] uid is not defined","timestamp":"2015-04-17T09:00:32.047Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] uid is not defined","timestamp":"2015-04-17T09:01:05.252Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] uid is not defined","timestamp":"2015-04-17T09:01:11.494Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot read property '0' of undefined","timestamp":"2015-04-22T06:59:16.227Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot read property '0' of undefined","timestamp":"2015-04-22T07:01:13.331Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot read property 'username' of undefined","timestamp":"2015-04-27T07:56:48.376Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot read property 'username' of undefined","timestamp":"2015-04-27T07:58:30.394Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot read property 'username' of undefined","timestamp":"2015-04-27T08:00:22.457Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-04-27T12:57:24.655Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user privileges not exists","timestamp":"2015-04-27T12:57:24.656Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-04-27T12:57:24.656Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user privileges not exists","timestamp":"2015-04-27T12:57:24.657Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-04-27T12:57:24.663Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user privileges not exists","timestamp":"2015-04-27T12:57:24.665Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-04-27T13:02:14.550Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user privileges not exists","timestamp":"2015-04-27T13:02:14.551Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-04-27T13:02:14.554Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user privileges not exists","timestamp":"2015-04-27T13:02:14.554Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-04-27T13:02:14.559Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user privileges not exists","timestamp":"2015-04-27T13:02:14.560Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-04-27T13:03:09.966Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user privileges not exists","timestamp":"2015-04-27T13:03:09.967Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-04-27T13:03:09.969Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user privileges not exists","timestamp":"2015-04-27T13:03:09.970Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-04-27T13:03:09.972Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user privileges not exists","timestamp":"2015-04-27T13:03:09.972Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-04-29T11:24:13.205Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user privileges not exists","timestamp":"2015-04-29T11:24:13.207Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-04-29T11:48:46.208Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user privileges not exists","timestamp":"2015-04-29T11:48:46.230Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/passport.js] cannot auth","timestamp":"2015-04-29T11:48:58.138Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] user privileges not exists","timestamp":"2015-04-29T11:48:58.140Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Property 'msg' of object #<Object> is not a function","timestamp":"2015-05-05T08:32:23.062Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] json is not defined","timestamp":"2015-05-05T08:33:43.237Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] err is not defined","timestamp":"2015-05-05T08:36:01.139Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object [object Object] has no method 'getOrgmWhoInput'","timestamp":"2015-05-27T11:57:26.354Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object [object Object] has no method 'getOrgmWhoInput'","timestamp":"2015-05-27T11:59:18.234Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] collection names cannot be empty","timestamp":"2015-06-03T08:29:35.523Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] collection names cannot be empty","timestamp":"2015-06-03T08:31:49.886Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/db.js] MongoError: Field name duplication not allowed with modifiers","timestamp":"2015-06-03T09:04:41.577Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/routes/orgm/orgmRoute.js] MongoError: Field name duplication not allowed with modifiers","timestamp":"2015-06-03T09:04:41.578Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] collection name must be a String","timestamp":"2015-06-15T08:03:34.163Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] collection name must be a String","timestamp":"2015-06-15T08:04:32.104Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] type is not defined","timestamp":"2015-06-15T08:10:27.624Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Unexpected token u","timestamp":"2015-06-15T08:15:05.051Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Unexpected token u","timestamp":"2015-06-15T08:15:46.274Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Unexpected token u","timestamp":"2015-06-15T08:32:36.135Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Unexpected token u","timestamp":"2015-06-15T08:47:26.541Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Unexpected token u","timestamp":"2015-06-15T08:47:54.713Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Unexpected token o","timestamp":"2015-06-15T08:49:29.490Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Invalid magic number: 6A626F5B @0","timestamp":"2015-06-15T08:56:34.988Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] pako is not defined","timestamp":"2015-06-15T11:23:56.138Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] pako is not defined","timestamp":"2015-06-15T11:25:13.345Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] pako is not defined","timestamp":"2015-06-15T11:37:40.303Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] pako is not defined","timestamp":"2015-06-15T11:38:45.774Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] pako is not defined","timestamp":"2015-06-15T11:38:56.920Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Unexpected token o","timestamp":"2015-06-15T11:39:20.273Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Unexpected token o","timestamp":"2015-06-15T11:39:29.997Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Unexpected token o","timestamp":"2015-06-15T11:40:33.295Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Unexpected token o","timestamp":"2015-06-15T11:40:49.911Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Unexpected end of input","timestamp":"2015-06-15T11:41:14.783Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Unexpected end of input","timestamp":"2015-06-15T11:42:24.232Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] unknown compression method","timestamp":"2015-06-15T11:42:34.040Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] unknown compression method","timestamp":"2015-06-15T11:43:32.778Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] unknown compression method","timestamp":"2015-06-15T11:43:45.500Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] unknown compression method","timestamp":"2015-06-15T11:44:12.940Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] query is not defined","timestamp":"2015-06-15T11:45:01.731Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] type is not defined","timestamp":"2015-06-15T11:47:44.686Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] type is not defined","timestamp":"2015-06-15T11:48:15.460Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] type is not defined","timestamp":"2015-06-15T11:48:47.735Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Forbidden","timestamp":"2015-06-16T06:32:23.022Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] ENOENT, stat '/devel/ndmks/1/nodemksite/routes/tempfiledir/test.xlsx'","timestamp":"2015-06-16T06:34:00.462Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] ENOENT, stat '/devel/ndmks/1/nodemksite/routes/tempfiledir/test.xlsx'","timestamp":"2015-06-16T06:34:37.464Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] incorrect header check","timestamp":"2015-06-16T06:50:18.887Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] incorrect header check","timestamp":"2015-06-16T06:51:02.637Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] invalid distance too far back","timestamp":"2015-06-16T08:35:19.255Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] invalid distance too far back","timestamp":"2015-06-16T08:35:35.566Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] invalid distance too far back","timestamp":"2015-06-16T08:38:37.424Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] invalid distance too far back","timestamp":"2015-06-16T08:42:22.461Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] incorrect header check","timestamp":"2015-06-16T08:45:55.001Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] invalid distance too far back","timestamp":"2015-06-16T08:54:28.235Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] incorrect data check","timestamp":"2015-06-16T08:57:06.101Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] incorrect header check","timestamp":"2015-06-16T11:26:23.740Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] incorrect header check","timestamp":"2015-06-16T11:27:39.346Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] incorrect header check","timestamp":"2015-06-16T11:30:02.378Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] reqdata is not defined","timestamp":"2015-06-16T11:30:35.743Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] reqdata is not defined","timestamp":"2015-06-16T11:38:11.166Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] collection name must be a String","timestamp":"2015-06-17T08:46:24.135Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] collection name must be a String","timestamp":"2015-06-17T08:46:54.116Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] collection name must be a String","timestamp":"2015-06-17T08:48:21.104Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] collection name must be a String","timestamp":"2015-06-17T08:48:23.351Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] collection name must be a String","timestamp":"2015-06-17T08:48:43.111Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] collection name must be a String","timestamp":"2015-06-17T08:49:11.135Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T09:21:53.027Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T09:21:53.033Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T09:22:52.665Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T09:22:52.674Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T09:24:58.652Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T09:24:58.655Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T09:25:54.190Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T09:25:54.194Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T09:26:05.731Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T09:26:05.734Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T09:26:06.785Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T09:26:06.788Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T09:29:24.376Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T09:29:24.380Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T09:32:31.692Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T09:32:31.694Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T09:38:44.790Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T09:38:44.794Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T09:38:46.782Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T09:38:46.789Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T09:38:49.284Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T09:38:49.289Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T09:38:49.511Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T09:38:49.515Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T09:38:49.657Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T09:38:49.662Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T09:38:49.947Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T09:38:49.951Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T09:39:40.063Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T09:39:40.066Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/routes/mksite/mainroute.js] user not exists","timestamp":"2015-06-22T09:52:36.907Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T09:53:13.187Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T09:53:13.192Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T09:55:43.808Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T09:55:43.813Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T09:55:43.825Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T09:55:43.829Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/routes/mksite/mainroute.js] user not exists","timestamp":"2015-06-22T09:57:27.532Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T09:58:04.052Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T09:58:04.059Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/routes/mksite/mainroute.js] user not exists","timestamp":"2015-06-22T10:02:17.067Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T10:04:22.089Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T10:04:22.092Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T10:52:52.277Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T10:52:52.283Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/routes/mksite/mainroute.js] user not exists","timestamp":"2015-06-22T10:53:11.885Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T10:54:05.110Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T10:54:05.115Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/routes/mksite/mainroute.js] user not exists","timestamp":"2015-06-22T10:54:43.346Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T10:55:19.265Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T10:55:19.268Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/routes/mksite/mainroute.js] user not exists","timestamp":"2015-06-22T10:55:54.898Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/routes/mksite/mainroute.js] user not exists","timestamp":"2015-06-22T10:56:31.585Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T10:56:55.001Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T10:56:55.005Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T10:59:15.898Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T10:59:15.903Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:00:11.012Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:00:11.021Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:00:41.414Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:00:41.418Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:01:36.332Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:01:36.337Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:01:39.545Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:01:39.549Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/routes/mksite/mainroute.js] user not exists","timestamp":"2015-06-22T11:01:40.332Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:01:43.088Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:01:43.091Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:01:44.705Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:01:44.708Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:01:45.282Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:01:45.285Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:01:45.510Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:01:45.514Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:01:45.727Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:01:45.732Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:01:45.952Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:01:45.955Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:01:46.519Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:01:46.525Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:01:46.747Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:01:46.752Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:01:46.952Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:01:46.955Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:01:47.174Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:01:47.179Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:01:47.405Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:01:47.409Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:01:47.933Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:01:47.937Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:01:48.150Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:01:48.155Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:01:55.001Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:01:55.007Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:01:58.431Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:01:58.436Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:01:58.914Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:01:58.922Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:02:03.327Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:02:03.331Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:02:05.447Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:02:05.451Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:02:05.690Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:02:05.694Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:02:05.908Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:02:05.911Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/routes/mksite/mainroute.js] user not exists","timestamp":"2015-06-22T11:03:08.029Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:04:06.720Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:04:06.724Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/routes/mksite/mainroute.js] user not exists","timestamp":"2015-06-22T11:04:40.515Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:05:07.825Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:05:07.828Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:05:15.564Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:05:15.567Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:05:18.017Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:05:18.020Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:07:12.791Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:07:12.796Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/routes/mksite/mainroute.js] user not exists","timestamp":"2015-06-22T11:07:21.807Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:07:50.202Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:07:50.206Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:08:37.377Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:08:37.381Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:08:43.468Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:08:43.473Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:08:44.212Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:08:44.217Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:08:44.423Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:08:44.428Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:08:44.643Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:08:44.647Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/routes/mksite/mainroute.js] user not exists","timestamp":"2015-06-22T11:13:13.287Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:13:38.454Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:13:38.459Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/routes/mksite/mainroute.js] user not exists","timestamp":"2015-06-22T11:14:11.249Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:18:19.830Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:18:19.835Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/routes/mksite/mainroute.js] user not exists","timestamp":"2015-06-22T11:19:28.127Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:20:14.381Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:20:14.387Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:20:18.576Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:20:18.578Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:20:59.369Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:20:59.377Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/routes/mksite/mainroute.js] user not exists","timestamp":"2015-06-22T11:21:53.807Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:22:17.612Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:22:17.618Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/routes/mksite/mainroute.js] user not exists","timestamp":"2015-06-22T11:22:38.465Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:23:58.134Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:23:58.140Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/routes/mksite/mainroute.js] user not exists","timestamp":"2015-06-22T11:28:58.653Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:29:24.292Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:29:24.296Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:29:29.484Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:29:29.488Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:29:31.154Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:29:31.160Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:29:31.709Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:29:31.713Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:29:31.961Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:29:31.967Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:29:32.170Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:29:32.181Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:29:32.420Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:29:32.424Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:30:41.527Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:30:41.531Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:30:55.359Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:30:55.364Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:31:45.652Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:31:45.658Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:31:47.800Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:31:47.807Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:32:26.526Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:32:26.530Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/routes/mksite/mainroute.js] user not exists","timestamp":"2015-06-22T11:34:12.263Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T11:34:30.625Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T11:34:30.629Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/routes/mksite/mainroute.js] user not exists","timestamp":"2015-06-22T12:36:45.873Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T12:37:21.468Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T12:37:21.472Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/routes/mksite/mainroute.js] user not exists","timestamp":"2015-06-22T12:49:57.536Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T12:50:52.922Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T12:50:52.926Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T12:50:55.025Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T12:50:55.029Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T12:59:16.820Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T12:59:16.826Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/routes/mksite/mainroute.js] user not exists","timestamp":"2015-06-22T12:59:54.573Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T13:00:18.059Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T13:00:18.063Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/routes/mksite/mainroute.js] user not exists","timestamp":"2015-06-22T13:02:06.295Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/routes/mksite/mainroute.js] user not exists","timestamp":"2015-06-22T13:02:33.581Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-22T13:03:19.267Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-22T13:03:19.274Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-23T04:03:59.499Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-23T04:03:59.503Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-23T04:04:39.290Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-23T04:04:39.293Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-23T04:05:30.602Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-23T04:05:30.605Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-23T06:31:36.588Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-23T06:31:36.593Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/routes/mksite/mainroute.js] user not exists","timestamp":"2015-06-23T06:33:16.876Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-23T06:33:29.706Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-23T06:33:29.712Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-23T06:33:37.143Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-23T06:33:37.148Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-23T06:33:37.764Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-23T06:33:37.768Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-23T06:33:38.365Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-23T06:33:38.368Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-23T06:33:38.549Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-23T06:33:38.552Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/routes/mksite/mainroute.js] user not exists","timestamp":"2015-06-23T08:21:57.756Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-23T08:22:17.640Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-23T08:22:17.645Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-23T08:22:27.507Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-23T08:22:27.511Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-23T08:22:29.189Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-23T08:22:29.193Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-23T08:22:29.567Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-23T08:22:29.574Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-23T08:22:30.309Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-23T08:22:30.312Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-23T08:22:31.143Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-23T08:22:31.148Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/routes/mksite/mainroute.js] user not exists","timestamp":"2015-06-23T08:22:54.324Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-23T08:23:20.404Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-23T08:23:20.410Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/routes/mksite/mainroute.js] user not exists","timestamp":"2015-06-23T08:24:00.511Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-23T08:24:54.755Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-23T08:24:54.758Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/routes/mksite/mainroute.js] user not exists","timestamp":"2015-06-23T08:26:43.375Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-23T08:27:12.925Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-23T08:27:12.930Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/routes/mksite/mainroute.js] user not exists","timestamp":"2015-06-23T08:29:43.749Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/passport.js] cannot auth","timestamp":"2015-06-23T08:30:03.884Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] user not exists","timestamp":"2015-06-23T08:30:03.885Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/routes/mksite/mainroute.js] user not exists","timestamp":"2015-06-25T06:40:01.676Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/routes/mksite/mainroute.js] user not exists","timestamp":"2015-06-25T06:41:42.819Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/routes/mksite/mainroute.js] user not exists","timestamp":"2015-06-25T06:43:55.244Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] collection name must be a String","timestamp":"2015-06-25T08:54:54.811Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] collection name must be a String","timestamp":"2015-06-25T08:55:15.022Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] collection name must be a String","timestamp":"2015-06-25T08:55:19.540Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/routes/mksite/mainroute.js] user not exists","timestamp":"2015-06-25T10:05:04.647Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/routes/mksite/mainroute.js] user not exists","timestamp":"2015-06-25T10:43:45.567Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/routes/mksite/mainroute.js] user not exists","timestamp":"2015-06-25T10:45:24.769Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/routes/mksite/mainroute.js] user not exists","timestamp":"2015-06-25T10:47:31.346Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/routes/mksite/mainroute.js] user not exists","timestamp":"2015-06-25T10:56:16.650Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/routes/mksite/mainroute.js] user not exists","timestamp":"2015-06-25T11:05:10.979Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] collection name must be a String","timestamp":"2015-06-26T11:11:17.537Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] collection name must be a String","timestamp":"2015-06-26T11:11:20.974Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] collection name must be a String","timestamp":"2015-06-26T11:11:33.721Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] collection name must be a String","timestamp":"2015-06-26T11:11:41.885Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] collection name must be a String","timestamp":"2015-06-29T09:15:24.753Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] collection name must be a String","timestamp":"2015-06-29T09:15:29.810Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] collection name must be a String","timestamp":"2015-06-29T15:55:45.500Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] collection name must be a String","timestamp":"2015-06-29T16:01:47.352Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] collection name must be a String","timestamp":"2015-06-29T16:01:50.022Z"}
+{"level":"error","message":"[/home/anza/nodemksite_refactoring/nodemksite/app.js] collection name must be a String","timestamp":"2015-06-29T16:01:50.838Z"}

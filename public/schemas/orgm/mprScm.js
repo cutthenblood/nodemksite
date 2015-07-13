@@ -286,6 +286,13 @@ var mprSchema = [
                 rowspan:3
             }
         ]
+    },
+    {
+        name: 'gr36',
+        type: 'number',
+        required: false,
+        label: 'Число рожденные с весом менее 500г.',
+        rowspan:4
     }
 ];
 
