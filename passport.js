@@ -13,7 +13,7 @@ module.exports = function (passport, app) {
 
     // used to deserialize the user
     passport.deserializeUser(function (id, done) {
-        console.log(id);
+       // console.log(id);
         if(config.mode=='mongo'){
             var dbfactory = app.get('dbmethods');
             var collection = 'users';

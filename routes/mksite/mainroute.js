@@ -825,7 +825,7 @@ module.exports = function (app) {
                                         response.send(JSON.stringify(errmsg));
                                         return;
                                     }
-                                    else if (now.hour() > 20) {//11
+                                    else if (now.hour() > 11) {//11
                                         errmsg.msg = "Нужно вводить данные до 12";
                                         response.send(JSON.stringify(errmsg));
                                         return;
