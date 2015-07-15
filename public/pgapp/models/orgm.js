@@ -140,10 +140,10 @@ define([
             }
 
         },
-        validateDate: function(date,callback){
+        validateDate: function(date,mtype,rtype,callback){
             var user = this.get('user');
 
-            var data = {type: this._model,inputdate:date,division:user.division,userid:user._id};
+            var data = {mtype:mtype,rtype:rtype,type: this._model,inputdate:date,division:user.division,userid:user._id};
             var vd = $.ajax({
                 url : '/vDate',
                 data : data,

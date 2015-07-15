@@ -61,7 +61,7 @@ define([
             this.model.set('user',Session.get('user'));
             this.usermodel.deferred.done(function () {
                 _this.render();
-                $('#mo').select2();
+
 
 
             });

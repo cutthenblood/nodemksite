@@ -121,18 +121,16 @@ define([
             $('#alert').html('');
             var mo =[];
             $('#mo option:selected').each(function(){
-                mo.push($(this).text())
+                mo.push($(this).val())
             });
             var data = {
-                kstart:$('#kstart option:selected').text(),
-                kend:$('#kend option:selected').text(),
-                ystart:$('#ystart option:selected').text(),
-                yend:$('#yend option:selected').text(),
+                start:$('#dateStart').data("DateTimePicker").date().format('DD.MM.YYYY'),
+                end:$('#dateEnd').data("DateTimePicker").date().format('DD.MM.YYYY'),
                 mos:mo,
                 type:$('#monitoring option:selected').val()};
-            Utls.uploadFile('/kadry/report/',"cp",Array.prototype.join.call(Pako.gzip(JSON.stringify(data))));
+            Utls.uploadFile('/report/',"cp",Array.prototype.join.call(Pako.gzip(JSON.stringify(data))));
         },
-        onShow: function(){
+        onRender: function(){
             var _this = this;
             var type = $('#monitoring option:selected').val();
             $('.date').each(function(dt) {
@@ -143,6 +141,10 @@ define([
                     $(this).datetimepicker(dateScm[type]);
 
             });
+            $('#mo').select2();
+
+
+
 
         }
 

@@ -9,33 +9,52 @@ define(function () {
             row:2,
             col:5,
             fullname:'Мониторинг обеспеченности детского населения',
-            uz:false
+            uz:false,
+            report:false
 
         },
-        {
-            name:'inputdate',
-            type: 'date',
-            label: 'мониторинг за'
 
-        },
+
         {
             name:'date',
             type: 'hidden',
-            label: ''
+            label: '',
+            report:false
         },
         {
             name:'mtype',
             type: 'select',
             label: 'Тип льготы',
             values:['Федеральная','Региональная'],
-            rowspan:2
+            rowspan:2,
+            group:true
+
+        },
+        {
+            name:'rtype',
+            type: 'select',
+            label: 'Категория граждан',
+            values:['Региональная льгота (дети до 18 лет)','в т.ч. детям - инвалидам за счёт средств СФ'],
+            rowspan:2,
+            hidden: true,
+            group:true
+
+        },
+        {
+            name:'inputdate',
+            type: 'date',
+            label: 'мониторинг за',
+            report:false
+
+
         },
         {
             name:'gr2',
             type: 'number',
             required: false,
             label: 'Обеспечено пациентов с 01.01.2015г (накопительно) / Кол-во (единиц)',
-            rowspan:2
+            rowspan:2,
+            report:true
         },
         {
             name:'gr3-4',
@@ -47,12 +66,14 @@ define(function () {
                     name:'gr3',
                     type: 'number',
                     required: false,
-                    label: 'Кол-во (единиц)'
+                    label: 'Кол-во (единиц)',
+                    report:true
                 },{
                     name:'gr4',
                     type: 'number',
                     required: false,
-                    label: 'обслужено на сумму (руб)'
+                    label: 'обслужено на сумму (руб)',
+                    report:true
                 },
 
             ]
@@ -62,13 +83,15 @@ define(function () {
             type: 'number',
             required: false,
             label: 'Находится рецептов на отсроченном обеспечении до 10 дней / Кол-во (единиц)',
-            rowspan:2
+            rowspan:2,
+            report:true
         },{
             name:'gr6',
             type: 'number',
             required: false,
             label: ' Находится  рецептов на отсроченном обеспечении  свыше 10 дней / Кол-во (единиц)',
-            rowspan:2
+            rowspan:2,
+            report:true
         }
     ];
 });

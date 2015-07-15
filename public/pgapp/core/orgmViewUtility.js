@@ -74,7 +74,7 @@ define([
                 'deathm': function(){
                     return _this.inputdate.startOf('day').valueOf();
                 },
-                'mloDn': function(){
+                'mlodn': function(){
                     return _this.inputdate.format('DD.MM.YYYY');
                 }
             };

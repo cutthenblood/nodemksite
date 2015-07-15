@@ -6,6 +6,7 @@ var sutil = require('./scmUtil.js');
 var mloDnScm = require('./../public/pgapp/schemas/mloDnScm.js');
 var promiseQuery = function(obj,config,values){
     //console.log('promiseQuery - '+config);
+    //console.log('promiseQueryVals - '+values);
     var fn = vowNode.promisify(pg.Client.prototype.query);
     if(values)
         return fn.call(obj, config,values);
@@ -34,13 +35,18 @@ module.exports  = function(db){
             [id,division]);
     },
     this.getUsersByDivision = function(division){
-        return promiseQuery(this._db.db,
-                'select users.id, users.username ' +
-                'from users ' +
-                'join divisions on users.division = divisions.id ' +
-                'where divisions.name = $1' +
-                'ORDER BY users.role Desc, users.username ASC ;',
-            [division]);
+        try {
+            return promiseQuery(this._db.db,
+                    'select users.id, users.username ' +
+                    'from users ' +
+                    'join divisions on users.division = divisions.id ' +
+                    'where divisions.name = $1' +
+                    'ORDER BY users.role Desc, users.username ASC ;',
+                [division]);
+        }
+        catch(e){
+            var a=123;
+        }
     },
     this.getUserById = function (id) {
         return promiseQuery(this._db.db,
@@ -70,12 +76,16 @@ module.exports  = function(db){
         left join permissons as t2  on t2.monitoring = t.monitoring*/
         //this._db.db.query
 
-        var query = ["select * from (select '",data.type, "'::text as monitoring, userid, moid, inputdate from mlodn ",
-            ' where (userid = $1 and inputdate = $2 ',(data.moid)?'and moid = $3 ':'',')',
+        var query = ["select * from (select id as _id, '",data.type, "'::text as monitoring, userid, moid, inputdate from "+data.type+
+            ' where (userid = $1 and inputdate = $2 and mtype = $3 and rtype = $4',(data.moid)?'and moid = $5 ':'',')',
             ") as t"
             ," left join permissons as t2  on t2.monitoring = t.monitoring",
             ];
-        var vals = [data.userid,data.inputdate];
+        var vals = [data.userid,data.inputdate,data.mtype];
+        if(data.rtype)
+            vals.push(data.rtype);
+        else
+            vals.push(null);
         if(data.moid)
             vals.push(data.moid);
         //console.log(query.join(""));
@@ -103,7 +113,7 @@ module.exports  = function(db){
                         var statement = _this.scmutil.update(fields);
                         var vals=[];
                         fields.map(function(itm){vals.push(data[itm])});
-                        vals.push(parseInt(e.rows[0].id));
+                        vals.push(parseInt(e.rows[0]._id));
                             promise = promiseQuery(_this._db.db,
                                 ['UPDATE ', data.type, ' SET ', statement, ' WHERE id=$', fields.length + 1, ';'].join(""),
                                 vals);
@@ -112,9 +122,9 @@ module.exports  = function(db){
                         vals=[];
                         var statement = _this.scmutil.insert(fields);
                         fields.map(function(itm){vals.push(data[itm])});
-                        console.log(['INSERT INTO '+data.type+' ( ',
-                            statement.fields,' ) ',
-                            'VALUES ( ',statement.values,' );'].join(""));
+//                        console.log(['INSERT INTO '+data.type+' ( ',
+//                            statement.fields,' ) ',
+//                            'VALUES ( ',statement.values,' );'].join(""));
                         promise= promiseQuery(_this._db.db,
                             ['INSERT INTO '+data.type+' ( ',
                                 statement.fields,' ) ',
@@ -152,13 +162,28 @@ module.exports  = function(db){
         return promiseQuery(this._db.db,'select settings.* from divisions left join settings on divisions.id=settings.division where divisions.name = $1 and settings.monitoring=$2',[data.division,data.type]);
     };
     this.vDate = function(data){
-        var stmt = 'select t.id as indb, settings.validatedate from users                                               '+
-            'left join '+data.type+' as t on t.userid = users.id and t.inputdate = $2 '+
-            'join divisions on users.division = divisions.id                                                     '+
-            'join settings on divisions.id = settings.division                                                   '+
-            'where users.id=$1  and settings.monitoring=$3;                                               ';
 
-        return promiseQuery(this._db.db,stmt,[data.userid,data.inputdate,data.type]);
+
+
+//        var stmt = 'select t.id as indb, settings.validatedate from users                                               '+
+//            'left join '+data.type+' as t on t.userid = users.id and t.inputdate = $2 '+
+//            'join divisions on users.division = divisions.id                                                     '+
+//            'join settings on divisions.id = settings.division                                                   '+
+//            'where users.id=$1  and settings.monitoring=$3;                                               ';
+          var stmt = [
+              'select t.id as indb, settings.validatedate from users ',
+            'left join mlodn as t on t.userid = users.id and t.inputdate = $2 and t.mtype= $3',
+              (data.rtype.length>1)?' and t.rtype = $4 ':' ',
+            'join divisions on users.division = divisions.id ',
+            'join settings on divisions.id = settings.division ',
+            "where users.id=$1  and settings.monitoring='mlodn' ;"];
+          var vals = [data.userid,data.inputdate,data.mtype];
+        console.log(stmt.join(' '));
+        if(data.rtype.length>1)
+            vals.push(data.rtype);
+
+
+        return promiseQuery(this._db.db,stmt.join(' '),vals);
 
     };
     this.loginstat = function(data){
@@ -166,6 +191,17 @@ module.exports  = function(db){
             data.userid,data.type,data.date,data.ip,data.ips,data.useragent
 
         ])
+    };
+    this.report = function(data){
+        return this["report"+data.type](data);
+    };
+    this.reportmlodn = function(data){
+        var fields = {};
+        this.scmutil.reportScm(mloDnScm,fields);
+        var stmt =  this.scmutil.report(data,fields);
+        //console.log(stmt);
+
+        return promiseQuery(this._db.db,stmt,[data.start,data.end]);
     }
 
 

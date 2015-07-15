@@ -566,431 +566,77 @@ module.exports = function (app) {
         res.status(200).send('logout');
 
     });*/
-    app.post('/kadry/report/',isAdminIn,function(req,resp){
+    app.post('/report/',isAdminIn,function(req,resp){
         console.log('report route');
         var reqdata = JSON.parse(pako.inflate(req.body.cp.split(','),{to:"string"}));
-        var cdb = new commonDB(app.get('db'));
-        var data = {
-                    kstart:reqdata.kstart,
-                    kstop:reqdata.kend,
-                    ystart:reqdata.ystart,
-                    ystop:reqdata.yend,
-                    mos:reqdata.mos
-        };
-
-
-        var promises = [cdb.getKadryReport(data)];
-        vow.allResolved(promises).spread(function spread(repdata){
-            if (repdata.isRejected()) {
-                log.error("rejected - "
-                    + repdata.isRejected() ? repdata.valueOf() : "");
-                return callback("error in db query", null);
-            }
-            else{
-                var repdataValue = repdata.valueOf();
-
-                var sumall = {};
-                repdataValue.map(function(itm){
-                    _.forEach(itm.rows,function(val,key){
-                        if(val==null)
-
-                        if(key[0]=='r')
-                            if(key in sumall)
-                                sumall[key]+=val;
-                            else
-                                sumall[key]=val;
-                    })
-
-                });
-                var grp = _.groupBy(repdataValue,function(itm){
-                     return itm.rows.username;
-                });
-                var rdu = _.reduce(grp,function(result, n,key){
-                    result = (result.length==0)? key:result+', '+key;
-                    return result;
-
-                },"");
-
-
-                 fs.readFile(path.join(__dirname, '../../templates/kadry/kadry.xlsx'), function (err, xlsx) {
+        var query = new pg(app.get('pgdb'));
+        query.report(reqdata).then(function (e) {
+                if(e.rows.length>0){
+                    fs.readFile(path.join(__dirname, '../../templates/mlo/mlodn.xlsx'), function (err, xlsx) {
                         var template = new XlsxTemplate(xlsx);
-                        var sheetNumber = 1;
-                        var values = {
-                            date: "Квартал с "+reqdata.kstart+' по '+reqdata.kend+' год c '+reqdata.ystart+" по "+reqdata.yend,
-                            mos:rdu,
-                            grs: [sumall]//.sort(sortrows)
+                        var totals={};
+                        var data = {};
+                        var addtoarray = function(arr,itm){
+                            if(!(itm.mtype in arr))
+                                arr[itm.mtype]=[];
+                            arr[itm.mtype].push(itm);
+//                            if(itm.rtype){
+//                                if(!(itm.rtype in arr[itm.mtype]))
+//                                    arr[itm.mtype][itm.rtype]=[];
+//                                arr[itm.mtype][itm.rtype].push(itm);
+//                            } else{
+//                                if(!('nulls' in arr[itm.mtype]))
+//                                    arr[itm.mtype].nulls=[];
+//                                arr[itm.mtype].nulls.push(itm);
+//                            }
+                        };
+                        _.map(e.rows,function(itm){
+                            if (itm.username =='total')
+                                addtoarray(totals,itm);
+                            else
+                                addtoarray(data,itm);
+                        });
+                        var values1 = {
+                            date: "C "+reqdata.start+' по '+reqdata.end,
+                            grs: data["Федеральная"],
+                            sgrs:totals["Федеральная"]
                         };
                         try {
-                            template.substitute(sheetNumber, values);
+                            template.substitute(1, values1);
                         }
                         catch (e) {
                             log.error(e);
                         }
+                        var values2 = {
+                            date: "C "+reqdata.start+' по '+reqdata.end,
+                            rgrs: data["Региональная"],//["Региональная льгота (дети до 18 лет)"],
+                            //rgrsf: data["Региональная"]["в т.ч. детям - инвалидам за счёт средств СФ"],
+                            srgrs: totals["Региональная"],//["Региональная льгота (дети до 18 лет)"],
+                           // srgrsf: totals["Региональная"]["в т.ч. детям - инвалидам за счёт средств СФ"]
+                        };
+                        try {
+                            template.substitute(2, values2);
+                        }
+                        catch (e) {
+                            log.error(e);
+                        }
+
                         var doc = template.generate();
                         resp.setHeader('Content-Type', 'application/vnd.openxmlformats');
                         resp.setHeader("Content-Disposition", "attachment; filename=ReportKadry.xlsx");
                         resp.status(200).end(doc,'binary');
 
-               });
-
-
-
-       }
-
-        });
-        /*
-
-
-
-        if (type == 'mpr' ){
-//todo us.mo нет у всех user
-            fs.readFile(path.join(__dirname, '../../templates/orgm/mprtmpl.xlsx'), function (err, data) {
-                if(err)
-                {
-                    console.log(err);
-                    resp.status(500).send("readfile error");
-                    return;
-                }
-
-                try {
-                    var template = new XlsxTemplate(data);
-                    var sheetNumber = 1;
-                }
-                catch(e)
-                {
-                    console.log(e);
-                }
-                if (all==true)
-                    dbmethods.getOrgmMpr('orgmMpr',start,end,function(err,result){
-                        if(err){
-                            log.error(err);
-                            resp.status(500).send(err);
-                            return;
-                        }
-                        var rows = [];
-                        var sumrow = {'gr5': 0, 'gr6': 0, 'gr7': 0, 'gr8': 0, 'gr9': 0, 'gr10': 0, 'gr11': 0, 'gr12': 0, 'gr13': 0,
-                            'gr14': 0, 'gr15': 0, 'gr16': 0, 'gr17': 0, 'gr18': 0, 'gr19': 0, 'gr20': 0, 'gr21': 0, 'gr22': 0, 'gr23': 0, 'gr24': 0, 'gr25': 0, 'gr26': 0,
-                            'gr27': 0, 'gr28': 0, 'gr29': 0, 'gr30': 0, 'gr31': 0, 'gr32': 0, 'gr33': 0, 'gr34': 0, 'gr35': 0
-                        };
-                        if (result.length < 1) {
-                            resp.status(500).send("Нет данных за этот период");
-                            return;
-                        }
-                        var begm = moment(start);
-                        var endm = moment(end);
-
-                        var header_date="c "+begm.format("DD.MM.YYYY")+" по "+endm.format("DD.MM.YYYY");
-                        var ind=1;
-                        result.sort(function(a,b){
-                            if(a._id.user<b._id.user)
-                                return -1;
-                            if(a._id.user>b._id.user)
-                                return 1;
-                            return 0;
-
-                        });
-                        var promise = result.map(function (item) {
-                            return new vow.Promise(function(resolve){
-                                if(item._id){
-
-                                    if(item._id.group == null) {
-                                        dbmethods.getUser('users',{username:item._id.user.replace(/ {2,}/g,' ')},function(err,us){
-                                            item.username = item._id.user;
-
-                                            if(err) {console.log(err);
-                                                item.group='error';}
-                                            else  {
-                                                if('mo' in us)
-                                                    item.group = (us.mo.length > 1) ? us.mo.filter(function (itm) {
-                                                        if (itm.fullname.replace(/ {2,}/g, ' ') == item._id.mo.replace(/ {2,}/g, ' ')) return itm
-                                                    })[0].group : us.mo[0].group;
-                                                item.mo = item._id.mo.replace(/ {2,}/g, ' ');
-                                                //item.nn=ind;
-                                                item.gr7 = Math.round((parseFloat(item.gr6) * 100) / parseFloat(item.gr5));
-                                                if (item.gr7.toString() == 'NaN') item.gr7 = 0;
-                                                ind += 1;
-                                                resolve(item);
-                                            }
-
-                                        })
-                                    } else {
-                                        item.username = item._id.user;
-                                        item.mo = item._id.mo.replace(/ {2,}/g,' ');
-                                        item.group = item._id.group;
-                                        // item.nn=ind;
-                                        //ind+=1;
-                                        resolve(item);
-                                    }
-                                };
-
-                            });
-                        });
-                        vow.all(promise).then(function(ress){
-                            var ind =1 ;
-                            ress.map(function(item){
-                                item.nn=ind;
-                                ind+=1;
-                            });
-
-                            var values = {
-                                date: header_date,
-                                grs: ress//.sort(sortrows)
-                            };
-                            try {
-                                template.substitute(sheetNumber, values);
-                            }
-                            catch (e) {
-                                log.error(e);
-                            }
-                            var doc = template.generate();
-                            resp.setHeader('Content-Type', 'application/vnd.openxmlformats');
-                            resp.setHeader("Content-Disposition", "attachment; filename=Report_"+begm.format("DD.MM.YYYY")+"-"+endm.format("DD.MM.YYYY")+".xlsx");
-                            resp.status(200).end(doc, 'binary');
-
-                        });
-
                     });
-                else
-                if (all== false)
-                    dbmethods.getOrgmMprOne('orgmMpr',start,end,query.mo,function(err,result){
-                        if(err){
-                            log.error(err);
-                            resp.status(500).send(err);
-                            return;
-                        }
-                        var rows = [];
-
-                        if (result.length < 1) {
-                            resp.status(500).send("Нет данных за этот период");
-                            return;
-                        }
-                        var begm = moment(parseInt(query.beg));
-                        var endm = moment(parseInt(query.end));
-
-                        var header_date="MO - "+query.mo+"c "+begm.format("DD.MM.YYYY")+" по "+endm.format("DD.MM.YYYY");
-                        var ind=1;
-                        result.sort(function(a,b){
-                            return parseInt(a.inputdate)-parseInt(b.inputdate);
-                        });
-                        var ind =1 ;
-                        var rss=[];
-                        result.map(function(item){
-                            item.rows.gr7 = Math.round((parseFloat(item.rows.gr6)*100)/parseFloat(item.rows.gr5));
-                            if(item.rows.gr7.toString()=='NaN') item.rows.gr7=0;
-                            var tmp = {'nn':ind};
-                            _.extend(tmp,item.rows);
-                            tmp.username=moment(parseInt(item.inputdate)).format('DD.MM.YYYY');
-                            rss.push(tmp);
-                            ind+=1;
-                        });
-                        var values = {
-                            date: header_date,
-                            grs: rss//.sort(sortrows)
-                        };
-                        try {
-                            template.substitute(sheetNumber, values);
-                        }
-                        catch (e) {
-                            console.log(e);
-                        }
-                        var doc = template.generate();
-                        resp.setHeader('Content-Type', 'application/vnd.openxmlformats');
-                        resp.setHeader("Content-Disposition", "attachment; filename=Report_"+begm.format("DD.MM.YYYY")+"-"+endm.format("DD.MM.YYYY")+".xlsx");
-                        resp.status(200).end(doc,'binary');
-                    });
-            });
-
-        }
-        if (type == 'mprPD'){
-            fs.readFile(path.join(__dirname, '../../templates/orgm/mprpdtmpl.xlsx'), function (err, data) {
-                if (err) {
-                    console.log(err);
-                    resp.status(500).send("readfile error");
-                    return;
-                }
-
-                try {
-                    var template = new XlsxTemplate(data);
-                    var sheetNumber = 1;
-                }
-                catch (e) {
-                    console.log(e);
-                }
-                dbmethods.getOrgmMprPD('orgmMprPD',start,end,function(err,result){
-                    if(err){
-                        log.error(err);
-                        resp.status(500).send(err);
-                        return;
-                    }
-                    var rows = [];
-                    var sumrow = {'gr4': 0,'gr5': 0, 'gr6': 0, 'gr7': 0, 'gr8': 0, 'gr9': 0, 'gr10': 0, 'gr11': 0, 'gr12': 0, 'gr13': 0,
-                        'gr14': 0, 'gr15': 0, 'gr16': 0, 'gr17': 0
-                    };
-                    if (result.length < 1) {
-                        resp.status(500).send("Нет данных за этот период");
-                        return;
-                    }
-                    var begm = moment(start);
-                    var endm = moment(end);
-
-                    var header_date="c "+begm.format("DD.MM.YYYY")+" по "+endm.format("DD.MM.YYYY");
-                    var ind=1;
-                    result.sort(function(a,b){
-                        if(a._id.inputdate == b._id.inputdate)
-                            if(a._id.user<b._id.user)
-                                return -1;
-                            else if(a._id.user>b._id.user)
-                                return 1;
-                            else return 0;
-                        else
-                            return a._id.inputdate - b._id.inputdate
-
-                    });
-                    var promise = result.map(function (item) {
-                        return new vow.Promise(function(resolve){
-                            if(item._id){
-                                item.period = moment(item._id.inputdate).format("MM.YYYY");
-                                item.gr6 = (parseInt(item.gr5)*100)/parseInt(item.gr4);
-                                item.gr9 = (parseInt(item.gr8)*100)/parseInt(item.gr7);
-                                item.gr12 = (parseInt(item.gr11)*100)/parseInt(item.gr7);
-                                item.gr15 = (parseInt(item.gr14)*100)/parseInt(item.gr13);
-                                dbmethods.getUser('users',{username:item._id.user.replace(/ {2,}/g,' ')},function(err,us){
-                                    item.username = item._id.user;
-                                    item.mo = item._id.mo.replace(/ {2,}/g,' ');
-                                    ind+=1;
-                                    resolve(item);
-                                })
-                            };
-                        });
-                    });
-                    vow.all(promise).then(function(ress){
-                        var ind =1 ;
-                        ress.map(function(item){
-                            item.nn=ind;
-                            ind+=1;
-                        });
-
-                        var values = {
-                            date: header_date,
-                            grs: ress//.sort(sortrows)
-                        };
-                        try {
-                            template.substitute(sheetNumber, values);
-                        }
-                        catch (e) {
-                            log.error(e);
-                        }
-                        var doc = template.generate();
-                        resp.setHeader('Content-Type', 'application/vnd.openxmlformats');
-                        resp.setHeader("Content-Disposition", "attachment; filename=" + "Report.xlsx");
-                        resp.status(200).end(doc, 'binary');
-                    });
-                });
-
-            });
-
-        }
-        if (type == 'deathm'){
-            var seldate  =moment(start,"DD.MM.YYYY").format("DD.MM.YYYY");
-            fs.readFile(path.join(__dirname, '../../templates/tmpl.xlsx'), function (err, data) {
-                if(err)
-                {
-                    log.error(err);
-                    resp.status(500).send("readfile error");
-                    return;
-                }
-
-                try {
-                    var template = new XlsxTemplate(data);
-                    var sheetNumber = 10;
-                }
-                catch(e)
-                {
-                    log.error(e);
-                }
-                function gendoc(err,result)
-                {
-                    if(err){
-                        log.error(err);
-                        resp.status(500).send(err);
-                        return;
-                    }
-                    else {
-                        var rows = [];
-                        var sumrow = {'gr2': 0, 'gr3': 0, 'gr4': 0, 'gr5': 0, 'gr6': 0, 'gr7': 0, 'gr8': 0, 'gr9': 0, 'gr10': 0, 'gr11': 0, 'gr12': 0, 'gr13': 0,
-                            'gr14': 0, 'gr15': 0, 'gr16': 0, 'gr17': 0, 'gr18': 0, 'gr19': 0, 'gr20': 0, 'gr21': 0, 'gr22': 0, 'gr23': 0, 'gr24': 0, 'gr25': 0, 'gr26': 0,
-                            'gr27': 0, 'gr28': 0, 'gr29': 0, 'gr30': 0, 'gr31': 0, 'gr32': 0, 'gr33': 0
-                        };
-                        if (result.length < 1) {
-                            resp.status(500).send("Нет данных за этот день");
-                            return;
-                        }
-                        var resset = [];
-                        var header_date="";
-                        if(!result[0].rows){
-                            resset=result;
-
-                            header_date="c 01.01.2014 по "+seldate;
-                        }
-                        else
-                        {
-                            resset = result[0].rows;
-                            header_date="за "+seldate;
-                        }
-                        resset.forEach(function (item) {
-                            var date = seldate;
-                            if(item._id)
-                                item.username = item._id;
-                            rows.push(item);
-                            for (var key in sumrow) {
-                                sumrow[key] += item[key];
-                            }
-                        });
-
-                        var sumres = [sumrow];
-                        function sortrows(a,b){
-                            if(a.username<b.username)
-                                return -1
-                            if(a.username>b.username)
-                                return 1
-                            return 0
-                        }
-
-                        var values = {
-                            date:header_date,
-                            grs: rows.sort(sortrows),
-                            sgrs: sumres
-                        };
-                        try {
-                            template.substitute(sheetNumber, values);
-                        }
-                        catch(e)
-                        {
-                            log.error(e);
-                        }
-                        var doc = template.generate();
-                        resp.setHeader('Content-Type', 'application/vnd.openxmlformats');
-                        resp.setHeader("Content-Disposition", "attachment; filename=" + "Report.xlsx");
-                        resp.status(200).end(doc, 'binary');
-                    }
 
                 }
+                    var a=12;
 
-                if(raisingsum=="false")
+        },
+        function(err){
+                var a=12;
+            }
+        );
 
-                {
-
-                    dbmethods.getByInputDate('everyday', start,gendoc);
-                }
-                else
-                {
-                    dbmethods.getRaisingSum('everyday',"01.01.2014",start,gendoc);
-                }
-
-
-            });
-
-        }*/
     });
 
     app.get('/mk', function (req, res) {
@@ -1179,7 +825,7 @@ module.exports = function (app) {
                                         response.send(JSON.stringify(errmsg));
                                         return;
                                     }
-                                    else if (now.hour() > 11) {
+                                    else if (now.hour() > 20) {//11
                                         errmsg.msg = "Нужно вводить данные до 12";
                                         response.send(JSON.stringify(errmsg));
                                         return;

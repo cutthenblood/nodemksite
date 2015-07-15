@@ -25,9 +25,14 @@ define([
     }};
 
     var OrgmBeh = Mn.Behavior.extend({
-        /*events: {
+        events: {
+            'change #mtype':'rtypeshow'
+        },
+        rtypeshow: function(){
+            this.validateDate();
+            ($('.row_rtype').css('display')== 'none')?$('.row_rtype').show():$('.row_rtype').hide();
 
-        },*/
+        },
         scrolltotop: function(){
             $("html, body").animate({ scrollTop: 0 }, "slow");
         },
@@ -47,12 +52,20 @@ define([
             $("#date").on("dp.change",function (e) {
                 _this.validateDate();
             });
+
+            $("#rtype").on("change",function (e) {
+                _this.validateDate();
+            });
         },
         validateDate: function(){
             var _this = this;
             //todo сделать))
             _this.datevalid = true;
-            this.view.model.validateDate($('#date').data("DateTimePicker").date().startOf('day').format('DD.MM.YYYY'),function(resp){
+            this.view.model.validateDate(
+                $('#date').data("DateTimePicker").date().startOf('day').format('DD.MM.YYYY'),
+                $('#mtype option:selected').text().trim(),
+                ($('.row_rtype').css('display')== 'none')?null:$('#rtype option:selected').text().trim(),
+                function(resp){
                 var data = JSON.parse(resp);
                 if(data.res=="1"){
                     _this.datevalid = true;
@@ -86,6 +99,8 @@ define([
 
                 row['date'] =moment().format('DD.MM.YYYY');
                 row['mtype'] = $('#mtype option:selected').text().trim();
+                if(($('.row_rtype').css('display')!= 'none'))
+                    row['rtype'] = $('#rtype option:selected').text().trim();
                 $('form input[name^="gr"]').each(
                     function (index) {
                         var input = $(this);
@@ -115,8 +130,8 @@ define([
 
                    this.view.model.save();
                     this.scrolltotop();
-                    //alert('Ваши данные успешно сохранены!');
-                   // Backbone.history.navigate('', { trigger : true });
+                   alert('Ваши данные успешно сохранены!');
+                   Backbone.history.navigate('', { trigger : true });
                 }
             }
         }

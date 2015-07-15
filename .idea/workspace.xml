@@ -2,55 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73f64d1a-c00d-4f31-a426-127e21100db1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pgapp/behaviors/admin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/vow-node-pg.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/backbone/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/backbone/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/backbone/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/backbone/CNAME" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/backbone/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/backbone/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/backbone/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/backbone/backbone.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/backbone/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/backbone/component.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/backbone/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/backbone/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/backbone/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/underscore/.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pids/17751" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pids/17769" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pids/17770" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pids/17771" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pids/17772" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pids/17773" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pids/17774" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pids/17775" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pids/17776" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/underscore/.bower.json" afterPath="$PROJECT_DIR$/bower_components/underscore/.bower.json" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pids/18807" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pids/18826" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pgapp/behaviors/admin.js" afterPath="$PROJECT_DIR$/public/pgapp/behaviors/admin.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pgapp/views/admin.js" afterPath="$PROJECT_DIR$/public/pgapp/views/admin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pgapp/templates/adminTpl.ejs" afterPath="$PROJECT_DIR$/public/pgapp/templates/adminTpl.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/underscore/bower.json" afterPath="$PROJECT_DIR$/bower_components/underscore/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/underscore/component.json" afterPath="$PROJECT_DIR$/bower_components/underscore/component.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.js" afterPath="$PROJECT_DIR$/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pgapp/schemas/datesScm.js" afterPath="$PROJECT_DIR$/public/pgapp/schemas/datesScm.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/debug.log" afterPath="$PROJECT_DIR$/debug.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/error.log" afterPath="$PROJECT_DIR$/error.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pgapp/behaviors/login.js" afterPath="$PROJECT_DIR$/public/pgapp/behaviors/login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pgapp/views/login.js" afterPath="$PROJECT_DIR$/public/pgapp/views/login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pgapp/templates/loginTpl.ejs" afterPath="$PROJECT_DIR$/public/pgapp/templates/loginTpl.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/mksite/mainroute.js" afterPath="$PROJECT_DIR$/routes/mksite/mainroute.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pgapp/schemas/menu.js" afterPath="$PROJECT_DIR$/public/pgapp/schemas/menu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pgapp/views/menu.js" afterPath="$PROJECT_DIR$/public/pgapp/views/menu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/underscore/package.json" afterPath="$PROJECT_DIR$/bower_components/underscore/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/passport.js" afterPath="$PROJECT_DIR$/passport.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pgapp/schemas/mloDnScm.js" afterPath="$PROJECT_DIR$/public/pgapp/schemas/mloDnScm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pgapp/templates/monitoringTpl.ejs" afterPath="$PROJECT_DIR$/public/pgapp/templates/monitoringTpl.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pgapp/behaviors/orgm.js" afterPath="$PROJECT_DIR$/public/pgapp/behaviors/orgm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pgapp/models/orgm.js" afterPath="$PROJECT_DIR$/public/pgapp/models/orgm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/orgm/orgmRoute.js" afterPath="$PROJECT_DIR$/routes/orgm/orgmRoute.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pgapp/core/orgmViewUtility.js" afterPath="$PROJECT_DIR$/public/pgapp/core/orgmViewUtility.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/pgDB.js" afterPath="$PROJECT_DIR$/core/pgDB.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pgapp/collections/settings.js" afterPath="$PROJECT_DIR$/public/pgapp/collections/settings.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/underscore/underscore.js" afterPath="$PROJECT_DIR$/bower_components/underscore/underscore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pgapp/collections/users.js" afterPath="$PROJECT_DIR$/public/pgapp/collections/users.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/pgapp/models/users.js" afterPath="$PROJECT_DIR$/public/pgapp/models/users.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sandbox.js" afterPath="$PROJECT_DIR$/sandbox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/scmUtil.js" afterPath="$PROJECT_DIR$/core/scmUtil.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nodemksite.iws" />
@@ -74,11 +41,70 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="adminTpl.ejs" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/pgapp/templates/adminTpl.ejs">
+      <file leaf-file-name="mloDnScm.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/pgapp/schemas/mloDnScm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26092714" vertical-offset="523" max-vertical-offset="1818">
-              <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="115" max-vertical-offset="1836">
+              <caret line="49" column="10" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="orgm.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/pgapp/behaviors/orgm.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5119617" vertical-offset="1713" max-vertical-offset="2340">
+              <caret line="133" column="19" selection-start-line="133" selection-start-column="19" selection-end-line="133" selection-end-column="19" />
+              <folding>
+                <element signature="e#1811#2669#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="orgm.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/pgapp/models/orgm.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1548" max-vertical-offset="3258">
+              <caret line="145" column="119" selection-start-line="145" selection-start-column="119" selection-end-line="145" selection-end-column="119" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mainroute.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/mksite/mainroute.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="5731" max-vertical-offset="6894">
+              <caret line="813" column="0" selection-start-line="813" selection-start-column="0" selection-end-line="813" selection-end-column="0" />
+              <folding>
+                <element signature="e#10966#23133#0" expanded="false" />
+                <element signature="e#23180#23263#0" expanded="false" />
+                <element signature="e#23436#26709#0" expanded="false" />
+                <element signature="e#26752#27062#0" expanded="false" />
+                <element signature="e#27122#28534#0" expanded="false" />
+                <element signature="e#28599#30838#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pgDB.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/pgDB.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2820" max-vertical-offset="3870">
+              <caret line="185" column="52" selection-start-line="185" selection-start-column="52" selection-end-line="185" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scmUtil.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/scmUtil.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1039" max-vertical-offset="1602">
+              <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -87,44 +113,9 @@
       <file leaf-file-name="monitoringTpl.ejs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/pgapp/templates/monitoringTpl.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.0" vertical-offset="1260" max-vertical-offset="3294">
-              <caret line="103" column="68" selection-start-line="103" selection-start-column="64" selection-end-line="103" selection-end-column="68" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1044" max-vertical-offset="3294">
+              <caret line="75" column="107" selection-start-line="75" selection-start-column="107" selection-end-line="75" selection-end-column="107" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/pgapp/views/login.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
-              <caret line="23" column="10" selection-start-line="20" selection-start-column="19" selection-end-line="23" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/pgapp/views/admin.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="954">
-              <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
-              <folding>
-                <element signature="e#454#534#0" expanded="false" />
-                <element signature="e#1502#1628#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adminKadry.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/pgapp/behaviors/adminKadry.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="921" max-vertical-offset="3222">
-              <caret line="98" column="55" selection-start-line="94" selection-start-column="16" selection-end-line="98" selection-end-column="55" />
-              <folding>
-                <element signature="e#409#1216#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -132,45 +123,18 @@
       <file leaf-file-name="admin.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/pgapp/behaviors/admin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="1224">
-              <caret line="134" column="14" selection-start-line="134" selection-start-column="14" selection-end-line="134" selection-end-column="14" />
-              <folding>
-                <element signature="e#1035#1727#0" expanded="false" />
-                <element signature="e#1761#2597#0" expanded="false" />
-                <element signature="e#2635#4192#0" expanded="false" />
-                <element signature="e#4229#4899#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="orgm.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/pgapp/behaviors/orgm.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="426" max-vertical-offset="1476">
-              <caret line="54" column="117" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="117" />
-              <folding>
-                <element signature="e#2179#4551#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="datesScm.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/pgapp/schemas/datesScm.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-              <caret line="19" column="9" selection-start-line="15" selection-start-column="16" selection-end-line="19" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2772" max-vertical-offset="2916">
+              <caret line="154" column="20" selection-start-line="154" selection-start-column="20" selection-end-line="154" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adminOrgm.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/pgapp/behaviors/adminOrgm.js">
+      <file leaf-file-name="utls.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/pgapp/core/utls.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="2844">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="468">
+              <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -200,26 +164,18 @@
         <option value="$PROJECT_DIR$/public/pgapp/main.js" />
         <option value="$PROJECT_DIR$/public/pgapp/schemas/mprPDScm.js" />
         <option value="$PROJECT_DIR$/public/app/templates/checkResultTpl.ejs" />
-        <option value="$PROJECT_DIR$/routes/orgm/orgmRoute.js" />
         <option value="$PROJECT_DIR$/public/app/models/orgm.js" />
         <option value="$PROJECT_DIR$/public/app/behaviors/orgm.js" />
         <option value="$PROJECT_DIR$/public/app/templates/monitoringTpl.ejs" />
         <option value="$PROJECT_DIR$/public/app/templates/loginTpl.ejs" />
         <option value="$PROJECT_DIR$/public/pgapp/models/session.js" />
-        <option value="$PROJECT_DIR$/public/pgapp/templates/monitoringTpl.ejs" />
-        <option value="$PROJECT_DIR$/sandbox.js" />
-        <option value="$PROJECT_DIR$/core/scmUtil.js" />
         <option value="$PROJECT_DIR$/public/pgapp/views/check.js" />
         <option value="$PROJECT_DIR$/public/pgapp/templates/checkTpl.ejs" />
         <option value="$PROJECT_DIR$/public/pgapp/behaviors/check.js" />
-        <option value="$PROJECT_DIR$/public/pgapp/schemas/mloDnScm.js" />
-        <option value="$PROJECT_DIR$/public/pgapp/core/orgmViewUtility.js" />
         <option value="$PROJECT_DIR$/public/pgapp/templates/checkResultTpl.ejs" />
         <option value="$PROJECT_DIR$/public/pgapp/views/viewsFactory.js" />
         <option value="$PROJECT_DIR$/public/pgapp/router.js" />
         <option value="$PROJECT_DIR$/public/pgapp/schemas/infoMessages.js" />
-        <option value="$PROJECT_DIR$/public/pgapp/behaviors/orgm.js" />
-        <option value="$PROJECT_DIR$/public/pgapp/models/orgm.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/core/von-node-pg.js" />
         <option value="$PROJECT_DIR$/core/vow-node-pg.js" />
@@ -233,13 +189,21 @@
         <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/public/pgapp/models/users.js" />
         <option value="$PROJECT_DIR$/passport.js" />
-        <option value="$PROJECT_DIR$/core/pgDB.js" />
-        <option value="$PROJECT_DIR$/routes/mksite/mainroute.js" />
         <option value="$PROJECT_DIR$/public/pgapp/behaviors/login.js" />
-        <option value="$PROJECT_DIR$/public/pgapp/views/admin.js" />
         <option value="$PROJECT_DIR$/public/pgapp/templates/adminTpl.ejs" />
         <option value="$PROJECT_DIR$/public/pgapp/schemas/datesScm.js" />
+        <option value="$PROJECT_DIR$/sandbox.js" />
+        <option value="$PROJECT_DIR$/public/pgapp/views/admin.js" />
+        <option value="$PROJECT_DIR$/public/pgapp/core/orgmViewUtility.js" />
         <option value="$PROJECT_DIR$/public/pgapp/behaviors/admin.js" />
+        <option value="$PROJECT_DIR$/public/pgapp/templates/monitoringTpl.ejs" />
+        <option value="$PROJECT_DIR$/core/scmUtil.js" />
+        <option value="$PROJECT_DIR$/routes/mksite/mainroute.js" />
+        <option value="$PROJECT_DIR$/routes/orgm/orgmRoute.js" />
+        <option value="$PROJECT_DIR$/public/pgapp/models/orgm.js" />
+        <option value="$PROJECT_DIR$/public/pgapp/schemas/mloDnScm.js" />
+        <option value="$PROJECT_DIR$/core/pgDB.js" />
+        <option value="$PROJECT_DIR$/public/pgapp/behaviors/orgm.js" />
       </list>
     </option>
   </component>
@@ -307,6 +271,106 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mlo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="orgm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -326,28 +390,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pgapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodemksite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodemksite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pgapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -391,6 +433,72 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="schemas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pgapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pgapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodemksite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pgapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="behaviors" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -402,7 +510,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../reality_refactoring/reality" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../mksite/oldref/nodemksite" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
@@ -448,7 +556,7 @@
       <recent name="C:\devel\nodemksite\views\phonelist" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.www">
+  <component name="RunManager" selected="Node.js.tst.js">
     <configuration default="false" name="user.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/bin/node" path-to-js-file="user.js" working-dir="$PROJECT_DIR$">
       <RunnerSettings RunnerId="NodeJS.debug" />
       <RunnerSettings RunnerId="NodeJS.run" />
@@ -580,10 +688,10 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1577511" sideWeight="0.07823961" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1577511" sideWeight="0.9217604" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24166666" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40542987" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19432314" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24814814" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24615385" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962963" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -642,39 +750,9 @@
           <option name="timeStamp" value="559" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/routes/orgm/orgmRoute.js</url>
-          <line>1057</line>
-          <option name="timeStamp" value="627" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/public/app/views/settings.js</url>
           <line>7</line>
           <option name="timeStamp" value="628" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/routes/orgm/orgmRoute.js</url>
-          <line>829</line>
-          <option name="timeStamp" value="629" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/routes/orgm/orgmRoute.js</url>
-          <line>848</line>
-          <option name="timeStamp" value="631" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/routes/orgm/orgmRoute.js</url>
-          <line>867</line>
-          <option name="timeStamp" value="633" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/routes/orgm/orgmRoute.js</url>
-          <line>33</line>
-          <option name="timeStamp" value="651" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/routes/mksite/mainroute.js</url>
-          <line>615</line>
-          <option name="timeStamp" value="684" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/postgreconverter.js</url>
@@ -683,7 +761,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/sandbox.js</url>
-          <line>7</line>
           <option name="timeStamp" value="868" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
@@ -701,152 +778,58 @@
           <line>47</line>
           <option name="timeStamp" value="972" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/mksite/mainroute.js</url>
+          <line>116</line>
+          <option name="timeStamp" value="986" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/core/pgDB.js</url>
+          <line>47</line>
+          <option name="timeStamp" value="987" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/mksite/mainroute.js</url>
+          <line>635</line>
+          <option name="timeStamp" value="1000" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/mksite/mainroute.js</url>
+          <line>607</line>
+          <option name="timeStamp" value="1013" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/mksite/mainroute.js</url>
+          <line>620</line>
+          <option name="timeStamp" value="1014" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/mksite/mainroute.js</url>
+          <line>598</line>
+          <option name="timeStamp" value="1015" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/mksite/mainroute.js</url>
+          <line>592</line>
+          <option name="timeStamp" value="1016" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/mksite/mainroute.js</url>
+          <line>573</line>
+          <option name="timeStamp" value="1017" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="982" />
+      <option name="time" value="1020" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/pgapp/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1765" max-vertical-offset="2826">
-          <caret line="135" column="64" selection-start-line="135" selection-start-column="64" selection-end-line="135" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/passport.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="702" max-vertical-offset="1962">
-          <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/pgapp/views/admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="666" max-vertical-offset="1008">
-          <caret line="66" column="22" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
-          <folding>
-            <element signature="e#454#534#0" expanded="false" />
-            <element signature="e#1502#1628#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/pgapp/views/mpr.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="823">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/orgm/orgmRoute.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35555556" vertical-offset="10476" max-vertical-offset="11286">
-          <caret line="769" column="68" selection-start-line="769" selection-start-column="68" selection-end-line="769" selection-end-column="68" />
-          <folding>
-            <element signature="e#452#522#0" expanded="false" />
-            <element signature="e#539#659#0" expanded="false" />
-            <element signature="e#545#657#0" expanded="false" />
-            <element signature="n#!!block;n#isLoggedIn#0" expanded="false" />
-            <element signature="n#!!block;n#isAdminIn#0" expanded="false" />
-            <element signature="e#26479#28072#0" expanded="false" />
-            <element signature="e#26721#27717#0" expanded="false" />
-            <element signature="e#27007#27705#0" expanded="false" />
-            <element signature="e#27049#27182#0" expanded="false" />
-            <element signature="e#27188#27690#0" expanded="false" />
-            <element signature="e#27262#27350#0" expanded="false" />
-            <element signature="e#27398#27641#0" expanded="false" />
-            <element signature="e#28118#28166#0" expanded="false" />
-            <element signature="e#28218#28489#0" expanded="false" />
-            <element signature="e#28241#28447#0" expanded="false" />
-            <element signature="e#28573#28828#0" expanded="false" />
-            <element signature="e#28595#28781#0" expanded="false" />
-            <element signature="e#28893#29728#0" expanded="false" />
-            <element signature="e#29798#32017#0" expanded="false" />
-            <element signature="e#30179#30297#0" expanded="false" />
-            <element signature="e#31666#31735#0" expanded="false" />
-            <element signature="e#31882#31967#0" expanded="false" />
-            <element signature="e#32088#33138#0" expanded="false" />
-            <element signature="e#32885#32968#0" expanded="false" />
-            <element signature="e#32998#33084#0" expanded="false" />
-            <element signature="e#33208#49831#0" expanded="false" />
-            <element signature="e#33642#41562#0" expanded="false" />
-            <element signature="e#33777#41549#0" expanded="false" />
-            <element signature="e#33819#33965#0" expanded="false" />
-            <element signature="e#33987#34106#0" expanded="false" />
-            <element signature="e#34148#34203#0" expanded="false" />
-            <element signature="e#34316#39101#0" expanded="false" />
-            <element signature="e#34349#34512#0" expanded="false" />
-            <element signature="e#34589#35006#0" expanded="false" />
-            <element signature="e#35055#35198#0" expanded="false" />
-            <element signature="e#35487#35746#0" expanded="false" />
-            <element signature="e#35814#37954#0" expanded="false" />
-            <element signature="e#35884#37926#0" expanded="false" />
-            <element signature="e#35930#37894#0" expanded="false" />
-            <element signature="e#35996#37429#0" expanded="false" />
-            <element signature="e#36127#37390#0" expanded="false" />
-            <element signature="e#36257#36344#0" expanded="false" />
-            <element signature="e#36395#37347#0" expanded="false" />
-            <element signature="e#36574#36775#0" expanded="false" />
-            <element signature="e#37435#37860#0" expanded="false" />
-            <element signature="e#37702#37717#0" expanded="false" />
-            <element signature="e#38017#39076#0" expanded="false" />
-            <element signature="e#38111#38227#0" expanded="false" />
-            <element signature="e#38272#38413#0" expanded="false" />
-            <element signature="e#38447#38552#0" expanded="false" />
-            <element signature="e#38591#38668#0" expanded="false" />
-            <element signature="e#39251#41533#0" expanded="false" />
-            <element signature="e#39284#39447#0" expanded="false" />
-            <element signature="e#39535#39678#0" expanded="false" />
-            <element signature="e#40014#40120#0" expanded="false" />
-            <element signature="e#40245#40746#0" expanded="false" />
-            <element signature="e#40786#40914#0" expanded="false" />
-            <element signature="e#40944#41041#0" expanded="false" />
-            <element signature="e#41076#41147#0" expanded="false" />
-            <element signature="e#41591#45885#0" expanded="false" />
-            <element signature="e#41699#45872#0" expanded="false" />
-            <element signature="e#41726#41872#0" expanded="false" />
-            <element signature="e#41894#42013#0" expanded="false" />
-            <element signature="e#42040#42095#0" expanded="false" />
-            <element signature="e#42177#45855#0" expanded="false" />
-            <element signature="e#42210#42373#0" expanded="false" />
-            <element signature="e#42450#42650#0" expanded="false" />
-            <element signature="e#42699#42842#0" expanded="false" />
-            <element signature="e#43131#43593#0" expanded="false" />
-            <element signature="e#43661#44765#0" expanded="false" />
-            <element signature="e#43731#44737#0" expanded="false" />
-            <element signature="e#43777#44706#0" expanded="false" />
-            <element signature="e#44373#44671#0" expanded="false" />
-            <element signature="e#44828#45831#0" expanded="false" />
-            <element signature="e#44922#45038#0" expanded="false" />
-            <element signature="e#45083#45224#0" expanded="false" />
-            <element signature="e#45258#45363#0" expanded="false" />
-            <element signature="e#45402#45479#0" expanded="false" />
-            <element signature="e#45915#49825#0" expanded="false" />
-            <element signature="e#46088#49812#0" expanded="false" />
-            <element signature="e#46130#46274#0" expanded="false" />
-            <element signature="e#46296#46416#0" expanded="false" />
-            <element signature="e#46458#46511#0" expanded="false" />
-            <element signature="e#46572#49505#0" expanded="false" />
-            <element signature="e#46601#46748#0" expanded="false" />
-            <element signature="e#46774#49486#0" expanded="false" />
-            <element signature="e#46852#47277#0" expanded="false" />
-            <element signature="e#47326#47467#0" expanded="false" />
-            <element signature="e#47596#47735#0" expanded="false" />
-            <element signature="e#47789#47924#0" expanded="false" />
-            <element signature="e#47980#48341#0" expanded="false" />
-            <element signature="e#48226#48315#0" expanded="false" />
-            <element signature="e#48438#48693#0" expanded="false" />
-            <element signature="e#48732#48900#0" expanded="false" />
-            <element signature="e#48930#49027#0" expanded="false" />
-            <element signature="e#49085#49154#0" expanded="false" />
-            <element signature="e#49564#49656#0" expanded="false" />
-            <element signature="e#49694#49796#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -864,13 +847,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/pgapp/core/orgmViewUtility.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1818">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/pgapp/templates/checkResultTpl.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="756" max-vertical-offset="1458">
@@ -878,32 +854,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/pgapp/behaviors/check.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="106" max-vertical-offset="1134">
-          <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/pgapp/schemas/mloDnScm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="1422">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/pgapp/schemas/infoMessages.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
           <caret line="8" column="77" selection-start-line="8" selection-start-column="77" selection-end-line="8" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/pgapp/models/orgm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="882">
-          <caret line="151" column="39" selection-start-line="151" selection-start-column="39" selection-end-line="151" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -918,13 +872,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/scmUtil.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="702">
-          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -968,7 +915,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.037037" vertical-offset="107" max-vertical-offset="1980">
           <caret line="40" column="22" selection-start-line="18" selection-start-column="14" selection-end-line="40" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1057,27 +1003,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/pgDB.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="995" max-vertical-offset="1692">
-          <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/mksite/mainroute.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="20633" max-vertical-offset="21960">
-          <caret line="1166" column="1" selection-start-line="1166" selection-start-column="1" selection-end-line="1166" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/pgapp/templates/checkTpl.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.49671486" vertical-offset="0" max-vertical-offset="1566">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1085,7 +1014,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1765" max-vertical-offset="2826">
           <caret line="135" column="64" selection-start-line="135" selection-start-column="64" selection-end-line="135" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1115,7 +1043,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2844">
           <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1123,26 +1050,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
           <caret line="23" column="10" selection-start-line="20" selection-start-column="19" selection-end-line="23" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/pgapp/views/admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="954">
-          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
-          <folding>
-            <element signature="e#454#534#0" expanded="false" />
-            <element signature="e#1502#1628#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/pgapp/templates/monitoringTpl.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.0" vertical-offset="1260" max-vertical-offset="3294">
-          <caret line="103" column="68" selection-start-line="103" selection-start-column="64" selection-end-line="103" selection-end-column="68" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1150,9 +1057,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="921" max-vertical-offset="3222">
           <caret line="98" column="55" selection-start-line="94" selection-start-column="16" selection-end-line="98" selection-end-column="55" />
-          <folding>
-            <element signature="e#409#1216#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1160,20 +1064,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
           <caret line="19" column="9" selection-start-line="15" selection-start-column="16" selection-end-line="19" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/pgapp/behaviors/admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="1224">
-          <caret line="134" column="14" selection-start-line="134" selection-start-column="14" selection-end-line="134" selection-end-column="14" />
-          <folding>
-            <element signature="e#1035#1727#0" expanded="false" />
-            <element signature="e#1761#2597#0" expanded="false" />
-            <element signature="e#2635#4192#0" expanded="false" />
-            <element signature="e#4229#4899#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1181,25 +1071,138 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36121672" vertical-offset="57" max-vertical-offset="846">
           <caret line="19" column="73" selection-start-line="19" selection-start-column="73" selection-end-line="19" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xlstohtml.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8748">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sandbox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/pgapp/behaviors/orgm.js">
+    <entry file="file://$PROJECT_DIR$/public/pgapp/core/utls.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="426" max-vertical-offset="1476">
-          <caret line="54" column="117" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="117" />
-          <folding>
-            <element signature="e#2179#4551#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
+          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/pgapp/templates/adminTpl.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26092714" vertical-offset="523" max-vertical-offset="1818">
-          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+        <state vertical-scroll-proportion="-15.296296" vertical-offset="793" max-vertical-offset="1818">
+          <caret line="67" column="74" selection-start-line="67" selection-start-column="67" selection-end-line="67" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pgapp/behaviors/check.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="106" max-vertical-offset="1134">
+          <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pgapp/core/orgmViewUtility.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15817223" vertical-offset="0" max-vertical-offset="3420">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pgapp/views/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6694491" vertical-offset="607" max-vertical-offset="1476">
+          <caret line="56" column="15" selection-start-line="56" selection-start-column="15" selection-end-line="56" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pgapp/behaviors/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1345" max-vertical-offset="1944">
+          <caret line="154" column="20" selection-start-line="154" selection-start-column="20" selection-end-line="154" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pgapp/templates/monitoringTpl.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1044" max-vertical-offset="3294">
+          <caret line="75" column="107" selection-start-line="75" selection-start-column="107" selection-end-line="75" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/scmUtil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1039" max-vertical-offset="1602">
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/orgm/orgmRoute.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2931596" vertical-offset="20770" max-vertical-offset="21708">
+          <caret line="1198" column="0" selection-start-line="1198" selection-start-column="0" selection-end-line="1198" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pgapp/schemas/mloDnScm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="115" max-vertical-offset="1836">
+          <caret line="49" column="10" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pgapp/models/orgm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2196" max-vertical-offset="3258">
+          <caret line="145" column="119" selection-start-line="145" selection-start-column="119" selection-end-line="145" selection-end-column="119" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/pgDB.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2820" max-vertical-offset="3870">
+          <caret line="185" column="52" selection-start-line="185" selection-start-column="52" selection-end-line="185" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/mksite/mainroute.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5731" max-vertical-offset="6894">
+          <caret line="813" column="0" selection-start-line="813" selection-start-column="0" selection-end-line="813" selection-end-column="0" />
+          <folding>
+            <element signature="e#10966#23133#0" expanded="false" />
+            <element signature="e#23180#23263#0" expanded="false" />
+            <element signature="e#23436#26709#0" expanded="false" />
+            <element signature="e#26752#27062#0" expanded="false" />
+            <element signature="e#27122#28534#0" expanded="false" />
+            <element signature="e#28599#30838#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pgapp/behaviors/orgm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5119617" vertical-offset="1713" max-vertical-offset="2340">
+          <caret line="133" column="19" selection-start-line="133" selection-start-column="19" selection-end-line="133" selection-end-column="19" />
+          <folding>
+            <element signature="e#1811#2669#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

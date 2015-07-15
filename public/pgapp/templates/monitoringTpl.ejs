@@ -73,7 +73,7 @@
                         <% }
                         else if (val.type == 'select'){
                             %>
-                        <div class="row">
+                        <div class="row row_<%=val.name%>" style="display: <%=(val.hidden)?"none":"block"%>">
                             <div class="form-group">
                                 <label class="col-xs-4 control-label"><%=val.label%></label>
 
