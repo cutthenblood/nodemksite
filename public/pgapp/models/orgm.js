@@ -12,7 +12,7 @@ define([
             for (var property in attrs.rows[0]) {
                 if (attrs.rows[0].hasOwnProperty(property)) {
                     if(property.indexOf('gr')>-1){
-                        attrs.rows[0][property] = parseInt(attrs.rows[0][property]);
+                        attrs.rows[0][property] = parseFloat(attrs.rows[0][property]);
                     }
                 }
             }

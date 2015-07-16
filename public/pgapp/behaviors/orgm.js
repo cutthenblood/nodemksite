@@ -115,7 +115,7 @@ define([
                         if(input.val()=="")
                             row[gr] = 0;
                         else
-                            row[gr]= parseInt(input.val());
+                            row[gr]= parseFloat(input.val().replace(',','.'));
 
                     });
                 this.view.model.set("rows",[row]);

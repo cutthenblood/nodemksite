@@ -141,7 +141,8 @@
                                                             <% } %>
                                                            class="form-control" name='<%= val.name %>'
                                                             <% if (val.type == 'number'){ %>
-                                                           pattern="[0-9]+"
+                                                           pattern="[0-9]+([\.|,][0-9]+)?"
+
                                                            required
 
                                                             <% } %>
