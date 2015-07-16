@@ -29,8 +29,9 @@ define([
             'change #mtype':'rtypeshow'
         },
         rtypeshow: function(){
-            this.validateDate();
+
             ($('.row_rtype').css('display')== 'none')?$('.row_rtype').show():$('.row_rtype').hide();
+            this.validateDate();
 
         },
         scrolltotop: function(){
