@@ -4,15 +4,51 @@ var moment = require('moment');
 var pg = require('pg');
 var sutil = require('./scmUtil.js');
 var mloDnScm = require('./../public/pgapp/schemas/mloDnScm.js');
-var promiseQuery = function(obj,config,values){
-    //console.log('promiseQuery - '+config);
-    //console.log('promiseQueryVals - '+values);
-    var fn = vowNode.promisify(pg.Client.prototype.query);
-    if(values)
-        return fn.call(obj, config,values);
-    else
-        return fn.call(obj, config);
-};
+var conf = require('./../config.js');
+
+
+
+
+
+
+var promiseQuery = function(obj,text, values) {
+    pg.defaults.poolSize = 200;
+    return new vow.Promise(function (resolve, reject) {
+        pg.connect(conf.pgConnect, function (err, client, done) {
+            if (err) {
+                console.error(err);
+                reject(err);
+            } else {
+                try {
+                    client.query(text, values, function (err, result) {
+                        done();
+                        if(err)
+                            reject(err);
+                        else
+                            resolve(result);
+                    });
+                }
+                catch (e) {
+                    done();
+                    reject(e);
+                }
+            }
+        });
+    });
+}
+
+
+
+
+//var promiseQuery = function(obj,config,values){
+//    //console.log('promiseQuery - '+config);
+//    //console.log('promiseQueryVals - '+values);
+//    var fn = vowNode.promisify(pg.Client.prototype.query);
+//    if(values)
+//        return fn.call(obj, config,values);
+//    else
+//        return fn.call(obj, config);
+//};
 module.exports  = function(db){
     this._db = db;
     this.scmutil = new sutil();

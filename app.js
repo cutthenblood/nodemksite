@@ -30,7 +30,7 @@ app.set('views',viewspath);
 app.engine('ejs',cons.lodash);
 app.set('view engine', 'ejs');
 app.use(favicon());
-app.use(logger('dev'));
+//app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
 app.use(cookieParser());
@@ -129,7 +129,7 @@ module.exports =  function() {
         app.set('db',result.db);
         app.set('pgdb',result.pgdb);
         auth(passport, app);
-
+        //app.use(express.errorHandler());
         app.use(function (req, res) {
             res.status(404).end('error');
         });
