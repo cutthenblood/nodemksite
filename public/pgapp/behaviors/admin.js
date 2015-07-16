@@ -56,6 +56,7 @@ define([
         },
         monitChange: function(e){
             var type = e.currentTarget.value;
+
             if(type=='mpr'){
                 $('#mo').html(this.viewUsers(type));
                 $('.dmdis').removeAttr('disabled','disabled');
@@ -67,14 +68,18 @@ define([
             else if(type == 'deathm'){
                 $('#mo').html(this.viewUsers(type));
                 $('.dmdis').attr('disabled','disabled');
+            } else if(type=='mlodn'){
+                $('.dmdis').attr('disabled','disabled');
             }
             $('.date').each(function(dt) {
+
                 var dtp = $(this).data('DateTimePicker');
                 if(dtp)
-                    $(this).data('DateTimePicker').options(date[type]);
+                    $(this).data('DateTimePicker').options(dateScm[type]);
                 else
-                    $(this).datetimepicker(date[type]);
+                    $(this).datetimepicker(dateScm[type]);
             });
+
 
         },
         renderwhoinput: function(e) {
@@ -125,26 +130,28 @@ define([
             });
             var data = {
                 start:$('#dateStart').data("DateTimePicker").date().format('DD.MM.YYYY'),
-                end:$('#dateEnd').data("DateTimePicker").date().format('DD.MM.YYYY'),
+                //end:$('#dateEnd').data("DateTimePicker").date().format('DD.MM.YYYY'),
                 mos:mo,
                 type:$('#monitoring option:selected').val()};
             Utls.uploadFile('/report/',"cp",Array.prototype.join.call(Pako.gzip(JSON.stringify(data))));
         },
         onRender: function(){
             var _this = this;
-            var type = $('#monitoring option:selected').val();
-            $('.date').each(function(dt) {
+            //var type =$('#monitoring option:selected').val();
+            /*$('.date').each(function(dt) {
                 var dtp = $(this).data('DateTimePicker');
                 if(dtp)
                     $(this).data('DateTimePicker').options(dateScm[type]);
                 else
                     $(this).datetimepicker(dateScm[type]);
 
-            });
+            });*/
             $('#mo').select2();
 
-
-
+            this.monitChange({currentTarget:{value:$('#monitoring option:selected').val()}});
+        },
+        onShow: function(){
+                //this.monitChange({currentTarget:{value:$('#monitoring option:selected').val()}});
 
         }
 

@@ -12,6 +12,8 @@ var conf = require('./../config.js');
 
 
 var promiseQuery = function(obj,text, values) {
+    console.log(text);
+    console.log(values);
     pg.defaults.poolSize = 200;
     return new vow.Promise(function (resolve, reject) {
         pg.connect(conf.pgConnect, function (err, client, done) {
@@ -56,7 +58,7 @@ module.exports  = function(db){
         return promiseQuery(this._db.db,'select users.username from users join divisions on users.division = divisions.id where divisions= $1',[division]);
     };
     this.done = function(){
-        this._db.done();
+      //  this._db.done();
     };
     this.getUserAuth = function (id,division) {
         var _this = this;
@@ -76,7 +78,7 @@ module.exports  = function(db){
                     'select users.id, users.username ' +
                     'from users ' +
                     'join divisions on users.division = divisions.id ' +
-                    'where divisions.name = $1' +
+                    'where divisions.name = $1 ' +
                     'ORDER BY users.role Desc, users.username ASC ;',
                 [division]);
         }
@@ -115,7 +117,7 @@ module.exports  = function(db){
         var query = ["select * from (select id as _id, '",data.type, "'::text as monitoring, userid, moid, inputdate from "+data.type+
             ' where (userid = $1 and inputdate = $2 and mtype = $3 and rtype = $4',(data.moid)?'and moid = $5 ':'',')',
             ") as t"
-            ," left join permissons as t2  on t2.monitoring = t.monitoring",
+            ," left join permissons as t2  on t2.monitoring = t.monitoring ",
             ];
         var vals = [data.userid,data.inputdate,data.mtype];
         if(data.rtype)
@@ -192,7 +194,7 @@ module.exports  = function(db){
 
     };
     this.getByUser = function(data){
-        return promiseQuery(this._db.db,'select * from '+data.type+' where userid = $1 and (inputdate BETWEEN $2 and $3) ',[data.userid,data.start,data.end]);
+        return promiseQuery(this._db.db,'select * from '+data.type+' where userid = $1 and (inputdate BETWEEN $2 and $3) order by inputdate desc',[data.userid,data.start,data.end]);
     };
     this.getSettings = function(data){
         return promiseQuery(this._db.db,'select settings.* from divisions left join settings on divisions.id=settings.division where divisions.name = $1 and settings.monitoring=$2',[data.division,data.type]);
@@ -237,7 +239,7 @@ module.exports  = function(db){
         var stmt =  this.scmutil.report(data,fields);
         //console.log(stmt);
 
-        return promiseQuery(this._db.db,stmt,[data.start,data.end]);
+        return promiseQuery(this._db.db,stmt,[data.start]);
     }
 
 

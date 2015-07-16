@@ -597,7 +597,7 @@ module.exports = function (app) {
                                 addtoarray(data,itm);
                         });
                         var values1 = {
-                            date: "C "+reqdata.start+' по '+reqdata.end,
+                            date: reqdata.start,
                             grs: data["Федеральная"],
                             sgrs:totals["Федеральная"]
                         };
@@ -608,7 +608,7 @@ module.exports = function (app) {
                             log.error(e);
                         }
                         var values2 = {
-                            date: "C "+reqdata.start+' по '+reqdata.end,
+                            date: reqdata.start,
                             rgrs: data["Региональная"],//["Региональная льгота (дети до 18 лет)"],
                             //rgrsf: data["Региональная"]["в т.ч. детям - инвалидам за счёт средств СФ"],
                             srgrs: totals["Региональная"],//["Региональная льгота (дети до 18 лет)"],
@@ -649,56 +649,30 @@ module.exports = function (app) {
 
         //res.render('mksite', {});
     });
-    app.post('/save',isLoggedIn, function(req, res,next) {
+    app.post('/save',isLoggedIn, function(req, response,next) {
 
         var query = new pg(app.get('pgdb'));
         try {
             query.insup(req.body).then(function (e) {
                     e.promise.then(function(res){
                         console.log(res.command);
+                            return response.status(200).send('error').end();
                     },
                         function (err) {
                             console.log(err);
+                            return response.status(500).send('error').end();
+
                         })
-
-
 
                 },
                 function (err) {
                     console.log(err);
+                    return response.status(500).end();
                 });
         }
         catch(e){
             var b=12;
         }
-
-//        var dbmethods = app.get('dbmethods');
-//        var type = req.body.type;
-//        delete req.body.type;
-//        delete req.body.info;
-//        delete req.body.table;
-//        delete req.body.user;
-//
-//        if (req.body.hasOwnProperty('_id')) {
-//            delete req.body._id;
-//        }
-//        req.body.inputdate = parseInt(req.body.inputdate);
-//        var collection='';
-//        if(type == 'mpr')
-//            collection = 'orgmMpr';
-//        if(type == 'mprPD')
-//            collection = 'orgmMprPD';
-//        if(type == 'deathm')
-//            collection = 'everyday';
-//        dbmethods.insupOrgm(collection,req.body,function (err, results) {
-//            if (err) {
-//                log.error(err);
-//                res.status(500).send();
-//            } else {
-//                res.status(200).send();
-//            }
-//        });
-
     });
     app.post('/getinput',isLoggedIn, function (req, response) {
 

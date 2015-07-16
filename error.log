@@ -838,3 +838,4 @@
 {"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Object #<Object> has no method 'push'","timestamp":"2015-07-13T13:01:51.949Z"}
 {"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot call method 'push' of undefined","timestamp":"2015-07-13T13:10:26.739Z"}
 {"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot call method 'push' of undefined","timestamp":"2015-07-13T13:10:29.547Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot read property 'db' of null","timestamp":"2015-07-16T08:17:05.581Z"}

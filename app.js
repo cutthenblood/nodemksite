@@ -118,7 +118,7 @@ function routePromise(router, path) {
 var promises = {
     routes: routePromise(app, pathbuiledr.join(__dirname, 'routes')),
     db: mongoConnectPromise(conf.mongoConnect),
-    pgdb: pgConnectPromise(conf.pgConnect)
+    //pgdb: pgConnectPromise(conf.pgConnect)
 };
 
 module.exports =  function() {
@@ -127,7 +127,7 @@ module.exports =  function() {
         var dbfy = new dbfactory(result.db);
         app.set('dbmethods', dbfy);
         app.set('db',result.db);
-        app.set('pgdb',result.pgdb);
+        app.set('pgdb','pgdb');
         auth(passport, app);
         //app.use(express.errorHandler());
         app.use(function (req, res) {

@@ -3971,3 +3971,8 @@
 {"level":"info","message":"[/devel/ndmks/1/nodemksite/user.js] null","timestamp":"2015-07-14T12:03:47.788Z"}
 {"level":"info","message":"[/devel/ndmks/1/nodemksite/user.js] null","timestamp":"2015-07-15T12:48:14.348Z"}
 {"level":"info","message":"[/devel/ndmks/1/nodemksite/user.js] null","timestamp":"2015-07-16T07:12:35.207Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/user.js] null","timestamp":"2015-07-16T07:29:03.071Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/user.js] null","timestamp":"2015-07-16T07:46:35.246Z"}
+{"level":"error","message":"[/devel/ndmks/1/nodemksite/app.js] Cannot read property 'db' of null","timestamp":"2015-07-16T08:17:05.581Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/user.js] null","timestamp":"2015-07-16T08:29:10.211Z"}
+{"level":"info","message":"[/devel/ndmks/1/nodemksite/user.js] null","timestamp":"2015-07-16T08:42:49.669Z"}

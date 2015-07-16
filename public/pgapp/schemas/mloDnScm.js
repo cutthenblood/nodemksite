@@ -22,6 +22,14 @@ define(function () {
             report:false
         },
         {
+            name:'inputdate',
+            type: 'date',
+            label: 'мониторинг за',
+            report:true
+
+
+        },
+        {
             name:'mtype',
             type: 'select',
             label: 'Тип льготы',
@@ -38,14 +46,6 @@ define(function () {
             rowspan:2,
             hidden: true,
             group:true
-
-        },
-        {
-            name:'inputdate',
-            type: 'date',
-            label: 'мониторинг за',
-            report:false
-
 
         },
         {

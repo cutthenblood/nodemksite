@@ -60,23 +60,24 @@ define([
         validateDate: function(){
             var _this = this;
             //todo сделать))
-            _this.datevalid = true;
-            this.view.model.validateDate(
-                $('#date').data("DateTimePicker").date().startOf('day').format('DD.MM.YYYY'),
-                $('#mtype option:selected').text().trim(),
-                ($('.row_rtype').css('display')== 'none')?null:$('#rtype option:selected').text().trim(),
-                function(resp){
-                var data = JSON.parse(resp);
-                if(data.res=="1"){
-                    _this.datevalid = true;
-                    $('#alert').html('');}
-                else {
-                    _this.datevalid = data.msg;
+            //_this.datevalid = true;
+            if($('#date').data("DateTimePicker").date())
+                this.view.model.validateDate(
+                    $('#date').data("DateTimePicker").date().startOf('day').format('DD.MM.YYYY'),
+                    $('#mtype option:selected').text().trim(),
+                    ($('.row_rtype').css('display')== 'none')?null:$('#rtype option:selected').text().trim(),
+                    function(resp){
+                    var data = JSON.parse(resp);
+                    if(data.res=="1"){
+                        _this.datevalid = true;
+                        $('#alert').html('');}
+                    else {
+                        _this.datevalid = data.msg;
 
-                    $('#alert').html('<div class="alert alert-danger" role="alert">'+data.msg+'</div>');
-                    _this.scrolltotop();
-                }
-            });
+                        $('#alert').html('<div class="alert alert-danger" role="alert">'+data.msg+'</div>');
+                        _this.scrolltotop();
+                    }
+                });
         },
 
         save: function(){
@@ -89,6 +90,9 @@ define([
                 $('#alert').html('');
                 var dfate = 'err';
                 var util = new Utility({inputdate:dt,type:this.view.model._model});
+                this.view.model.unset('inputdate');
+                this.view.model.unset('type');
+                this.view.model.unset('rows');
 
                 this.view.model.set('inputdate',util.save_fn());
                 this.view.model.set('type',this.view.model._model);
