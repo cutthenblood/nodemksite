@@ -12,8 +12,8 @@ var conf = require('./../config.js');
 
 
 var promiseQuery = function(obj,text, values) {
-    console.log(text);
-    console.log(values);
+    //console.log(text);
+    //console.log(values);
     pg.defaults.poolSize = 200;
     return new vow.Promise(function (resolve, reject) {
         pg.connect(conf.pgConnect, function (err, client, done) {
@@ -236,7 +236,21 @@ module.exports  = function(db){
     this.reportmlodn = function(data){
         var fields = {};
         this.scmutil.reportScm(mloDnScm,fields);
-        var stmt =  this.scmutil.report(data,fields);
+        var stmt =
+        'with t as ( '+
+        '    select username,inputdate, mtype, rtype, gr2, gr3, gr4, gr5, gr6 from mlodn '+
+        'join users on  mlodn.userid = users.id '+
+        'join ( '+
+        '    SELECT id, max(inputdate) OVER (PARTITION BY userid, mtype, rtype) as maxind '+
+        'FROM mlodn '+
+        'where inputdate <=$1) as w on w.id=mlodn.id '+
+        'where mlodn.inputdate = w.maxind) '+
+        'select * from t '+
+        'union all '+
+        "select 'total', null, mtype, rtype, sum(gr2) as gr2, sum(gr3) as gr3, sum(gr4) as gr4, sum(gr5) as gr5, sum(gr6) as gr6 "+
+        'from t group by mtype, rtype'+
+        ' order by inputdate desc, username asc; ';
+        // this.scmutil.report(data,f ields);
         //console.log(stmt);
 
         return promiseQuery(this._db.db,stmt,[data.start]);

@@ -577,18 +577,11 @@ module.exports = function (app) {
                         var totals={};
                         var data = {};
                         var addtoarray = function(arr,itm){
+                            itm.inputdate = moment(itm.inputdate).format('DD.MM.YYYY');
                             if(!(itm.mtype in arr))
                                 arr[itm.mtype]=[];
                             arr[itm.mtype].push(itm);
-//                            if(itm.rtype){
-//                                if(!(itm.rtype in arr[itm.mtype]))
-//                                    arr[itm.mtype][itm.rtype]=[];
-//                                arr[itm.mtype][itm.rtype].push(itm);
-//                            } else{
-//                                if(!('nulls' in arr[itm.mtype]))
-//                                    arr[itm.mtype].nulls=[];
-//                                arr[itm.mtype].nulls.push(itm);
-//                            }
+
                         };
                         _.map(e.rows,function(itm){
                             if (itm.username =='total')
@@ -623,7 +616,7 @@ module.exports = function (app) {
 
                         var doc = template.generate();
                         resp.setHeader('Content-Type', 'application/vnd.openxmlformats');
-                        resp.setHeader("Content-Disposition", "attachment; filename=ReportKadry.xlsx");
+                        resp.setHeader("Content-Disposition", "attachment; filename=RepMlodn"+reqdata.start+".xlsx");
                         resp.status(200).end(doc,'binary');
 
                     });
