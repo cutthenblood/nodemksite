@@ -249,7 +249,7 @@ module.exports  = function(db){
         'union all '+
         "select 'total', null, mtype, rtype, sum(gr2) as gr2, sum(gr3) as gr3, sum(gr4) as gr4, sum(gr5) as gr5, sum(gr6) as gr6 "+
         'from t group by mtype, rtype'+
-        ' order by inputdate desc, username asc; ';
+        ' order by inputdate desc, username asc, rtype desc; ';
         // this.scmutil.report(data,f ields);
         //console.log(stmt);
 

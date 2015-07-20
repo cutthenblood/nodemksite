@@ -780,11 +780,11 @@ module.exports = function (app) {
              query.vDate(req.body).then(function (e) {
                     if (e.rows.length > 0) {
                         if (e.rows[0].validatedate) {
-                            if (e.rows[0].indb) {
-                                errmsg.res = "0";
-                                errmsg.msg = "данные уже внесены";
-                                response.send(JSON.stringify(errmsg));
-                            } else {
+                           // if (e.rows[0].indb && ) {
+                           //     errmsg.res = "0";
+                           //     errmsg.msg = "данные уже внесены";
+                           //     response.send(JSON.stringify(errmsg));
+                           // } else {
                                 if (type == 'mlodn') {
                                     if (now.valueOf() < date) {
                                         errmsg.res = "0";
@@ -800,6 +800,10 @@ module.exports = function (app) {
                                         errmsg.res = "1";
                                         response.send(JSON.stringify(errmsg));
                                         return;
+                                    } else if(e.rows[0].indb && (now.day()-dow)!=1) {
+                                             errmsg.res = "0";
+                                             errmsg.msg = "данные уже внесены";
+                                             response.send(JSON.stringify(errmsg));
                                     }
                                     else {
                                         errmsg.res = "1";
@@ -808,7 +812,7 @@ module.exports = function (app) {
                                     }
 
                                 }
-                            }
+                           // }
 
                         }
                         else {

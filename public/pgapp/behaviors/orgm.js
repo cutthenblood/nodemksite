@@ -41,13 +41,19 @@ define([
         onShow: function(){
             var _this = this;
             this.datevalid==false;
-            $('#mainaddform').validator();
+            $('#mainaddform').validator({disable:true});
             $('.date').each(function(dt) {
                 $(this).datetimepicker(date[_this.view.type.type]);
             });
             $('#mainaddform').validator().on('submit', function (e) {
-                e.preventDefault();
-                _this.save();
+                if(e.isDefaultPrevented())
+                {
+                    $('#alert').html('<div class="alert alert-danger" role="alert">Ошибка в заполнении</div>');
+                    _this.scrolltotop();
+                } else {
+                    e.preventDefault();
+                    _this.save();
+                }
                 //_this.saveform(validator,validator.getSubmitButton().attr('name'));
             });
             $("#date").on("dp.change",function (e) {
