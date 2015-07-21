@@ -115,21 +115,21 @@ module.exports  = function(db){
         //this._db.db.query
 
         var query = ["select * from (select id as _id, '",data.type, "'::text as monitoring, userid, moid, inputdate from "+data.type+
-            ' where (userid = $1 and inputdate = $2 and mtype = $3 and rtype = $4',(data.moid)?'and moid = $5 ':'',')',
+            ' where (userid = $1 and inputdate = $2 and mtype = $3 ',((data.rtype)? ' and rtype = $4 ' :' '),  ')',
             ") as t"
             ," left join permissons as t2  on t2.monitoring = t.monitoring ",
             ];
         var vals = [data.userid,data.inputdate,data.mtype];
         if(data.rtype)
             vals.push(data.rtype);
-        else
-            vals.push(null);
-        if(data.moid)
-            vals.push(data.moid);
-        //console.log(query.join(""));
+
+
+        console.log(query.join(""));
+        console.log(vals);
        /* this._db.db.query(query.join(""),vals,function(err,res){
             var a=12;
         })*/
+
         return promiseQuery(this._db.db,query.join(""),vals);
 
     },

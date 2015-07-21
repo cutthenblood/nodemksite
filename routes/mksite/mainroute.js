@@ -649,7 +649,7 @@ module.exports = function (app) {
             query.insup(req.body).then(function (e) {
                     e.promise.then(function(res){
                         console.log(res.command);
-                            return response.status(200).send('error').end();
+                            return response.status(200).send().end();
                     },
                         function (err) {
                             console.log(err);
@@ -660,11 +660,11 @@ module.exports = function (app) {
                 },
                 function (err) {
                     console.log(err);
-                    return response.status(500).end();
+                    return response.status(500).send('error').end();
                 });
         }
         catch(e){
-            var b=12;
+            return response.status(500).send('error').end();
         }
     });
     app.post('/getinput',isLoggedIn, function (req, response) {

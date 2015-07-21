@@ -88,6 +88,7 @@ define([
         },
 
         save: function(){
+            var _this = this;
             $('#alert').html('');
             var dt = $('#date').data("DateTimePicker").date();
             if(!dt || !dt.isValid() || this.datevalid!=true){
@@ -139,10 +140,17 @@ define([
                     this.view.model.unset('info');
                     this.view.model.unset('table');
 
-                   this.view.model.save();
-                    this.scrolltotop();
-                   alert('Ваши данные успешно сохранены!');
-                   Backbone.history.navigate('', { trigger : true });
+                   this.view.model.save().always(function(e) {
+                       if(e.status==200){
+                           _this.scrolltotop();
+                           alert('Ваши данные успешно сохранены!');
+                           Backbone.history.navigate('', { trigger : true });
+                       } else {
+                           _this.scrolltotop();
+                           $('#alert').html('<div class="alert alert-danger" role="alert">Ошибка</div>');
+                       }
+                   });
+
                 }
             }
         }
