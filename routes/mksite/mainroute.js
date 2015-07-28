@@ -251,11 +251,12 @@ module.exports = function (app) {
                             }
                         }
                         else if (type =='mprPD'){
-                            if(now.hour()>11){
-                                errmsg.msg = "Нужно вводить данные до 12";
-                                response.send(JSON.stringify(errmsg));
-                                return;
-                            } else  if(now.date()>29 || now.date()<24){
+//                            if(now.hour()>11){
+//                                errmsg.msg = "Нужно вводить данные до 12";
+//                                response.send(JSON.stringify(errmsg));
+//                                return;
+//                            } else
+                            if(now.date()>29 || now.date()<24){
                                 errmsg.msg = "Нужно вводить данные с 24 по 29 число месяца";
                                 response.send(JSON.stringify(errmsg));
                                 return;
@@ -800,7 +801,7 @@ module.exports = function (app) {
                                         errmsg.res = "1";
                                         response.send(JSON.stringify(errmsg));
                                         return;
-                                    } else if(e.rows[0].indb && (now.day()-dow)!=1) {
+                                    } else if(e.rows[0].indb && [0,1].indexOf((now.day()-dow))<0) {
                                              errmsg.res = "0";
                                              errmsg.msg = "данные уже внесены";
                                              response.send(JSON.stringify(errmsg));
